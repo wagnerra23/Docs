@@ -1,20 +1,20 @@
-## **O Lançamento está como "Ativo Previsão". Como remover?**
-- Para remover o status de ativo previsão clique sobre o lançamento desejado
-- Com o botão direito do mouse selecione a opção "Reativar Lançamento"
- ## **Como visualizar as informações de uma parcela:**
-- Selecione o lançamento desejado.
-- Clique com o botão direito para acessar a opção "Histórico do Lançamento".
-- Uma tela com todas as modificações realizadas no lançamento será exibida.
-- Duplo clique sobre o registro para ver o histórico detalhado, incluindo o usuário responsável.
-### **Não consigo localizar a parcela no financeiro**
-- Verifique se a venda foi faturada, pois as parcelas são enviadas ao financeiro após o faturamento.
-- Na tela do "Financeiro", use "Opções de Consulta" no painel direito.
-- No campo "Status", selecione "TODOS" para buscar parcelas excluídas com status "Inativo Excluído".
-- Confira a conta selecionada e o tipo de data (Emissão/Pagamento/Vencimento) nos filtros da parte inferior esquerda da tela.
-### **Alterações dos campos da tela do financeiro não são salvas**
-- A configuração do grid é salva ao fechar a tela. Se duas telas estiverem abertas, a última a ser fechada terá sua configuração mantida.
-- Abra apenas uma tela de consulta para realizar e salvar configurações do grid de informações.
-### **Mensagem ao tentar receber uma parcela: "Há parcelas anteriores a serem recebidas"**
-- As parcelas devem ser recebidas na sequência de criação.
-- Para alterar essa regra, acesse as configurações no ícone de engrenagem no canto superior direito da tela do "Financeiro".
-- Na aba "Financeiro", ajuste a configuração "Recebimento – Permitir Recebimento de parcela" conforme necessário.
+
+### **Como alterar uma venda já faturada e com boletos emitidos?**
+- Na Tela do “Financeiro” localize o boleto e clique em “Alterar” no painel direito da tela.
+- Posteriormente, clique no botão de “seta azul” para abrir as configurações do boleto.
+- Aberta a tela, clique em “Cancelar” e “Confirme” a alteração para o cancelamento do boleto. 
+- Em seguida, abra o cadastro da venda e cancele o faturamento para realizar a alteração desejada. 
+- Fature novamente a venda para lançar as parcelas no financeiro.
+- E finalizando o processo, novos boletos precisarão ser gerados. <p>
+**Aplicativo Associado: Boletos, Financeiro**
+
+### **As parcelas geradas na venda não conferem com o que está sendo exibido no financeiro.**
+- Após o faturamento da venda é possível alterar as respectivas parcelas diretamente pelo financeiro.
+- As alterações efetuadas podem ser conferidas através do clique com o botão direito sobre o lançamento, selecionando a opção “Histórico do Lançamento”. <p>**Aplicativo Associado: Financeiro**
+
+### **Ao abrir a tela de venda não aparece nada.**
+- O layout da tela não está selecionado. 
+- Para ativá-lo segure as teclas Ctrl + F12
+- Posteriormente clique no ícone da engrenagem localizado no canto inferior da tela 
+- Selecione a opção Layout →  Salvar Layout Atual para salvar o layout ativado. <p>
+ **Aplicativo Associado: Pedido de Venda, Proposta**
