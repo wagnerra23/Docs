@@ -1,0 +1,11 @@
+***** TODOS PRECISAM ESTAR FORA DO SISTEMA
+
+1. Verificar se o Banco de Dados (Arquivo) Não está  'APENAS LEITURA'
+2. Realizar Backup/Restaure;
+3. Extract Meta Data;
+4. Recupera Banco;
+ 4.1 Colocar o banco de dados corrompido juntamente com o arquivo Recupera.bat na pasta BIN do FireBird e executar
+
+
+
+Obs.: Só execute o passo seguinte no caso do atual falhar. Ex. Só execute o passo 2 se o 1 não resolver.

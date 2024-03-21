@@ -1,0 +1,232 @@
+Solicitação boleto: dados
+
+Olá prezados Cliente, tudo bem?
+
+Conforme solicitado anteriormente, estamos encaminhando o presente e-mail afim de iniciar os procedimento para configurar a emissão de Boleto pelo Office Impresso.
+
+Abaixo seguem as informações necessárias para realizar essa atividade.
+
+
+
+(Esses dados podem ser conseguidos com o gerente do seu banco)
+
+1 - Descrição do local de pagamento do boleto;
+
+2 - Código ou sigla da carteira; (EX: RG)
+
+3 - Código da variação da carteira; (se tiver)
+
+4 - Código do cedente;
+
+5 - Código do convênio; (Se for banco cooperativa)
+
+6 - Número da agência com dígito verificador;
+
+7 - Número da conta com dígito verificador;
+
+8 - Código de transmissão; (se tiver);
+
+9 - Dias para protesto; (se informado, o boleto será protestado automaticamente);
+
+10 - Porcentagem de multa e juros; (se informado, será calculado os valores adicionais após o vencimento - opcional);
+
+11 - Nosso número; (Número atual da emissão do boleto);
+
+12 - Espécie padrão; (EX: DM);
+
+13 - convenio;
+
+14 - Banco;
+
+
+
+A princípio seriam esses os dados que necessitamos para gerar os boletos de teste para o seu banco aprovar.
+
+Salientamos que possuímos prazos para conclusão da sua solicitação, e diante a isso pedimos que nos retorne dentro de um prazo de 15 dias.
+
+
+
+Você ja tem nossos contatos, Segue:
+
+Skype:
+
+felipebento_4 (Felipe Bento)
+ 
+wr2.suporte1 (Helton B. Valim)
+
+wr2.suporte2 (Guilherme Bez)
+
+wr2.suporte7 (Julia Brigido)
+
+
+
+Telefone: 48 33010200
+
+
+
+Cientes da sua compreensão, abraços.
+
+Favor confirmar o recebimento deste e-mail.
+
+Agradecemos a parceria.
+
+=======================================================================
+
+Solicitação dados NF-e
+
+Olá prezado cliente, tudo bem?
+
+Estamos encaminhando esse presente e-mail afim de iniciar os procedimentos para configurar a emissão da Nota Fiscal de produto conforme solicitado. Abaixo seguem os dados tributários que precisamos ter conhecimento para configurar a NF no Office Impresso:
+
+
+
+(Esses dados podem ser conseguidos com sua contabilidade)
+
+1 - Número do CFOP (para dentro do estado e para fora do estado), para os principais tipo de emissão;
+
+2 - Código da situação tributária (CST ou CSOSN) - para cada tipo de nota que a empresa emitir atualmente (Ex: devolução, venda, estorno, remessa, etc);
+
+3 - Origem do produto (nacional, importado, etc);
+
+
+
+
+
+(Quando for lucro real ou presumido (Além dos itens a cima, providenciar)
+
+1 - Taxas adicionais de ICMS (se houver destaque desse imposto em algumas das notas emitidas)
+
+2 - CST e taxas de PIS, COFINS e IPI se existir;
+
+3 - Se existir dados adicionais necessários na NF, favor informar as devidas descrições para serem cadastradas no sistema.
+
+
+
+OBS: Necessário possuir um certificado digital para homologar as emissões para a receita. (A1, A2 ou A3) 
+
+ 
+
+Ficaremos no aguardo dessas informações para agendar um horário com vocês e configuração para emissão de notas.
+
+Salientamos que possuímos prazos para conclusão deste protocolo caso não tenha movimentação, e diante a isso pedimos que nos retorne dentro de um prazo de 15 dias com os dados para que possamos dar continuidade.
+
+
+
+Você já tem nossos contatos, Segue:
+
+Skype:
+
+felipebento_4 (Felipe Bento)
+ 
+wr2.suporte1 (Helton B. Valim)
+
+wr2.suporte2 (Guilherme Bez)
+
+wr2.suporte7 (Julia Brigido)
+
+
+
+Telefone: 48 33010200
+
+
+
+Cientes da sua compreensão, abraços.
+
+Favor confirmar o recebimento deste e-mail.
+
+Agradecemos a parceria.
+
+=======================================================================
+Solicitação dados NFs-e
+
+Olá prezado cliente, tudo bem?
+
+Conforme solicitado, estamos encaminhando esse e-mail afim de obter todos os dados necessários para configurar a emissão da NFS-e pelo sistema Office Impresso.
+
+Os dados abaixo podem ser conseguidos com sua contabilidade e ficaremos no aguardo do retorno desse e-mail para poder dar continuidade nesse atendimento.
+
+ 
+
+1 - Natureza de Operação (Exemplo: Tributação no Município)
+
+2 - Alíquota de ISS:
+
+3 - Regime Especial de Tributação: (Exemplo: Microempresa Municipal) - se não existir regime especial, deixar em branco.
+
+4 - Incentivador Cultural: (sim ou não)
+
+5 - Retenção de Imposto: (Informar se por padrão vai ter retenção ou não)
+
+6 - Usuário e Senha do site da prefeitura para emissão de nota (Precisará ser vinculado ao sistema)
+
+7 - Código do tipo de serviço. (código que identifica a categoria de serviços que a empresa pode emitir nota)
+
+OBS: Necessário possuir um certificado digital para homologar as emissões das notas. (A1, A2 ou A3)
+
+Qualquer informação adicional que sua contabilidade julgar importante para a nota, deve ser informado com o restante dos dados que solicitamos agora para melhor atender as necessidades da empresa com relação a essa atividade.
+
+Salientamos que possuímos prazos para conclusão da sua solicitação, e diante a isso pedimos que nos retorne dentro de um prazo de 15 dias.
+
+
+
+Você já tem nossos contatos, Segue:
+
+Skype:
+
+felipebento_4 (Felipe Bento)
+ 
+wr2.suporte1 (Helton B. Valim)
+
+wr2.suporte2 (Guilherme Bez)
+
+wr2.suporte7 (Julia Brigido)
+
+
+Telefone: 48 33010200
+
+
+Cientes da sua compreensão, abraços.
+
+Favor confirmar o recebimento deste e-mail.
+
+Agradecemos a parceria.
+
+=======================================================================
+
+interação (falta ) prefeitura - caso a prefeitura do cliente nao faça interação.
+
+
+Prezado Cliente,
+
+
+
+Referente sua solicitação para integrar a emissão de NFS-e com nosso sistema, informamos que realizamos um contato com sua prefeitura onde fomos informados (Nome da pessoa e setor) que não existe interação com sistema de terceiros. Visto isso lamentamos não atender a sua solicitação, mas nos colocamos a disposição para caso, futuramente. sua prefeitura disponibilize o serviço possamos nos adequar e unificar a emissão das NFS-e.
+
+Sendo assim, nos colocamos a disposição para caso queira informar no sistema(de forma manual) as notas quando emitidas via site da prefeitura, e desta forma consiga controlar o seu financeiro.
+
+
+
+Cientes de sua compreensão, em caso de duvida nossos contatos
+
+
+
+Skype:
+
+felipebento_4 (Felipe Bento)
+ 
+wr2.suporte1 (Helton B. Valim)
+
+wr2.suporte2 (Guilherme Bez)
+
+wr2.suporte7 (Julia Brigido)
+
+
+Telefone: 48 33010200
+
+
+
+Cientes da sua compreensão, abraços.
+
+Favor confirmar o recebimento deste e-mail.
+
+Agradecemos a parceria.

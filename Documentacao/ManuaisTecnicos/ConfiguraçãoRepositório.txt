@@ -1,0 +1,11 @@
+﻿*****Caminho*****
+D:\Programas Branch 96
+
+*****Repositório Geral*****
+http://servidor-crm:8777/svn/Programas/Branches/2015.0.4.96
+
+*****Repositório Relatórios*****
+http://servidor-crm:8777/svn/Programas/Branches/2015.0.4.96/Relatório
+
+*****Repositório Documentação*****
+http://servidor-crm:8777/svn/Programas/Branches/2019/Documentação

@@ -1,0 +1,21 @@
+Entrar em contato com o cliente e efetuar a desinstalação do sistema.
+
+1. Para desinstalar o sistema apague as pastas da WR dentro do servidor, exceto os arquivos do cliente:
+
+***** NUNCA DESINSTALAR O FIREBIRD, POIS PODE SER UTILIZADO POR PROGRAMAS DE TERCEIROS *****
+
+.FDB e .GBD - e seus backups (incluíndo arquivos compactados);
+.XML;
+.PDF;
+.REM;
+.RET;
+.TXT;
+Imagens em geral;
+
+2. Exclua as entradas de registro (Chave "Rocha");
+
+3. Pergunte ao cliente, se ele precisa de algum relatório em excel. É possível fornecer por e-mail caso ele queira.
+
+
+Obs.:
+=> Repita os passos 2 e 3 nos terminais;

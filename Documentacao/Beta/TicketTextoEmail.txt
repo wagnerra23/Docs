@@ -1,0 +1,22 @@
+Prezado Cliente,
+
+Apenas para registro, informamos que no dia <dd/mm> realizamos um atendimento para a sua empresa, solicitado por <usuario> referente a <ResumoErro>.
+Realizamos <MedidaAdotada>.
+
+Em caso de dúvidas, segue nossos contatos:
+
+Skype:
+wr2.suporte1 (Helton B. Valim)
+wr2.suporte2 (Guilherme Bez)
+wr2.suporte7 (Julia Brígido)
+
+Telefone:
+(48)3301-0200
+
+Agradecemos a parceria.
+
+Att.
+
+Helton B. Valim
+Suporte Técnico
+WR2 Sistemas

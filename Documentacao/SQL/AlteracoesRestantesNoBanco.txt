@@ -1,0 +1,8 @@
+select  first 1
+        R.RDB$RELATION_NAME as TABELA
+        , max(F.RDB$FORMAT) as ALTERACOES
+        , 255 - max(F.RDB$FORMAT) as RESTANTES
+from    RDB$FORMATS F
+join    RDB$RELATIONS R on (F.RDB$RELATION_ID = R.RDB$RELATION_ID)
+group by R.RDB$RELATION_NAME
+order by 2 desc

@@ -1,0 +1,29 @@
+--Esse SQL verifica se a venda esta rebida ou a receber e coloca o status correto em todas as vendas
+update VENDA V
+set V.SITUACAOFINANCEIRA = null;
+
+update VENDA V
+set V.SITUACAOFINANCEIRA = 'Em Aberto'
+where (V.DT_FATURAMENTO is null);
+
+update VENDA V
+set V.SITUACAOFINANCEIRA = 'Em Aberto'
+where exists(select first 1 1
+             from FINANCEIRO F
+             where (F.CODPEDIDO = V.CODIGO) and
+                   (F.STATUS like 'ATIVO%') and
+                   not(F.TIPO = 'RECEBIDA')
+
+             union
+
+             select first 1 1
+             from FINANCEIRO F
+             left join FINANCEIRO F2 on (F.AGRUPADOR = F2.AGRUPADOR)
+             where (F.CODPEDIDO = V.CODIGO) and
+                   (F2.STATUS like 'ATIVO%') and
+                   not(F2.TIPO = 'RECEBIDA')) and
+      V.SITUACAOFINANCEIRA is null;
+
+update VENDA V
+set V.SITUACAOFINANCEIRA = 'Quitada'
+where (V.SITUACAOFINANCEIRA is null);

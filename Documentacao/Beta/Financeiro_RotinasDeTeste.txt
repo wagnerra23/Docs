@@ -1,0 +1,42 @@
+***** Para realiza os testes siga os seguintes passos:
+
+Teste 1
+
+1. Abra a tela de venda;
+2. Informe o cliente;
+3. Informe produto (Para incluir na venda, pesquise e depois clique no +);
+4. Coloque mais de um item ou um valor elevado;
+5. Informe as parcelas, utilizando o botão pagamento ou acessando a guia pagamento;
+6. Fature a venda: Clique em faturamento na parte superior, ou então no botao Faturar na guia de pagamentos;
+7. Acesse a tela do financeiro e confirme se esta aparecendo;
+8. Na tela do financeiro, use os filtros na parte inferior conforme legenda de cada situação;
+9. Faça a baixa parcial e verifique como vai aparecer a parcela recebida e a parcela que ficou em haver.
+
+
+Teste 2
+
+1. Lance direto no financeiro;
+2. baixe o valor total.
+
+
+Teste 3
+
+1. Abra a tela de venda;
+2. Informe o cliente;
+3. Informe produto (Para incluir na venda, pesquise e depois clique no +);
+4. Coloque mais de um item ou um valor elevado;
+5. Informe as parcelas, utilizando o botão pagamento ou acessando a guia pagamento;
+6. Fature a venda: Clique em faturamento na parte superior, ou então no botao Faturar na guia de pagamentos;
+7. Acesse a tela do financeiro e confirme se esta aparecendo;
+8. Na tela do financeiro, use os filtros na parte inferior conforme legenda de cada situação;
+9. Faça a baixa total.
+
+
+Teste 4
+
+1. Faça uma venda;
+2. Mande para o financeiro como boleto(mais de uma parcela);
+3. Veja como apareceu no financeiro;
+4. Efetue a baixa total das parcelas;
+5. Abra a venda novamente e arquive ela (Para arquivar, apos abrir a venda, clique no menu ações -> Arquivar);
+6. Volte ao financeiro e veja como ficaram as parcelas;

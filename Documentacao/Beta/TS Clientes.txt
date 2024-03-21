@@ -1,0 +1,68 @@
+FVM Viscardi
+Login no NO-IP: ivani@fvmviscardi.com.br
+Senha: fvmviscardi
+
+fvmviscardi01.ddns.net
+Login: wr2
+Senha: wscrct
+-------------------------
+Sign RP
+RDP: 787007dbb8df.sn.mynetname.net:4143
+AnyDesk Servidor: 520291291
+Senha: wscrct.01
+Usuário Windows: admin@sign
+Senha: _2018*sign_
+-------------------------
+ArteGrafix
+artegrafix.ddns.com.br
+Usuário: wr
+Senha: wrs1st3m@s
+--------------------
+ProPhoto
+prophoto9.ddns.net
+Usuário: Administrador
+Senha: Admpli72
+
+Usuário: wr2
+Senha: @Wscrct
+---------------------
+Tapetá
+201.54.10.170
+Usuário: administrador
+Senha: @TapetaH2017
+----------------------
+kilmeer.ddns.net
+usuário: wr2
+Senha: admin
+----------------------
+Nitrogen
+*** Usuário/Senha roteador
+admin
+5a52b9e36749
+*** NO-IP
+E-mail: nitrogenagrosc@gmail.com
+senha: nitrogenagro
+*** Remote Desktop
+nitrogensc.sytes.net
+Usuário: administrador
+Senha:
+*** Ip estatico no servidor
+192.168.1.100
+----------------------
+Cinco WL Etiquetas
+caminho mudou, Gabriel vai configurar o NO-IP
+Usuario: wr2
+Senha: cincowr2
+----------------------
+Aprocat
+IP: aprocat.ddns.net:3009
+200.180.50.53
+Usuário: 1970administrador
+Senha: adm#2354&
+----------------------
+TecnoCenter - TeamViewer
+888508473
+wscrct
+----------------------
+
+

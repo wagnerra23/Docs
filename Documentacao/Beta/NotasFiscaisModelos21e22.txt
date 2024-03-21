@@ -1,0 +1,23 @@
+Além dos modelos mais conhecidos de documentos fiscais eletrônicos que temos hoje, a SEFAZ institui outros modelos de Nota Fiscal, como é o caso dos Modelos 21 e 22 . As empresas que emitem este tipo de NF são as que contemplam o convênio ICMS 115/03, respectivamente, dos ramos de comunicação e telecomunicação.
+
+Os modelos 21 e 22 são NF’s emitidas em via única, ou seja, não existe DANFE ou qualquer tipo de impressão obrigatória. Outro ponto importante é que não há existência de  XML: todos os arquivos envolvidos no processo de transmissão são no formato texto indicado no layout disponibilizado pela SEFAZ. 
+
+ 
+
+Como é o Processo de Emissão?
+Atualmente, a emissão desses modelos é bem retrógrada em relação ao que conhecemos em outros documentos, como a NFe modelo 55. Isso acontece pois não há qualquer tipo de WebService ou disponibilidade de integração automatizada para os softwares. O máximo que o software pode fazer é gerar os arquivos texto, após isso o processo é todo manual. 
+
+ 
+
+Existem duas opções para a transmissão dessas notas:
+
+Na primeira opção, o contribuinte deverá submeter ao programa Gera Mídia TED os arquivos texto gerados através do software. Através de um certificado digital, esse programa irá gerar um outro arquivo no padrão aceito para transmissão no TED (programa Transmissão Eletrônica de Documentos – TED). Com esse arquivo em mãos, a transmissão será feita através do programa TED, que é o mesmo utilizado para a transmissão dos arquivos do Sintegra.
+A segunda opção é muito mais manual. O contribuinte deverá gerar os arquivos texto e gravá-los em mídias não regraváveis (CD ou DVD). Feito isso, essas mídias deverão ser enviadas para a SEFAZ através dos correios.
+ 
+
+O que garante a validade e autenticidade dessas notas é o CAD (Código de Autenticação Digital), gerado em código MD5 com base nos valores da nota. Após a transmissão, o contribuinte deverá verificar a validação do arquivo num prazo máximo de três dias úteis. Caso não seja confirmada a integridade dos arquivos enviados, o contribuinte deverá enviá-los novamente no prazo de até cinco dias.
+
+As Dificuldades para o Contribuinte
+Esse processo de emissão é antigo e, de acordo com a documentação (escassa) encontrada, recebe poucas atualizações. Espera-se que a SEFAZ evolua o modelo de transmissão desses documentos, como uma grande forma de reduzir o custo dos contribuintes, automatizar e agilizar o processo de emissão e, principalmente, reduzir o número de inconsistências das notas enviadas.
+
+Para maiores informações, Vide arquivo "ConvenioICMS_115-03.pdf" na pasta "ManuaisTécnicos" do repositório de Documentação.

@@ -1,0 +1,4 @@
+--Esse SQL procura o campo em qualquer tabela do Banco de Dados
+select TRim(R.RDB$RELATION_NAME)
+from RDB$RELATION_FIELDS R
+where R.RDB$FIELD_NAME = :CAMPO;

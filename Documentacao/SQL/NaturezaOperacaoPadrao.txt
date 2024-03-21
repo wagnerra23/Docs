@@ -1,0 +1,5 @@
+update  VENDA_TIPO vt
+set     vt.CODNF_NATUREZA_OPERACAO_PADRAO = (select max(n.codigo)
+                                             from   NF_NATUREZA_OPERACAO n
+                                             where  n.descricao = vt.descricao)
+where vt.CODNF_NATUREZA_OPERACAO_PADRAO is null;

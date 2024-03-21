@@ -1,0 +1,19 @@
+Procedimentos para emissão da NF-e e NFC-e
+01 de abril de 2019
+
+Vários contribuintes que utilizam o sistema operacional Windows 10 estão tendo problemas, e até impedimentos, para emitir Nota Fiscal Eletrônica (NF-e) e Nota Fiscal do Consumidor Eletrônica (NFC-e). Avalia-se que o problema seja decorrente de atualizações desse sistema operacional. A Secretaria da Economia orienta alguns procedimentos que devem ser observados para que a emissão por esses contribuintes seja normalizada. 
+
+Para explicações sobre o erro de sistema, bem como orientações para correções pela própria empresa responsável pelo sistema operacional, a Microsoft orienta os contribuintes a entrarem em contato, individualmente no telefone 0800 761 7454. Como medida paliativa, o corpo técnico da Secretaria da Economia testou alguns procedimentos que, se executados corretamente, devem resolver o problema pelo menos de temporariamente. Confira abaixo:
+
+1) Faça o download do arquivo: http://redeicp.blob.core.windows.net/downloads/InstaladorCadeiaV2.exe - Já disponível no servidor.
+2) Pressione as teclas Windows + R (ou Iniciar > Executar);
+3) Digite certlm.msc e clique OK, na mensagem de confirmação clique em Sim;
+4) Na janela que abrir, no menu esquerdo selecione a pasta “Autoridades de Certificação Raiz Confiáveis” depois selecione a pasta “Certificados”;
+5) Do lado direito, selecione todos os certificados (CTRL+A) e delete. Na mensagem de confirmação, clique em Sim;
+6) Novamente do lado esquerdo selecione a pasta “Autoridades de Certificação Raiz de Terceiros” depois selecione a pasta “Certificados”;
+7) Do lado direito, selecione todos os certificados (CTRL+A) e delete. Na mensagem de confirmação, clique em Sim;
+8) Abra o arquivo baixado no início e clique em Instalar para reinstalar os certificados.
+   8.1) Caso o sistema solicite, faça a instalação do .NetFramework 3.5 através do Painel de controle > Programas e recursos > Ativar ou desativar recursos do Windows
+9) Reinstale o CAPCON;
+10) Verifique as opções marcadas em "OPÇÕES DE INTERNET > Avançadas" no Painel de controle.
+11) Verifique o status do serviço dentro do sistema da WR.

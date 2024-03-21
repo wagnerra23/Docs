@@ -1,0 +1,6 @@
+***** Para enviar o EXE para o FTP:
+
+1. Abrir a ultima versão disponivel
+2. Menu Ferramentas;
+3. CTRL + "Clicar em Atualizar Sistema";
+4. Senha: "Wscrct" - SEM AS ASPAS.
