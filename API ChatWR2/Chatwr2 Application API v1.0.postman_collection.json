@@ -1,0 +1,6850 @@
+{
+	"info": {
+		"_postman_id": "dc93babe-9021-460c-b07d-29c5c144ac2d",
+		"name": "Chatwr2 Application API v1.0",
+		"description": "- crie ambientes apropriados e preencha as variáveis ​​de ambiente",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10739746"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Sign In",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var responseHeaders = pm.response.headers.all();",
+									"var responseHeaderObject = {}",
+									"",
+									"responseHeaders.forEach(function (header) {",
+									"  responseHeaderObject[header.key] = header.value",
+									"})",
+									"",
+									"postman.setEnvironmentVariable(\"access-token\", responseHeaderObject['access-token']);",
+									"postman.setEnvironmentVariable(\"client\", responseHeaderObject.client);",
+									"postman.setEnvironmentVariable(\"expiry\", responseHeaderObject.expiry);",
+									"postman.setEnvironmentVariable(\"token-type\", responseHeaderObject['token-type']);",
+									"postman.setEnvironmentVariable(\"uid\", responseHeaderObject.uid);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"email\" :\"{{email}}\",\n \"password\" : \"{{password}}\"\n}"
+						},
+						"url": {
+							"raw": "{{host}}/auth/sign_in",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"auth",
+								"sign_in"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Installation details",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var responseHeaders = pm.response.headers.all();",
+									"var responseHeaderObject = {}",
+									"",
+									"responseHeaders.forEach(function (header) {",
+									"  responseHeaderObject[header.key] = header.value",
+									"})",
+									"",
+									"postman.setEnvironmentVariable(\"access-token\", responseHeaderObject['access-token']);",
+									"postman.setEnvironmentVariable(\"client\", responseHeaderObject.client);",
+									"postman.setEnvironmentVariable(\"expiry\", responseHeaderObject.expiry);",
+									"postman.setEnvironmentVariable(\"token-type\", responseHeaderObject['token-type']);",
+									"postman.setEnvironmentVariable(\"uid\", responseHeaderObject.uid);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"email\" :\"john@acme.inc\",\n \"password\" : \"Password1!\"\n}"
+						},
+						"url": {
+							"raw": "{{host}}/api",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Profile",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/profile",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Profile",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"profile\": {\n        \"availability\": \"busy\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/profile",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Set active account",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"profile\": {\n        \"account_id\": 1\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/profile/set_active_account",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"profile",
+								"set_active_account"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AccountAgentBots",
+			"item": [
+				{
+					"name": "List all AgentBots",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/agent_bots",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"agent_bots"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Canned Responses",
+			"item": [
+				{
+					"name": "List Canned Responses",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/canned_responses",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"canned_responses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List all Articles",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/help_center_articles",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"help_center_articles"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Audit Logs",
+			"item": [
+				{
+					"name": "List all logs",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/audit_logs",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"audit_logs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List all logs Copy",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/help_center_articles",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"help_center_articles"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CSAT Survey Responses",
+			"item": [
+				{
+					"name": "List CSAT Survey Responses",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/csat_survey_responses",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"csat_survey_responses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update survey response",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"message\": {\n        \"submitted_values\": {\n            \"csat_survey_response\": {\n                \"rating\": 4\n            }\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/public/{{api_version}}/csat_survey/98c5d7f3-8873-4262-b101-d56425ff7ee1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"public",
+								"{{api_version}}",
+								"csat_survey",
+								"98c5d7f3-8873-4262-b101-d56425ff7ee1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get survey response",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"message\": {\n        \"submitted_values\": {\n            \"csat_survey_response\": {\n                \"rating\": 4,\n                \"feedback_message\": \"amazing\"\n            }\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/public/{{api_version}}/csat_survey/98c5d7f3-8873-4262-b101-d56425ff7ee1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"public",
+								"{{api_version}}",
+								"csat_survey",
+								"98c5d7f3-8873-4262-b101-d56425ff7ee1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Campaigns",
+			"item": [
+				{
+					"name": "Create Campaign",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"test\",\n    \"message\": \"test\",\n    \"inbox_id\": 37,\n    \"sender_id\":21\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/campaigns",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"campaigns"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Campaign",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\":\"test 1\",\n    \"content\": \"test\",\n    \"inbox_id\": {{inbox_id}}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/campaigns/{{campaign_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"campaigns",
+								"{{campaign_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Campaigns",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/campaigns",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"campaigns"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Campaign",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/campaigns/{{campaign_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"campaigns",
+								"{{campaign_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete campaign",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/campaigns/{{campaign_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"campaigns",
+								"{{campaign_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Inbox Campaigns",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/widget/campaigns?website_token={{website_token}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"widget",
+								"campaigns"
+							],
+							"query": [
+								{
+									"key": "website_token",
+									"value": "{{website_token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SLA",
+			"item": [
+				{
+					"name": "List SLAs",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/sla_policies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"sla_policies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create SLA",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"SLA-1\",\n    \"frt_threshold\": 1000,\n    \"rt_threshold\": 2000,\n    \"only_during_business_hours\": false\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/sla_policies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"sla_policies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update SLA",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"SLA-1\",\n    \"frt_threshold\": 21,\n    \"rt_threshold\": 2000,\n    \"only_during_business_hours\": false\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/sla_policies/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"sla_policies",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show SLA",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/sla_policies/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"sla_policies",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete SLA",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/sla_policies/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"sla_policies",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Help Center",
+			"item": [
+				{
+					"name": "Create new Portal",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"portal\": {\n        \"name\": \"RoomRental\",\n        \"slug\": \"room-rental\",\n        \"custom_domain\": \"room-rental\",\n        \"color\": \"#1f93ff\",\n        \"homepage_link\": \"room-rental\",\n        \"page_title\": \"Room Rental\",\n        \"header_text\": \"Room Rental\",\n        \"config\": {\n            \"allowed_locales\": [\n                \"en\",\n                \"es\",\n                \"it\",\n                \"fr\"\n            ]\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Portal",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"config\": {\n        \"default_locale\": \"en\",\n        \"allowed_locales\": [\n            \"en\",\n            \"es\"\n        ]\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Portals",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Portal Details",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Articles",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/articles?page=1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"articles"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Article details",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/articles/21",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"articles",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create new folder",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n    \"name\": \"My product folder\",\n    \"account_id\": 1,\n    \"category_id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/folders",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"folders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create new article",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"content\": \"Resetting your password in Chatwoot account is easy. Just go to chatwoot.com and click Forgot password, follow the instructions.\",\n    \"description\": \"#1F93FF\",\n    \"status\": 0,\n    \"title\": \"Forgot password\",\n    \"views\": \"Forgot password\",\n    \"author_id\": 1,\n    \"category_id\": 1,\n    \"page_title\": \"Forgot password\"\n    // \"folder_id\": \"page slug\"\n    // \"associated_article_id\": 4\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/articles",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"articles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Article",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Creating an account\",\n    \"content\": \"Creating an Chatwoot account is free and easy. Just go to chatwoot.com and click Sign Up, or download our mobile app and follow the instructions.\",\n    // \"status\": 1\n    // \"title\": \"Update Address\",\n    // \"views\": \"Domain Header\",\n    // \"author_id\": 2,\n    \"category_id\": 20,\n    // \"page_title\": \"Update Address\",\n    // \"folder_id\": \"page slug\"\n    // \"associated_article_id\": 1      \n    \"meta\": {\n        \"title\": \"nice\",\n        \"description\": \"sdfsdf\",\n        \"tags\": []\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/articles/28",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"articles",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Categories",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n    \"description\": \"this category would handle the agent related resolve.\",\n    \"locale\": \"en\",         \n    \"name\": \"Agent resolve\",        \n    \"position\": \"top\",\n    \"account_id\": 1,\n    \"portal_id\": \"page slug\",\n    \"slug\": \"agent-category-1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/categories",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create new Category",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n    \"description\": \"Getting Started details\",\n    \"locale\": \"en\",         \n    \"name\": \"Getting Started\",        \n    \"position\": \"top\",\n    \"account_id\": 1,\n    \"slug\": \"getting-started\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/categories",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update category",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"category\": {\n        \"name\": \"category name 2\",\n        \"description\": \"category description\",\n        \"position\": 1,\n        \"locale\": \"fr\",\n        \"slug\": \"self-hosted-version-new\",\n        \"parent_category_id\": 10,\n        \"linked_category_ids\": [\n            11,\n            12\n        ]\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/categories/23",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"categories",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Portal",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Help name\",\n    \"config\": { \"allowed_locales\": [\"en\", \"es\"] }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Category",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Help name\",\n    \"config\": { \"allowed_locales\": [\"en\", \"es\"] }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/categories/26",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"categories",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Article",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Help name\",\n    \"config\": { \"allowed_locales\": [\"en\", \"es\"] }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/portals/{{portal_slug}}/articles/48",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"portals",
+								"{{portal_slug}}",
+								"articles",
+								"48"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Webhooks",
+			"item": [
+				{
+					"name": "Create Webhook",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"webhook\": {\n        \"url\": \"https://ngrok.com\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/webhooks",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"webhooks"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Automations",
+			"item": [
+				{
+					"name": "Create Automation Rule",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Notify Conversation Created and mark priority query\",\n    \"description\": \"Notify all agent about conversation created and mark priority query\",\n    \"event_name\": \"conversation_created\",\n    \"conditions\": [\n        {\n            \"attribute_key\": \"browser_language\",\n            \"filter_operator\": \"equal_to\",\n            \"values\": [\n                \"en\"\n            ],\n            \"query_operator\": \"null\"\n        }\n        {\n            \"attribute_key\": \"country_code\",\n            \"filter_operator\": \"equal_to\",\n            \"values\": [\n                \"USA\",\n                \"UK\"\n            ],\n            \"query_operator\": null\n        }\n    ],\n    \"actions\": [\n        {\n            \"action_name\": \"send_message\",\n            \"action_params\": [\n                \"Welcome to the chatwoot platform.\"\n            ]\n        }\n        {\n            \"action_name\": \"assign_team\",\n            \"action_params\": [\n                1\n            ]\n        },\n        {\n            \"action_name\": \"add_label\",\n            \"action_params\": [\n                \"support\",\n                \"priority_customer\"\n            ]\n        },\n        {\n            \"action_name\": \"assign_best_agent\",\n            \"action_params\": [\n                1\n            ]\n        },\n        {\n            \"action_name\": \"update_additional_attributes\",\n            \"action_params\": [\n                {\n                    \"intiated_at\": \"2021-12-03 17:25:26.844536 +0530\"\n                }\n            ]\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/automation_rules",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"automation_rules"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Automation Rules",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Notify Conversation Created and mark priority query\",\n    \"description\": \"Notify all agent about conversation created and mark priority query\",\n    \"event_name\": \"conversation_created\",\n    \"conditions\": [\n        {\n            \"attribute_key\": \"browser_language\",\n            \"filter_operator\": \"equal_to\",\n            \"values\": [\n                \"en\"\n            ],\n            \"query_operator\": \"AND\"\n        },\n        {\n            \"attribute_key\": \"country_code\",\n            \"filter_operator\": \"equal_to\",\n            \"values\": [\n                \"USA\",\n                \"UK\"\n            ],\n            \"query_operator\": null\n        }\n    ],\n    \"actions\": [\n        {\n            \"action_name\": \"send_message\",\n            \"action_params\": [\n                \"Welcome to the chatwoot platform.\"\n            ]\n        },\n        {\n            \"action_name\": \"assign_team\",\n            \"action_params\": [\n                1\n            ]\n        },\n        {\n            \"action_name\": \"add_label\",\n            \"action_params\": [\n                \"support\",\n                \"priority_customer\"\n            ]\n        },\n        {\n            \"action_name\": \"assign_best_agent\",\n            \"action_params\": [\n                1\n            ]\n        },\n        {\n            \"action_name\": \"update_additional_attributes\",\n            \"action_params\": [\n                {\n                    \"intiated_at\": \"2021-12-03 17:25:26.844536 +0530\"\n                }\n            ]\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/automation_rules",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"automation_rules"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Custom Attributes",
+			"item": [
+				{
+					"name": "List Custom Attributes",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/custom_attribute_definitions?attribute_model=0",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"custom_attribute_definitions"
+							],
+							"query": [
+								{
+									"key": "attribute_model",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Custom Attribute",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"attribute_display_name\": \"Plans\",\n    // text: 0, number: 1, currency: 2, percent: 3, link: 4, date: 5, list: 6, checkbox: 7\n    \"attribute_display_type\": 6,\n    \"attribute_description\": \"Subscriptions\",\n    \"attribute_key\": \"plan\",\n    // conversation_attribute: 0, contact_attribute: 1\n    \"attribute_values\": [\n        \"gold\",\n        \"silver\",\n        \"bronze\"\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/custom_attribute_definitions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"custom_attribute_definitions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Custom Attribute",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"attribute_description\":\"The contact language\",\n    \"attribute_model\":1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/custom_attribute_definitions/{{custom_attribute_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"custom_attribute_definitions",
+								"{{custom_attribute_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Custom Attribute",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/custom_attribute_definitions/{{custom_attribute_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"custom_attribute_definitions",
+								"{{custom_attribute_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Custom Attribute",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/custom_attribute_definitions/{{custom_attribute_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"custom_attribute_definitions",
+								"{{custom_attribute_id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Conversations",
+			"item": [
+				{
+					"name": "List all conversations",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations?assignee_type=me&status=open&sort_order=latest_first",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations"
+							],
+							"query": [
+								{
+									"key": "assignee_type",
+									"value": "me"
+								},
+								{
+									"key": "status",
+									"value": "open"
+								},
+								{
+									"key": "assignee_type_id",
+									"value": "0",
+									"disabled": true
+								},
+								{
+									"key": "sort_order",
+									"value": "latest_first"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Conversation",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get messages",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/messages?after=189",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"messages"
+							],
+							"query": [
+								{
+									"key": "after",
+									"value": "189"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Attachments",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/attachments",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"attachments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Conversation meta",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/meta",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"meta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add labels to conversation",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"labels\": [\n        \"cpanel\"\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/labels",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"labels"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Toggle conversation status",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\": \"snoozed\",\n    \"snoozed_until\": null\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/toggle_status",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"toggle_status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add custom attributes",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"custom_attributes\": {\n        \"product_name\": \"iphone-13-pro\",\n        \"product_id\":2021,\n        \"product_url\":\"https://www.apple.com\",\n        \"launch_date\":\"23/02/2021\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/custom_attributes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"custom_attributes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send Interactive Message",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"content\":\"Hi\",\n\t\"message_type\": \"incoming\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/2/messages",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"2",
+								"messages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send message Attachments",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "multipart/form-data; boundary=----WebKitFormBoundary",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "attachments[]",
+									"type": "file",
+									"src": "/Users/muhsink/Downloads/assets/audio.mp3"
+								},
+								{
+									"key": "content",
+									"value": "test audio",
+									"type": "text"
+								},
+								{
+									"key": "message_type",
+									"value": "incoming",
+									"type": "text"
+								},
+								{
+									"key": "file_type",
+									"value": "audio",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/messages",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"messages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Conversation Filter",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/filter",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"filter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Toggle Typing",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"typing_status\": \"on\" }"
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/toggle_typing",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"toggle_typing"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Toggle Priority",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"priority\": \"urgent\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/toggle_priority",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"toggle_priority"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Conversation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"source_id\": \"14871452-ccb0-47b9-b62a-dc922ca45fa5\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send message",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"content\":\"Hello {{conversation.custom_attribute.product_id}}, {{contact.custom_attribute.created_at}}\",\n\t\"message_type\": \"outgoing\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/messages",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"messages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send message retry",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"content\":\"Hello {{conversation.custom_attribute.product_id}}, {{contact.custom_attribute.created_at}}\",\n\t\"message_type\": \"outgoing\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/{{conversation_id}}/messages",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"conversations",
+								"{{conversation_id}}",
+								"messages"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Notifications",
+			"item": [
+				{
+					"name": "Save device details",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api_access_token",
+								"value": "X8VfsMmLUPm4xgNjsLBTSK34",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscription_type\": \"fcm\",\n    \"subscription_attributes\": {\n        \"deviceName\": \"Google Pixel 4a\",\n        \"devicePlatform\": \"Android\",\n        \"apiLevel\": 33,\n        \"brandName\": \"google\",\n        \"buildNumber\": \"20\",\n        \"push_token\": \"fw7RAk7ISN-7Y9oeN-dO4d:APA91bEp2anvOHQ8Ga8sgOc6MCZ1Qf0Q1e1MLGSe86vZqeOF322os17kMjQdhRuLK7O5bbyxNT5Lqo592D52bX5cbeBRWZyXE5BlMaJcwFtgiRDAGgVKL9bi7-rrNF5gfjPkFgavGKve\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/notification_subscriptions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"notification_subscriptions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List all notifications",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/notifications?includes[]=snoozed&includes[]=read",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "includes[]",
+									"value": "snoozed"
+								},
+								{
+									"key": "includes[]",
+									"value": "read"
+								},
+								{
+									"key": "status",
+									"value": "snoozed",
+									"disabled": true
+								},
+								{
+									"key": "type",
+									"value": "read",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete notification",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/notifications/446",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"notifications",
+								"446"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Snooze notification",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"snoozed_until\": 1707981676\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/notifications/451/snooze",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"notifications",
+								"451",
+								"snooze"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mark notificaiton as unread",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/notifications/366/unread",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"notifications",
+								"366",
+								"unread"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete notification subscription",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access-token",
+								"value": "{{access-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"value": "{{client}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"value": "{{expiry}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"value": "{{token-type}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"value": "{{uid}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"push_token\":\"ffW3hRU-bUvZo8AYGGmCMr:APA91bEWnHivo789jwiICQYqO6REMfVFHhQERvZGXCOkEKXxW-1ZNgofQ-ceCLOCUhZ5cwWFpT5T9tCJ9Ol7hW5T0qBDfGIh1J64r2NzGSgzZKwyExhxOnxG-tmIyzCxtvB9S_kyXgYb\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/notification_subscriptions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"notification_subscriptions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Inbox",
+			"item": [
+				{
+					"name": "List all inboxes",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/inboxes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"inboxes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Inbox Members",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/inbox_members/{{inbox_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"inbox_members",
+								"{{inbox_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Specific Inbox",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/inboxes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"inboxes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inbox is installed or not",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/inboxes/{{inbox_id}}/verify_installation",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"inboxes",
+								"{{inbox_id}}",
+								"verify_installation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create a New Inbox",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/inboxes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"inboxes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update inbox",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Chatwoot\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/inboxes/{{inbox_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"inboxes",
+								"{{inbox_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Inbox Campaigns",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/inboxes/{{inbox_id}}/campaigns",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"inboxes",
+								"{{inbox_id}}",
+								"campaigns"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contacts",
+			"item": [
+				{
+					"name": "Contact Inboxes",
+					"item": [
+						{
+							"name": "Create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"inbox_id\": 1,\n  \"source_id\": \"+918234234332\" \n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/{{contact_id}}/contact_inboxes",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"{{api_version}}",
+										"accounts",
+										"{{account_id}}",
+										"contacts",
+										"{{contact_id}}",
+										"contact_inboxes"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Notes",
+					"item": [
+						{
+							"name": "List Notes",
+							"request": {
+								"auth": {
+									"type": "bearer"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "access-token",
+										"type": "text",
+										"value": "{{access-token}}",
+										"disabled": true
+									},
+									{
+										"key": "client",
+										"type": "text",
+										"value": "{{client}}",
+										"disabled": true
+									},
+									{
+										"key": "expiry",
+										"type": "text",
+										"value": "{{expiry}}",
+										"disabled": true
+									},
+									{
+										"key": "token-type",
+										"type": "text",
+										"value": "{{token-type}}",
+										"disabled": true
+									},
+									{
+										"key": "uid",
+										"type": "text",
+										"value": "{{uid}}",
+										"disabled": true
+									},
+									{
+										"key": "api_access_token",
+										"value": "{{api_access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/{{contact_id}}/notes",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"{{api_version}}",
+										"accounts",
+										"{{account_id}}",
+										"contacts",
+										"{{contact_id}}",
+										"notes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Note",
+							"request": {
+								"auth": {
+									"type": "bearer"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "access-token",
+										"type": "text",
+										"value": "{{access-token}}",
+										"disabled": true
+									},
+									{
+										"key": "client",
+										"type": "text",
+										"value": "{{client}}",
+										"disabled": true
+									},
+									{
+										"key": "expiry",
+										"type": "text",
+										"value": "{{expiry}}",
+										"disabled": true
+									},
+									{
+										"key": "token-type",
+										"type": "text",
+										"value": "{{token-type}}",
+										"disabled": true
+									},
+									{
+										"key": "uid",
+										"type": "text",
+										"value": "{{uid}}",
+										"disabled": true
+									},
+									{
+										"key": "api_access_token",
+										"value": "{{api_access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"content\": \"Hey\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/{{contact_id}}/notes",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"{{api_version}}",
+										"accounts",
+										"{{account_id}}",
+										"contacts",
+										"{{contact_id}}",
+										"notes"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "List Contacts",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Contact",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/{{contact_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"contacts",
+								"{{contact_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Contact Contactable Inboxes",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/{{contact_id}}/contactable_inboxes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"contacts",
+								"{{contact_id}}",
+								"contactable_inboxes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Contact Conversataions",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/{{contact_id}}/conversations",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"contacts",
+								"{{contact_id}}",
+								"conversations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Contact",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"type": "text",
+								"value": "{{api_access_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Moozz\",\n    \"inbox_id\": 2,\n    \"custom_attributes\": {\n       \"created_date\":\"23/12/2012\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/{{contact_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"contacts",
+								"{{contact_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/search?q=test",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"contacts",
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "test"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"contact 1\",\n  \"inbox_id\": 2,\n  \"source_id\": \"+912323234\",\n  \"phone_number\": \"+912323234\",\n  \"custom_attributes\": {\n      \"hello\": \"hello\",\n      \"test\": \"test\"\n  }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "import",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "import_file",
+									"description": "The file name which contains CSV of contact",
+									"type": "file",
+									"src": "ogKToqucC/MOCK_DATA (1).csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/contacts/import",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"contacts",
+								"import"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Agents",
+			"item": [
+				{
+					"name": "List all agents",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/agents",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"agents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update an Agent",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"availability\": \"offline\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/agents/{{agent_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"agents",
+								"{{agent_id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Agents Bots",
+			"item": [
+				{
+					"name": "List all agent bots",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/agent_bots",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"agent_bots"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create an Agent Bot",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n    \"name\": \"test\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/agent_bots",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"agent_bots"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update an Agent",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n\"availability\": \"online\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/agents/{{agent_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"agents",
+								"{{agent_id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reports",
+			"item": [
+				{
+					"name": "Account Summary",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"since\" =>  \"1603823400\",\n  \"until\"=> \"1604341800\"\n\n}"
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version_2}}/accounts/{{account_id}}/reports/account_summary?since=1603823400&until=1604341800",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version_2}}",
+								"accounts",
+								"{{account_id}}",
+								"reports",
+								"account_summary"
+							],
+							"query": [
+								{
+									"key": "since",
+									"value": "1603823400"
+								},
+								{
+									"key": "until",
+									"value": "1604341800"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agents",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"since\" =>  \"1603823400\",\n  \"until\"=> \"1604341800\"\n\n}"
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version_2}}/accounts/{{account_id}}/reports/agents?since=1603823400&until=1604341800",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version_2}}",
+								"accounts",
+								"{{account_id}}",
+								"reports",
+								"agents"
+							],
+							"query": [
+								{
+									"key": "since",
+									"value": "1603823400"
+								},
+								{
+									"key": "until",
+									"value": "1604341800"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reports",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version_2}}/accounts/{{account_id}}/reports/account?metric=conversations_count",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version_2}}",
+								"accounts",
+								"{{account_id}}",
+								"reports",
+								"account"
+							],
+							"query": [
+								{
+									"key": "metric",
+									"value": "conversations_count"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Bot metrics",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"warning": "This is a duplicate header and will be overridden by the api_access_token header generated by Postman.",
+								"key": "api_access_token",
+								"value": "{{api_access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version_2}}/accounts/{{account_id}}/reports/bot_metrics?since=1710268200&until=1710872999",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version_2}}",
+								"accounts",
+								"{{account_id}}",
+								"reports",
+								"bot_metrics"
+							],
+							"query": [
+								{
+									"key": "since",
+									"value": "1710268200"
+								},
+								{
+									"key": "until",
+									"value": "1710872999"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CSAT metrics",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"warning": "This is a duplicate header and will be overridden by the api_access_token header generated by Postman.",
+								"key": "api_access_token",
+								"value": "{{api_access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/csat_survey_responses/metrics?since=1710268200&until=1710872999",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"csat_survey_responses",
+								"metrics"
+							],
+							"query": [
+								{
+									"key": "since",
+									"value": "1710268200"
+								},
+								{
+									"key": "until",
+									"value": "1710872999"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SLA metrics",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"warning": "This is a duplicate header and will be overridden by the api_access_token header generated by Postman.",
+								"key": "api_access_token",
+								"value": "{{api_access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/applied_slas/metrics",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"applied_slas",
+								"metrics"
+							],
+							"query": [
+								{
+									"key": "since",
+									"value": "1710268200",
+									"disabled": true
+								},
+								{
+									"key": "until",
+									"value": "1710872999",
+									"disabled": true
+								},
+								{
+									"key": "label_list",
+									"value": "delivery",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all SLAs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"warning": "This is a duplicate header and will be overridden by the api_access_token header generated by Postman.",
+								"key": "api_access_token",
+								"value": "{{api_access_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/applied_slas?page=1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"applied_slas"
+							],
+							"query": [
+								{
+									"key": "since",
+									"value": "1710268200",
+									"disabled": true
+								},
+								{
+									"key": "until",
+									"value": "1710872999",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Integrations",
+			"item": [
+				{
+					"name": "Get Integration Apps",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/integrations/apps",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"integrations",
+								"apps"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get slack attachment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{slack_access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://files.slack.com/files-pri/T7NN675QT-F05NCK8NRFT/66.jpg",
+							"protocol": "https",
+							"host": [
+								"files",
+								"slack",
+								"com"
+							],
+							"path": [
+								"files-pri",
+								"T7NN675QT-F05NCK8NRFT",
+								"66.jpg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Integration Hook",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"app_id\": \"dialogflow\",\n    \"inbox_id\": \"1\",\n    \"settings\" : { \"project_id\": \"occulus\", \"credentials\": { \"test\": \"test\" } \n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/integrations/hooks",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"integrations",
+								"hooks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Integration Hook",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access-token",
+								"type": "text",
+								"value": "{{access-token}}",
+								"disabled": true
+							},
+							{
+								"key": "client",
+								"type": "text",
+								"value": "{{client}}",
+								"disabled": true
+							},
+							{
+								"key": "expiry",
+								"type": "text",
+								"value": "{{expiry}}",
+								"disabled": true
+							},
+							{
+								"key": "token-type",
+								"type": "text",
+								"value": "{{token-type}}",
+								"disabled": true
+							},
+							{
+								"key": "uid",
+								"type": "text",
+								"value": "{{uid}}",
+								"disabled": true
+							},
+							{
+								"key": "api_access_token",
+								"value": "{{api_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"app_id\": \"dialogflow\",\n    \"inbox_id\": \"1\",\n    \"settings\" : { \"project_id\": \"32\", \"credentials\": { \"test\": \"test\" } \n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/integrations/hooks/532",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"integrations",
+								"hooks",
+								"532"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Widgets",
+			"item": [
+				{
+					"name": "Create CSAT",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "X-Auth-Token",
+								"value": "eyJhbGciOiJIUzI1NiJ9.eyJzb3VyY2VfaWQiOiJiY2IzNzNmYi1lNTQyLTQ2ZWQtOTA1ZC1mYTMyZWM1YWZiMTQiLCJpbmJveF9pZCI6Mzd9.-U1bKqtkzjMdMxsQbhjnrxefqJfiy7JhpRbrLV1Bq5c",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"message\": {\n        \"submitted_values\": {\n            \"csat_survey_response\": {\n                \"rating\": 2,\n                \"feedback\": \"Amazing\"\n            }\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/widget/messages/1130842?website_token=4cWzuf9i9jxN9tbnv8K9STKU&cw_conversation=eyJhbGciOiJIUzI1NiJ9.eyJzb3VyY2VfaWQiOiJiY2IzNzNmYi1lNTQyLTQ2ZWQtOTA1ZC1mYTMyZWM1YWZiMTQiLCJpbmJveF9pZCI6Mzd9.-U1bKqtkzjMdMxsQbhjnrxefqJfiy7JhpRbrLV1Bq5c&locale=en",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"widget",
+								"messages",
+								"1130842"
+							],
+							"query": [
+								{
+									"key": "website_token",
+									"value": "4cWzuf9i9jxN9tbnv8K9STKU"
+								},
+								{
+									"key": "cw_conversation",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzb3VyY2VfaWQiOiJiY2IzNzNmYi1lNTQyLTQ2ZWQtOTA1ZC1mYTMyZWM1YWZiMTQiLCJpbmJveF9pZCI6Mzd9.-U1bKqtkzjMdMxsQbhjnrxefqJfiy7JhpRbrLV1Bq5c"
+								},
+								{
+									"key": "locale",
+									"value": "en"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Contact",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "X-Auth-Token",
+								"value": "eyJhbGciOiJIUzI1NiJ9.eyJzb3VyY2VfaWQiOiI2OWVhM2E4OC1jYmUwLTRiNGMtYTA4ZS02NzJiZmQwNjA0OWIiLCJpbmJveF9pZCI6Mzd9.rcKva2EswoVWLK44Vn4Em0t--s5YpYdJ-e4nODHHSD4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"additional_attributes\": {\n        \"country_code\": \"IN\",\n        \"city\": \"Kochi\",\n        \"company_name\": \"Chatwoot\",\n        \"description\": \"I am sooooo coooooooollll\",\n        \"social_profiles\": {\n            \"linkedin\": \"salam\",\n            \"twitter\":\"salam\",\n            \"instagram\":\"salam\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/widget/contact?website_token=4cWzuf9i9jxN9tbnv8K9STKU",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"widget",
+								"contact"
+							],
+							"query": [
+								{
+									"key": "website_token",
+									"value": "4cWzuf9i9jxN9tbnv8K9STKU"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Accounts",
+			"item": [
+				{
+					"name": "Get account details",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var responseHeaders = pm.response.headers.all();",
+									"var responseHeaderObject = {}",
+									"",
+									"responseHeaders.forEach(function (header) {",
+									"  responseHeaderObject[header.key] = header.value",
+									"})",
+									"",
+									"postman.setEnvironmentVariable(\"access-token\", responseHeaderObject['access-token']);",
+									"postman.setEnvironmentVariable(\"client\", responseHeaderObject.client);",
+									"postman.setEnvironmentVariable(\"expiry\", responseHeaderObject.expiry);",
+									"postman.setEnvironmentVariable(\"token-type\", responseHeaderObject['token-type']);",
+									"postman.setEnvironmentVariable(\"uid\", responseHeaderObject.uid);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"email\" : \"john@acme.inc\",\n \"password\" : \"123456\"\n}"
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Experimental",
+			"item": [
+				{
+					"name": "Participants",
+					"item": [
+						{
+							"name": "Get all participants",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"auth": {
+									"type": "bearer"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "access-token",
+										"type": "text",
+										"value": "{{access-token}}",
+										"disabled": true
+									},
+									{
+										"key": "client",
+										"type": "text",
+										"value": "{{client}}",
+										"disabled": true
+									},
+									{
+										"key": "expiry",
+										"type": "text",
+										"value": "{{expiry}}",
+										"disabled": true
+									},
+									{
+										"key": "token-type",
+										"type": "text",
+										"value": "{{token-type}}",
+										"disabled": true
+									},
+									{
+										"key": "uid",
+										"type": "text",
+										"value": "{{uid}}",
+										"disabled": true
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "api_access_token",
+										"value": "{{api_access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"content\":\"Hi\",\n\t\"message_type\": \"incoming\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/1/participants",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"{{api_version}}",
+										"accounts",
+										"{{account_id}}",
+										"conversations",
+										"1",
+										"participants"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "add participant",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"auth": {
+									"type": "bearer"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "access-token",
+										"type": "text",
+										"value": "{{access-token}}",
+										"disabled": true
+									},
+									{
+										"key": "client",
+										"type": "text",
+										"value": "{{client}}",
+										"disabled": true
+									},
+									{
+										"key": "expiry",
+										"type": "text",
+										"value": "{{expiry}}",
+										"disabled": true
+									},
+									{
+										"key": "token-type",
+										"type": "text",
+										"value": "{{token-type}}",
+										"disabled": true
+									},
+									{
+										"key": "uid",
+										"type": "text",
+										"value": "{{uid}}",
+										"disabled": true
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "api_access_token",
+										"value": "{{api_access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"user_ids\" : [1]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/1/participants",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"{{api_version}}",
+										"accounts",
+										"{{account_id}}",
+										"conversations",
+										"1",
+										"participants"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete participant",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"auth": {
+									"type": "bearer"
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "access-token",
+										"type": "text",
+										"value": "{{access-token}}",
+										"disabled": true
+									},
+									{
+										"key": "client",
+										"type": "text",
+										"value": "{{client}}",
+										"disabled": true
+									},
+									{
+										"key": "expiry",
+										"type": "text",
+										"value": "{{expiry}}",
+										"disabled": true
+									},
+									{
+										"key": "token-type",
+										"type": "text",
+										"value": "{{token-type}}",
+										"disabled": true
+									},
+									{
+										"key": "uid",
+										"type": "text",
+										"value": "{{uid}}",
+										"disabled": true
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "api_access_token",
+										"value": "{{api_access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"user_ids\" : [1]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/conversations/1/participants",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"{{api_version}}",
+										"accounts",
+										"{{account_id}}",
+										"conversations",
+										"1",
+										"participants"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Billing Subscription",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OpenAI",
+			"item": [
+				{
+					"name": "Completions API",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{OPEN_AI_KEY}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        {\n            \"role\": \"system\",\n            \"content\": \"You are a helpful support agent. Please fix the spelling and grammar of the following response. Reply in the user's language.\"\n        },\n        {\n            \"role\": \"user\",\n            \"content\": \"I'm sorry to hear that you're experiencing issues with the Facebook integration. Can you please provide more details about the problem?\"\n        }\n    ],\n    \"temperature\": 1,\n    \"top_p\":0.1\n}"
+						},
+						"url": {
+							"raw": "https://api.openai.com/v1/chat/completions",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openai",
+								"com"
+							],
+							"path": [
+								"v1",
+								"chat",
+								"completions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Rephrase",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							},
+							{
+								"key": "api_access_token",
+								"value": "modKyQpJtg11UM5fi6ifZ6dY"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"event\": {\n        \"name\": \"rephrase\",\n        \"data\": {\n            \"content\": \"hey i help you\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/integrations/hooks/7/process_event",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"integrations",
+								"hooks",
+								"7",
+								"process_event"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fix spelling",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							},
+							{
+								"key": "api_access_token",
+								"value": "modKyQpJtg11UM5fi6ifZ6dY"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"event\": {\n        \"name\": \"fix_spelling_grammar\",\n        \"data\": {\n            \"content\": \"I will come on tomarrow\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/integrations/hooks/7/process_event",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"integrations",
+								"hooks",
+								"7",
+								"process_event"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Shorten",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							},
+							{
+								"key": "api_access_token",
+								"value": "modKyQpJtg11UM5fi6ifZ6dY"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"event\": {\n        \"name\": \"shorten\",\n        \"data\": {\n            \"content\": \"Looking for the right words to express your feelings on the big day? Turn to these funny, sentimental, or traditional quotes for your vows, toasts, speeches, and more. Whether you want to impart some wisdom or inject a little laughter into your bridal shower toast or best man speech, these wedding quotes will help you get there. Sprinkling in sentiments from world-renowned poets, authors, philosophers, and even beloved movie characters can help take any speech to the next level. And for the wedding couple\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{host}}/{{api_version}}/accounts/{{account_id}}/integrations/hooks/7/process_event",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{api_version}}",
+								"accounts",
+								"{{account_id}}",
+								"integrations",
+								"hooks",
+								"7",
+								"process_event"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Push notification",
+			"item": [
+				{
+					"name": "Test push",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{fcm_server_key}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"notification\": {\n        \"title\": \"New message\",\n        \"body\": \"Please help me on this?\",\n        \"tag\": \"bde32d05-fe6f-4fdd-a6a8-19597c38ff0f\"\n    },\n    \"data\": {\n        \"conversation_id\": \"23232323\"\n    },\n    \"priority\": \"high\",\n     \"to\": \"{{push_token}}\"\n}"
+						},
+						"url": {
+							"raw": "https://fcm.googleapis.com/fcm/send",
+							"protocol": "https",
+							"host": [
+								"fcm",
+								"googleapis",
+								"com"
+							],
+							"path": [
+								"fcm",
+								"send"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{api_access_token}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "api_access_token",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:3000"
+		},
+		{
+			"key": "api_access_token",
+			"value": "nil"
+		},
+		{
+			"key": "account_id",
+			"value": "1"
+		}
+	]
+}
