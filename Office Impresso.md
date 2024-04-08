@@ -2,6 +2,13 @@
 
 <h3 align="center">Office Impresso - Automatização e 
 padronização da gestão de empresas </h3>
+<p align="center">
+  <a href="https://www.youtube.com/c/DevProTips?sub_confirmation=1"><img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://freshidea.com/jonah/youtube-api/subscribers-badge.php?color=red&label=Subscribe&style=for-the-badge"/></a> 
+  <a href="https://www.youtube.com/c/DevProTips"><img alt="youtube views" title="YouTube views" src="https://freshidea.com/jonah/youtube-api/view-count-badge-temp.php?label=Views&color=e1ad0e&style=for-the-badge#2"/></a> 
+  <a href="https://twitter.com/DenverCoder1"><img alt="followers" title="Follow me on Twitter" src="https://img.shields.io/twitter/follow/DenverCoder1?color=55960c&label=Follow&logo=twitter&logoColor=white&style=for-the-badge"/></a>
+  <a href="https://github.com/DenverCoder1"><img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/DenverCoder1?color=236ad3&style=for-the-badge&logo=github&label=Follow"/></a>
+  <a href="https://github.com/DenverCoder1"><img alt="views" title="Github views" src="https://freshidea.com/jonah/app/ghpvc/"/></a>
+</p>
 
 ## Potencialize sua empresa com nosso ERP ![icons8-vendas-totais-48 (1)](https://github.com/wagnerra23/Docs/assets/162313611/f79d2967-f3e5-4262-810e-214d4a7034b2)
 
@@ -24,12 +31,13 @@ padronização da gestão de empresas </h3>
     <a href="http://eyl327.mywebcommunity.org/promos/"><img alt="Gifts" title="Gifts for you" src="https://img.shields.io/badge/-Links%20to%20free%20stuff-000000?style=for-the-badge&logo=coveralls&logoColor=white"/></a>
 </p>
 
-## 
-
-<img align="center" src="https://oimpresso.com/ajuda/wp-content/uploads/2023/03/Banco-de-dados-200x200.png"/>
-<h5 align="left">Tome decisões mais inteligentes, com dados precisos, completos e em tempo real </h5> 
-
-## 🙋‍♂️ Connect with me:
+ 
+<p>
+<img align="center" src="https://github.com/wagnerra23/Docs/assets/162313611/2500df7a-bbfe-4e49-85a4-09caa35aadd3"/> 
+</p>
+<p>
+<h5 align="center">Torne sua empresa de comunicação visual mais competitiva, automatizando processos e reduzindo custos. </h5> 
+</p>
 
 <p align="left">
   <a href="https://www.youtube.com/c/DevProTips"><img alt="Youtube" title="Apuração em Tempo Real" src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
