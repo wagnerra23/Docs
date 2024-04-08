@@ -3,14 +3,6 @@
 <h3 align="center">Office Impresso - Automatização e 
 padronização da gestão de empresas </h3>
 
-<p align="center">
-  <a href="https://www.youtube.com/c/DevProTips?sub_confirmation=1"><img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://freshidea.com/jonah/youtube-api/subscribers-badge.php?color=red&label=Subscribe&style=for-the-badge"/></a> 
-  <a href="https://www.youtube.com/c/DevProTips"><img alt="youtube views" title="YouTube views" src="https://freshidea.com/jonah/youtube-api/view-count-badge-temp.php?label=Views&color=e1ad0e&style=for-the-badge#2"/></a> 
-  <a href="https://twitter.com/DenverCoder1"><img alt="followers" title="Follow me on Twitter" src="https://img.shields.io/twitter/follow/DenverCoder1?color=55960c&label=Follow&logo=twitter&logoColor=white&style=for-the-badge"/></a>
-  <a href="https://github.com/DenverCoder1"><img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/DenverCoder1?color=236ad3&style=for-the-badge&logo=github&label=Follow"/></a>
-  <a href="https://github.com/DenverCoder1"><img alt="views" title="Github views" src="https://freshidea.com/jonah/app/ghpvc/"/></a>
-</p>
-
 ## Potencialize sua empresa com nosso ERP ![icons8-vendas-totais-48 (1)](https://github.com/wagnerra23/Docs/assets/162313611/f79d2967-f3e5-4262-810e-214d4a7034b2)
 
 * Controle de Vendas ![icons8-selecionado-24](https://github.com/wagnerra23/Docs/assets/162313611/ad4e9e9e-4a0e-459d-a1cf-b2ec8ef7d576)
@@ -32,20 +24,14 @@ padronização da gestão de empresas </h3>
     <a href="http://eyl327.mywebcommunity.org/promos/"><img alt="Gifts" title="Gifts for you" src="https://img.shields.io/badge/-Links%20to%20free%20stuff-000000?style=for-the-badge&logo=coveralls&logoColor=white"/></a>
 </p>
 
-## 🔥 My contribution streak
-
-<p align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=DenverCoder1#version3"/>
-  </a>
-</p>
-
-<h3 align="center">⬇ Scroll down to see <a href="https://github.com/DenverCoder1?tab=repositories">my repos</a>! ⭐ Stars are appreciated!</h3>
+## 
+<img with="70" src="https://oimpresso.com/ajuda/wp-content/uploads/2023/03/VENDA.png"/>
+<h3 align="left">Apuração em Tempo Real </h3> 
 
 ## 🙋‍♂️ Connect with me:
 
 <p align="left">
-  <a href="https://www.youtube.com/c/DevProTips"><img alt="Youtube" title="Youtube" src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+  <a href="https://www.youtube.com/c/DevProTips"><img alt="Youtube" title="Apuração em Tempo Real" src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
   <!--<a href="https://www.linkedin.com/in/jonah-lawrence/"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>-->
   <a href="https://twitter.com/DenverCoder1"><img alt="Twitter" title="Twitter" src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
   <!-- <a href="https://www.reddit.com/user/denvercoder1/"><img alt="Reddit" title="Reddit" src="https://img.shields.io/badge/-Reddit-FF5700?style=for-the-badge&logo=reddit&logoColor=white"/></a> -->
