@@ -33,42 +33,25 @@ padronização da gestão de empresas </h3>
 
  
 <p>
-<img align="center" src="https://github.com/wagnerra23/Docs/assets/162313611/2500df7a-bbfe-4e49-85a4-09caa35aadd3"/> 
+<img align="center" src="https://github.com/wagnerra23/Docs/assets/162313611/25be0fe5-4678-4dcb-a740-3b5205959983"/> 
 </p>
-<p>
 <h5 align="center">Torne sua empresa de comunicação visual mais competitiva, automatizando processos e reduzindo custos. </h5> 
-</p>
 
-<p align="left">
-  <a href="https://www.youtube.com/c/DevProTips"><img alt="Youtube" title="Apuração em Tempo Real" src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-  <!--<a href="https://www.linkedin.com/in/jonah-lawrence/"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>-->
-  <a href="https://twitter.com/DenverCoder1"><img alt="Twitter" title="Twitter" src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-  <!-- <a href="https://www.reddit.com/user/denvercoder1/"><img alt="Reddit" title="Reddit" src="https://img.shields.io/badge/-Reddit-FF5700?style=for-the-badge&logo=reddit&logoColor=white"/></a> -->
-  <a href="https://jonahlawrence.hashnode.dev/"><img src="https://img.shields.io/badge/Hashnode-%232962FF.svg?&style=for-the-badge&logo=hashnode&logoColor=white"></a>
-  <a href="https://dev.to/denvercoder1"><img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev.to&logoColor=white"></a>
-  <a href="https://ko-fi.com/jlawrence"><img alt="Ko-fi" title="By me a coffee" src="https://img.shields.io/badge/-Buy%20me%20a%20coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white"/></a>
-</p>
-
-<p align="left">
-  <a href="https://stackexchange.com/users/16082556/eyl327">
-    <img src="https://stackexchange.com/users/flair/16082556.png" width="208" height="58" alt="profile for DenverCoder1 on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for DenverCoder1 on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-  </a>
-</p>
 
 ## 📘 My top open source projects
 
 <table>
   <thead align="center">
     <tr border: none;>
-      <td><b>📘 Project</b></td>
+      <td><b>📘 Vantagens</b></td>
       <td><b>⭐ Stars</b></td>
       <td><b>🤝 Forks</b></td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/DenverCoder1/LaTeX-Gboard-Dictionary"><b>LaTeX-Gboard-Dictionary</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/DenverCoder1/LaTeX-Gboard-Dictionary?style=flat-square&labelColor=343b41"/></td>
+      <td><b>Acompanhamento de pedidos de compra</b></a></td>
+      <td>Controle a prestação de serviços e vendas </td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/DenverCoder1/LaTeX-Gboard-Dictionary?style=flat-square&labelColor=343b41"/></td>
     </tr>
     <tr>
