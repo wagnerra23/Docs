@@ -33,7 +33,7 @@ padronização da gestão de empresas </h3>
 
  
 <p>
-<img align="center" src="https://github.com/wagnerra23/Docs/assets/162313611/25be0fe5-4678-4dcb-a740-3b5205959983"/> 
+<img align="center" src=""/> 
 </p>
 <h5 align="center">Torne sua empresa de comunicação visual mais competitiva, automatizando processos e reduzindo custos. </h5> 
 
