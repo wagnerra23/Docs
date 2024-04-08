@@ -1,4 +1,4 @@
-<a href="#"><img width="100%" height="auto" src="https://oimpresso.com/ajuda/wp-content/uploads/2023/03/FINANCEIRO-2.png" height="175px"/></a>
+<a href="#"><img width="95%" height="auto" src="https://oimpresso.com/ajuda/wp-content/uploads/2023/03/FINANCEIRO-2.png" height="175px"/></a>
 
 <h3 align="center">Office Impresso - Automatização e 
 padronização da gestão de empresas </h3>
@@ -11,14 +11,19 @@ padronização da gestão de empresas </h3>
   <a href="https://github.com/DenverCoder1"><img alt="views" title="Github views" src="https://freshidea.com/jonah/app/ghpvc/"/></a>
 </p>
 
-## 📖 About me
+## Potencialize sua empresa com nosso ERP ![icons8-vendas-totais-48 (1)](https://github.com/wagnerra23/Docs/assets/162313611/f79d2967-f3e5-4262-810e-214d4a7034b2)
 
-* 💻 I'm a full stack web developer
-* 🎨 I'm a self-taught UI designer
-* 📱 I make apps for Android and iOS
-* 🎓 I'm a Computer Science student (graduating in October 2021)
-* 🌐 You can see some of my projects on [my portfolio](https://freshidea.com/jonah/)
-* 📺 I make web development and tech tutorials on [YouTube](https://www.youtube.com/c/DevProTips)
+
+
+
+
+* Controle de Vendas
+* Gestão Financeira
+* Emissão de Notas Fiscais Eletrônicas
+* Gestão da Produção
+* Gestão de Compras
+* Controle de Estoque
+* Relatórios Personalizados
 
 <p align="left">
   <a href="https://freshidea.com/jonah/"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=koding&logoColor=white"/></a>
