@@ -13,17 +13,19 @@ padronização da gestão de empresas </h3>
 
 ## Potencialize sua empresa com nosso ERP ![icons8-vendas-totais-48 (1)](https://github.com/wagnerra23/Docs/assets/162313611/f79d2967-f3e5-4262-810e-214d4a7034b2)
 
+* Controle de Vendas ![icons8-selecionado-24](https://github.com/wagnerra23/Docs/assets/162313611/ad4e9e9e-4a0e-459d-a1cf-b2ec8ef7d576)
+* Gestão Financeira ![icons8-selecionado-24](https://github.com/wagnerra23/Docs/assets/162313611/1713280c-bd13-429f-acbf-db3e3762f494)
 
+* Emissão de Notas Fiscais Eletrônicas ![icons8-selecionado-24](https://github.com/wagnerra23/Docs/assets/162313611/7993e065-403b-4c92-b50e-fa6cf4b2f688)
 
+* Gestão da Produção![icons8-selecionado-24](https://github.com/wagnerra23/Docs/assets/162313611/7d148872-dccf-4fd7-a8af-15047446ce2f)
 
+* Gestão de Compras![icons8-selecionado-24](https://github.com/wagnerra23/Docs/assets/162313611/159ae79b-e19d-4774-ba92-ef8e85ad1fc1)
 
-* Controle de Vendas
-* Gestão Financeira
-* Emissão de Notas Fiscais Eletrônicas
-* Gestão da Produção
-* Gestão de Compras
-* Controle de Estoque
-* Relatórios Personalizados
+* Controle de Estoque ![icons8-selecionado-24](https://github.com/wagnerra23/Docs/assets/162313611/f4983a80-de94-431b-b6b0-9444d848f86b)
+
+* Relatórios Personalizados ![icons8-selecionado-24](https://github.com/wagnerra23/Docs/assets/162313611/cee9dd97-82c7-4906-b0ef-ee77b498c77c)
+
 
 <p align="left">
   <a href="https://freshidea.com/jonah/"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=koding&logoColor=white"/></a>
