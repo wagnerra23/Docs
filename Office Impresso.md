@@ -25,8 +25,9 @@ padronização da gestão de empresas </h3>
 </p>
 
 ## 
-<img with="70" src="https://oimpresso.com/ajuda/wp-content/uploads/2023/03/VENDA.png"/>
-<h3 align="left">Apuração em Tempo Real </h3> 
+
+<img align="center" src="https://oimpresso.com/ajuda/wp-content/uploads/2023/03/Banco-de-dados-200x200.png"/>
+<h5 align="left">Tome decisões mais inteligentes, com dados precisos, completos e em tempo real </h5> 
 
 ## 🙋‍♂️ Connect with me:
 
