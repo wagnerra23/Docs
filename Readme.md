@@ -5,14 +5,8 @@ padronização da gestão de empresas </h3>
 
 
 ### Potencialize sua empresa com nosso ERP. Conheça todos os Módulos :mag:
--  Venda <p>
-   💬 Controle de Vendas: Gere pedidos e vendas com opções de impressões customizadas e organize seus registros de maneira eficaz através do agrupamento de transações. Simplifique a gestão com a criação de tabelas de preços, administração de pedidos e processamento de devoluções de forma descomplicada.
-
-
-
-
-
-
+ Venda<p> <img src="https://github.com/wagnerra23/Docs/assets/162313611/4505a64e-06bc-41b3-9523-b6504eb6ebb7"/> 
+Otimize a criação de pedidos e vendas com opções de impressão personalizadas, e assegure uma administração eficiente ao categorizar transações. Agilize o gerenciamento com tabelas de preços bem estruturadas e efetue o agrupamento de vendas para facilitar o faturamento e a geração de notas fiscais. Aperfeiçoe a classificação das atividades comerciais estabelecendo tipos e estágios de venda, e simplifique o processo de devoluções, tornando-o intuitivo e descomplicado. </p>
 
  
 -  Produto
@@ -22,7 +16,7 @@ padronização da gestão de empresas </h3>
 -  Fiscal
 -  Financeiro
 -  RH
--  Estpque
+-  Estoque
 -  Compra
 -  Integrações
 -  Relatórios
