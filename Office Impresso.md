@@ -40,17 +40,13 @@ padronização da gestão de empresas </h3>
 
 
 ## Módulos
-
-
-## 👨‍💻 Languages and Tools:
-
 <table>
     <tbody>
         <tr>
-            <td><a href="#"><img alt="JavaScript" title="JavaScript" 
+            <td><a href="https://github.com/wagnerra23/Docs/blob/main/Office%20completo/M%C3%B3dulo%20Produto"><img alt="ModuloProduto" title="ModuloProduto" 
                         src="https://github.com/wagnerra23/Docs/assets/162313611/baee9f5f-d82a-4b63-8922-06dfd9822c2a" /></a>
             </td>
-            <td><a href="#"><img alt="HTML5" title="HTML5" height="28px"
+            <td><a href=""><img alt="HTML5" title="Produto" height="28px"
                         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /></a>
             </td>
             <td><a href="#"><img alt="CSS3" title="CSS3" height="28px"
