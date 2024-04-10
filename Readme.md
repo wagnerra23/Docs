@@ -21,6 +21,24 @@ padronização da gestão de empresas </h3>
       Otimize a criação de pedidos e vendas com opções de impressão personalizadas, e assegure uma administração eficiente ao categorizar transações. Agilize o gerenciamento com tabelas de preços bem estruturadas e efetue o agrupamento de vendas para facilitar o faturamento e a geração de notas fiscais. Aperfeiçoe a classificação das atividades comerciais estabelecendo tipos e estágios de venda, e simplifique o processo de devoluções, tornando-o intuitivo e descomplicado. </p>
       </a>
     </td>
+<p>
+<table>
+  <tr>
+    <td align="center">
+      <a href="LINKMÓDULO">
+        <img src="https://github.com/wagnerra23/Docs/assets/162313611/ec22ce47-73c6-4ece-8747-b03344460ee1" height="65px">
+        <br>
+        <sub>
+          <b>COMPRA</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      Otimize a criação de pedidos e vendas com opções de impressão personalizadas, e assegure uma administração eficiente ao categorizar transações. Agilize o gerenciamento com tabelas de preços bem estruturadas e efetue o agrupamento de vendas para facilitar o faturamento e a geração de notas fiscais. Aperfeiçoe a classificação das atividades comerciais estabelecendo tipos e estágios de venda, e simplifique o processo de devoluções, tornando-o intuitivo e descomplicado. </p>
+      </a>
+    </td>
+ 
+</p>
 
 
     
