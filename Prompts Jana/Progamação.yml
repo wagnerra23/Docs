@@ -1,0 +1,111 @@
+app:
+  description: ''
+  icon: "\U0001F916"
+  icon_background: '#FFEAD5'
+  mode: agent-chat
+  name: "Progama\xE7\xE3o"
+model_config:
+  agent_mode:
+    enabled: true
+    max_iteration: 5
+    strategy: react
+    tools:
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: webscraper
+      provider_name: webscraper
+      provider_type: builtin
+      tool_label: Web Scraper
+      tool_name: webscraper
+      tool_parameters:
+        url: ''
+        user_agent: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: 05db3963-43b7-43f9-ab92-ea583a32d1ce
+      provider_name: API Office Impresso
+      provider_type: api
+      tool_name: apioffice
+      tool_parameters:
+        action: ''
+        data: ''
+        url: ''
+  annotation_reply:
+    enabled: false
+  chat_prompt_config: {}
+  completion_prompt_config: {}
+  dataset_configs:
+    datasets:
+      datasets: []
+    retrieval_model: single
+  dataset_query_variable: ''
+  external_data_tools: []
+  file_upload:
+    image:
+      detail: high
+      enabled: false
+      number_limits: 3
+      transfer_methods:
+      - remote_url
+      - local_file
+  model:
+    completion_params:
+      max_tokens: 512
+      stop: []
+      temperature: 0
+      top_p: 1
+    mode: completion
+    name: ' code-llama'
+    provider: xinference
+  more_like_this:
+    enabled: false
+  opening_statement: ''
+  pre_prompt: "Voc\xEA \xE9 uma IA com expertise em programa\xE7\xE3o Delphi, focada\
+    \ em an\xE1lise de dados. O desafio proposto \xE9 criar um algoritmo em Delphi\
+    \ que analise uma lista mista de elementos (n\xFAmeros e textos) para: 1) Selecionar\
+    \ apenas os n\xFAmeros, 2) Orden\xE1-los em ordem decrescente, e 3) Encontrar\
+    \ o n\xFAmero mediano dos n\xFAmeros ordenados. Para alcan\xE7ar esses objetivos\
+    \ de forma eficiente, voc\xEA aplicar\xE1 t\xE9cnicas avan\xE7adas, como descrito\
+    \ a seguir:\nFew-Shot Learning: Aprenda com poucos exemplos como manipular e processar\
+    \ conjuntos de dados similares ao desafio proposto. Use os exemplos fornecidos\
+    \ para orientar o desenvolvimento do algoritmo, entendendo a l\xF3gica de filtrar\
+    \ n\xFAmeros, orden\xE1-los decrescentemente e calcular o n\xFAmero mediano.\n\
+    Chain of Thought: Descreva detalhadamente como voc\xEA processaria uma entrada\
+    \ exemplo, como ['a', 10, 'c', '8', 5, 'b'], para atingir os objetivos. Este racioc\xED\
+    nio passo a passo \xE9 crucial para entendermos a l\xF3gica por tr\xE1s da sua\
+    \ abordagem de solu\xE7\xE3o.\nConsulta a Especialistas: Voc\xEA consultou tr\xEA\
+    s especialistas fict\xEDcios para aprimorar seu algoritmo em Delphi. Inclua as\
+    \ sugest\xF5es de cada um:\na. Especialista em otimiza\xE7\xE3o de Delphi: Sugere\
+    \ t\xE9cnicas espec\xEDficas para melhorar a performance do algoritmo em Delphi,\
+    \ como o uso eficiente de estruturas de dados.\nb. Especialista em an\xE1lise\
+    \ de dados: Oferece recomenda\xE7\xF5es sobre como lidar com efic\xE1cia com dados\
+    \ mistos (textos e n\xFAmeros) em Delphi.\nc. Especialista em algoritmos: Prop\xF5\
+    e m\xE9todos de ordena\xE7\xE3o e c\xE1lculo de mediana que s\xE3o particularmente\
+    \ eficientes em Delphi.\nAutoavalia\xE7\xE3o: Ap\xF3s implementar as sugest\xF5\
+    es, avalie criticamente sua solu\xE7\xE3o em Delphi. Identifique os pontos fortes,\
+    \ as falhas e as \xE1reas que podem ser melhoradas. Reflita sobre como as sugest\xF5\
+    es foram integradas para otimizar o algoritmo e o que poderia ser feito para aumentar\
+    \ ainda mais a efici\xEAncia.\nSua tarefa \xE9 desenvolver esse algoritmo em Delphi,\
+    \ focando na clareza, efici\xEAncia e documenta\xE7\xE3o do c\xF3digo, mostrando\
+    \ como as t\xE9cnicas avan\xE7adas foram aplicadas para resolver o problema proposto.\n\
+    Ao acessar a API apioffice, lembre-se de incluir a vari\xE1vel {\"api\": \"XAhhtwhNm9M0gUDX\"\
+    } para garantir o correto funcionamento das consultas."
+  prompt_type: simple
+  retriever_resource:
+    enabled: false
+  sensitive_word_avoidance:
+    configs: []
+    enabled: false
+    type: ''
+  speech_to_text:
+    enabled: false
+  suggested_questions: []
+  suggested_questions_after_answer:
+    enabled: false
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  user_input_form: []

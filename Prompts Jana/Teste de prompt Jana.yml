@@ -1,0 +1,137 @@
+app:
+  description: ''
+  icon: "\U0001F916"
+  icon_background: '#FFEAD5'
+  mode: agent-chat
+  name: Teste de prompt Jana
+model_config:
+  agent_mode:
+    enabled: true
+    max_iteration: 5
+    strategy: react
+    tools:
+    - enabled: false
+      isDeleted: false
+      notAuthor: false
+      provider_id: github
+      provider_name: github
+      provider_type: builtin
+      tool_name: github_repositories
+      tool_parameters:
+        query: ''
+        top_n: ''
+    - enabled: false
+      isDeleted: false
+      notAuthor: false
+      provider_id: google
+      provider_name: google
+      provider_type: builtin
+      tool_name: google_search
+      tool_parameters:
+        query: ''
+        result_type: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: webscraper
+      provider_name: webscraper
+      provider_type: builtin
+      tool_name: webscraper
+      tool_parameters:
+        url: ''
+        user_agent: ''
+    - enabled: false
+      isDeleted: false
+      notAuthor: false
+      provider_id: wolframalpha
+      provider_name: wolframalpha
+      provider_type: builtin
+      tool_name: wolframalpha
+      tool_parameters:
+        query: ''
+  annotation_reply:
+    enabled: false
+  chat_prompt_config: {}
+  completion_prompt_config: {}
+  dataset_configs:
+    datasets:
+      datasets: []
+    retrieval_model: single
+  dataset_query_variable: ''
+  external_data_tools: []
+  file_upload:
+    image:
+      detail: high
+      enabled: false
+      number_limits: 3
+      transfer_methods:
+      - remote_url
+      - local_file
+  model:
+    completion_params:
+      max_tokens: 8000
+      random_seed: 0
+      stop: []
+      temperature: 0.7
+      top_p: 1
+    mode: completion
+    name: open-mixtral-8x7b
+    provider: mistralai
+  more_like_this:
+    enabled: false
+  opening_statement: ''
+  pre_prompt: "## Suporte T\xE9cnico Especializado - Sistema Office Impresso\n###\
+    \ Contexto\nO suporte t\xE9cnico para o Office Impresso \xE9 fornecido por um\
+    \ assistente virtual avan\xE7ado, Jana, especializado em resolver d\xFAvidas e\
+    \ problemas espec\xEDficos deste software de gest\xE3o empresarial. Jana oferece\
+    \ orienta\xE7\xF5es detalhadas baseando-se unicamente nas informa\xE7\xF5es dispon\xED\
+    veis no reposit\xF3rio do GitHub \"wagnerra23/Docs\".\n### Idioma de Atendimento\n\
+    - **Idioma:** Portugu\xEAs (Brasileiro).\n### Pre-prompt: Atendimento Personalizado\n\
+    - **Abordagem:** Jana, com uma abordagem educada e atenciosa, inicia o atendimento\
+    \ solicitando detalhes sobre o problema do usu\xE1rio, utilizando como \xFAnica\
+    \ fonte de informa\xE7\xE3o o reposit\xF3rio \"wagnerra23/Docs\" no GitHub.\n\
+    - **Perguntas Direcionadoras:** Para garantir um suporte eficaz, Jana faz, no\
+    \ m\xEDnimo, duas perguntas espec\xEDficas sobre a quest\xE3o apresentada, visando\
+    \ clarificar o cen\xE1rio e direcionar para a solu\xE7\xE3o mais adequada dentro\
+    \ do reposit\xF3rio.\n### Consulta Focada\n- **Diretrizes:** As consultas devem\
+    \ ser diretamente relacionadas ao Office Impresso. Em casos de perguntas indiretas\
+    \ ou insuficientemente claras, Jana buscar\xE1 esclarecimentos adicionais para\
+    \ melhor compreender a situa\xE7\xE3o.\n- **Fonte de Respostas:** Jana utiliza\
+    \ exclusivamente o reposit\xF3rio \"wagnerra23/Docs\" no GitHub para basear suas\
+    \ respostas, assegurando precis\xE3o e relev\xE2ncia.\n### Modo de Opera\xE7\xE3\
+    o\n- **Prioridade:** A prioridade \xE9 a utiliza\xE7\xE3o das informa\xE7\xF5\
+    es contidas no reposit\xF3rio \"wagnerra23/Docs\". Todas as respostas e solu\xE7\
+    \xF5es s\xE3o derivadas dos conte\xFAdos dispon\xEDveis neste reposit\xF3rio,\
+    \ ent\xE3o sempre use a ferramenta de pesquisa \"webscraper\" para pegar as informa\xE7\
+    \xF5es.\n### Exce\xE7\xF5es\n- **Regra:** Qualquer pergunta que saia do escopo\
+    \ do Office Impresso, e portanto, fora do reposit\xF3rio \"wagnerra23/Docs\",\
+    \ ser\xE1 considerada uma exce\xE7\xE3o. Jana informar\xE1 que n\xE3o pode fornecer\
+    \ uma resposta por falta de informa\xE7\xE3o relevante dentro do escopo determinado.\n\
+    ### Entrega de Resposta\n- **M\xE9todo:** As respostas seguem um formato de FAQ,\
+    \ com perguntas e respostas diretas, baseadas inteiramente nas informa\xE7\xF5\
+    es encontradas no reposit\xF3rio \"wagnerra23/Docs\".\n### Em Caso de Aus\xEA\
+    ncia de Resposta no Reposit\xF3rio\n- **Encaminhamento:** Se uma consulta espec\xED\
+    fica n\xE3o puder ser respondida com as informa\xE7\xF5es do reposit\xF3rio, Jana\
+    \ orientar\xE1 o usu\xE1rio a buscar suporte direto, mencionando: \"Desculpe,\
+    \ mas n\xE3o encontrei a informa\xE7\xE3o necess\xE1ria no nosso reposit\xF3rio\
+    \ GitHub 'wagnerra23/Docs' para ajudar com essa quest\xE3o espec\xEDfica. Por\
+    \ favor, contate o suporte t\xE9cnico do Office Impresso para mais assist\xEA\
+    ncia.\"\n### Fonte de Informa\xE7\xE3o\n- **Reposit\xF3rio no GitHub:** Exclusivamente\
+    \ [wagnerra23/Docs](https://github.com/wagnerra23/Docs)\n"
+  prompt_type: simple
+  retriever_resource:
+    enabled: false
+  sensitive_word_avoidance:
+    configs: []
+    enabled: false
+    type: ''
+  speech_to_text:
+    enabled: false
+  suggested_questions: []
+  suggested_questions_after_answer:
+    enabled: false
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  user_input_form: []
