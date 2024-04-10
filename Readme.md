@@ -6,7 +6,7 @@
 [<img align="left" height="94px" width="94px" alt="Warpnet" src="https://www.spacex.com/static/images/share.jpg"/>](https://www.spacex.com/)
 
 **Venda** \
-[**SpaceX**](https://www.spacex.com/) • Full-time \
+Elabore vendas, pedidos e devoluções de forma simplificada . Utilize tabelas de preço e impressões personalizadas
 Linguagens & Tecnologias: `Python`, `Django`, `C++`, `JavaScript`, `GoLang`, `SaltStack`,\
 Projetos em destaque: [Rocket](https://www.spacex.com/), [Marte](<https://pt.wikipedia.org/wiki/Marte_(planeta)>)
 <br/>
