@@ -3,63 +3,53 @@
 
 <h3>Conheça todos os Módulos:</h3>
 
-[<img align="left" height="94px" width="94px" alt="Warpnet" src="https://www.spacex.com/static/images/share.jpg"/>](https://www.spacex.com/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-**Venda** \
-Elabore vendas, pedidos e devoluções de forma simplificada . Utilize tabelas de preço e impressões personalizadas
-Linguagens & Tecnologias: `Python`, `Django`, `C++`, `JavaScript`, `GoLang`, `SaltStack`,\
-Projetos em destaque: [Rocket](https://www.spacex.com/), [Marte](<https://pt.wikipedia.org/wiki/Marte_(planeta)>)
+<h3>VENDA</h3>
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<p>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão
+Integrações: PDV, Nota Fiscal <p>
+<br/> 
+
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+<h3>PRODUTO</h3>
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<p>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Rocketseat" src="https://yt3.ggpht.com/ytc/AKedOLQkXnYChXAHOeBQLzwhk1_BHYgUXs6ITQOakoeNoQ=s900-c-k-c0x00ffffff-no-rj"/>](https://rocketseat.com.br/)
 
-**Produto** \
-[**Rocketseat**](https://rocketseat.com.br/) • Contract \
-Linguagens & Tecnologias: `JavaScript`, `Node`, `React`\
-Projetos em destaque: [Ignite](), [Bootcamp]()
+[<img align="left" height="210px" width="210px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/) 
+<h3>Contatos</h3>
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<p>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-**Contatos** \
-[**Nubank**](https://nubank.com.br/) • Contract \
-Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift` \
-Projetos em destaque: [App](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+<h3>Produção</h3>
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<p>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
-
-**Produção** \
-[**Nubank**](https://nubank.com.br/) • Contract \
-Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift` \
-Projetos em destaque: [App](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+<h3>Fiscal</h3>
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<p>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
-
-**Fiscal** \
-[**Nubank**](https://nubank.com.br/) • Contract \
-Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift` \
-Projetos em destaque: [App](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+<h3>Financeiro</h3>
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<p>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
-
-**Financeiro** \
-[**Nubank**](https://nubank.com.br/) • Contract \
-Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift` \
-Projetos em destaque: [App](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+<h3>RH</h3>
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<p>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
-
-**RH** \
-[**Nubank**](https://nubank.com.br/) • Contract \
-Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift` \
-Projetos em destaque: [App](https://nubank.com.br/)
-<br/>
-
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
 **CRM** \
 [**Nubank**](https://nubank.com.br/) • Contract \
@@ -67,7 +57,7 @@ Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift`
 Projetos em destaque: [App](https://nubank.com.br/)
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
 **Estoque** \
 [**Nubank**](https://nubank.com.br/) • Contract \
@@ -75,7 +65,7 @@ Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift`
 Projetos em destaque: [App](https://nubank.com.br/)
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
 **Compra** \
 [**Nubank**](https://nubank.com.br/) • Contract \
@@ -83,7 +73,7 @@ Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift`
 Projetos em destaque: [App](https://nubank.com.br/)
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
 **Relatórios** \
 [**Nubank**](https://nubank.com.br/) • Contract \
@@ -91,7 +81,7 @@ Linguagens & Tecnologias: `React Native`, `Node`, `Swift`, `Kotlin`, `OpenShift`
 Projetos em destaque: [App](https://nubank.com.br/)
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
 **Integrações** \
 [**Nubank**](https://nubank.com.br/) • Contract \
