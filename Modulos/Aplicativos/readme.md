@@ -1,1 +1,1 @@
-sd
+Listar os Aplicativos
