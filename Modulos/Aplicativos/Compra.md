@@ -1,8 +1,5 @@
 <h3>COMPRA</h3>
-Eleve a eficiência na busca por ofertas e na comparação de compras, visando a redução de custos e a realização de negociações mais vantajosas.
-Simplifique a geração de requisições de compra e agilize o processo com a importação direta de dados de notas fiscais de fornecedores em formato
-XML. Facilite o lançamento do faturamento das notas fiscais de compra no setor financeiro e automatize a entrada dos produtos em estoque.
-Mantenha-se atualizado com as variações de preços de custo e venda, garantindo uma gestão eficiente e competitiva
+Descrição do aplicativo
 
 - Telas: <p>
 <a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Adicionar Compra</a> <p>
