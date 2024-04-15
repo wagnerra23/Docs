@@ -4,8 +4,11 @@ Simplifique a geração de requisições de compra e agilize o processo com a im
 XML. Facilite o lançamento do faturamento das notas fiscais de compra no setor financeiro e automatize a entrada dos produtos em estoque.
 Mantenha-se atualizado com as variações de preços de custo e venda, garantindo uma gestão eficiente e competitiva
 
-- Aplicativos Vinculados: 
 - Telas >
+<a href="">Adicionar Compra</a>
+<a href="">Consulta de Compra</a>
+<a href="">Importar XML</a>
+<a href="">Manifestação do Destinatário</a>
 - KPIS >
 - Relatórios >
 - Configurações >
