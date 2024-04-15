@@ -16,6 +16,11 @@ Mantenha-se atualizado com as variações de preços de custo e venda, garantind
 <a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Finalizadas sem Conferência </a><p>
 <a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Total de Impostos</a><p>
 <a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Total de Frete</a><p>
+<a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Ciclo Médio de Compra</a> <p>
+<a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Custo Total</a> <p>
+<a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Finalizadas sem Conferência </a><p>
+<a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Total de Impostos</a><p>
+<a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Total de Frete</a><p>
 
 - Relatórios: <p>
 <a href="https://oimpresso.com/ajuda/baixa-e-importacao-xml/">Produtos Comprados</a> <p>
