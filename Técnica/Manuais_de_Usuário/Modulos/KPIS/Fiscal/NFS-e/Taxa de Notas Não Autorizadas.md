@@ -1,4 +1,4 @@
-> **Descrição:** Valor total de notas fiscais de serviço emitidas em um período específico
+> **Descrição:** Percentual de notas fiscais de serviço que foram rejeitadas pelo cliente
 
 > **Agrupando por:** Funcionário, Serviço, Cliente
 
