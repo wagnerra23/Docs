@@ -1,4 +1,4 @@
-> **Descrição:** Ordens de serviço onde o serviço informado não possuí NCM ou o código informado difere do estabelecido.
+> **Descrição:** Número de serviços cuja código NCM é inválido ou ausente, sendo este obrigatório na emissão de notas fiscais de serviço
 
 > **Agrupando por:** Funcionário, Serviço, Cliente
 
