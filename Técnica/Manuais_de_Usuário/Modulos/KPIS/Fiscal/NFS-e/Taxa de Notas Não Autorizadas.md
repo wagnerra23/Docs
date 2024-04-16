@@ -1,4 +1,4 @@
-> **Descrição:** Percentual de notas fiscais de serviço que foram rejeitadas pelo cliente
+> **Descrição:** Percentual de notas fiscais de serviço que não foram autorizadas no momento da emissão.
 
 > **Agrupando por:** Funcionário, Serviço, Cliente
 
