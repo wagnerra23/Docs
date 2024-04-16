@@ -1,0 +1,1 @@
+Listar todas as configurações
