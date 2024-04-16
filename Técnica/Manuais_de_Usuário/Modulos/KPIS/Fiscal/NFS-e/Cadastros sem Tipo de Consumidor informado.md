@@ -1,6 +1,6 @@
 > **Descrição:** Número de cadastros de clientes e fornecedores onde o tipo de consumidor não foi informado.
 
-> **Agrupando por:** Funcionário, Serviço, Cliente
+> **Agrupando por:** Funcionário, Tipo de Pessoa
 
 > **Prós:**
 > 
