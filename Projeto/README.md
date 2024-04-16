@@ -1,0 +1,1 @@
+Inclui documentos relacionados ao escopo do projeto, design, requisitos e planejamento.

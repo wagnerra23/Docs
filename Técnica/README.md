@@ -1,0 +1,1 @@
+Contém toda a documentação técnica, incluindo manuais de APIs, configurações de ambiente, detalhes de banco de dados e guias de instalação.

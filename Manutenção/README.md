@@ -1,0 +1,1 @@
+Contém guias de solução de problemas e registros de manutenção do sistema.
