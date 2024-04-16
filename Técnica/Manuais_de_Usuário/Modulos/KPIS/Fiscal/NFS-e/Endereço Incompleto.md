@@ -1,6 +1,6 @@
 > **Descrição:** Número de cadastros onde o endereço está incompleto.
 
-> **Agrupando por:** Tipo de Pessoa
+> **Agrupando por:** Tipo de Pessoa, Funcionário
 
 > **Prós:**
 > 
