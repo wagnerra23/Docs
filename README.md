@@ -109,11 +109,11 @@ Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, M
 
 [![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
 
-#### [COMPRA](Modulos/Compra.md)
+#### [COMPRA](modulos/compra.md)
 
 Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
 
-Aplicativos: [Compra](Modulos/Aplicativos/Compra.md), Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
+Aplicativos: [Compra](modulos-10/aplicativos/compra.md), Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
 
 \
 
