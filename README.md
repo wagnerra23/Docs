@@ -1,140 +1,107 @@
-# Readme
+ <p> <img height="65" align="left" src="https://github.com/wagnerra23/Docs/assets/162313611/13f02228-f41c-4195-bea8-ad3d5f970d16"/> </p><h1 align="left">Office Impresso </h1><p>
+  <p> <h2>Automatização e padronização da gestão de empresas</p></h2>
 
-![](https://github.com/wagnerra23/Docs/assets/162313611/13f02228-f41c-4195-bea8-ad3d5f970d16)
+<h3>Conheça todos os Módulos:</h3> 
 
-## OFFICE IMPRESSO
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-### Automatização e padronização da gestão de empresas
+<h3> VENDA </h3>
 
-#### Conheça todos os Módulos:
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda. <br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal<p>
+<br/>
 
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
 
-#### [VENDA](https://oimpresso.com/ajuda/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
+<h3>PRODUTO </h3>
 
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda. <br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
+<br/>
 
-\
 
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
+<h3>CONTATOS </h3>
 
-#### [PRODUTO](https://oimpresso.com/ajuda/)
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal<p>
+<br/>
 
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
+<h3>PRODUÇÃO</h3>
 
-\
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
+<br/>
 
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
+<h3>FISCAL</h3>
 
-#### [CONTATOS](https://oimpresso.com/ajuda/)
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal<p>
+<br/>
 
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
 
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-\
+<h3>FINANCEIRO</h3>
 
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal<p>
+<br/>
 
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
 
-#### [PRODUÇÃO](https://oimpresso.com/ajuda/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
+<h3>RH</h3>
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
+<br/>
 
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
 
-\
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
+<h3>CRM</h3>
 
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal<p>
+<br/>
 
-#### [FISCAL](https://oimpresso.com/ajuda/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
+<h3>ESTOQUE</h3>
 
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
+<br/>
 
-\
 
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
+<h3>COMPRA</h3>
 
-#### [FINANCEIRO](https://oimpresso.com/ajuda/)
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: [Compra](modulos-10/aplicativos/compra.md), Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal<p>
+<br/>
 
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
 
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
+<h3>RELATÓRIOS</h3>
 
-\
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal<p>
+<br/>
 
 
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
+[<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-#### [RH](https://oimpresso.com/ajuda/)
+<h3>INTEGRAÇÕES</h3>
 
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
+Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.<br>
+Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal<p>
+<br/>
 
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
-
-\
-
-
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
-
-#### [CRM](https://oimpresso.com/ajuda/)
-
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
-
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
-
-\
-
-
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
-
-#### [ESTOQUE](https://oimpresso.com/ajuda/)
-
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
-
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
-
-\
-
-
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
-
-#### [COMPRA](modulos/compra.md)
-
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
-
-Aplicativos: [Compra](modulos-10/aplicativos/compra.md), Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
-
-\
-
-
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
-
-#### [RELATÓRIOS](https://oimpresso.com/ajuda/)
-
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
-
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
-
-\
-
-
-[![Nubank](https://nubank.com.br/images/nu-icon.png?v=2)](https://nubank.com.br/)
-
-#### [INTEGRAÇÕES](https://oimpresso.com/ajuda/)
-
-Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda.
-
-Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal
-
-\
