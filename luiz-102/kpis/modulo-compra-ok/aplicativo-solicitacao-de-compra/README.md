@@ -1,2 +1,0 @@
-# Aplicativo Solicitação de Compra
-
