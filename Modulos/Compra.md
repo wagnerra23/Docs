@@ -14,7 +14,7 @@ Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, M
 
 [<img align="left" height="210px" width="200px" alt="Nubank" src="https://nubank.com.br/images/nu-icon.png?v=2"/>](https://nubank.com.br/)
 
-<h3>SOLICITAÇÃO DE COMPRA </h3>
+<h3> <a href="https://github.com/wagnerra23/Docs/blob/main/Modulos/Aplicativos/Solicita%C3%A7%C3%A3o%20de%20Compra.md">SOLICITAÇÃO DE COMPRA </h3>
 
 Facilita a adição e consulta de pedidos e vendas, incorporando um PDV eficiente e metas de vendas claras. Ajuste preços usando Markup e tabelas personalizadas, alinhando com sua estratégia comercial. Inclui ferramentas para cadastro de equipamentos e classificação detalhada de vendas, assegurando controle total sobre o processo de venda. <br>
 Aplicativos: Venda, Pedido de Venda, PDV, Mecânica, Tabela de Preço, Markup, Mecânica, Comissão Integrações: PDV, Nota Fiscal <p>
