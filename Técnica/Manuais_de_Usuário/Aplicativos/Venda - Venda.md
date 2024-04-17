@@ -3,28 +3,136 @@
 ## Identificação do Aplicativo:
 - **Nome do Aplicativo: Venda**  
  
-- **Código ou Identificador Único:**  
-  Um identificador único, se aplicável.
+- **Código ou Identificador Único: Venda/Venda**  
 
 ## Descrição do Aplicativo:
 - **Visão Geral:**  
-  Uma descrição detalhada do aplicativo, seu propósito principal e como ele se encaixa dentro do módulo.
+Dispõe de recursos completos para a criação e organização dos processos de vendas da empresa, proporcionando total transparência através de um histórico detalhado de todas as transações. Também permite consultas rápidas e eficientes, facilitando o acesso imediato às informações de vendas quando necessário.
 - **Funções Principais:**  
-  Uma lista das principais funcionalidades oferecidas pelo aplicativo.
-- **Benefícios ao Usuário:**  
-  Descrição dos benefícios que o aplicativo proporciona aos usuários, incluindo como ele ajuda a melhorar a eficiência ou a tomada de decisões.
+  - Criação e Duplicação de Vendas: Criação e duplicação de vendas 
+  - Automatização Financeira: Automatização da geração de parcelas
+  - Classificação Inteligente: Criação de tipos de venda personalizados
+  - Personalização de Impressões: Utilização de impressões personalizáveis
+  - Agrupamento para Faturamento: Agrupamento de vendas para faturamento ou emissão de notas fiscais
+  - Baixa Automática no Estoque: O faturamento de vendas efetua baixa automática em estoque
+  - Histórico Detalhado: Acompanhamento de todas as alterações feitas durante o processo de venda
+  - Encaminhamento Ágil: Permite alteração do tipo de venda
+  - Faturamento Parcial: Faturamento apenas dos itens finalizados
+  - Transferência entre empresas: Envio de vendas criadas para às demais empresas cadastradas
+- **Benefícios ao Usuário:**
+  - Agiliza as vendas ao permitir replicar rapidamente pedidos anteriores, economizando tempo e minimizando erros.
+  - Automatiza a criação de parcelas para reduzir o trabalho manual e acelerar o ciclo de vendas.
+  - Facilita a organização e análise das vendas, aprimorando estratégias de marketing e vendas.
+  - Fortalece a identidade da marca com materiais de venda personalizados, elevando a apresentação profissional ao cliente.
+  - Simplifica o faturamento ao agrupar várias vendas em uma única fatura ou nota fiscal, reduzindo trabalho administrativo.
+  - Atualiza automaticamente os níveis de estoque com cada venda, mantendo a precisão do inventário.
+  - Registra todas as alterações no processo de venda, aumentando a transparência e facilitando auditorias.
+  - Permite mudanças rápidas no tipo de venda para se adaptar às necessidades do cliente ou mudanças de mercado.
+  - Facilita o faturamento de itens à medida que são finalizados, melhorando o fluxo de caixa e diminuindo a pressão financeira sobre os clientes.
+  - Melhora a coordenação e a logística interna ao facilitar a transferência de vendas entre unidades do grupo.
+
 
 ## Integrações e Relacionamentos:
 - **KPIs Associados:**  
-  Links para a documentação dos KPIs específicos que são monitorados ou influenciados por este aplicativo.
+  <a href=""> KPI 1:</a> -
+   <a href=""> KPI 1:</a> -
+    <a href=""> KPI 1:</a> -
+     <a href=""> KPI 1:</a> -
+      <a href=""> KPI 1:</a> -
+       <a href=""> KPI 1:</a> -
+        <a href=""> KPI 1:</a> -
+         <a href=""> KPI 1:</a> -
+          <a href=""> KPI 1:</a> -
+           <a href=""> KPI 1:</a> -
+            <a href=""> KPI 1:</a> -
+             <a href=""> KPI 1:</a> -
+              <a href=""> KPI 1:</a> -
+               <a href=""> KPI 1:</a> -
+                <a href=""> KPI 1:</a> -
+                 <a href=""> KPI 1:</a> -
+                  <a href=""> KPI 1:</a> -
+                   <a href=""> KPI 1:</a> -
+                    <a href=""> KPI 1:</a> -
+                     <a href=""> KPI 1:</a> -
+                      <a href=""> KPI 1:</a> -
+                       <a href=""> KPI 1:</a> -
+                        <a href=""> KPI 1:</a> -
+                         <a href=""> KPI 1:</a> -
+                          <a href=""> KPI 1:</a> -
+                           <a href=""> KPI 1:</a> -
+                            <a href=""> KPI 1:</a> -
+                             <a href=""> KPI 1:</a> -
+                              <a href=""> KPI 1:</a>
+                              
+                       
+          
+  
 - **Aplicativos Integráveis:**  
-  Uma lista de outros aplicativos dentro do sistema que podem ser integrados a este aplicativo, com descrições breves de como a integração melhora a funcionalidade ou o desempenho.
+  <a href="">NF-e</a> -
+  <a href=""> NFS-e</a> -
+  <a href="">NFS-e</a> -
+  <a href="">Financeiro</a>
 - **Regras de Negócio:**  
-  Links ou referências para as regras de negócio que são aplicadas dentro deste aplicativo.
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> -
+  <a href="">Regra:</a> 
 - **Configurações Relacionadas:**  
-  Detalhes sobre as configurações específicas que podem ser ajustadas dentro deste aplicativo.
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> -
+  <a href="">Configuração A</a> 
+  
 - **Relatórios Disponíveis:**  
-  Uma lista de relatórios que podem ser gerados pelo aplicativo, com links para a documentação relevante de cada relatório.
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a> -
+  <a href=""> Relatório A</a>
+  
 
 ## Telas do Aplicativo:
 - **Visão Geral das Telas:**  
