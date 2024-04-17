@@ -26,6 +26,16 @@
 - **Relatórios Gerados:**  
   Uma lista de relatórios que podem ser gerados a partir do módulo, com links para a documentação relevante de cada relatório.
 
+## Telas do Módulo:
+- **Visão Geral das Telas:**  
+  Descrição geral das interfaces de usuário principais incluídas no módulo.
+- **Detalhes das Telas:**  
+  Informações detalhadas sobre cada tela principal, incluindo sua finalidade e como os usuários podem interagir com as funcionalidades disponíveis.
+- **Navegação entre Telas:**  
+  Explicação do fluxo de navegação entre as telas, ajudando os usuários a entender como se movimentar eficientemente no módulo.
+- **Elementos Visuais Importantes:**  
+  Descrição dos elementos de design visual chave, como botões, menus, e áreas de entrada de dados.
+
 ## Acesso e Usabilidade:
 - **Instruções de Acesso:**  
   Como os usuários podem acessar e começar a usar o módulo.
