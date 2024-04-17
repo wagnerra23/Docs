@@ -1,8 +1,8 @@
-# Nome do Módulo / Nome do Aplicativo - Documentação de Aplicativo
+# VENDA / VENDA - Documentação de Aplicativo
 
 ## Identificação do Aplicativo:
-- **Nome do Aplicativo:**  
-  Título claro e descritivo.
+- **Nome do Aplicativo: Venda**  
+ 
 - **Código ou Identificador Único:**  
   Um identificador único, se aplicável.
 
