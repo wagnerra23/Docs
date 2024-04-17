@@ -1,0 +1,58 @@
+Título da Documentação:
+
+Nome do Módulo / Nome do Aplicativo - Documentação de KPIs
+Identificação do KPI:
+
+Nome do KPI:
+Título claro e descritivo que identifica o indicador.
+Código ou Identificador Único:
+Um código único, se aplicável, para fácil referência e acesso.
+
+Descrição do KPI:
+Função Principal:
+Uma descrição detalhada do que o KPI mede e sua importância nos processos de negócio.
+Módulo Responsável:
+O módulo específico do sistema que gera e monitora este KPI.
+
+Prós e Contras:
+Prós:
+Vantagens de monitorar este KPI, como decisões de negócio que ele pode influenciar positivamente.
+Contras:
+Possíveis desvantagens ou limitações na utilização deste KPI.
+
+Configurações do KPI:
+Parâmetros Configuráveis:
+Detalhes sobre as configurações que podem ser ajustadas para personalizar ou calibrar o KPI.
+Requisitos para Utilização:
+Pré-requisitos necessários para ativar e usar o KPI corretamente, como dados específicos ou configurações de sistema.
+
+Formato de Exibição:
+Opções de Visualização:
+Formatos em que o KPI pode ser visualizado, como gráficos, tabelas ou painéis de controle.
+
+Associação com Relatórios:
+Relatórios Relacionados:
+Lista de relatórios disponíveis que incluem ou se relacionam com este KPI.
+Impacto nos Relatórios:
+Como o KPI influencia ou melhora a interpretação dos relatórios.
+
+Métricas Associadas:
+Métricas Correlatas:
+Outras métricas ou KPIs que estão associados a este indicador, indicando interdependências ou complementaridades.
+
+Instruções de Uso:
+Como Acessar e Monitorar:
+Passos detalhados sobre como acessar o KPI e monitorar seu desempenho.
+Dicas de Uso:
+Sugestões para maximizar a eficácia e a relevância do KPI nas decisões de negócio.
+Histórico de Modificações:
+
+Registro de Alterações:
+Histórico de todas as mudanças feitas nos parâmetros ou na metodologia do KPI, incluindo datas e descrições.
+
+
+Contato e Suporte:
+Assistência Técnica:
+Informações de contato para suporte técnico relacionado ao KPI.
+Documentos Relacionados:
+Links para outras documentações ou dados que complementam ou se relacionam com o KPI.
