@@ -1,4 +1,4 @@
-ome do Módulo / Nome do Aplicativo - Documentação de Aplicativo
+Nome do Módulo / Nome do Aplicativo - Documentação de Aplicativo
 
 Identificação do Aplicativo:
 Nome do Aplicativo:
