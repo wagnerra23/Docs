@@ -136,7 +136,8 @@ Dispõe de recursos completos para a criação e organização dos processos de 
 
 ## Telas do Aplicativo:
 - **Visão Geral das Telas:**  
-  Descrição geral das interfaces de usuário principais incluídas no aplicativo.
+  <a href="">Consulta de Venda</a>: Permite realizar a busca de vendas através do nome do cliente, código da venda ou cnpj e classificar os registros através de colunas do grid de informações. Apresenta filtros para facilitar a pesquisa  Exibe informações importantes como data de emissão, faturamento e competência, número de nota fiscal, razão social, valor, tipo de venda, situação financeira e funcionário, sendo possível ativar ou desativar a exibição de mais informações conforme a necessidade. Também proporciona uma pré-visualização dos itens da venda e da observação aplicada e filtros .<br>
+  <a href="">Adicionar Venda</a>: Permite inserir uma nova venda no sistema
 - **Detalhes das Telas:**  
   Informações detalhadas sobre cada tela principal, incluindo sua finalidade e como os usuários podem interagir com as funcionalidades disponíveis.
 - **Navegação entre Telas:**  
