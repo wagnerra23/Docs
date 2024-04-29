@@ -1,0 +1,721 @@
+Pergunta,Resposta,Aplicativos Associados
+Preciso ver o histórico do cadastro do cliente,"1. Acesse o módulo ""Contatos""
+2. Selecione a opção ""Consulta de Pessoas""
+3. Efetue a busca pelo cliente
+4. Aberto o cadastro, localize a aba ""Atividade""
+5. Nela serão visualizadas todas as alterações efetuadas no cadastro
+6. Dê duplo clique sobre a linha desejada e será aberto todo o histórico
+",Contatos
+As alterações dos campos da tela não estão salvando,"1. A configuração do grid é salva ao fechar a tela
+2. Se duas telas estiverem abertas, a última a ser fechada terá sua configuração mantida
+3. Abra apenas uma tela de consulta
+4. Realize a modificação necessária
+5. Feche a tela para salvar a configuração realizada",Produto – Contatos – Produção – Venda – Notas Fiscais – Estoque – Compra – Pedido de Venda – Orçamento 
+Porque arquivos inseridos na aba anexos não estão aparecendo nas outras máquinas ?,"
+1. Acesse a aba “Anexos” no cadastro
+2. Clique no ícone de engrenagem para exibir as configurações dos anexos
+3. Verifique se a opção “Pasta na Rede” está selecionada
+4. E se no campo “caminho server” está especificado o caminho da pasta no servidor onde serão salvos os arquivos
+5. Exemplo do caminho: “NOMEOUIPSERVIDOR:C:\WR Sistema\Fotos\”
+6. Realize os ajustes necessários e clique em ""Tentar Conectar"" para testar a conexão",Produto – Contatos – Venda – Pedido de Venda – Proposta - Produção 
+Como alterar uma venda já faturada e com boletos emitidos?,"1. Para realizar alterações em uma venda faturada é preciso primeiramente efetuar o cancelamento do faturamento
+2. Clicando sobre o botão “Cancelar Fatura” a venda será aberta para edição
+3. Caso as parcelas da venda estiverem como recebidas e o caixa do dia já estiver fechado, não será possível cancelar o faturamento",Boletos – Venda - Financeiro
+As parcelas geradas na venda não conferem com o que está sendo exibido no financeiro.,"1. Após o faturamento da venda é possível alterar as respectivas parcelas diretamente pelo financeiro
+2. As alterações efetuadas podem ser conferidas através do clique com o botão direito sobre o lançamento, selecionando a opção “Histórico do Lançamento”",Venda – Financeiro
+Ao abrir a tela de venda não aparece nada.,"
+1. O layout da tela não está selecionado.
+2. Para ativá-lo segure as teclas Ctrl + F12
+3. Posteriormente clique no ícone da engrenagem localizado no canto inferior da tela
+4. Selecione as opções ""Layout"" e ""Salvar Layout Atual"" para salvar o layout aplicado",Venda - Pedido de Venda – Proposta
+Onde encontro o histórico da venda?,"1. No cadastro da venda existe a aba “Atividade”
+2. Acessando-a e dando duplo clique sobre o registro será exibido todo o histórico da venda",Pedido de Venda – Proposta - Venda
+Como alterar uma venda faturada?,"Resposta: 1. Para realizar alterações em uma venda faturada é preciso primeiramente efetuar o cancelamento do faturamento 2. Clicando sobre o botão “Cancelar Fatura” a venda será aberta para edição 3. Caso as parcelas da venda estiverem como recebidas e o caixa do dia já estiver fechado, não será possível cancelar o faturamento. 4. Neste caso, entre em contato com o suporte técnico ",Venda
+"Ao faturar a venda, consta que o caixa do dia está fechado mesmo depois de abrir o caixa","1. Primeiramente é necessário conferir se o caixa do dia está de fato aberto
+2. Caso esteja, no cadastro na venda, selecionando a aba “Financeiro” é necessário excluir as parcelas e gerá-las novamente
+3. Posteriormente basta finalizar o processo clicando em ""Faturar""",Venda – Caixa
+É possível duplicar uma venda?,"1. Sim. No cadastro da venda a ser duplicada clique sobre o botão “Menu” 
+2. Selecione a opção “Duplicar Pedido”
+2. Exibida a janela informe ao menos o tipo da venda e clique em ""Confirmar"" para efetuar a duplicação
+3. Para finalizar o processo, clique em “Confirmar”(Painel Lateral Direito) para salvar o novo registro no sistema",Pedido de Venda -Proposta - Venda
+É possível que venda já abra com um tipo definido?,"1. Sim. Abra o cadastro da venda e selecione o tipo desejado
+2. Após, clique sobre o ícone de engrenagem localizado no canto inferior direito da tela
+3. Ative a opção “Definir este tipo de venda como Padrão”",Venda – Pedido de Orçamento
+Na venda é exibida a mensagem: A soma das parcelas difere do total da venda.,"1. Mensagem exibida quando após a geração das parcelas, o valor total da venda foi modificado
+2. Acesse a aba “Financeiro” e clique em ""Gerar Parcelas"" para atualizar o valor das parcelas
+",Venda - Pedido de Venda - Proposta
+"Criei um tipo de venda, mas ele não aparece","1. No módulo Venda, acesse a tela ""Tipo de Venda""
+2. Abra o cadastro do novo tipo de venda criado
+3. Verifique se no campo ""Modelo"" a opção ""Venda"" está selecionada",Venda – Proposta - Nota Fiscal
+Ao lançar produto na venda é exibida a mensagem: Produto não pode ser vendido,"1. O produto está com a configuração “Pode Vender” desmarcada
+2. Acesse o “Cadastro do Produto”
+3. Localize o bloco “Custos e Formação de Preço”
+4. Habilite a opção “Pode Vender”
+5. Confirme a alteração 
+",Venda - Pedido de Venda - Proposta
+Na venda não é possível inserir as medidas no produto,"
+1. Cheque no “Cadastro do Produto” qual é a unidade de medida do produto
+2. Caso ele esteja em outra unidade de medida, é recomendável realizar um novo cadastro com a unidade desejada, evitando assim divergências no estoque
+3. Caso ainda não apareçam os campos, ir no módulo “Produto” e acessar a tela de “Unidades”
+4. Abra o “Cadastro da Unidade” desejada e cheque se os campos de medida desejados estão marcados
+5. Caso não estejam, marque as opções desejadas e retorne ao cadastro do produto
+6. Altere a unidade novamente e clique em ""Confirmar"" para atualizar a informação",Venda - Pedido de Venda - Proposta
+Não consigo salvar a impressão do orçamento/venda.,"1. Cheque se na descrição dos produtos da venda ou no cadastro do cliente existem caracteres especiais('aspas') ou quebras de linha
+2. Isso pode ser feito copiando o conteúdo do campo e colando em um bloco de notas
+3. Onde o cursor do mouse ficar abaixo da informação é indicação de quebra de linha
+2. Remova o caractere e confirme para atualizar a informação do cadastro
+3. Remova o produto ou cliente do cadastro da venda
+4. Insira o cliente/produto novamente na venda e clique em ""Confirmar""
+5. Efetue uma nova impressão e salve o arquivo ",Pedido de Venda – Proposta - Orçamento 
+Como desfazer uma venda agrupada?,"1. O processo para desagrupar as vendas é simples
+2. Acesse o cadastro da venda agrupadora
+3. Clique em ""Excluir""
+4. As vendas anteriormente agrupadas retornarão para a tela de consulta, podendo serem agrupadas novamente",Venda
+Não consigo encontrar uma venda.,"1. Primeiramente, cheque se existe um filtro de data aplicado (Emissão/Faturamento/Competência)
+2. Verifique se a data está correta
+3. Verifique se aba selecionada é a correta (Venda/Pedido/Nota Fiscal)
+4. Caso ainda não esteja localizando a venda, ela pode ter sido excluída
+5. Vendas excluídas adquirem o status de ""Inativo Excluído""
+6. Na tela de consulta de venda clique sobre o ícone ""Filtro""
+7. Selecione a opção ""Arquivados"" para checar se a venda é exibida
+8. Localizada a venda, clique sobre ela e utilize a opção ""Reativar"" para removê-la dos arquivados",Venda - Pedido de Venda - Proposta
+Na venda é exibida a mensagem: Cannot Perform this operation on a closed dataset.,"
+1. Mensagem exibida quando houve perda da conexão com o banco de dados
+2. Geralmente ocasionada por quedas de energia no servidor ou instabilidade na rede
+3. Feche o sistema
+4. Verifique se o servidor está ligado e a conexão com a rede se encontra estável
+5. Acesse o sistema e execute a ação novamente.
+6. Caso a mesma mensagem seja retornada, entre em a equipe de suporte",Venda - Pedido de Venda - Proposta 
+"Na venda é exibida a mensagem: Há informações que não estão corretas, a operação será fechada para garantir a integridade do estoque. Erro:[FireDAC][Phys][IB]deadlock update conflicts with concurrent update concurrent transaction number is 000000000","1. Mensagem exibida quando existe duplicidade de ação, ou seja, outro usuário está alterando o mesmo registro
+2. Também é exibida em casos onde houve instabilidade na conexão ou queda de energia que comprometeu a segurança da operação
+3. Verifique se não existe outro usuário acessando o mesmo registro
+4. Se estiver, apenas um dos usuários deverá prosseguir alterando o registro
+5. Caso não, reinicie o servidor e verifique se a conexão de rede está funcionando normalmente
+6. Se ainda sim a mesma mensagem continua sendo exibida, entre em contato com o suporte técnico
+
+",Venda - Pedido de Venda - Proposta 
+É possível faturar uma venda sem valor?," 1. Sim. Ao clicar em “Faturar” o sistema criará uma parcela referente a venda, mesmo que seu valor seja zerado.",Venda
+Como agrupar várias vendas para realizar o faturamento do valor final?,"1. As vendas a serem agrupadas devem ser do mesmo cliente
+2. Selecione as vendas desejadas
+3. Clique em ""Faturar""
+4. Posteriormente, clique em ""Sim"" para prosseguir com o agrupamento
+5. Aberta a tela de cadastro de venda, informe ao menos o tipo da venda e confirme a criação do agrupamento
+6. Clique novamente em ""Confirmar"" no painel lateral direito para salvar o novo registro no sistema",Venda
+É possível duplicar uma venda que foi agrupada?,"
+1. Acesse o cadastro da venda desejada
+2. Clique sobre o botão ""Menu""
+3. Selecione a opção ""Duplicar Pedido""
+4. Aberta a tela de cadastro de venda, informe ao menos o tipo da venda e confirme a criação da nova venda
+4. Clique novamente em ""Confirmar"" no painel lateral direito para salvar o novo registro no sistema",Venda
+Na impressão da venda a ordem das parcelas está incorreta.,"1. Acesse a aba ""Financeiro"" da venda
+2. Verifique a ordem das parcelas
+3. Caso esteja fora de ordem, clique sobre o campo ""Ordem"" para ajustá-la
+4. Realize a impressão novamente",Venda – Pedido de Venda - Proposta
+"Lancei o produto na venda, mas o valor está errado.","
+1. O valor de venda do produto é definido pela nota de entrada
+2. Ou manualmente em seu cadastro
+3. O uso de tabelas de preço ocasiona alterações no preço de venda
+4. Assim como utilização de ""Variações""
+5. Verifique se o produto não está associado a nenhuma tabela de preço
+6. Para isso acesse o módulo Produto -> Cadastro do Produto -> Bloco Tabelas de Preço
+7. Para checar se o produto possuí variação de preço acesse o módulo Produto -> Variação por (Tamanho/Cor/Preço) -> Cadastro do Produto -> Bloco Variação",Venda - Pedido de Venda – Proposta – Produto – Variação
+"A Inscrição estadual do cliente foi atualizada no cadastro, do cliente, porém na emissão da nota continua constando como inválida."," 
+1. A venda foi aberta antes da alteração no cadastro do cliente
+2. Desta forma é necessário acessar a aba “Destinatário(Cliente)""
+3. E clicar em “Atualizar pelo Cadastro” para atualizar os dados do cliente
+4. Posteriormente basta clicar em “Confirmar” para salvar as alterações e prosseguir com a emissão da nota",Venda – NF-e - NFS-e 
+Como alterar uma venda com nota fiscal?,"
+1. Acesse o cadastro da venda
+2. Remova o número da nota fiscal do campo ""Nota Fiscal""
+3. Clique em ""Confirmar""
+4. Realize as alterações desejadas
+5. Insira novamente o número da nota no campo
+6. Clique em ""Confirmar"" para salvar as alterações",Venda – NFC-e – NF-e -NFS-e
+No momento da emissão da nota fiscal apareceu a mensagem: Rejeição 999: Erro não catalogado.,"1. A mensagem indica uma instabilidade no servidor da SEFAZ
+2. Necessário aguardar alguns minutos e consultar o status da nota
+3. Para isso, no cadastro da venda selecione a aba ""Nota Fiscal""
+4. Clique com o botão direito do mouse sobre a nota e utilize a opção “Consultar na SEFAZ”
+5. Caso o status da nota seja ""Não Autorizada"", efetue uma nova emissão",Venda – NF-e - NFC-e 
+"Após a emissão, a nota fiscal aparece como desconhecida.","1. Servidor da SEFAZ apresentou instabilidade no momento da emissão
+2. Necessário aguardar alguns minutos e consultar o status da nota
+3. Para isso, no cadastro da venda selecione a aba ""Nota Fiscal""
+4. Clique com o botão direito do mouse sobre a nota e utilize a opção “Consultar na SEFAZ”
+5. Caso o status da nota seja ""Não Autorizada"", efetue uma nova emissão",Venda – NF-e - NFC-e 
+Na emissão da nota fiscal aparece a mensagem de IE inválida.,"1. A Inscrição Estadual informada no cadastro do cliente difere da registrada na SEFAZ
+2. Entre em contato com o cliente ou consulte a inscrição correta através do site SINTEGRA
+3. Corrija a informação no cadastro do cliente e confirme antes de fechar o cadastro
+4. Retorne ao cadastro da venda
+5. Acesse a aba “Destinatário(Cliente)""
+6. Clique em ""Alterar""
+7. Após, selecione a opção “Atualizar Pelo Cadastro” para atualizar a informação do cliente na venda
+8. Clique em ""Confirmar"" para salvar a alteração e prossiga com a emissão",Venda -NF-e – NFS-e - Contatos 
+"Ao emitir a nota fiscal, é retornado o erro “Out of Memory”","1. Mensagem exibida quando a logo da empresa possui o tamanho maior que o permitido ou quando a máquina não possuí memória RAM suficiente.
+2. Para solucionar a questão da logo é necessário alterar seu tamanho
+3. Acesse o módulo ""Empresa"" e clique na opção ""Sua Empresa""
+4. Dê duplo clique sobre o nome da empresa para abrir seu cadastro 
+5. Clique na opção ""Logo Empresa"" e em ""Alterar""
+6. Selecione a nova logo com tamanho correto
+7. Tamanho aproximado da logo: 200 kb Formato: bmp
+8. Clique em ""Confirmar"" para salvar a informação
+9. Retorne ao cadastro da venda e prossiga com a emissão
+10. Caso ainda retorne a mesma mensagem, acione a equipe de suporte",Venda – NF-e  - NFS-e 
+Campos de CST e CFOP estão em vermelho no cadastro da venda.,"1. Após a inserção de todos os produtos na venda, realize uma rápida verificação
+2. Na Aba ""Produtos / Serviços"" clique com o botão direito do mouse e selecione a opção ? Nota Fiscal ? Calcular todos os impostos
+3. Verifique se os campos foram preenchidos
+4. Caso não aconteça, as verificações abaixo precisam ser efetuadas
+5. Acesse o cadastro do produto e clique sobre o bloco ""Tributos""
+6. Cheque se o campo ""Cód. Grupo imposto"" está preenchido""
+7. Estando preenchido, vá ao módulo ""Fiscal"" e acesse a opção ""Natureza da Operação""
+8. Acesse o cadastro correspondente ao tipo de venda que está sendo efetuado
+9. Na aba ""Grupos Vinculados"" observe se o grupo informado no produto está listado
+10. Caso não esteja, clique sobre o campo ""Código do produto"" e selecione o grupo de produto desejado
+11. Clique na seta para baixo para lançar o grupo na listagem
+12. Preencha as informações de CST, CFOP Dentro do Estado, CFOP Fora do Estado e Consumidor Final
+13. Importante lembrar que caso a emissão de notas ocorra para ambos tipos de consumidor será necessário criar duas configurações de tributação por grupo de produto
+14. Finalizado o preenchimento, clique em ""Confirmar"" para salvar as alterações
+15. Após, é necessário verificar se o tipo de venda selecionado está ligado à Natureza de Operação correspondente
+16. Para isso, acesse o módulo venda e clique na opção ""Tipo de Venda""
+17. Acesse o cadastro correspondente e cheque se o campo ""Natureza de Operação"" está preenchido corretamente
+18. Feitas as correções, retorne ao cadastro da venda
+19. Mude o campo ""Tipo"", confirme e alterne novamente para o tipo de venda correto para que as informações sejam atualizadas
+20. Após, na aba ""Produtos/Serviços"" clique com o botão direito do mouse e selecione a opção ? Nota Fiscal ? Calcular todos os impostos
+21. Preenchidos os campos, basta prosseguir com a emissão",Venda – NF-e – NFC-e - NFS-e – Produto
+A nota fiscal foi cancelada e não está sendo possível emitir uma outra nota da mesma venda.,"1. No cadastro da venda localize a aba ""Nota Fiscal"" 
+2. Clique sobre a nota com o botão direito do mouse e selecione a opção ""Consultar na Sefaz""
+3. Apague o número da nota do campo ""Nota Fiscal""
+4. Clique em ""Confirmar"" para salvar a alteração
+5. Prossiga com a emissão da nota
+",Venda – NF-e – NFC-e - NFS-e 
+Ao emitir a nota fiscal é exibida a mensagem: “BC ICMS difere do somatório dos itens”,"1. No cadastro da venda selecione a aba “Produtos e Serviços” e dê duplo clique sobre os produtos
+2. Aberta a tela localize a aba ""Tributação – Dados Fiscais e Impostos"" clique em ""ICMS""
+3. Verifique se os campos estão preenchidos corretamente
+4. Os campos ""Calcula ICMS"" e ""Calcula ICMS ST"" não podem estar vazios
+5. Existindo destaque de demais impostos, consulte sua contabilidade para verificar se os dados de tributação estão corretos
+6. Confirme as alterações e feche a tela do produto
+7. Vale lembrar que o destaque incorreto de outros valores pode resultar na repetição da mensagem de erro
+8. Caso a mensagem persista, entre em contato com o suporte técnico
+",Venda – NF-e
+Ao inserir a tributação nos produtos na emissão da nota fiscal os dados são alterados.,"1. Na emissão, a tributação definida no cadastro da natureza de operação é aplicada aos produtos
+2. Caso a tributação de um produto seja modificada manualmente é necessário marcar a opção ""Não recalcular impostos na Impressão da nota""
+3. Para localizar essa opção clique com o botão direito do mouse sobre o produto que teve a tributação alterada e selecione a opção ""Ver Detalhes""
+4. Aberta a tela clique na aba ""Tributação – Dados Fiscais e Impostos""
+5. Marque a opção ""Não recalcular impostos na Impressão da nota"" e clique em ""Confirmar""
+6. Dessa forma, a tributação inserida manualmente não será substituída pela configurada na natureza de operação",Venda – NF-e - NFC-e 
+Na emissão da nota fiscal é exibida a mensagem: Falha na validação dos dados da nota: <det nItem ='1'> Código NCM Nenhum valor informado ou Conteúdo inválido.,"1. O parâmetro nItem informa qual item da venda está com a informação faltante ou incorreta.
+2. Neste caso é necessário acessar o cadastro do produto e clicar sobre o bloco ""Tributos""
+3. Localize o campo ""Código do NCM/TIPI"" e verifique se está preenchido corretamente
+4. O NCM é um código que pode expirar, portanto, é válido checar com sua contabilidade se o informado ainda é válido
+5. Faça a alteração necessária e clique em ""Confirmar"" para salvar a alteração
+6. Retorne ao cadastro da venda
+7. Clique com o botão direito sobre o produto e selecione a opção ""Nota Fiscal"" - ""Calcular Todos os Impostos""
+8. Dessa forma a informação do NCM será atualizada na venda
+9. Prossiga com a emissão da nota
+",Venda – NF-e - NFC-e – Produto
+Na emissão da nota fiscal é exibida a mensagem: Falha na validação dos dados da nota: <det nItem ='1'> CFOP Nenhum valor informado ou Conteúdo inválido.,"1. Após a inserção de todos os produtos na venda, realize uma rápida verificação
+2. Na Aba ""Produtos / Serviços"" clique com o botão direito do mouse e selecione a opção ? Nota Fiscal ? Calcular todos os impostos
+3. Verifique se os campos foram preenchidos
+4. Caso não aconteça, as verificações abaixo precisam ser efetuadas
+5. Acesse o cadastro do produto e clique sobre o bloco ""Tributos""
+6. Cheque se o campo ""Cód. Grupo imposto"" está preenchido""
+7. Estando preenchido, vá ao módulo ""Fiscal"" e acesse a opção ""Natureza da Operação""
+8. Acesse o cadastro correspondente ao tipo de venda que está sendo efetuado
+9. Na aba ""Grupos Vinculados"" observe se o grupo informado no produto está listado
+10. Caso não esteja, clique sobre o campo ""Código do produto"" e selecione o grupo de produto desejado
+11. Clique na seta para baixo para lançar o grupo na listagem
+12. Preencha as informações de CST, CFOP Dentro do Estado, CFOP Fora do Estado e Consumidor Final
+13. Importante lembrar que caso a emissão de notas ocorra para ambos tipos de consumidor será necessário criar duas configurações de tributação por grupo de produto
+14. Finalizado o preenchimento, clique em ""Confirmar"" para salvar as alterações
+15. Após, é necessário verificar se o tipo de venda selecionado está ligado à Natureza de Operação correspondente
+16. Para isso, acesse o módulo venda e clique na opção ""Tipo de Venda""
+17. Acesse o cadastro correspondente e cheque se o campo ""Natureza de Operação"" está preenchido corretamente
+18. Feitas as correções, retorne ao cadastro da venda
+19. Mude o campo ""Tipo"", confirme e alterne novamente para o tipo de venda correto para que as informações sejam atualizadas
+20. Após, na aba ""Produtos/Serviços"" clique com o botão direito do mouse e selecione a opção ? Nota Fiscal ? Calcular todos os impostos
+21. Preenchidos os campos, basta prosseguir com a emissão","NF-e, NFC-e"
+"Após a emissão da nota, a mesma está como autorizada, porém aparece “Assinatura Inválida”","1. No momento da emissão ocorreu alguma instabilidade na conexão com a SEFAZ
+2. Primeiramente é necessário verificar se foi gerado o protocolo de emissão
+3. No cadastro da venda acesse a aba “Nota Fiscal”
+4. Localize no grid de informações o ícone “*”
+5. Habilite o campo “Protocolo” clicando sobre ele
+6. Caso a nota esteja como autorizada e este campo estiver preenchido, o documento é válido
+7. É possível acessar o site da SEFAZ e baixar o arquivo xml para importar no sistema sem a marca de assinatura Inválida
+8. Faça a exclusão da nota com a marca de assinatura inválida através do botão direito “Deletar”
+9. Posteriormente, acesse o módulo ""Fiscal""
+10. Selecione a opção ""Notas Fiscais""
+11. Aberta a tela, clique em ""Arquivo"" e selecione a opção ""Importar XML""
+12. Selecione o xml correto
+13. A seguir, a tela de consulta de venda será aberta
+14. Dê duplo clique na venda correta para vincular o xml
+15. Após, basta acessar o cadastro da venda para visualizar o documento sem a marca de assinatura inválida",NF-e
+Na emissão da nota fiscal é exibida a mensagem:' ‘ is not a valid integer value,"1. Algum campo numérico obrigatório está vazio ou preenchido incorretamente. 
+2. Verifique o “Cadastro do Cliente”
+3. Posteriormente cheque o “Cadastro do Produto”
+4. Corrigida a informação, remova o produto/cliente do cadastro da venda
+5. Insira-o novamente e prossiga com a emissão da nota",Venda – NF-e – NFC-e – Contatos – Produto
+Na emissão da nota fiscal é exibida a mensagem: Is not valid integer value for field “CPF_CNPJ”,"
+1. O campo CPF/CNPJ está preenchido incorretamente 
+2. Acesse o cadastro do cliente e faça a correção 
+3. Clique em ""Confirmar"" para salvar a alteração
+4. Retorne ao cadastro da venda
+5. Selecione a aba “Destinatário(Cliente)” 
+6. Clique na opção “Atualizar pelo Cadastro” para que a alteração feita no cadastro do cliente seja atualizada na venda",Venda - NF-e -  NFC-e – NFS-e – Contatos
+"Nota fiscal aparece  na tela de nota, porém não aparece no cadastro da venda.","1. Acesse o módulo “Fiscal”
+2. Clique na opção “Notas Fiscais” 
+3. Uma vez aberta a tela de consulta de notas fiscais, selecione a respectiva nota 
+4. Clique com o botão direito do mouse e  escolha a opção “Vincular Venda”
+5. Posteriormente será aberta a tela de consulta de venda
+6. Localize a venda e dê duplo clique sobre ela para realizar o vínculo
+7. Finalizando o processo, basta fechar a tela
+",Venda – NF-e - NFC-e 
+Na emissão da nota fiscal é exibida a mensagem: Total do frete difere do somatório dos itens.,"1. No cadastro da venda localize o campo ""Frete""
+2. Remova o valor do campo e clique em “Confirmar” 
+3. Insira inserir o valor novamente no campo e confirme
+4. Posteriormente basta continuar com a emissão da nota fiscal.",Venda – NF-e 
+Não consigo cancelar a nota fiscal,"1. O prazo para cancelamento estipulado pela Sefaz é de 24 horas após a emissão para NF-e e 30 minutos para NFC-e
+2. Caso a nota fiscal tenha sido emitida dentro deste tempo, siga os passos abaixo
+3. Acesse o módulo “Fiscal”
+4. Clique sobre a opção na tela “Notas Fiscais”
+5. Selecione a nota a ser cancelada 
+6. Clique com o botão direito do mouse e selecione a opção ""Cancelar Nota""
+7. Preencha o motivo e confirme o cancelamento
+8. Sendo o prazo de emissão superior ao estipulado, contate sua contabilidade",NF-e – NFC-e 
+,,
+"No cadastro da venda, antes de emitir a nota o campo Consumidor Final é alterado para “N”","1. Essa informação é encontrada no cadastro do cliente.
+2. Acesse o módulo ""Contatos""
+3. Selecione a opção ""Consulta de Pessoas""
+4. Localize o cadastro do cliente 
+5. Uma vez aberto o cadastro, clique sobre a aba “Dados Adicionais” 
+6. Será exibido o campo  “Consumidor Final”. 
+7. Ajuste para a opção correta e confirme a alteração 
+8. Retorne ao cadastro da venda 
+9. Remova o cliente e insira novamente para atualizar a informação",Venda – NF-e – NFS-e - NFC-e – Contatos
+"No cadastro da venda, acessando os produtos, qual é a função da opção Não recalcular impostos na impressão da nota?","
+1. Função utilizada quando a tributação é inserida manualmente no produto e é preciso garantir 
+que esses dados não sejam substituídos pelos que estão cadastrados na natureza de operação.",Venda – NF-e – NFC-e - NFS-e
+Na emissão da nota fiscal é exibida a mensagem: Origem da mercadoria não encontrada.,"1. Essa informação é encontrada no cadastro do produto
+2. Acesse o módulo ""Produto""
+3. Selecione a opção ""Consulta de Produto""
+4. Localize o cadastro do produto
+5. Uma vez aberta a tela, selecione o bloco ""Tributos""
+6. Cheque se o campo “Origem” está preenchido 
+7. Caso esteja, altere para qualquer outra opção e confirme 
+8. Volte a alterar para a opção correta e confirme novamente
+9. Retorne ao cadastro da venda
+10. Realize a remoção do produto
+11. Insira-o novamente na venda e prossiga com a emissão
+",Venda – NF-e - NFC-e – Produto
+É possível agrupar vendas já faturadas somente para a emissão da nota fiscal?,"1. Desde que as vendas sejam do mesmo cliente, é possível
+2. Acesse o módulo ""Venda""
+3. Selecione a opção ""Consulta de Venda""
+4. Uma vez aberta a consulta, selecione as vendas desejadas
+5. Clique sobre a opção ""Nota Fiscal""
+6. Informe ao menos o tipo da venda para prosseguir com o agrupamento
+7. Clique em ""Confirmar"" para finalizar o agrupamento
+8. Clique novamente em ""Confirmar"", no painel direito da tela para salvar o registro
+9. Posteriormente basta prosseguir com a emissão da nota",Venda – NF-e -NFS-e 
+Ao emitir uma nota fiscal de serviço é retornada a mensagem: “Número de lote já informado.”,"1. Acesse o site de sua prefeitura
+2. Verifique qual foi o último número de RPS enviado
+3. Posteriormente, acesse a ordem de serviço
+4. Remova o número do campo “Nota Fiscal”
+5. Clique em ""Confirmar""
+6. Selecione a aba “NFSe”
+7. Clique no botão ""Configurar""
+8. Após a abertura da tela selecione a opção “Próximo Número”
+9. No campo “NFSe”, com base na verificação de numeração realizada no site da prefeitura, insira qual será o próximo número de RPS
+8. Não é necessário o preenchimento do campo ""Homologação""
+9. Clique em ""Confirmar"" para salvar as alterações e prossiga com a emissão da nota
+10. Importante: Dependendo da prefeitura, o número a ser informado no “Próximo Número” poderá ser próximo número sequencial de nota
+",Venda – NFS-e 
+"Na primeira tentativa de emissão da nota fiscal de serviço a mesma retornou como não autorizada, porém a segunda tentativa de emissão ocorreu pelo site da prefeitura e a nota foi Confirmada.","1. Acesse o cadastro da ordem de serviço
+2. Inserir a numeração da nota emitida no campo “Nota Fiscal”
+3. Clique em ""Confirmar"" para salvar a nova informação",Venda – NFS-e 
+,,
+Na emissão de nota fiscal aparece a mensagem: IE do Destinatário não informada.,"1. Indica que o cliente possuí inscrição estadual e esta não foi informada em seu cadastro
+2. Consulte o CNPJ do cliente no Sintegra para obter a informação correta da inscrição 
+2. Acesse o cadastro do cliente no sistema
+3. Altere o campo ""Tipo Contribuinte"" para ""Contribuinte""
+4. No campo ""Inscr. Est./Ident"" insira a inscrição estadual do cliente
+5. Clique em ""Confirmar"" para salvar as alterações
+6. Retorne ao cadastro da venda
+7. Selecione a aba “Destinatário(Cliente)”
+8. Clique sobre a opção “Atualizar pelo Cadastro” para atualizar os dados do cliente
+9. Posteriormente basta prosseguir com a emissão da nota fiscal",Venda - NF-e – NFS-e
+Onde posso inserir os dados de frete?,"1. No cadastro da venda acesse a aba “Nota Fiscal” 
+2. No canto inferior esquerdo da tela, abaixo dos “Dados Adicionais” são exibidos os campos referentes as informações de frete 
+3. Vale lembrar que a transportadora precisa estar cadastrada no sistema para que seus dados sejam trazidos para a venda
+4. Preencha os demais campos necessários
+5. Clique em ""Confirmar"" para salvar as alterações
+",Venda – NF-e 
+Ao emitir nota de devolução consta que a chave de acesso é inválida.,"1. No cadastro da venda selecione a aba “Nota Fiscal”
+2. Verifique se no campo “NF Referência” não existem espaços entre os números e se a chave foi digitada corretamente, com os 44 dígitos.",Venda – NF-e 
+Onde encontro o histórico do produto?,"1. No módulo ""Produto"" acesse a tela ""Consulta de Produto""
+2. Localize o produto desejado e dê duplo clique para abrir seu cadastro
+3. Clique sobre a aba ""Histórico de Atividade""
+4. Dê duplo clique sobre a informação para que todo histórico seja exibido
+5. Após, clique sobre o campo ""Data"" para ordenar os registros e realize as verificações necessárias",Produto
+Preciso saber de todos os valores de compra do produto,"1. No módulo ""Produto"" acesse a tela ""Consulta de Produto""
+2. Localize o produto desejado e dê duplo clique para abrir seu cadastro
+3. Clique sobre o bloco “Estoque”
+4. Após, selecione a opção ""Compras""
+5. No grid de informações serão exibidas todas as informações de compras do produto",Produto – Compra
+Como encontrar em quais vendas o produto foi registrado?,"1. No módulo ""Produto"" acesse a tela ""Consulta de Produto""
+2. Localize o produto desejado e dê duplo clique para abrir seu cadastro
+3. Clique no bloco “Estoque”
+4. Localize a aba “Histórico de Movimento”
+5. Uma vez selecionada, serão exibidas todas as vendas em que o produto foi registrado
+6. E com duplo clique sobre a venda desejada, seu cadastro será aberto",Produto - Venda
+"Preciso cadastrar o código NCM no produto, mas ele não aparece na lista.","1. No cadastro do produto feche a tela de consulta de NCM
+2. Figite o código desejado no campo “Código do NCM”
+3. Clique em “Confirmar” para salvar a alteração",Produto
+Como posso visualizar as informações de uma parcela?,"1. Selecione o lançamento desejado
+2. Clique com o botão direito e selecione a opção ""Histórico do Lançamento""
+3. Uma tela com todas as modificações realizadas no lançamento será exibida
+4. Dê duplo clique sobre o registro para ver o histórico detalhado ",Financeiro – Recebimento
+Não consigo localizar a parcela no financeiro,"1. Verifique se a venda foi faturada, pois as parcelas são enviadas ao financeiro após o faturamento
+2. Na tela do financeiro confira a conta selecionada e o tipo de data (Emissão/Pagamento/Vencimento) estão corretos
+3. Essas informações estão localizadas no canto inferior esquerdo da tela
+4. Cheque se os filtros do tipo de lançamentos selecionados estão corretos (A Pagar, Pagas, A Receber, Recebidas)
+5. Se ainda não localizar  parcela, siga os passos abaixo
+6. No painel à direita da tela selecione a opção ""Opções de Consulta""
+7. No campo ""Status"" selecione ""TODOS"" para buscar parcelas excluídas
+8. Parcelas que são excluídas adquirem o status ""Inativo Excluído""
+9. Localizada a parcela, clique com o botão direito sobre ela e utilize a opção ""Reativar Lançamento"" para removê-la dos inativos
+",Financeiro – Recebimento
+Ao tentar receber uma parcela no financeiro é exibida a mensagem: Há parcelas anteriores a serem recebidas.,"1. As parcelas devem ser recebidas na sequência de criação
+2. Para alterar essa regra, acesse as configurações no ícone de engrenagem no canto superior direito da tela do ""Financeiro""
+3. Na aba ""Financeiro"" localize a opção ""Recebimento – Permitir Recebimento de parcelas de vendas que tenham parcelas anteriores não pagas""
+4. Marque a opção para permitir o recebimento fora de sequência das parcelas
+5. Feche a tela para salvar a alteração realizada
+6. Prossiga com o recebimento da parcela",Financeiro
+"Ao enviar arquivo de remessa ao banco, consta sequência inválida.","1. Acesse ao banco e cheque o histórico de remessas enviadas para visualizar o último número da sequência
+2. No sistema, acesse o módulo ""Financeiro"" e clique sobre a opção “Caixas e Contas Bancárias”
+3. Uma vez aberta a tela, dê duplo clique na conta desejada para abrir seu cadastro
+4. No meio da tela localize a aba ""Configurações do Boleto""
+5. Informe no campo “Nº Sequencial de Remessa” o último número de remessa enviado
+6. Clique em ""Confirmar"" para salvar a alteração
+7. Pendente",Boleto – Financeiro
+"O arquivo de remessa já foi gerado, ainda não enviei ao banco, mas preciso alterar a data de vencimento dos boletos.", PENDENTE,Boletos 
+"Ao realizar um novo lançamento no caixa, é exibida a mensagem: Não existe saldo suficiente para o lançamento.","1. Verifique se o tipo de pagamento do lançamento possui saldo suficiente em caixa
+2. Exemplificando: Realizado um lançamento do tipo Pago, em dinheiro, no valor de 200,00
+3. No caixa deverá existir saldo suficiente do “Tipo de Pagamento: Dinheiro” para cobrir este pagamento",Caixa
+Os valores registrados em caixa não conferem com o financeiro.,"1. Primeiramente, é necessário realizar a conferência dos lançamentos
+2. Acesse o módulo ""Financeiro"" e selecione a opção ""Financeiro""
+3. No painel localizado ao lado direito da tela clique em “Opções de Consulta”
+4. No campo “Status” selecione a opção “TODOS” para procurar por parcelas excluídas
+5. Clique em ""F1- Pesquisar"" e faça a análise dos lançamentos
+6. Compare os lançamentos do financeiro com as vendas efetuadas e parcelas no caixa para identificar a divergência
+7. Uma forma de realizar o cruzamento de informações é utilizar o campo ""Documento""
+8. Caso não localize a divergência entre em contato com a equipe de suporte",Financeiro – Caixa -Vendas
+Após finalizar nota de compra os produtos não deram entrada no estoque,"1. Acesse o módulo ""Compra""
+2. Selecione a opção ""Consulta de Compra""
+3. Localize a nota e dê duplo clique para abrir seu cadastro
+4. Verifique se a opção de “Enviar Estoque” foi marcada
+5. Verifique se a nota foi finalizada
+6. Caso o botão ""Finalizar"" seja exibido, a nota ainda está em aberto
+7. Finalize a nota
+8. Caso a nota esteja finalizada e a opção ""Enviar Estoque"" esteja desmarcada siga os passos abaixo
+9. Clique em ""Cancelar Finalização""
+10. Marque a opção ""Enviar Estoque""
+11. Finalize a nota novamente",Compra
+Na nota de compra o preço de venda do produto não está salvando.,"1. O produto está com a opção “Manter Margem na Importação” habilitada
+2. Neste caso, a margem definida na última compra será aplicada sobre o valor de custo, impossibilitando elevar ou diminuir o seu valor de venda
+3. Para impedir a limitação do preço de venda siga os passos a seguir
+4. Acesse o módulo ""Produto"" e selecione a opção ""Consulta de Produto""
+5. Localize o cadastro do produto desejado e dê duplo clique para abrir seu cadastro
+6. Acesse o bloco ""Custos e Formação de Preço""
+7. Desmarque a opção “Manter Margem na Importação”
+8. Clique em ""Confirmar"" para salvar a alteração
+9. Retorne ao cadastro da nota de compra
+10. Realize a alteração do valor de venda do produto",Compra – Produto
+Em que pasta encontro o relatório SINTEGRA?,1. O arquivo pode ser encontrado no diretório “WR Sistema\Auditorias”  ,SINTEGRA
+"Ao executar ação, o sistema exibe a mensagem: Access Violation.","1. Reinicie o sistema
+2. Execute novamente a operação desejada
+3. Caso a mensagem persista, contate o suporte técnico",Produto – Variações – Código de Barras – Contatos – Produção – Agendamento – Fabricação – Projeto – Fluxo de Produto – Financeiro – Caixa – Boletos – Contratos – DRE – Recebimento – Centro de Custo – Metas de Venda – Balanço Patrimonial – Venda – Pedido de Venda – Tabela de Preço – Mecânica – Crédito de Cliente – Comissão – Markup – Compra – Solicitação de Compra – Estoque – Lote – Múltiplos Estoques – Sub-Unidade – Patrimônio – Proposta – Funcionários – Planejamento – SPED – SINTEGRA – Folha de Pagamento – Ficha-Ponto – Anexos – NFe – NFC-e – NFS-e – PAF – Associado – Ocorrências- Rateio – Boletos Eventuais – Equipamentos
+"Ao tentar imprimir o relatório no sistema, impressora não responde.","1. Desligue a impressora
+2. Retire o equipamento da energia
+3. Aguarde alguns segundos e ligue novamente
+4. Tente realizar uma impressão de teste de sua impressora
+5. Se a impressão de teste não ocorrer, contate o suporte técnico do equipamento
+6. Caso a página de teste esteja imprimindo normalmente, efetue a impressão no sistema
+7. Não sendo possível imprimir pelo sistema, entre em contato com o suporte técnico",Venda – Produto – Estoque - Compra - 
+"Ao clicar sobre o botão Confirmar é exibida a mensagem: Chave já existente, não conseguiu confirmar.","1. Reinicie o sistema
+2. Verifique se ação executada foi salva
+3. Caso não, tente novamente
+4. Sendo retornada a mesma mensagem entre em contato com o suporte técnico
+",Produto – Variações – Código de Barras – Contatos – Produção – Agendamento – Fabricação – Projeto – Fluxo de Produto – Financeiro – Caixa – Boletos – Contratos – DRE – Recebimento – Centro de Custo – Metas de Venda – Balanço Patrimonial – Venda – Pedido de Venda – Tabela de Preço – Mecânica – Crédito de Cliente – Comissão – Markup – Compra – Solicitação de Compra – Estoque – Lote – Múltiplos Estoques – Sub-Unidade – Patrimônio – Proposta – Funcionários – Planejamento – SPED – SINTEGRA – Folha de Pagamento – Ficha-Ponto – Anexos – NFe – NFC-e – NFS-e – PAF – Associado – Ocorrências- Rateio – Boletos Eventuais – Equipamentos
+Não estou conseguindo acessar o sistema.,"
+1. Cheque se a máquina do servidor está ligada e se todas as outras máquinas estão na mesma rede
+2. Posteriormente, na máquina servidor clique com o botão direito do mouse sobre a barra de tarefas 
+3. Selecione a opção ""Gerenciador de Tarefas""
+4. Aberta a tela, clique sobre a aba ""Serviços""
+5. Busque por ""Firebird"" e verifique se na coluna ""Status"" o serviço está ""Em execução""
+6. Caso esteja, clique sobre ele com o botão direito e utilize a opção ""Reiniciar""
+7. Tente acessar o sistema e caso ainda não esteja abrindo, siga os passos abaixo
+8. Retorne ao servidor e clique sobre o menu ""Iniciar"" do Windows
+9. Digite ""CMD"" e clique ""Enter"" para abrir o prompt
+10. Aberta a tela, digite o comando ""ipconfig""
+11. Localize a linha do ""Endereço IPV4"" para identificar o ip da máquina
+12. Copie esse número
+13. Baixe o arquivo a seguir Registro Banco de Dados
+14. Clique com o botão direito sobre o arquivo e selecione a opção ""Editar""
+15. Aberto o arquivo, localize a linha que inicia com ""BANCO""=""192.168.1.29
+16. Troque o ip do arquivo pelo ip da máquina do servidor
+17. Salve o arquivo
+18. Envie o arquivo para as máquinas que não estão conectando ao servidor
+19. Dê duplo clique no arquivo para executar o comando e confirme 
+20. Acesse o sistema novamente
+21. Caso ainda não esteja sendo possível conectar, faça as verificações a seguir
+22. Clique sobre o menu ""Iniciar""
+23. Procure pela opção ""Permitir um aplicativo pelo Firewall do windows""
+24. Verifique se na listagem apresentada existe o serviço ""Firebird"" e se este está com as 3 caixas marcadas
+25. Caso ele não esteja sendo exibido na listagem, clique em ""Alterar Configurações""
+26. Selecione a opção ""Permitir outro Aplicativo"" 
+27. Aberta a tela, clique em ""Procurar"" e localize a pasta do Firebird
+28. Geralmente o diretório de instalação é o ""C:\Program Files\Firebird""
+29. Sendo firebird versão 2.5, localize a pasta ""Bin"" e selecione o arquivo ""fbserver.exe""
+30. Sendo firebird versão 3.0 selecione o arquivo ""firebird.exe""
+31. Clique em ""Adicionar"" para inserir o serviço na listagem e cheque se as caixas estão marcadas
+32. Clique em ""OK"" para confirmar o processo
+33. Tente acessar o sistema novamente
+Ainda não sendo possível acessar o sistema, cheque se a máquina possui antivírus
+Caso sim, crie uma exceção para o executável do sistema
+Seguindo as instruções do Antivírus utilizado, insira o caminho como exeção ""C:\WR Sistema\WR2.exe""
+Posteriormente, tente acessar o sistema
+Não sendo possível conectar, entre em contato com o suporte técnico
+
+
+
+
+
+",
+Na nota de compra o valor total da nota é inferior ao documento físico.,"1. No cadastro da compra clique sobre a aba “Dados Adicionais” 
+2. Verifique se não existe algum valor especificado que não foi rateado nos produtos
+3. Caso exista, marque a opção “Ratear” e insera o valor no campo “R$ Acréscimo”
+4. Ainda constando diferença de valores, exclua a nota através do botão ""Excluir""
+5. Selecione a opção ""Importar NFe"", ""Importar XML"" e importe a nota novamente
+6. Se após o processo o valor ainda divergir, é provavél que a nota contenha o FCP - Fundo de Combate à Pobreza
+7. Dê duplo clique no xml da nota para abrí-lo 
+8. Selecione ""Ctrl + f"" para abrir a busca e procure pela tag <VFCP>
+9. Some os valores apontados e marque a opção ""Ratear""
+10. Insira o valor somado no campo ""Acréscimo"" para que possa ser distribuído entre todos os produtos
+11. Cheque se o valor total da compra condiz com o do documento físico
+12. Prossiga com a finalização da nota",Compra
+Na nota de compra não está sendo possível alterar a margem do produto.,"1. O produto está configurado para manter a margem informada na compra anterior
+2. Para remover essa configuração é necessário alterar o cadastro do produto
+3. Acesse o módulo ""Produto"" e selecione ""Consulta de Produto""
+4. Localize o produto desejado e dê duplo clique para abrir seu cadastro
+5. Selecione a aba “Custos e Formação de Preço” 
+6. Desmarque a opção “Mantém Margem na Importação”
+7. Retorne ao cadastro da compra e efetue a alteração da margem
+8. Caso a mesma mensagem seja retornada, feche a tela de cadastro de compra
+9. Abra o cadastro novamente e realize a modificação desejada
+",Produto – Compra
+Na nota de compra é possível dar entrada nos produtos mantendo o preço de custo como valor de venda?,1.  Sim. Basta preencher o campo “Margem” com o valor “0”,Produto – Compra
+Ao realizar a consulta na manifestação do destinatário está retornando a mensagem de consumo indevido.,"1. Quando são realizadas várias consultas num curto intervalo de tempo onde não foi retornada alguma nota a SEFAZ efetua um bloqueio para próxima consulta de 60 minutos
+2. Após este tempo é possível efetuar uma nova consulta",Compra
+No cadastro da composição é exibido o item Diferença de valor,"Resposta: O valor total da composição consiste na soma de todas as matérias-primas. Caso após a finalização da inserção dos itens houver alteração manual do valor final da composição, será criado o item “Diferença no valor”. ",
+"Alterado manualmente o preço de uma matéria-prima que faz parte de um produto composto, como posso atualizar o preço do produto?",Resposta: FELIPE?? ,
+Numa venda com produtos e serviços onde o boleto já foi encaminhado ao cliente e é necessário emitir nota apenas dos produtos.,"1. É possível duplicar o pedido e remover o serviço para emitir a nota dos produtos
+2. No cadastro da venda clique no botão ""Menu""
+3. Selecione a opção ""Duplicar Pedido""
+4. Clique em ""Sim"" para confirmar a duplicação do registro
+5. Aberta a tela, defina ao menos o ""Tipo de Venda"" e confirme para prosseguir
+6. Com o pedido duplicado, clique em ""Confirmar"" no painel direito da tela para salvar o novo registro
+7. Selecione o item desejado e clique na seta para cima para removê-lo
+8. Posteriormente basta conferir as informações e realizar a emissão da nota
+9. Importante lembrar que esta venda não pode ser faturada para evitar a duplicação de valores no financeiro  ","Venda, Boleto, NF-e"
+"Como parcelar uma venda já faturada, onde não é possível cancelar o faturamento?","1. Não sendo possível alterar vendas faturadas, é necessário ajustar a parcela diretamente no ""Financeiro""
+2. Localize a parcela
+3. Clique com o botão direito do mouse sobre ela e selecione a opção ""Duplicar/Dividir Conta""
+4. Uma vez aberta a tela, selecione a opção “Dividir Parcela”
+5. Informe o número de parcelas e preencha os demais campos
+6. Clique em ""Gerar Parcelas"" e confira as informações
+7. Finalize o processo através do botão ""Confirmar""",Financeiro
+"Preciso cancelar uma venda do dia anterior, entretanto o caixa que recebeu a parcela já se encontra fechado.","1. Não é possível alterar um caixa já fechado.
+2. Neste caso, na tela do caixa deve-se fazer um lançamento contrário à parcela da venda para corrigir o saldo
+3. Exemplificando: A parcela da venda foi gerada como “Recebida” no valor R$100,00 é do “Tipo de Pagamento: Dinheiro”
+4. Logo, deverá ser realizado um lançamento “Pago” no valor de R$100,00 do “Tipo de Pagamento: Dinheiro”
+5. Ainda é possível criar um Tipo de Venda para aplicar à venda cancelada, garantindo que ela não conste no somatório do relatório de vendas",Caixa
+Como alterar uma venda já faturada e com boletos emitidos?,"1. Na Tela do “Financeiro” localize o boleto e clique em “Alterar” no painel direito da tela
+2. Posteriormente, clique no botão de “seta azul” para abrir as configurações do boleto
+3. Aberta a tela, clique em “Cancelar” e “Confirme” a alteração para o cancelamento do boleto
+4. Em seguida, abra o cadastro da venda e cancele o faturamento para realizar a alteração desejada
+5. Fature novamente a venda para lançar as parcelas no financeiro
+6. E finalizando o processo, novos boletos precisarão ser gerados","Boleto, Financeiro, Venda"
+"Cancelada a produção do item, na venda ainda aparece a mensagem “Item em Produção”","1. Reincie o sistema 
+2. Abra o cadastro da venda e tente remover o item
+3. Caso não esteja sendo possível removê-lo vá ao módulo ""Produção"" 
+4. Localize a opção ""Tarefas""
+5. Uma vez aberta a tela, clique sobre o ícone de filtro
+6. Selecione a opção ""Arquivados""
+7. Clique sobre o item desejado e selecione a opção ""Cancelar""
+8. Retornando a venda já será possível remover o item",Produção
+"Inseridos produtos compostos na venda, após realizar modificações o campo ordem ficou em vermelho e o valor total não está correto.","1. A ordem dos itens da composição deve ser mantida para o cálculo correto dos valores
+2. Remova as composições da venda
+3. Faça a inserção novamente sem alterar a ordem dos itens
+3. A cor verde na coluna indica que a ordem está correta
+4. Realize as alterações de valores necessárias e clique em ""Confirmar""  
+ ",Fabricação
+Não aparece a opção de inserir a tabela de preço no cadastro do cliente.,"1. A opção ""Tabela de Preço"" não está habilitada no tipo de pessoa
+2. Vá ao módulo “Contatos” selecione a opção “Cadastro de Tipo de Pessoa”
+3. Dê duplo clique no cadastro desejado para abrí-lo 
+4. No canto direito da tela serão exibidas as opções disponíveis para serem habilitadas
+5. Marque a opção ""Tabela de Preços"" e clique em ""Confirmar""
+6. Retorne ao cadastro do cliente e cheque se a aba ""Tabela de Preço"" é exibida
+7. Posteriormente basta clicar sobre o campo para vincular a tabela ao cliente",
+Produto cadastrado não é exibido no PAF.,"1. Acesse o cadastro do produto e verificar se o campo “Tipo” está preenchido
+2. Caso o produto tenha sido cadastrado como composição, entrar em contato com o suporte técnico",Fabricação
+"Funcionário não está mais na empresa, mas aparece na listagem da folha de pagamento","1. Necessário acessar o cadastro do funcionário para corrigir as informações
+2. Existem duas formas de acessá-lo
+3. A primeira é acessar o módulo ""CRM"" e selecionar a opção ""Funcionários""
+4. A segunda é acessar o módulo ""Contatos"" e selecionar a opção ""Consulta de Pessoas""
+5. Aberta a tela, clique sobre a aba ""Funcionários"" e localize o cadastro desejado
+6. Dê duplo clique para abrir o cadastro 
+7. Altere o campo ""Ativo"" para ""N""
+8. Clique no botão ""Tipos"" e desmarque a opção ""Funcionário""
+8. Clique em ""Confirmar"" para salvar as alterações
+9. Reabra o cadastro da folha de pagamento
+10. O funcionário já não aparecerá na listagem
+",Funcionário
+Estão faltando numerações na sequência das notas fiscais,Resposta:  REFAZER,"NF-e, NFC-e "
+Como inutilizar numerações de notas fiscais?,"1. Acesse o módulo ""Fiscal""
+2. Selecione a opção ""Notas Fiscais""
+3. Aberta a tela, na parte superior esquerda da tela clique em ""Nota Fiscal""
+4. Selecione “Inutilizar Numeração”
+5. Uma vez aberta a tela, preencha os campos necessários 
+6. No campo ""Modelo"" preencha com o número “65” para NFC-e e “55” para NF-e
+6. No caso de inutilização de uma única numeração o preenchimento deve ser: Número Inicial: 115 Número Final: 115
+7. No caso de sequência de numerações: Número Inicial: 200 Número Final: 205
+8. Informe a justificativa e clique em ""Confirmar"" para enviar o evento
+9. Em seguida o documento será exibido na tela
+10. Salve o arquivo e envie para sua contabilidade
+
+","NFC-e , NF-e"
+Como efetuar o cancelamento de uma nota fiscal?,"1. O cancelamento pode ser feito de duas formas
+2. No cadastro da venda selecione a aba ""Nota Fiscal""
+3. No lado direito da tela clique sobre a nota autorizada com o botão direito do mouse
+4. Utilize a opção ""Cancelar Nota""
+5. Preencha o campo ""Motivo"" e confirme para enviar o evento de cancelamento
+6. O segundo modo é acessar o menu ""Fiscal"" e selecionar a opção ""Notas Fiscais""
+7. Aberta a tela de notas, localize a nota desejada
+8. Clique sobre ela com o botão direito do mouse
+9. Selecione a opção ""Cancelar Nota""
+10. Preencha o campo ""Motivo"" e confirme para enviar o evento de cancelamento
+11. Vale lembrar que o cancelamento somente será possível se estiver dentro do prazo definido pela SEFAZ
+12. Sendo este: 24 horas para NF-e, 30 minutos para NFC-e e para NFS-e o cancelamento é efetuado diretamente pelo site da respectiva prefeitura.
+
+
+","NFC-e , NF-e"
+"Após a emissão, a nota fiscal consta como duplicada.","1. Mensagem retornada quando já existe uma nota emitida com a numeração utilizada
+2. Neste caso é necessário realizar algumas verificações
+3. Acesse o menu ""Fiscal"" e selecione a opção ""Notas Fiscais""
+4. Cheque se já existe uma nota emitida com a mesma numeração utilizada
+5. Caso sim, retorne ao cadastro da venda
+6. Apague o número de nota do campo ""Nota Fiscal""
+7. Desta forma o número utilizado na emissão será o próximo da sequência 
+8. No caso de não localizar a numeração de nota, faça as verificações a seguir
+9. A nota pode ter sido excluída do sistema? 
+10. Se sim, é importante realizar sua importação no sistema
+11. A empresa utiliza outro software para emitir nota fiscal?
+12. Se sim, é preciso checar qual foi o último número de nota fiscal emitido
+13. A contabilidade costuma emitir nota fiscal?
+14. Se sim, é preciso checar qual foi o último número de nota fiscal emitido
+15. Nas duas últimas situações é preciso ajustar a sequência de notas no sistema
+16. Retorne a tela de ""Notas Fiscais""
+17. Na parte superior da tela clique sobre a opção ""Arquivo""
+18. Selecione a opção ""Configurações NF-e""
+19. Aberta a tela clique em ""Próximo Número""
+20. Preencha o campo ""Nota Fiscal"" do bloco ""NF-e"" com o próximo número da sequência
+21. Clique em ""Confirmar"" para salvar a informação
+22. Retorne ao cadastro da venda
+23. Remova o número de nota do campo ""Nota Fiscal""
+24. E prossiga com a emissão ","NF-e, NFC-e"
+Durante a emissão da nota fiscal é exibida a mensagem: Emitente não habilitado para emissão de NF-e,1. Necessário entrar em contato com a contabilidade para verificar se a empresa está de fato habilitada para emissão de nota fiscal. ,NF-e
+Como fazer uma carta de correção?,"1. Acesse o módulo ""Fiscal"" e selecione a opção ""Notas Fiscais""
+2. Localize a nota e clique com o botão direito sobre ela
+3. Selecione a opção ""Carta de Correção""
+4. Após a abertura da tela, insira qual será a informação a ser considerada na nota
+5. Antes de confirmar o envio, contate sua contabilidade para verificar quais informações podem ser corrigidas via Carta de Correção Eletrônica(CC-e)
+",NF-e
+"O certificado digital foi selecionado no cadastro de empresa, porém ainda não está sendo possível emitir nota fiscal.","1. Existem alguns pontos a serem verificados
+2. O primeiro é a validade do certificado digital
+3. Caso esteja vencido, é necessário contatar sua contabilidade para gerar um novo arquivo e realizar sua instalação na máquina
+4. O segundo ponto é uma configuração de protocolo 
+5. Acesse o módulo ""Fiscal"" e selecione a opção ""Notas Fiscais""
+6. Aberta a tela, clique em ""Arquivo"" e ""Configurações de NF-e""
+7. Verifique se no campo ""SSL Type"" está selecionada a opção correta ""LT_TLSv1_2""
+8. Realize a alteração, caso necessário e clique em ""Confirmar""
+9. O próximo ponto é se o certificado correto foi selecionado para utilização
+10. Isso pode ser feito através do módulo “Empresa”, acessando a tela “Sua Empresa”
+11. Dê duplo clique para abrir o cadastro da empresa
+12. Localize a aba “Contabilidade e Certificado Digital”
+13. Cheque se a opção “Usar Certificado pelo Explorer” está marcada
+14. Clique sobre a opção “Carregar Certificado Digital” para listar todos os certificados instalados na máquina 
+15. Selecione o desejado
+16. Clique em ""Status Serviço"" para receber a mensagem ""Serviço em Operação""
+16. Clique em “Confirmar” para finalizar o processo
+17. Retorne ao cadastro da venda e tente uma nova emissão
+18. Caso ainda esteja retornando mensagem de falha de conexão com o certificado, siga o passo a seguir
+19. Consulte o site ""Disponibilidade da SEFAZ"", pois o servidor da sua região pode estar com alguma instabilidade (sinalizado em amarelo/vermelho)
+20. Caso utilize o certificado A3, remova o dispositivo aguarde alguns segundos e insira novamente
+21. Em alguns casos, é necessário reiniciar a máquina
+22. Caso o dispositivo não seja reconhecido pela máquina ou esteja desconectando, é necessário entrar em contato com o suporte do certificado
+","NFC-e, NF-e"
+Como posso definir a observação utilizada nas notas fiscais?,"
+ 1. Acesse o módulo ""Empresa"" e clique em ""Sua Empresa""
+ 2. Aberta a tela, dê duplo clique para abrir o cadastro da empresa
+ 3. Localize a aba  ""DFe(NF-e / NFC-e)""
+ 4. Clique em ""Geral"" para visualizar o campo ""Simples Nacional NFe""
+ 5. Insira a observação desejada no campo e clique em ""Confirmar""
+ 6. A observação padrão será exibida ao ""Recalcular Impostos"", processo efetuado automaticamente pelo sistema no momento da emissão da nota.","NFC-e, NF-e"
+"Após confirmada a carta de correção no sistema, ela não aparece na SEFAZ","1. Isso se deve ao tempo de processamento da carta de correção eletrônica (CCE) pela SEFAZ
+2. Basta aguardar alguns minutos e consultar novamente a chave de acesso da nota para visualizar o evento",
+No cadastro da venda não consigo cancelar a nota fiscal,"1. O prazo definido pela SEFAZ para o cancelamento é de 24 horas para NF-e e 30 minutos para NFC-e 
+2. Passado do prazo, é necessário entrar em contato com sua contabilidade
+3. Caso esteja dentro do prazo, siga os passos abaixo
+4. Acesse o menu ""Fiscal"" e selecionar a opção ""Notas Fiscais""
+5. Aberta a tela de notas, localize a nota desejada
+6. Clique sobre ela com o botão direito do mouse
+7. Selecione a opção ""Cancelar Nota""
+8. Preencha o campo ""Motivo"" e confirme para enviar o evento de cancelamento",
+Cliente não está recebendo as notas enviadas por e-mail.,"1. O envio de e-mail necessita que o provedor de e-mail do cliente disponibilize o recurso de envio de e-mail por software de terceiros
+2. Uma vez que o recurso esteja ativo, basta solicitar que seja feita a configuração do mesmo pela equipe de suporte",
+É possível alterar os dados da nota fiscal após sua emissão?,"1. Após a emissão, dependendo do dado a ser alterado, é possível emitir uma carta de correção.
+2. Para saber quais informações podem ser modificadas é necessário entrar em contato com sua contabilidade 
+",
+Não encontro a nota fiscal ,"1. Verifique se o ""Perído"" selecionado está correto 
+2. Cheque se os filtros ""Tipo"" e ""Situação"" estão marcados corretamente
+3. Em casos de multiplas empresas, cheque qual está selecionada no campo ""Empresa""
+4. Se ainda não estiver encontrando  a nota, é possível que tenha sido excluída do sistema
+5. Neste caso, entre em contato com o suporte técnico
+","NFC-e, NFS-e "
+Passado o prazo de cancelamento da nota fiscal a contabilidade realizou o cancelamento extemporâneo. Como proceder para cancelar a nota no sistema?,"1. No cancelamento extemporâneo é gerado um protocolo que permite o cancelamento da nota fora do prazo legal
+2. Acesse o menu ""Fiscal"" e selecione a opção ""Notas Fiscais""
+3. Aberta a tela de notas, localize a nota desejada
+4. Clique sobre ela com o botão direito do mouse
+5. Selecione a opção ""Cancelar Nota""
+6. Preencha o campo ""Motivo"" e confirme para enviar o evento de cancelamento",
+Após a emissão de nota fiscal a mesma aparece como Denegada.,"1. Mensagem indicativa da existência de pendência no CNPJ do emissor ou no do destinatário
+2. Consultar contabilidade para verificação",
+,,
+Como altero a alíquota?,"1. Acesse o módulo “Empresa” e selecione a opção ""Sua empresa""
+2. Dê duplo clique sobre o nome da empresa para abrir seu cadastro
+3. Localize a aba ""NFS-e"" e selecione ""Lista de Serviços""
+4. No campo “Alíquota do Mês” insira a informação desejada
+5. Clique em ""Confirmar"" para salvar a alteração
+6. Caso existam notas pendentes de emissão onde a alíquota anterior foi aplicada, siga os passos abaixo
+7. No cadastro da venda acesse a aba ""NFS-e""
+8. Antes da emissão clique em “Carregar Padrões” para atualizar a alíquota
+9. Clique em ""Confirmar"" para salvar as alterações",
+No momento da emissão da nota fiscal de serviço o campo “Tipo de Serviço” está puxando o código incorreto.,"1. Para definir o tipo de serviço padrão acesse o módulo ""Empresa"" e selecione ""Sua Empresa""
+2. Aberta a tela, dê duplo clique no nome da empresa para abrir o cadastro
+3. Localize a aba ""NFS-e"" e clique em ""Lista de Serviço""
+4. No campo ""Lista de Serviço"" insira o código correto fornecido por sua contabilidade
+5. Clique em ""Confirmar"" para salvar as alterações
+6. Novos cadastros de ordens de serviço já serão abertos com a informação atualizada
+7. Em cadastros abertos antes da alteração é necessário atualizar a informação
+8. Para isso, clique na aba ""NFSe"" da ordem de serviço e clique em ""Carregar Padrões""
+9. Posteriormente basta confirmar a alteração e prosseguir com a emissão","Venda, NFS-e"
+Onde ficam salvos os arquivos de remessa gerados?,"1. Os arquivos podem ser encontrados no diretório “WR Sistema\Boletos\1\Remessa”
+2. Onde o número “1” representa o código de cadastro da conta bancária no sistema
+",
