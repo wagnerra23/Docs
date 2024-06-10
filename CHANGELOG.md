@@ -1,6 +1,13 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
 
+ #### VERSÃO 2024.1.1.2
+- **Módulo Produção - Produção**
+  - [Corrigido] Cadastro de Equipe: Permissões de funcionários listados não estavam salvando
+
+ #### VERSÃO 2024.1.1.2
+- **Módulo Compra - Manifestação do Destinatário**
+  - [Corrigido] CTE's serão exibidas no bloco "Lançar na Compra", uma vez que não há necessidade de manifestá-las. E manifestar estava com erro devido modelo da chave de acesso ser diferente de 55
 
 #### VERSÃO 2024.1.1.2
 - **Módulo Integrações - SPED**
