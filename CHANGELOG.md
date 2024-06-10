@@ -1,6 +1,12 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
 
+
+#### VERSÃO 2024.1.1.2
+- **Módulo Integrações - SPED**
+  - [Corrigido] Tipo de Cliente "O" removido por conta da nfce possuir cadastro incompleto
+  - [Corrigido] Cadastro do contador: Se o tipo for jurídica, preenchimento obrigatório do cnpj do contador
+
 #### VERSÃO 2024.1.1.2
 - **Módulo Integrações - SPED**
   - [Corrigido] Linha layout arquivo sped de 17 para 18
