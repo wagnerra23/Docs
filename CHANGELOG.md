@@ -1,5 +1,12 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
+
+#### VERSÃO 2024.1.1.2
+- **Módulo Integrações - SPED**
+  - [Corrigido] Linha layout arquivo sped de 17 para 18
+  - [Corrigido] Unidade de medida vazia
+  - [Corrigido] Campo Unidade na Venda. Estava pegando a unidade das matérias-primas de composições
+
 #### VERSÃO 2024.1.1.2
 - **Módulo Integrações - SPED**
   - [Corrigido] A ausência de endereço no cadastro da conta bancária estava impedindo a geração do arquivo
