@@ -1,5 +1,13 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
+#### VERSÃO 2024.1.1.2
+- **Módulo Integrações - SPED**
+  - [Corrigido] A ausência de endereço no cadastro da conta bancária estava impedindo a geração do arquivo
+
+#### VERSÃO 2024.1.1.1 
+- **Módulo Compra - Compra** 
+  - [Corrigido] Comentado o código da tabela de preço na compra. Código estava aplicando a tabela de preço do produto vinculado aos demais produtos, incluindo substituição de informações. 
+
 #### Versão 2022.2.1.87
 - **Módulo Produto**
   - [Melhoria] Duplicação de produto por classificação e tipo.
