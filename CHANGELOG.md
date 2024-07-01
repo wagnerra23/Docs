@@ -1,13 +1,33 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
 
-#### VERSÃO 2024.1.1.3
-- **Módulo Estoque - Estoque**
-  - [Melhoria] Habilitado campo na tela de estoque: EstoqueMinAtingido  
+### VERSÃO 2024.1.1.5
+- **Módulo Produção - Produção**
+ - [Melhoria] Funcionário agrupando por dia nas datas de: Criação, Qualidade, Expedição
+ - [Corrigido] Duplicar com botão direito: Funciona
+
+- **Módulo Venda - Proposta**
+ - [Corrigido] Ao agrupar por funcionário, os agrupadores estavam trazendo informações das vendas
+
+- **Integrações - Manifestação do Destinatário**
+  - [Corrigido] Removido tela de "Eventos"
+  - [Corrigido] Último NSU Zerado estava provocando looping, resultando em "Consumo Indevido"
+
+- **Atualização**
+  - [Corrigido] Bancos antigos atualização 805 - Relatórios 1066 - Update do financeiro
+
+### VERSÃO 2024.1.1.4
 
 - **Módulo Venda - Venda**
   - [Melhoria] Campo "Estado" na consulta de venda
   - [Corrigido] Gráficos na consulta de venda estão funcionando com os filtros
+
+- **Módulo Estoque - Estoque**
+  - [Melhoria] Habilitado campo na tela de estoque: EstoqueMinAtingido  
+
+#### VERSÃO 2024.1.1.3
+
+- **Módulo Venda - Venda**
   - [Corrigido] Botão "Confirmar" da Tela Dados Adicionais da aba NF-e retornando erro.
   - [Corrigido] Venda excluída agrupada. Vendas menores estavam retornando para a consulta com data de faturamento 
  
