@@ -1,27 +1,63 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
 
- #### VERSÃO 2024.1.1.2
-- **Módulo Produção - Produção**
-  - [Corrigido] Cadastro de Equipe: Permissões de funcionários listados não estavam salvando
+#### VERSÃO 2024.1.1.3
+- **Módulo Estoque - Estoque**
+  - [Melhoria] Habilitado campo na tela de estoque: EstoqueMinAtingido  
+
+- **Módulo Venda - Venda**
+  - [Melhoria] Campo "Estado" na consulta de venda
+  - [Corrigido] Gráficos na consulta de venda estão funcionando com os filtros
+  - [Corrigido] Botão "Confirmar" da Tela Dados Adicionais da aba NF-e retornando erro.
+  - [Corrigido] Venda excluída agrupada. Vendas menores estavam retornando para a consulta com data de faturamento 
+ 
+ - **Módulo Integrações - SPED**
+  - [Corrigido] Removido tipos de lançamento Boleto e Pix. Todos os lançamentos "Recebidos" na conta bancária irão somar no registro 1601
+
+- **Módulo Produto - Produto**
+ - [Melhoria] Inserido campo "Dt Cadastro" na consulta de produto
 
  #### VERSÃO 2024.1.1.2
 - **Módulo Compra - Manifestação do Destinatário**
+  - [Corrigido] Ocultos os botões de manifestação para CTE 
+  - [Corrigido] Duplo clique exibe os eventos da nota
+  - [Melhoria] Ordem e cor dos botões dos eventos
+  - [Melhoria] Importar várias notas ao mesmo tempo
+  - [Corrigido] Botão Abrir Sefaz
+ 
+- **Módulo Usuário - Usuário**
+  - [Corrigido] Copiar permissões funcionando
+
+- **Módulo Financeiro - Boleto**
+ - [Corrigido] Buscar boletos estava trazendo lançamentos que originalmente foram criados e impressos como boleto, porém tiveram o tipo alterado
+
+- **Módulo Fiscal - NCM**
+ - [Corrigido] Confirmar da tela de cadastro de NCM está funcional
+
+- **Módulo Venda - Venda**
+  - [Corrigido] Cadastro de Venda: "Retornar para Orçamento"
+
+ - **Módulo Venda - Comissões**
+  - [Corrigido] Valor de comissão aparece no financeiro
+
+- **Módulo Financeiro - Financeiro**
+  - [Melhoria] Painel de configurações antigas reativado
+
+ - **Módulo Produto - Produto**
+  - [Melhoria] Inserido no grid da consulta de produto o campo "Controla Estoque"
+   
+- **Módulo Produção - Produção**
+  - [Corrigido] Cadastro de Equipe: Permissões de funcionários listados não estavam salvando
+
+- **Módulo Compra - Manifestação do Destinatário**
   - [Corrigido] CTE's serão exibidas no bloco "Lançar na Compra", uma vez que não há necessidade de manifestá-las. E manifestar estava com erro devido modelo da chave de acesso ser diferente de 55
 
-#### VERSÃO 2024.1.1.2
 - **Módulo Integrações - SPED**
   - [Corrigido] Tipo de Cliente "O" removido por conta da nfce possuir cadastro incompleto
   - [Corrigido] Cadastro do contador: Se o tipo for jurídica, preenchimento obrigatório do cnpj do contador
-
-#### VERSÃO 2024.1.1.2
-- **Módulo Integrações - SPED**
   - [Corrigido] Linha layout arquivo sped de 17 para 18
   - [Corrigido] Unidade de medida vazia
   - [Corrigido] Campo Unidade na Venda. Estava pegando a unidade das matérias-primas de composições
-
-#### VERSÃO 2024.1.1.2
-- **Módulo Integrações - SPED**
   - [Corrigido] A ausência de endereço no cadastro da conta bancária estava impedindo a geração do arquivo
 
 #### VERSÃO 2024.1.1.1 
