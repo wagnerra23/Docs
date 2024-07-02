@@ -3,11 +3,11 @@
 
 ### VERSÃO 2024.1.1.5
 - **Módulo Produção - Produção**
- - [Melhoria] Funcionário agrupando por dia nas datas de: Criação, Qualidade, Expedição
- - [Corrigido] Duplicar com botão direito: Funciona
+  - [Melhoria] Funcionário agrupando por dia nas datas de: Criação, Qualidade, Expedição
+  - [Corrigido] Duplicar com botão direito: Funciona
 
 - **Módulo Venda - Proposta**
- - [Corrigido] Ao agrupar por funcionário, os agrupadores estavam trazendo informações das vendas
+  - [Corrigido] Ao agrupar por funcionário, os agrupadores estavam trazendo informações das vendas
 
 - **Integrações - Manifestação do Destinatário**
   - [Corrigido] Removido tela de "Eventos"
@@ -15,7 +15,13 @@
 
 - **Atualização**
   - [Corrigido] Bancos antigos atualização 805 - Relatórios 1066 - Update do financeiro
+ 
+  - **Módulo Financeiro - Boletos**
+  - [Corrigido] Número do retorno aparece no boleto
 
+  - **Módulo Financeiro - Cadastro de Conta**
+  - [Corrigido] Campo "Banco" do cadastro grava a informação
+    
 ### VERSÃO 2024.1.1.4
 
 - **Módulo Venda - Venda**
@@ -32,10 +38,10 @@
   - [Corrigido] Venda excluída agrupada. Vendas menores estavam retornando para a consulta com data de faturamento 
  
  - **Módulo Integrações - SPED**
-  - [Corrigido] Removido tipos de lançamento Boleto e Pix. Todos os lançamentos "Recebidos" na conta bancária irão somar no registro 1601
+   - [Corrigido] Removido tipos de lançamento Boleto e Pix. Todos os lançamentos "Recebidos" na conta bancária irão somar no registro 1601
 
 - **Módulo Produto - Produto**
- - [Melhoria] Inserido campo "Dt Cadastro" na consulta de produto
+  - [Melhoria] Inserido campo "Dt Cadastro" na consulta de produto
 
  #### VERSÃO 2024.1.1.2
 - **Módulo Compra - Manifestação do Destinatário**
