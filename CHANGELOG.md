@@ -16,10 +16,10 @@
 - **Atualização**
   - [Corrigido] Bancos antigos atualização 805 - Relatórios 1066 - Update do financeiro
  
-  - **Módulo Financeiro - Boletos**
+- **Módulo Financeiro - Boletos**
   - [Corrigido] Número do retorno aparece no boleto
 
-  - **Módulo Financeiro - Cadastro de Conta**
+- **Módulo Financeiro - Cadastro de Conta**
   - [Corrigido] Campo "Banco" do cadastro grava a informação
     
 ### VERSÃO 2024.1.1.4
@@ -52,31 +52,31 @@
   - [Corrigido] Botão Abrir Sefaz
  
 - **Módulo Usuário - Usuário**
-  - [Corrigido] Copiar permissões funcionando
+    - [Corrigido] Copiar permissões funcionando
 
 - **Módulo Financeiro - Boleto**
- - [Corrigido] Buscar boletos estava trazendo lançamentos que originalmente foram criados e impressos como boleto, porém tiveram o tipo alterado
+   - [Corrigido] Buscar boletos estava trazendo lançamentos que originalmente foram criados e impressos como boleto, porém tiveram o tipo alterado
 
 - **Módulo Fiscal - NCM**
- - [Corrigido] Confirmar da tela de cadastro de NCM está funcional
+   - [Corrigido] Confirmar da tela de cadastro de NCM está funcional
 
 - **Módulo Venda - Venda**
-  - [Corrigido] Cadastro de Venda: "Retornar para Orçamento"
+    - [Corrigido] Cadastro de Venda: "Retornar para Orçamento"
 
  - **Módulo Venda - Comissões**
-  - [Corrigido] Valor de comissão aparece no financeiro
+    - [Corrigido] Valor de comissão aparece no financeiro
 
 - **Módulo Financeiro - Financeiro**
-  - [Melhoria] Painel de configurações antigas reativado
+    - [Melhoria] Painel de configurações antigas reativado
 
  - **Módulo Produto - Produto**
-  - [Melhoria] Inserido no grid da consulta de produto o campo "Controla Estoque"
+    - [Melhoria] Inserido no grid da consulta de produto o campo "Controla Estoque"
    
 - **Módulo Produção - Produção**
-  - [Corrigido] Cadastro de Equipe: Permissões de funcionários listados não estavam salvando
+    - [Corrigido] Cadastro de Equipe: Permissões de funcionários listados não estavam salvando
 
 - **Módulo Compra - Manifestação do Destinatário**
-  - [Corrigido] CTE's serão exibidas no bloco "Lançar na Compra", uma vez que não há necessidade de manifestá-las. E manifestar estava com erro devido modelo da chave de acesso ser diferente de 55
+    - [Corrigido] CTE's serão exibidas no bloco "Lançar na Compra", uma vez que não há necessidade de manifestá-las. E manifestar estava com erro devido modelo da chave de acesso ser diferente de 55
 
 - **Módulo Integrações - SPED**
   - [Corrigido] Tipo de Cliente "O" removido por conta da nfce possuir cadastro incompleto
