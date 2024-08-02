@@ -15,6 +15,8 @@
   - [Corrigido] Ao tentar faturar a venda onde o produto tenha a quantidade em estoque = "1" era exigido senha. Resolvido removendo a exigência de senha.
 - **Módulo Financeiro - Cadastro de Caixas&Contas Bancárias**
   - [Corrigido] Removido o campo "Banco". O mesmo estava preenchendo o campo errado do banco de dados. Mantido apenas o campo "Banco da Cooperativa"
+- **Módulo Contatos - Cadastro de Funcionário**
+  - [Melhoria] Criados os campos "Demissão" e "Motivo" e "Observação" 
 - **Atualização**
   - [Melhoria] Atualização de bancos antigos. Adicionados sqls faltantes para passar atualização. 
     
