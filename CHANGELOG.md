@@ -7,20 +7,16 @@
   - [Corrigido] Tela de Notas Fiscais somente estava sendo exibida caso o módulo NFS-e estivesse ativo. Na resolução a ativação da tela ficou ligada ao módulo de faturamento.
 - **Módulo Fiscal - NF-e**
   - [Corrigido] Ao tentar emitir uma NF de devolução com o cst 102 para empresa de lucro real , o cálculo de ICMS não estava sendo efetuado.
- 
 - **Módulo Estoque - Estoque**
   - [Corrigido] O campo "Esta com estoque mínimo" não estava exibindo informação.
-
 - **Módulo Contatos - Cadastro de Pessoas**
   - [Corrigido] Restringido o uso de caracteres especiais nos campos: Complemento, Razao Social, Fantasia, Bairro, Endereço, Proximidade.
- 
-  - [Melhoria] Atualização de bancos antigos
-
 - **Módulo Compra - Compra**
   - [Corrigido] Ao tentar imprimir o relatório da tela de consulta, o quickreport não estava trazendo a informação de valor das notas fiscais.
-  
- - **Módulo Venda - Venda**
+- **Módulo Venda - Venda**
   - [Corrigido] Ao tentar faturar a venda onde o produto tenha a quantidade em estoque = "1" era exigido senha. Resolvido removendo a exigência de senha.
+ 
+  - [Melhoria] Atualização de bancos antigos. Adicionados sqls faltantes para passar atualização. 
     
 ### VERSÃO 2024.1.1.5
 - **Módulo Produção - Produção**
