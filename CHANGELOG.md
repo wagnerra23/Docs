@@ -1,5 +1,15 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
+### VERSÃO 2024.1.1.11
+- **Módulo Produção - Produção**
+  - [Melhoria] Implementado NFS-e prefeitura Moderna (Tubarão)
+  - [Corrigido] A alteração do código de tributação municipal não estava funcionando quando o CNAE do serviço é alterado. Alíquota do ISS, CNAE e o código de tributação do município foram removidos do cadastro da empresa e agora estão registrados no cadastro do NCM.
+  - [Corrigido] Ao tentar emitir uma NF de devolução com o cst 102 para empresa de lucro real , o cálculo de ICMS não estava sendo efetuado.
+  - [Melhoria] Atualização de bancos antigos
+  - [Corrigido] Restringido o uso de caracteres especiais nos campos: Complemento, Razao Social, Fantasia, Bairro, Endereço, Proximidade.
+  - [Corrigido] Tela de Notas Fiscais somente estava sendo exibida caso o módulo NFS-e estivesse ativo. Na resolução a ativação da tela ficou ligada ao módulo de faturamento. 
+ 
+
 
 ### VERSÃO 2024.1.1.5
 - **Módulo Produção - Produção**
