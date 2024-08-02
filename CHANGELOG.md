@@ -13,6 +13,9 @@
   - [Corrigido] Ao tentar imprimir o relatório da tela de consulta, o quickreport não estava trazendo a informação de valor das notas fiscais.
 - **Módulo Venda - Venda**
   - [Corrigido] Ao tentar faturar a venda onde o produto tenha a quantidade em estoque = "1" era exigido senha. Resolvido removendo a exigência de senha.
+ - **Módulo Financeiro - Cadastro de Caixas&Contas Bancárias**
+  - [Corrigido] Removido o campo "Banco". O mesmo estava preenchendo o campo errado do banco de dados. Mantido apenas o campo "Banco da Cooperativa"
+  
  
   - [Melhoria] Atualização de bancos antigos. Adicionados sqls faltantes para passar atualização. 
     
