@@ -4,7 +4,7 @@
 - **Módulo Fiscal - NFS-e**
   - [Melhoria] Implementado NFS-e prefeitura Moderna (Tubarão)
   - [Corrigido] A alteração do código de tributação municipal não estava funcionando quando o CNAE do serviço é alterado. Alíquota do ISS, CNAE e o código de tributação do município foram removidos do cadastro da empresa e agora estão registrados no cadastro do NCM.
-  - [Corrigido] Tela de Notas Fiscais somente estava sendo exibida caso o módulo NFS-e estivesse ativo. Na resolução a ativação da tela ficou ligada ao módulo de faturamento.
+  - [Corrigido] Tela de Notas Fiscais somente estava sendo exibida caso o aplicativo NFS-e estivesse ativo. Na resolução a ativação da tela ficou ligada ao aplicativo de faturamento.
 - **Módulo Fiscal - NF-e**
   - [Corrigido] Ao tentar emitir uma NF de devolução com o cst 102 para empresa de lucro real , o cálculo de ICMS não estava sendo efetuado.
 - **Módulo Estoque - Estoque**
