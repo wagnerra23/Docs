@@ -1,4 +1,16 @@
 ### ChangeLog Office Comercial / Impresso 2022
+### VERSÃO 2024.1.1.12
+- **Módulo Fiscal - NFS-e**
+  - [Melhoria] Adicionando opção no cadastro de empresa para prefeituras que não exigem valor de iss padrao
+  - [Corrigido] Número de nota retornada pelo provedor thema de RS não estava preenchendo o campo "Nota Fiscal"
+  - [Corrigido] Impressão da nota não estava abrindo após autorização
+- **Módulo Financeiro - Financeiro**
+  - [Corrigido] Botão "Excluir" estava aparecendo assim que a tela era aberta, mesmo sem permissão ativa
+- **Módulo Produção - Produção**
+  - [Melhoria] Adicionado permissão de arquivar na consulta de produção
+- **Módulo Estoque - Variação**
+  - [Melhoria] Adicionado permissão de arquivar na consulta de produção
+  - [Corrigido] Ao adicionar uma Variação na venda, outro produto estava sendo selecionado
 
 ### VERSÃO 2024.1.1.11
 - **Módulo Fiscal - NFS-e**
