@@ -9,7 +9,6 @@
 - **Módulo Produção - Produção**
   - [Melhoria] Adicionado permissão de arquivar na consulta de produção
 - **Módulo Estoque - Variação**
-  - [Melhoria] Adicionado permissão de arquivar na consulta de produção
   - [Corrigido] Ao adicionar uma Variação na venda, outro produto estava sendo selecionado
 
 ### VERSÃO 2024.1.1.11
