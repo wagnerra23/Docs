@@ -4,12 +4,16 @@
   - [Melhoria] Adicionando opção no cadastro de empresa para prefeituras que não exigem valor de iss padrao
   - [Corrigido] Número de nota retornada pelo provedor thema de RS não estava preenchendo o campo "Nota Fiscal"
   - [Corrigido] Impressão da nota não estava abrindo após autorização
+  - [Corrigido] Nota de Serviço autorizada estava aparecendo somente na aba "Nota Fiscal"
 - **Módulo Financeiro - Financeiro**
   - [Corrigido] Botão "Excluir" estava aparecendo assim que a tela era aberta, mesmo sem permissão ativa
 - **Módulo Produção - Produção**
   - [Melhoria] Adicionado permissão de arquivar na consulta de produção
+  - [Melhoria] Adicionadas permissões para os campos de data de "Entrega", "Etapa" e "Prometido Para"
 - **Módulo Estoque - Variação**
   - [Corrigido] Ao adicionar uma Variação na venda, outro produto estava sendo selecionado
+- **Módulo Venda - Venda**
+  - [Corrigido] Manter duas abas da mesma venda abertas estava permitindo duplicar o faturamento
 
 ### VERSÃO 2024.1.1.11
 - **Módulo Fiscal - NFS-e**
