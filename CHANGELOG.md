@@ -4,6 +4,10 @@
 ### VERSÃO 2024.1.1.13
 - **Módulo Venda - Venda**
   - [Corrigido] Manter duas abas da mesma venda aberta estava possibilitando duplicar o faturamento
+
+### VERSÃO 2024.1.1.13
+- **Módulo Venda - Venda**
+  - [Corrigido] Manter duas abas da mesma venda aberta estava possibilitando duplicar o faturamento
     
 ### VERSÃO 2024.1.1.12
 - **Módulo Fiscal - NFS-e**
