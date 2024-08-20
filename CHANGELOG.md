@@ -1,4 +1,10 @@
 ### ChangeLog Office Comercial / Impresso 2022
+
+
+### VERSÃO 2024.1.1.13
+- **Módulo Venda - Venda**
+  - [Corrigido] Manter duas abas da mesma venda aberta estava possibilitando duplicar o faturamento
+    
 ### VERSÃO 2024.1.1.12
 - **Módulo Fiscal - NFS-e**
   - [Melhoria] Adicionando opção no cadastro de empresa para prefeituras que não exigem valor de iss padrao
