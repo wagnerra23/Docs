@@ -1,5 +1,10 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
+### VERSÃO 2024.1.1.15
+- **Módulo Fiscal - NF-e**
+  - [Melhoria] Removida a obrigação do preenchimento do campo "Telefone"
+- **Módulo Produto - Cadastro do Produto**
+  - [Melhoria] Removido o efeito de scroll que acontecia ao trocar de abas no cadastro de produto
 
 ### VERSÃO 2024.1.1.14
 - **Módulo Venda - Venda**
@@ -7,6 +12,8 @@
   - [Corrigido] Ao realizar recebimento parcial, o filtro aplicado na tela era removido  
 - **Módulo Produto - Cadastro do Produto**
   - [Melhoria] Removido o efeito de scroll que acontecia ao trocar de abas no cadastro de produto
+- **Módulo Compra - Compra**
+  - [Corrigido] Notas com matérias-primas de composições não estavam finalizando
 
 ### VERSÃO 2024.1.1.13
 - **Módulo Venda - Venda**
