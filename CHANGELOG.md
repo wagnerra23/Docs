@@ -1,6 +1,13 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
 
+### VERSÃO 2024.1.1.14
+- **Módulo Venda - Venda**
+  - [Corrigido] Ajuste na nomeclatura das ABAS, identificando "Consulta" e "Cadastro de Venda"
+  - [Corrigido] Ao realizar recebimento parcial, o filtro aplicado na tela era removido  
+- **Módulo Produto - Cadastro do Produto**
+  - [Melhoria] Removido o efeito de scroll que acontecia ao trocar de abas no cadastro de produto
+
 ### VERSÃO 2024.1.1.13
 - **Módulo Venda - Venda**
   - [Corrigido] Manter duas abas da mesma venda aberta estava possibilitando duplicar o faturamento
