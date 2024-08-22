@@ -13,7 +13,7 @@
   - [Melhoria] Removido o efeito de scroll que acontecia ao trocar de abas no cadastro de produto
 - **Módulo Compra - Compra**
   - [Corrigido] Notas com matérias-primas de composições não estavam finalizando
-  - 
+  
 ### VERSÃO 2024.1.1.14
 - **Módulo Venda - Venda**
   - [Corrigido] Ajuste na nomeclatura das ABAS, identificando "Consulta" e "Cadastro de Venda"
