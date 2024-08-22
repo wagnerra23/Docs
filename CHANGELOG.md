@@ -2,7 +2,7 @@
 
 ### VERSÃO 2024.1.1.16
 - **Módulo Compra - Compra**
-  - [Corrigido] Finalização da compra com iens vinculados a tabela de preço estava replicando os valores das tabelas em todos os itens
+  - [Corrigido] Finalização da compra com item vinculado a tabela de preço estava replicando os valores das tabelas em todos os itens
 - **Módulo Venda - Venda**
   - [Corrigido] Opção "Retornar para orçamento" no cadastro estava aparecendo mesmo com a permissão desativada
 
