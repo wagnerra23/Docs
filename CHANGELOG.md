@@ -1,5 +1,9 @@
 ### ChangeLog Office Comercial / Impresso 2022
 
+### VERSÃO 2024.1.1.17
+- **Módulo Venda - Venda**
+  - [Corrigido] Teclas F1, F6, F9 mesmo sem o aplicativo TEF instalado estavam inserindo a venda em modo de pagamento
+
 ### VERSÃO 2024.1.1.16
 - **Módulo Compra - Compra**
   - [Corrigido] Finalização da compra com item vinculado a tabela de preço estava replicando os valores das tabelas em todos os itens
