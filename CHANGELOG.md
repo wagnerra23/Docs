@@ -3,7 +3,7 @@
 ### VERSÃO 2024.1.1.17
 - **Módulo Venda - Venda**
   - [Corrigido] Teclas F1, F6, F9 mesmo sem o aplicativo TEF instalado estavam inserindo a venda em modo de pagamento
- - **Módulo Financeiro - Boleto**
+- **Módulo Financeiro - Boleto**
   - [Corrigido] Access violation ao imprimir novo boleto. Erro ao nomear arquivo
 - **Módulo Empresa - Layout**
   - [Corrigido] Desabilitado o layout do menu lateral. Estava estourando access violation na consulta de venda
