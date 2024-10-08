@@ -1,4 +1,4 @@
-### ChangeLog Office Comercial / Impresso 2022
+### ChangeLog Office Comercial / Impresso 2024
 
 ### VERSÃO 2024.1.1.17
 - **Módulo Venda - Venda**
