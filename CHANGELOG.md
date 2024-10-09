@@ -7,6 +7,8 @@
   - [Corrigido] Access violation ao imprimir novo boleto. Erro ao nomear arquivo
 - **Módulo Empresa - Layout**
   - [Corrigido] Desabilitado o layout do menu lateral. Estava estourando access violation na consulta de venda
+- **Módulo Compra - Compra**
+  - [Corrigido] Ao ajustar informações da segunda parcela pelo grid, ao finalizar a nota a informação era resetada
   
 ### VERSÃO 2024.1.1.16
 - **Módulo Compra - Compra**
