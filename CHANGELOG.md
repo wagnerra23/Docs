@@ -9,6 +9,8 @@
   - [Corrigido] Desabilitado o layout do menu lateral. Estava estourando access violation na consulta de venda
 - **Módulo Compra - Compra**
   - [Corrigido] Ao ajustar informações da segunda parcela pelo grid, ao finalizar a nota a informação era resetada
+- **Módulo Financeiro - Financeiro**
+  - [Corrigido] Ao tentar imprimir o relatório do financeiro(FR0035) estava estourando access violation por conta da descrição do relatório
   
 ### VERSÃO 2024.1.1.16
 - **Módulo Compra - Compra**
