@@ -1,0 +1,75 @@
+Objetivo principal: Emissão de Notas Fiscais de Serviço
+
+Slogan 1: A ajuda necessária para a emissão segura e rápida de notas fiscais de serviço!
+Slogan 2: Automatização de processos para a emissão segura de notas fiscais de serviço, evitando falhas manuais na inserção dos dados de tributação.
+Slogan 3: Economize cliques e ganhe mais agilidade nas emissões de notas a partir de ordens de serviço já registradas.
+Slogan 4: Redução dos custos de impressão e armazenagem através do envio das notas de serviço por e-mail
+Slogan 5: Basta configurar uma única vez para que o cálculo dos impostos sejam executados automaticamente nas próximas emissões! 
+Slogan 6: Menos burocracia, zero custos extras. O Office te ajuda a simplificar a gestão financeira de sua empresa.
+
+
+Funções:
+		 Emissão de Notas Fiscais de Serviço
+		 	 
+Benefícios:
+			-> Processo: 
+				>> O aumento da produtividade que seu negócio precisa! A interface intuitiva apresenta recursos que garantem agilidade nas emissões das notas! 	 
+				>> Através do painel de notas fiscais é possível ter uma visualização de todas as notas de serviço que foram emitidas, para um melhor controle de seu financeiro. E aplicando o filtro de situação é possível acompanhar as notas
+				>> que foram emitidas, canceladas, denegadas, não autorizadas e desconhecidas. 
+				>> Integração com o cadastro de clientes auxilia na captação dos dados, reduzindo o tempo de tarefa e garantindo a rápida emissão da nota.
+				>> Envio automático das notas emitidas, evitando o trabalho manual, otimizando o fluxo da equipe de vendas e facilitando o relacionamento com o cliente.
+				>> Elabore quais serão as observações possíveis das notas de serviço e economize tempo no preenchimento dos dados.
+				>> Consulta descomplicada e segura dos status da nota emitida.
+			
+			-> Relatórios e Impressões:
+				>> Exportação rápida do XML e PDF da nota através de poucos cliques. 
+				>> Relatórios de notas fiscais de serviço emitidas através de poucos cliques, colaborando com o setor contábil da empresa! 
+				>> Emissão rápida e descomplicada de cartas de correção, evitando incoerências fiscais. 
+				>> Previna sofrer penalidades fiscais realizando o processo de inutilização de numerações de notas. Te mostramos como é rápido e fácil colaborar com o setor contábil da empresa!
+
+			-> Tributação: 
+				>> Listagem de códigos NCM, CFOP, CST e CEST disponíveis para ajudar a adequar o cadastro do produto à emissão de nota fiscal. 
+				>> Geração de arquivos SPED através das informações das notas fiscais de serviço emitidas! 
+				>> Tenha a segurança de estar pagando o imposto devido! Através da configuração realizada na Natureza de Operação o cálculo dos impostos é realizado automaticamente. 		
+			
+			-> Certificado: 
+				>> Compatibilidade com certificados digitais A1 e A3. 
+				>> Sem demora para começar suas emissões! A ativação do certificado digital é muito simples e rápida.
+						
+			-> Suporte: 
+				Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+					 
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!
+Automatização: 
+			Gerenciamento de notas fiscais: Habilite o envio de automático das notas emitidas, economizando tempo para demais tarefas, elevando a produtividade de seus negócios. 
+			
+Integrações: Incluído aos aplicativos Venda, Financeiro, Caixa, Contatos e Módulo Fiscal.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+ 
+Principais Perguntas:
+					O que eu preciso para começar a emitir notas de serviço pelo Office? 
+						Primeiramente você deve entrar em contato com a sua prefeitura para saber se é permitida a emissão de notas de serviço
+						por software de terceiros. Caso sim, basta ter um certificado digital válido que cuidamos de todo o processo de configuração para você! 
+					É possível cancelar uma nota de serviço? 
+						Sim, o cancelamento é possível desde que esteja no prazo estabelecido pela prefeitura de sua região. Portanto, vale uma consulta para não perder o prazo!
+					 Posso emitir quantas notas fiscais de serviço por dia? 
+						Através do Office você pode pode realizar suas emissões sem se preocupar com limitações!  
+					 Personalizar a impressão da nota com a logo da minha empresa é possível? Existe algum custo extra?
+						Com o Office você pode ter a imagem de sua empresa na impressão da nota sem pagar a mais por isso!
+					Minha empresa é obrigada a emitir nota? 
+						Sendo empreendedor, é obrigatório o recolhimento de impostos e declarar seus ganhos.
+						Portanto, a falta de emissão de notas se enquadra no crime de sonegação de impostos. 
+						A única exceção que está isenta da emissão de nota fiscal de serviço é a transação realizada entre MEI e pessoa física 
+					Preciso do certificado digital para a emissão de notas fiscais de serviço? 
+						Sim, somente com o certificado digital é possível realizar transações eletrônicas de forma segura, uma vez que ele opera como uma assinatura digital, tanto para
+						pessoa física como para jurídica, identificando a empresa e impedindo fraudes. 
+					As notas servem para pessoa física e jurídica?
+						Sim. As emissões podem ocorrer tanto para pessoa física como jurídica. 
+					O que é o XML da nota? 
+						O arquivo XML pode ser compreendido como o formato digital da nota fiscal, comprovando a operação de venda. 
+					Posso alterar os dados da nota depois da emissão?
+						Não. Após a emissão os dados da nota não podem ser alterados. Dependendo da alteração, é possível emitir uma carta
+						de correção ou realizar o cancelamento da nota para emitir uma nova nota com os dados corretos.
+						
+						

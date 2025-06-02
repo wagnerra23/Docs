@@ -1,0 +1,58 @@
+Objetivo principal: Tabela de Preço
+Slogan 1: A estratégia eficaz que sua empresa precisa para efetuar a precificação personalizada de produtos e serviços!
+Slogan 2: Escolha qual será o critério de precificação, podendo ser este um cliente ou tipo de venda e crie quantas tabelas precisar! 
+Slogan 3: Eleve a competitividade de sua empresa no mercado, atraindo um maior número de clientes ao oferecer preços personalizados.
+Slogan 4: Fique atento! Preços competitivos colaboram para o aumento do volume de vendas e fidelização do cliente.
+Slogan 5: Tabelas atualizadas permitem a geração de maiores rendimentos a seu negócio! 
+
+Funções: 	
+	>> Tabela de Preço para Cliente
+	>> Tabela de Preço para Tipo de Venda.
+
+Benefícios: 
+			-> Processo: 
+				>> Identificação automática da tabela de preço aplicada à venda, para uma melhor compreensão dos valores.
+				>> Defina o critério da tabela, podendo ser esta aplicada ao cliente ou tipo de venda, colaborando para o controle de preços e evitando divergências no financeiro.
+				>> Conte com a facilidade de vincular a mesma tabela de preço a vários clientes ou tipos de venda, reduzindo o tempo de tarefa e colaborando para manter o fluxo de vendas.
+				>> Acompanhe quais são os produtos e clientes associados a tabela, visualizando o preço original e os respectivos valores de desconto ou acréscimos aplicados para auxiliar na gestão dos preços. 
+				>> Vínculo do produto à tabela de preço através de poucos cliques, conferindo praticidade à tarefa e economizando o tempo da equipe de vendas. 
+				>> Que tal encurtar processos para tornar a rotina da empresa mais leve? Utilize a ferramenta de padronização de percentuais e economize inúmeros cliques! 
+				>> Duplique tabelas em segundos e ganhe agilidade em suas vendas! 
+				>> Acesso rápido ao cadastro do produto a partir da tabela, permitindo correções de preço e atuando na prevenção de prejuízos.
+			-> Histórico: 
+				>> Histórico das alterações realizadas na tabela, para monitoramento e melhor administração dos acréscimos e descontos concedidos. 
+			-> Permissões: 
+				>>Seu preço está seguro! Estabeleça as permissões de criação e acesso às tabelas para garantir que suas vendas aconteçam corretamente, evitando prejuízos.
+			-> Multiempresas:
+				>> Mais de uma empresa? Não se preocupe! Você conta com a liberdade de associar suas tabelas a qualquer empresa cadastrada sem complicações! 
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!
+			--------------------------
+			Concorrente: 
+			Impressão das tabelas de preço, permitindo conferências e possibilitando a elaboração de planos de ação apropriados para o cenário atual da empresa.
+			
+Automatização:
+			>> Gerenciamento de tabelas: Incidência da tabela automaticamente na seleção do cliente ou tipo de venda. 
+	
+Integrações:
+			>> Incluído aos aplicativos Venda, Pedido de Venda, Contatos.
+			>> E habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+			
+Principais Perguntas: 	
+			Quais são os critérios utilizados para a criação de uma tabela de preço? 
+				Cada estabelecimento irá definir quais serão os critérios para determinar qual tabela será aplicada a cada cliente, entretanto, os mais comuns são frequência e volume de compras e perfil de pagador. 
+			No que a implementação de uma tabela de preço impactaria em meu negócio? 
+				Uma tabela pode ser utilizada como método eficiente de consulta para a elaboração de planos de ação da empresa. Através de
+				análises realistas sobre o fluxo de vendas é possível encontrar quais foram os períodos de baixa ou alta de preços e
+				desta forma realizar investimentos com mais segurança visando o crescimento do negócio e melhorar o gerenciamento do capital de giro.
+			Existe uma limitação de produtos por tabela? 
+				Não. Você pode construir suas tabelas sem limitações de itens. 
+			É possível inserir descontos e acréscimos na mesma tabela? 
+				Sim. Ao criar a tabela você poderá determinar quais produtos irão receber descontos ou acréscimos. 
+		
+
+ 
+
+
+
+

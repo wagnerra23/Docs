@@ -1,0 +1,85 @@
+>>>Objetivo principal: Controle financeiro de receitas e despesas da empresa.
+
+Slogan: Disponha de recursos que colaboram para o controle financeiro eficiente que sua empresa precisa! 
+Slogan 2: Suas finanças organizadas de forma eficaz permite o acompanhamento em tempo real das receitas e despesas, colaborando para um controle efetivo do fluxo de caixa e em tomadas de decisão!
+Slogan 3: A automatização dos processos proporciona uma maior segurança aos lançamentos efetuados, conferindo transparência aos valores apresentados e prevenindo inconsistências.
+Slogan 4: Conte com funcionalidades que irão facilitar a execução das tarefas diárias, elevando a sua produtividade e auxiliando no crescimento de seu negócio! 
+Slogan 5: Otimizando as tarefas diárias da empresa você reduz os custos, evita fraudes e melhora o atendimento a seus clientes.
+Slogan 6: Uma boa gestão financeira confere estabilidade aos seus negócios, permitindo identificar novas oportunidades de crescimento! 
+
+Funções:
+		>> Gestão de contas recebidas
+		>> Gestão de contas pagas
+        >> Gestão de contas a receber
+        >> Gestão de contas a pagar
+        >> Gestão de tipos de pagamento
+        >> Gestão de condições de pagamento
+		>> Gestão de Contas Bancárias
+        >> Gestão de cheques
+		>> Emissão de relatórios financeiros.
+		
+		
+Benefícios:	
+			-> Processo:
+				>> Realização de pagamentos e recebimentos parciais, auxiliando no equilíbrio financeiro e na transparência dos registros. 
+				>> Seleção das parcelas para realizar um agrupamento, facilitando o gerenciamento dos valores devidos por cliente.
+				>> A visualização dos registros agrupados oferece segurança na conferência de valores, sendo possível reverter o processo desagrupando parcelas.
+				>> Agilidade na transferência de valores entre as contas bancárias cadastradas, podendo apontar um plano de contas para a operação, favorecendo um maior controle das receitas e despesas.
+				>> Visualização da venda que originou o lançamento financeiro para uma melhor compreensão da produtividade da equipe. 
+				>> Conte com a possibilidade de reativar lançamentos erroneamente excluídos, evitando inconsistências que irão impactar diretamente no fluxo de caixa da empresa, ocasionando prejuízos. 
+				>> Economize tempo na gestão através dos recursos de duplicar e dividir parcelas, podendo determinar o número, intervalo, tipo de pagamento e vencimento das parcelas e contar com o cálculo automático de valores, diminuindo a margem de erros manuais. 
+				>> A busca automática por lançamentos sem vínculo de conta bancária oferece uma visão mais precisa ao gestor, facilitando na organização destes valores para elaborar planos de ação condizentes com a realidade do negócio.
+				>> A centralização de todos os registros permite uma melhor organização do seu financeiro, potencializando as ações dos filtros de consulta. 
+				>> Controle o impacto da inadimplência através da função de recalcular vencimentos, aplicando juros e multas à parcela para assegurar o equilíbrio do fluxo de caixa da empresa.
+				>> Interface objetiva que possibilita uma visualização clara dos totalizadores de receitas, despesas e saldo do período selecionado.
+				>> Cálculo automático das parcelas selecionadas para flexibilizar a rotina do gestor, economizando tempo para tarefas mais complexas. 
+				>> Através do acesso rápido ao cadastro do cliente é possível analisar seu histórico financeiro e elaborar estratégias que visam o aumento da receita de seu negócio.
+				>> Compartilhamento de informações facilitado através da integração com os demais setores da empresa, atuando na comunicação organizacional.
+			-> Condições e Tipo de Pagamento:
+				>> Autonomia no gerenciamento das condições de pagamento de seu negócio: Configure o tipo de utilização e pagamento, a quantidade e intervalo das parcelas, se haverá percentual de entrada, descontos ou acréscimos e se a primeira parcela entrará como recebida. 
+				>> Gestão completa e descomplicada dos tipos de pagamento: Estabeleça uma conta bancária padrão, defina se haverá data de previsão, fechamento ou crédito das parcelas, aplique taxas e estabeleça como será a identificação das parcelas em casos de transferências de valores.
+				>> Funcionalidade dedicada ao gerenciamento de cheques, conferindo uma melhor organização do financeiro e facilitando o acesso as informações.
+			-> Relatórios e Impressões: 
+				>> Impressões de recibos, carnês, duplicatas e cheques através de poucos cliques, padronizando tarefas rotineiras.
+				>> A geração de relatórios em formato PDF permite a redução de custos de impressão e possibilita ao gestor acompanhar o desempenho da empresa.
+				>> Disponha de relatórios atualizados diariamente que irão auxiliar no gerencimento de seu negócio como livro caixa, plano de contas, relatório contábil e relatório de devedores! 
+			-> Conciliação Bancária:
+			    >> Descomplique a conferência dos extratos bancários de seu negócio com os lançamentos registrados no sistema através da conciliação bancária, trazendo agilidade e segurança a tarefa.
+			-> Contas Bancárias:
+				>> Cadastre as contas bancárias de seu negócio para poder vinculá-las aos lançamentos financeiros, auxiliando no rastreio de valores e conferências futuras. 
+			-> Ferramentas de busca:
+				>> Filtros completos para ajudar a encontrar os lançamentos necessários com mais facilidade, colaborando para uma gestão financeira mais eficiente ao identificar custos e prejuízos provenientes a gastos desnecessários e contas em atrasos.
+			-> Plano de Contas:
+				>> Eleve o nível de organização de suas finanças ao vincular os recebimentos e pagamentos aos planos de conta.	
+			-> Suporte
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+			-> Segurança:
+				>> Defina permissões de acesso e baixas no financeiro e mantenha suas finanças sob controle!
+				>> Esteja seguro das informações apresentadas por meio do histórico do contrato.
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!					
+			
+Automatização: 
+			Gerenciamento do Financeiro: Geração automática de parcelas através das funções de duplicar e dividir parcelas.
+									     Emissão de relatórios atualizados
+									     Impressão de recibos, carnês, duplicatas e cheques.
+										 
+Integrações: Incluído aos aplicativos Financeiro A Receber, Financeiro A Pagar, Financeiro Cheque e Contas Bancárias.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+			
+			
+Principais Perguntas: 	
+					>> Consigo aplicar multas em parcelas vencidas? E o cálculo do valor é feito automaticamente? 
+						Sim, através da opção recalcular vencimento é possível definir uma nova data de vencimento e o novo valor da parcela, aplicando valores de juros e multa. O valor final é calculado automaticamente e você ainda pode inserir uma observação no lançamento para auxiliar em conferências futuras.
+					>> O que é necessário para realizar conciliação bancária? É possível realizar essa conferência independente do banco?
+						Para realizar o processo de conciliação bancária é preciso que seu banco disponibilize o extrato da conta em formato OFC/OFX.
+						Deste modo é possível importar o arquivo para o sistema e iniciar o processo de conciliação.
+					>> Como se daria o controle de inadimplência? 
+						Através dos filtros de busca é possível realizar a separação dos registros, tendo uma visualização clara dos lançamentos próximos ao vencimento. E ativando o pacote de inteligência é possível definir alertas de parcelas a vencer,
+						auxiliando a diminuir a inadimplência em seu negócio.	
+					>> Quais relatórios posso obter e que informações vão me ajudar na tomada de decisão?
+						O financeiro conta com o relatório contábil, livro caixa, relatório de plano de contas e relatórios de devedores.
+						Com base no detalhamento das informações é possível fazer uma análise profunda das finanças e elaborar planos de ação eficientes para manter a saúde financeira da empresa.
+					>> Por onde começar o controle financeiro da empresa?
+						Para estabelecer um controle financeiro eficiente é essencial que todas as transações da empresa sejam rigorosamente registradas e atualizadas.
+						Somente desta forma é possível realizar análises fiéis que colaborem com crescimento sustentável do negócio
+		

@@ -1,0 +1,52 @@
+Objetivo principal: Conceder crédito ao cliente.
+ 
+Slogan 1: Efetue o controle de crédito de seus clientes para uma melhor gestão do financeiro de seu negócio!
+Slogan 2: Utilize o crédito como estímulo para o aumento de suas vendas.
+Slogan 3: Do cadastro do cliente diretamente para o financeiro da venda! O processo de crédito é muito simples e rápido, colaborando para manter seu fluxo de vendas.
+Slogan 4: Aumente a fidelização de seus clientes através do crédito, garantindo o pagamento dos valores devidos e mantendo o financeiro do seu negócio em ordem. 
+
+Funções:
+		 Crédito ao cliente
+		 
+ Benefícios: 
+			-> Processo: 
+				>> A integração com o aplicativo Contatos garante segurança ao realizar suas vendas, centralizando as informações para exibir os valores de crédito do cliente, auxiliando na quitação das pendências.
+				>> Estabeleça o limite de crédito para o cliente, favorecendo o controle do financeiro.
+				>> Acompanhamento dos valores pagos e pendentes para um melhor entendimento do histórico do cliente. 
+				>> Conte com a praticidade da identificação do crédito devido na tela inicial da venda. 
+				>> Geração automática da parcela de crédito, facilitando o processo e diminuindo o tempo de tarefa. 
+				>> Baixa automática do valor utilizado na venda, auxiliando na administração do crédito devido.
+			-> Suporte: 
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!		
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!
+Automatização: 
+			Gerenciamento de crédito: Geração da parcela referente ao crédito automaticamente durante a venda.
+									  Débito automático do valor consumido do cadastro do cliente.
+
+Integrações: Incluído aos aplicativos Venda, Financeiro, Contato. 
+			 E habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+ 
+Principais Perguntas: 	
+				Como é feito o desconto do saldo de crédito? 
+					Ao finalizar a venda o valor é atualizado automaticamente tanto na venda como no cadastro do cliente. 
+				Caso o valor de crédito não seja consumido completamente na venda o cliente vai poder usar numa segunda oportunidade?
+					Sim, o valor utilizado é descontado do cadastro do cliente, sendo possível utilizar o valor restante nas próximas vendas.
+				Qualquer usuário pode ter acesso aos valores de crédito de clientes?
+					Não. Para visualizar essa informação no cadastro é necessário possuir a determinada permissão habilitada.
+				Como e quando se dá a utilização de crédito para um cliente?
+					Em casos de devolução de mercadoria, onde o item desejado pelo cliente não se encontra mais disponível ou em casos onde, por alguma eventualidade,
+					a mercadoria ou serviço não foi entregue/prestado.
+				Quem é responsável pela liberação de crédito para o cliente?
+					Neste caso o administrador do financeiro é quem tem permissão para conceder o crédito e liberar a permissão para demais usuários, caso seja necessário.
+					
+					
+					
+
+
+
+
+
+
+
+

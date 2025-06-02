@@ -1,0 +1,62 @@
+>>>Objetivo principal: Recebimento de Parcelas
+
+Slogan 1: A gestão financeira do seu negócio simplificada através de uma tela dedicada aos lançamentos a receber e recebidos. 
+Slogan 2: Realize o recebimento de parcelas com agilidade e segurança que seu negócio precisa, economizando tempo para tarefas mais complexas.
+Slogan 3: Muitos valores a receber? Não se preocupe, apresentamos a ferramenta necessária para atender a alta demanda de parcelas, facilitando o processo e melhorando a experiência de seus clientes.
+Slogan 5: Disponha da precisão necessária para o cumprimento de tarefas importantes, porém, repetitivas, flexibilizando sua rotina com segurança.
+Slogan 4: A divisão dos lançamentos permite uma melhor organização do financeiro, evitando erros manuais e inconsistências no fluxo do caixa da empresa. 
+Slogan 6: Acompanhe informações importantes que irão auxiliar a reduzir a inadimplência em seu negócio. 
+
+Funções:
+		>> Recebimentos parciais ou totais de parcelas com a impressão de recibos.
+		>> Acompanhamento de Parcelas a Receber
+        >> Acompanhamento de Parcelas Recebidas.
+		>> Estorno de recebimentos
+		
+Benefícios:	
+		-> Processo:
+			>> Recebimento descomplicado do valor integral ou parcial da parcela, colaborando para a precisão dos valores em caixa.
+			>> Facilidade no estorno de recebimentos, podendo ser este integral ou parcial, colaborando para a correção de lançamentos e para consistência do fluxo de caixa. 
+			>> Compartilhamento de informações facilitado através da integração com os demais setores da empresa, atuando na comunicação organizacional.
+			>> Através do acesso rápido ao cadastro do cliente é possível analisar seu histórico financeiro e elaborar estratégias que visam o aumento da receita de seu negócio.
+			>> Cálculo automático das parcelas selecionadas para flexibilizar a rotina do gestor, economizando tempo para tarefas mais complexas. 
+			>> Visão clara e objetiva dos totalizadores, permitindo o acompanhamento em tempo real dos valores recebidos e pendentes.
+			>> Controle o impacto da inadimplência através da função de recalcular vencimentos, aplicando juros e multas à parcela para assegurar o equilíbrio do fluxo de caixa da empresa.
+			>> A busca automática por lançamentos sem vínculo de conta bancária oferece uma visão mais precisa ao gestor, facilitando na organização destes valores para elaborar planos de ação condizentes com a realidade do negócio.
+			>> Tempo de gestão reduzido com a utilização dos recursos de duplicar e dividir parcelas. Os valores são calculados automaticamente, evitando erros manuais. 
+			>> Visualização da venda que originou o lançamento financeiro para uma melhor compreensão da produtividade da equipe. 
+			>> Possibilidade de reativar lançamentos erroneamente excluídos, evitando divergências no fluxo de caixa que irão impactar no capital de giro da empresa. 
+			>> Acesso ao cadastro da venda que originou o lançamento financeiro para analisar a produtividade da equipe.
+			>> O agrupamento de parcelas descomplica o gerenciamento dos valores devidos por clientes. 	
+			>> Parcelas agrupadas num único lançamento podem ser visualizadas, oferecendo transparência no valor entregue ao cliente. 
+		-> Ferramentas de busca:
+			>> Filtros de busca para ajudar a localizar os lançamentos necessários com mais facilidade, colaborando para a redução do tempo de tarefa.	
+		-> Conciliação Bancária:
+			>> Conferência descomplicada dos extratos bancários de seu negócio com os lançamentos registrados no sistema através da conciliação bancária, trazendo agilidade e segurança a tarefa.
+		-> Impressão:
+			>> Impressões de recibos através de poucos cliques, facilitando uma tarefa rotineira da empresa.
+		-> Suporte
+			>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+		-> Segurança:
+			>> A possibilidade de escolha do caixa evita a baixa incorreta de lançamentos.
+			>> Permissões de acesso configuradas diretamente no usuário, mantendo a segurança dos registros e prevenindo erros e fraudes.
+			>> Por meio do histórico você eleva a confiabilidade nos valores registrados, colaborando para a geração de relatórios.
+			>> Backup automático, garantindo a proteção dos dados de seu negócio!			
+		
+Automatização: 
+			Gerenciamento de Parcelas Recebidas: Estorno de valores recebidos
+												 Recebimentos com geração de recibos.
+												 
+Integrações: Incluído aos aplicativos Financeiro, Financeiro A Receber, Caixa.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+			 	 
+Principais Perguntas:  
+				>> Como iniciar a gestão de lançamentos recebidos e a receber? 
+					Para uma gestão eficiente primeiramente é essencial a organização dos lançamentos financeiros, sendo que o detalhamento de informações colabora para uma análise fiel da saúde financeira da empresa.	
+					Além disso, a cobrança dos valores devidos também é uma tarefa importante que colabora para o fechamento dos valores no final do mês, portanto, você não deve ter vergonha de cobrar por seus produtos e serviços. O envio de lembretes a seus clientes sobre os próximos vencimentos é uma tática válida de gestão. 
+				>> É possível inserir juros e multas no momento do recebimento da parcela? 
+					Sim. É possível aplicar valores de juros ou descontos no momento do recebimento, facilitando o equilíbrio financeiro da empresa e aumentando as chances de negociação com cliente.
+				>> Como se dá a entrega de informações sobre os valores recebidos e pendentes? 
+					São apresentados os totalizadores para um acompanhamento preciso dos valores, além de ser possível a seleção de várias parcelas para o cálculo automático do valor total.
+					Lançamentos específicos podem ser encontrados através do nome do cliente, data de vencimento, data de pagamento ou tipo de pagamento, entregando as informações necessárias de forma clara e precisa.
+		

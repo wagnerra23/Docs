@@ -1,0 +1,64 @@
+>>>Objetivo principal: Venda Rápida
+Slogan: Chega de filas! Com o PDV é possível efetuar vendas com a agilidade e segurança que sua empresa precisa!
+Slogan 2: Seu fluxo de vendas sob controle! A automatização do processo de venda economiza tempo e evita erros manuais.
+Slogan 3: Através da integração do estoque e financeiro você realiza uma melhor gestão de suas finanças.
+Slogan 4: Acompanhe o fluxo de caixa, conciliando as entradas e saídas com as formas de pagamento registradas.
+Slogan 5: A rotina de sua empresa otimizada para fornecer um atendimento eficiente ao cliente.
+Slogan 6: Um sistema de frente de caixa eficiente! Selecione o produto, cliente e a forma de pagamento para finalizar a venda. Simples assim!
+
+
+Funções:
+		 >> Venda Rápida com NFC-e
+		 >> Venda Rápida com NF-e
+		 >> Venda Rápida Parcelada
+		 			 
+Benefícios: ->Processo:
+				>> Integração com o Financeiro permite uma maior visibilidade e controle do fluxo de caixa.
+				>> Processamento ágil das vendas, aprimorando o tempo do operador de caixa.
+				>> Interface simples e objetiva para facilitar a execução dos processos. 
+				>> Geração rápida e descomplicada das parcelas e envio automático ao Financeiro. 
+			->Controle de Estoque:
+				>> Controle de estoque garantido com a baixa automática na finalização de suas vendas.
+			->Nota Fiscal:
+				>> Emissão rápida e segura de notas e cupons fiscais. 
+			->Controle de Preço:
+				>> Gestão eficiente dos valores de crédito de seus clientes.
+				>> Vínculo ao funcionário responsável para um acompanhamento preciso de todos lançamentos, colaborando na geração das comissões e do índice markup.
+				>> Segurança em seus preços. Forme produtos, defina valores e permissões de alteração para garantir a integridade de suas vendas.
+				>> Crie tabelas de preços especiais para seus clientes para prevenir divergências entre o preço combinado e o preço registrado. 
+			->Relatórios e Impressões:
+				>> Relatórios personalizados de suas vendas para auxiliar na elaboração de planos de ação.
+			->Financeiro:
+				>> Múltiplas formas de pagamento para garantir o fechamento rápido de suas vendas.
+			-> Suporte
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!
+Automatização: 
+			Gerenciamento de vendas:Lançamento das parcelas no financeiro ao finalizar a venda.
+									Baixa dos produtos em estoque
+									Vínculo ao cadastro do cliente, criando um histórico de venda. 
+																							
+Integrações: Incluído aos aplicativos Financeiro, Contatos. 
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+			 TEF Dedicada, garantindo comunicação com as operadoras de cartão 24 horas por dia. 
+			 ECF- Impressão de Nota Fiscal de Consumidor.
+			 Leitor de Código de Barras
+			 
+ 
+Principais Perguntas: 
+					É possível emitir notas fiscais através do PDV? 
+						Sim, a emissão acontece de forma rápida e descomplicada, evitando filas em seu estabelecimento.
+					Consigo ajustar os valores dos produtos ao finalizar a venda? 
+						Isso é possível através da liberação de permissão para o funcionário que estiver na frente de caixa. Desse modo é
+						realizada a aplicação de desconto ou acréscimos sobre determinado produto ou valor total.
+					Operações de cancelamento, desconto e acréscimo são permitidas a qualquer funcionário?
+						Qualquer operação de modifique o estado ou valor da venda deverá ser justificada e somente será executada se o funcionário 
+						estiver com as respectivas permissões ativas.
+					Preciso ter um leitor de código de barras para utilizar o PDV? 
+						Não. Embora conte com essa integração, você pode localizar seus produtos pelo código ou descrição e efetuar suas vendas
+						normalmente.
+					
+					
+						
+																

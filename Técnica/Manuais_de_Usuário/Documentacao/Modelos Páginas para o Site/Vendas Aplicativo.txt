@@ -1,0 +1,86 @@
+>>>Objetivo principal: Criar vendas.
+Slogan: Gerenciamento completo e descomplicado de suas vendas! 
+Slogan 2: Integração com o Financeiro para manter suas finanças em dia.
+Slogan 3: Liberdade para escolher quais serão as condições de pagamento de suas vendas! 
+Slogan 4: Funcionalidades para garantir a rápida execução de todos os processos, melhorando a produtividade de sua empresa.
+Slogan 5: Centralização das informações para otimizar sua rotina e evitar possíveis erros em suas vendas!
+Slogan 6: Sem furos em seu estoque! O cadastro dos produtos garante que suas vendas ocorram de acordo com as quantidades em suas prateleiras!
+Slogan 7: Economize o tempo de seus vendedores através da automatização de tarefas. 
+ 
+Funções: >>Vendas
+		 >>Vendas Parceladas
+		 >>Vendas com Previsão
+		 >>Vendas com Nota Fiscal
+		 >>Vendas com Cupom Fiscal
+		 >>Ordens de serviço
+		  
+Benefícios:	->Processo.
+				>> Efetue suas vendas com rapidez através de uma interface simples e intuitiva!
+				>> Duplique suas vendas para encurtar processos e obtenha mais agilidade em seus negócios!
+				>> Encaminhamento rápido para o setor de produção, evitando atrasos!
+			->Controle de Estoque
+				>> Mais automatização, menos erros por parte da equipe! Mantenha seu estoque seguro, prevenindo divergências.
+				>> Baixa automática no estoque para assegurar uma melhor gestão.
+			->Nota Fiscal
+				>> Emissão rápida de notas e cupons fiscais com toda a segurança que sua empresa precisa!
+				>> Praticidade no agrupamento de vendas para emissão de notas fiscais.
+				>> Tipos de venda habilitados para auxiliar na organização das transações, facilitando a obtenção dos dados de tributação para emissão de notas.
+			->Controle de Preço
+				>> Suas vendas com a segurança de seguir o valor combinado com o cliente através da criação de tabelas de preços especiais	
+				>> Estabeleça o controle de preço de suas mercadorias formando composições, auxiliando o setor de produção ao indicar quais insumos serão necessários
+				>> Controle do valor de crédito de seus clientes, quitando pendências.  
+				>> Geração da comissão dos vendedores para auxiliar na elaboração do índice markup.
+			->Relatórios e Impressões
+				>> A identidade de sua empresa nas vendas através de impressões personalizadas.
+				>> Crie planos de ação para melhorar o desempenho da empresa através do acompanhamento de relatórios personalizados de suas vendas. 
+			->Histórico
+				>> Acompanhamento das alterações efetuadas na venda através do histórico.
+			->Financeiro
+				>> Geração rápida de parcelas com o envio automática ao financeiro após o faturamento!	
+				>> Determine os meios e condições de pagamento para aumentar as chances de fechar a venda e fidelizar o cliente!
+			-> Suporte
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!			
+Automatização: 
+			Gerenciamento de vendas:Lançamento das parcelas no financeiro ao realizar o faturamento.
+									Baixa dos produtos em estoque
+									Vínculo ao cadastro do cliente, criando um histórico de venda. 
+											
+Integrações: Incluído aos aplicativos Financeiro, Contatos, Caixa.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+ 
+Principais Perguntas: 
+					É possível recuperar uma venda excluída? 
+						Sim, caso você tenha excluído uma venda por engano é muito simples e rápido reativá-la no sistema.
+					Posso cancelar uma venda faturada?
+						Sim, é possível. Mas é importante lembrar que esta ação exige cautela, pois após cancelamento as parcelas correspondentes
+						são automaticamente removidas do financeiro.
+					Consigo aplicar descontos e acréscimos em minhas vendas? 
+						Sim, além destes ainda é possível inserir o valor de frete para rateá-lo em seus produtos.
+					Consigo emitir cupons e notas fiscais de minhas vendas? 
+						Com o Office você pode emitir quantos cupons e notas fiscais precisar, sempre que quiser! 
+					Onde posso visualizar o desempenho de minha equipe de vendas? 
+						Através de relatórios você consegue acompanhar os resultados de suas vendas. Basta alguns cliques para que os dados estejam na tela!
+					De que forma posso assegurar que minhas vendas ocorram sem falhas? 
+						Cadastre seus produtos, monte seus preços, estabeleça quais serão as permissões de sua equipe e deixe que o Office cuide do resto para você!
+					
+						
+						
+						
+						
+						
+						
+					
+					
+					
+					
+				
+			
+		
+			
+	
+
+
+
+

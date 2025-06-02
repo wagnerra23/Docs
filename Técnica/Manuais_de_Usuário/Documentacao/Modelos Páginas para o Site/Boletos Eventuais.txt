@@ -1,0 +1,40 @@
+Objetivo principal:
+Facilitar a geração de boletos eventuais de seguros de associação veicular e Sinistros.
+
+Slogans:
+
+" A Praticidade e Confiabilidade que sua empresa merece!"
+" Solução rápida e segura para geração dos boletos eventuais de sua Associação"
+" Office Impresso otimiza a administração de sua Associação Veicular! "
+ 
+Funções:
+Geração automática de boletos
+Cálculo do valor dos equipamentos com base no percentual definido
+Envio de lembretes de vencimento.
+Integração com sistemas bancários.
+Histórico de pagamentos realizados.
+
+
+Benefícios:
+Facilidade no processo de pagamento.
+Redução de inadimplência.
+Otimização do tempo.
+Segurança nas transações.
+Cálculo seguro dos valores com base nos equipamentos cadastrados.
+
+Automatização:
+Envio automático de notificações e lembretes.
+
+Integrações:
+Rateio
+Associado
+Equipamentos
+
+Principais Perguntas:
+
+Como funciona a geração automática de boletos?
+ Uma vez realizado o processo de homologação com o banco escolhido pelo cliente, a geração dos boletos acontece através de poucos cliques!  
+Como são enviados os lembretes de vencimento?
+ Com a inserção do e-mail do cliente em seu cadastro é possível enviar os lembretes de vencimento, auxiliando a combater a inadimplência!
+Como é garantida a segurança das transações?
+ O Office Impresso conta com protocolos de segurança para que você possa gerar os boletos sem maiores preocupações. 

@@ -1,0 +1,70 @@
+Objetivo principal:
+
+Slogan 1: Emissão ilimitada de Notas Fiscais de Consumidor com a agilidade e segurança que sua empresa precisa!
+Slogan 2: Redução de falhas na inserção de dados através da automatização dos processos.
+Slogan 3: Sistema descomplicado para garantir a emissão correta das notas. Basta configurar uma única vez para que os impostos sejam calculados automaticamente!
+Slogan 4: As integrações do aplicativo de Venda centralizam as informações necessárias, tornando a emissão ainda mais rápida!
+Slogan 5: Obtenção facilitada dos arquivos XML e PDF para realizar o envio por e-mail, economizando tempo de tarefa e custos de impressão.
+
+Funções:
+		 Emissão de Notas Fiscais de Consumidor
+		 		 
+Benefícios:
+		-> Processo: 
+			>> Através da integração com o cadastro de clientes obtém-se os dados essenciais para a emissão, reduzindo o tempo de tarefa!
+			>> Otimização do fluxo da equipe de vendas com o envio automático das notas emitidas por e-mail, evitando o trabalho manual e contribuindo para um melhor relacionamento com o cliente
+			>> Crie observações para suas notas e economize tempo no preenchimento dos dados. 
+			>> Efetue a consulta dos status das notas emitidas de forma segura e descomplicada. 
+			>> Através de uma interface intuitiva que oferece recursos que agilizam as emissões seu negócio obtém o aumento de produtividade que estava procurando!
+			>> Com o painel de notas fiscais é possível ter uma visualização de todas as notas que foram emitidas, efetuando um melhor controle do financeiro. E aplicando o filtro de situação é possível acompanhar as notas
+			   que foram emitidas, canceladas, denegadas, não autorizadas e desconhecidas. 
+				
+		-> Relatórios e Impressões:
+			>> Geração de relatório das notas emitidas através de poucos cliques, colaborando com o setor contábil da empresa. 
+			>> Mostramos como é fácil colaborar com o setor contábil da empresa! Através do processo de inutilização de numerações de nota sua empresa evita sofrer penalidades fiscais. 
+			>> Exportação rápida e simplificada dos arquivos XML e PDF das notas emitidas.
+	
+		-> Tributação: 
+			>> Configurando a Natureza de operação uma única vez você garante o cálculo automático dos impostos nas próximas emissões, tendo a segurança de pagar o imposto devido.
+			>> Com as informações das notas emitidas é possível gerar os arquivos SPED sem complicações.
+			>> Listagem de códigos NCM, CFOP, CST e CEST disponíveis para ajudar a adequar o cadastro do produto à emissão de nota fiscal. 		
+			
+		-> Certificado: 
+			>> Compatibilidade com certificados digitais A1 e A3. 
+			>> Nada de espera para começar a emitir suas notas! A ativação do certificado digital é muito simples e rápida.
+			
+		-> Suporte: 
+			>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+		
+		-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!	
+Automatização: 
+			Gerenciamento de notas fiscais: Habilite o envio de automático das notas emitidas, economizando tempo para demais tarefas, elevando a produtividade de seus negócios. 
+			
+Integrações: Incluído aos aplicativos Venda, Financeiro, Caixa, Contatos e Módulo Fiscal.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+ 
+Principais Perguntas:
+					O que eu preciso para começar a emitir notas de consumidor pelo Office? 
+						Primeiramente você deve acessar o site da SEFAZ da sua região, ou caso tiver dificuldade, contatar seu contador de confiança para obter o registro CSC. Com o registro realizado e
+						a impressora adequada instalada, é só entrar em contato que realizamos a configuração para você! 
+					Qual seria a impressora indicada para realizar as impressões?
+						O tipo de impressora indicado seria a não fiscal, como as térmicas e laser. 
+					É possível cancelar uma nota fiscal de consumidor? 
+						Sim. O cancelamento pode ser realizado, entretanto o tempo estabelecido pela SEFAZ é de 30 minutos após a emissão da nota.
+					 Existe algum limite em relação a quantidade de notas emitidas?  
+						Não. Com o Office você não precisa se preocupar com limitações em suas emissões! 
+					Minha empresa é obrigada a emitir nota fiscal de consumidor? 
+						Sendo empreendedor, é obrigatório o recolhimento de impostos e declarar seus ganhos.
+						Portanto, a falta de emissão de notas se enquadra no crime de sonegação de impostos. 
+						A única exceção que está isenta da emissão de nota fiscal é a transação realizada entre MEI e pessoa física 
+					Preciso do certificado digital para a emissão das notas? 
+						Sim, somente com o certificado digital é possível realizar transações eletrônicas de forma segura, uma vez que ele opera como uma assinatura digital, tanto para
+						pessoa física como para jurídica, identificando a empresa e impedindo fraudes. 
+					As notas servem para pessoa física e jurídica?
+						Sim. As emissões podem ocorrer tanto para pessoa física como jurídica. 
+					O que é o XML da nota? 
+						O arquivo XML pode ser compreendido como o formato digital da nota, comprovando a operação de venda. 
+					Posso alterar os dados da nota depois da emissão?
+						Não. Uma vez emitida a nota não é possível realizar qualquer alteração e a emissão de carta de correção é vedada pela SEFAZ.
+						

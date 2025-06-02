@@ -1,0 +1,76 @@
+>>>Objetivo principal: Criação de vendas e ordens de serviço identificando o veículo do cliente.
+
+Slogan 1: Gerenciar sua mecânica nunca foi tão fácil! O aplicativo foi desenvolvido especialmente para atender às necessidades de seu negócio, descomplicando os processos! 
+Slogan 2: Controle efetivo das operações realizadas em sua empresa através da identificação do veículo do cliente nas vendas e ordens de serviço.
+Slogan 3: Através da inserção dos dados do veículo é possível assegurar a execução correta do serviço, colaborando para a satisfação e fidelização do cliente e evitando prejuízos ao seu negócio! 
+Slogan 4: Com a automatização de tarefas sua equipe economiza tempo e evita erros manuais!
+Slogan 5: Através da integração com Financeiro você mantém as finanças em dia, colaborando para o desenvolvimento seguro de seu negócio!
+
+
+
+Funções: >> Identificação do veículo em Vendas.
+		 >> Identificação do veículo em Vendas Parceladas 
+		 >> Identificação do veículo em Vendas com Previsão.
+		 >> Identificação do veículo em Vendas com Nota Fiscal.
+		 >> Identificação do veículo em Vendas com Cupom Fiscal.
+		 >> Identificação do veículo em Ordens de serviço. 
+		 
+		 Benefícios:
+			->Processo.
+				>> A interface simples e intuitiva permite a rápida criação de vendas e ordens de serviço.
+				>> Duplique suas vendas e ordens de serviço para encurtar processos e obtenha mais agilidade em seus negócios!
+				>> O envio à produção é muito rápido e descomplicado, auxiliando no cumprimento do prazo acordado com o cliente, assegurando a satisfação com o serviço prestado.
+				>> Do cadastro mais simples ao mais elaborado! Através das informações sobre os veículos é possível efetuar a compra das peças necessárias com segurança.
+				>> A associação do veículo ao cliente permite a rápida seleção no momento da venda ou serviço, otimizando o processo e reduzindo a possibilidade de falhas manuais. 
+				>> Sem limitações! Através das associações múltiplas um único cliente pode ser vinculado a um número ilimitado de veículos, levando à melhoria na eficiência das vendas e serviços.
+				>> Segurança e garantia que seu negócio precisa! Através do número da placa do veículo você cria o histórico que garante a execução correta do serviço, evitando divergências entre o que foi pedido e executado. 
+			->Controle de Estoque
+				>> Mais automatização, menos erros por parte da equipe! Mantenha seu estoque seguro, prevenindo divergências.
+				>> Baixa automática no estoque para assegurar uma melhor gestão.
+			->Nota Fiscal
+				>> Emissão rápida de notas e cupons fiscais com toda a segurança que sua empresa precisa!
+				>> Praticidade no agrupamento de vendas e serviços para emissão de notas fiscais.
+				>> Tipos de venda habilitados para auxiliar na organização das transações, facilitando a obtenção dos dados de tributação para emissão de notas fiscais.
+			->Controle de Preço
+				>> Suas vendas e serviços com a segurança de seguir o valor combinado com o cliente através da criação de tabelas de preços especiais	
+				>> Estabeleça o controle de preço de suas mercadorias e serviços formando composições, auxiliando o setor de produção ao indicar quais insumos serão necessários
+				>> Controle do valor de crédito de seus clientes, quitando pendências.  
+				>> Geração da comissão dos vendedores para auxiliar na elaboração do índice markup.
+			->Relatórios e Impressões
+				>> A identidade de sua empresa nas impressões de vendas e serviços.
+				>> Crie planos de ação para melhorar o desempenho da empresa através do acompanhamento de relatórios personalizados de suas vendas e serviços. 
+			->Histórico
+				>> Através do vínculo ao cadastro do cliente é possível acompanhar o histórico de vendas ou serviços prestados.
+			->Financeiro
+				>> Rápida geração de parcelas com envio automático ao financeiro após o faturamento da venda ou serviço.
+				>> Determine os meios e condições de pagamento para aumentar as chances de fechar a venda ou serviço e fidelizar o cliente!
+			-> Suporte
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!	
+				
+				
+
+Automatização: 
+			Gerenciamento de vendas:Lançamento das parcelas no financeiro ao realizar o faturamento.
+									Baixa dos produtos em estoque
+									Vínculo ao cadastro do cliente, criando um histórico de vendas e serviços. 
+									Busca automática dos veículos associados ao cliente da venda ou serviço.
+											
+Integrações: Incluído aos aplicativos Venda, Pedido de Venda, Financeiro, Contatos e Caixas.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+ 
+Principais Perguntas: 
+			É possível emitir nota fiscal mista? 
+				Para a emissão de nota conjugada é necessário que a prefeitura de seu estado possua vínculo com a Secretaria da Fazenda correspondente. 
+				Desta forma você poderá emitir notas fiscais com produtos e serviços.
+			Como o sistema vai ajudar na melhoria dos processos internos?
+				A automatização dos processos vai permitir flexibilizar a rotina da empresa, reduzindo o tempo dos processos e a taxa de erros manuais. 
+				Desta forma será possível analisar com segurança os dados do negócio a partir dos relatórios gerados e elaborar planos de ação condizentes com a realidade de sua empresa!
+			O sistema possui agenda de serviços?
+				Sim. E você pode programar para a agenda ser carregada na inicialização do sistema, desta forma estando sempre atualizado sobre todos os serviços programados.
+			É possível controlar peças de terceiros? 
+				Sim. Através do recurso de multiplos estoques é possível ter o controle da movimentação de peças de terceiros, evitando perdas e divergências no financeiro. 
+	 
+		
+

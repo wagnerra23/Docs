@@ -1,0 +1,82 @@
+Objetivo principal: Pedidos de Venda
+Slogan: Com o Office você garante uma gestão eficiente de seus pedidos de venda! 
+Slogan 2: Automatize os processos de sua rotina reduzindo os riscos de falhas pela equipe de vendas, economizando tempo ao evitar retrabalhos.
+Slogan 3: Prevendo suas vendas fica mais fácil administrar a demanda de seus produtos, colaborando na gestão de estoque. Saiba quais insumos estarão em sua próxima lista de compras! 
+Slogan 4: Elabore seus pedidos, informe o prazo e envie ao setor de produção através de poucos cliques!
+Slogan 5: De entregas parciais à totais. Controle tudo que foi solicitado e entregue para garantir que seus faturamentos ocorram sem erros!
+Slogan 6: Vincule seus pedidos as respectivas vendas para um melhor controle de seu financeiro, colaborando para a criação de planejamentos consistentes!
+
+
+Funções:
+		 Pedido de Venda
+		 Pedido de Venda Parcelado
+		
+Benefícios:	
+			->Processo:
+				>> Duplique seus pedidos para adiantar processos, reduzindo o tempo da tarefa.
+				>> Interface intuitiva que permite o registro rápido de seus pedidos, sem complicações! 
+					
+			->Controle de Estoque:
+				>> Através da baixa automática é possível obter um melhor controle de seu estoque, garantindo que os produtos corretos estejam sempre disponíveis!
+						
+			->Controle de Preço
+				>> Monte seus produtos para um controle eficiente de preço, indicando os insumos e serviços necessários, colaborando com o setor de produção.
+				>> Informe a comissão de seus vendedores para contribuir para a elaboração do índice markup de seus produtos.
+				>> 	Sua empresa, suas regras! Evite prejuízos e assegure-se de que os valores acordados com seus clientes sejam cumpridos mediante a criação de tabelas de preço.
+						
+			-> Produção: 
+				>> Acesso rápido à produção de suas mercadorias para realizar o acompanhamento do processo.
+				>> Encaminhamento rápido para a produção definindo a equipe responsável para auxiliar na entrega da mercadoria no prazo combinado.
+			
+			->Relatórios e Impressões:
+				>> Personalize suas impressões para deixar os pedidos com a cara de sua empresa. 
+			
+			->Histórico
+				>> Monitore as alterações realizadas em seus pedidos através do histórico.
+			
+			->Financeiro
+				>> Entrega parciais ou totais de suas mercadorias? Através dos pedidos você assegura a satisfação de seus clientes e obtém um melhor controle do que foi entregue, evitando erros no faturamento!
+				>> Gerenciamento dos valores em haver de seus clientes.
+			
+			-> Suporte
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+			
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!
+				
+Automatização:  Envio à produção.
+				Baixa dos produtos em estoque
+				Vínculo ao cadastro do cliente, criando um histórico de vendas. 
+
+
+Integrações: Incluído aos aplicativos Financeiro, Contatos e Caixa.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+ 
+Principais Perguntas: 
+					É possível estabelecer o prazo de produção em meus pedidos? 
+						Ao selecionar seus produtos é possível indicar qual foi o prazo combinado com o cliente.
+					Como posso faturar meus pedidos? 
+						Os pedidos funcionam como requisições de produção e uma vez que este processo é suscetível á erros, podendo não garantir a entrega da quantidade
+						combinada, você deve criar uma venda a partir do que foi produzido para vincular ao pedido e estar realizando o 
+						faturamento, evitando erros em seu financeiro. 
+					Ao finalizar o pedido já é dado início à produção? 
+						O envio à produção não acontece de forma automática, possibilitando que você verifique com seu cliente as informações do pedido antes dele ser enviado para a produção, evitando
+						possíveis erros.
+					Excluí o pedido errado. É possível recuperá-lo? 
+						Fique tranquilo! Pedidos excluídos podem ser reativados através de poucos cliques!
+						
+						
+					
+					
+					
+					
+					
+		
+			
+		
+			
+	
+
+
+
+

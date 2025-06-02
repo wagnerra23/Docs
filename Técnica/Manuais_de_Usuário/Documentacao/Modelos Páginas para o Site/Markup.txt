@@ -1,0 +1,40 @@
+Objetivo principal: Cálculo do índice Markup. 
+Slogan 1: Através do índice Markup é possível determinar preços que asseguram ao seu negócio o retorno financeiro essencial para seu desenvolvimento!
+Slogan 2: Tenha a segurança de cobrir todos os custos de seus produtos e alcançar os lucros pretendidos!
+Slogan 3: Precificando corretamente seus produtos você eleva o nível de negociações, tendo mais segurança em decisões que envolvam acréscimos e descontos!
+Slogan 4: Compreenda melhor quais são as despesas e custos de seus produtos e serviços, definindo a margem de lucro apropriada para aumentar a rentabilidade de seus negócios.
+
+
+Funções: Precificação de produtos e serviços.
+		 
+Benefícios: 
+			-> Processo: 
+				>> Atualização automática do índice Markup de seus produtos através da importação de notas de compra, facilitando a manutenção de seus preços e oferecendo segurança dos valores das próximas vendas.
+				>> Muitos produtos a precificar? Com o recurso Markup Padrão você pode aplicar o índice a todos os produtos através de um único clique, agilizando o processo de precificação e auxiliando a flexibilizar a rotina da empresa. 
+			    >> A tarefa de precificar seus produtos fica ainda mais rápida através da classificação do índice markup por tipo de produto! 
+				>> Índice Markup elaborado!Te auxiliamos a encontrar o índice ideal para seus produtos através do detalhamento de valores, colaborando para uma gestão mais eficiente de seus negócios!
+				>> Acesso rápido ao produto, possibilitando alteração de valores para o ajuste do índice Markup sempre que você precisar!
+				>> Conhecendo todas as despesas é mais fácil definir a margem de lucro ideal de seus produtos, colaborando para manter o fluxo de vendas.
+				>> Formação descomplicada do preço de venda, facilitando a gestão de seu negócio e elevando a rentabilidade. 
+				>> Identifique os gastos relativos aos setores da empresa para uma análise segura dos indicadores, encontrando despesas desnecessárias e reduzindo prejuízos. 
+			-> Suporte: 
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!						
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!
+Automatização:  
+
+			Gerenciamento de Markup: A atualização automatica do índice através da importação de notas de compra.
+				
+Integrações: Incluído aos aplicativos Venda, Financeiro, Contato e Compra.
+			 E habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+			 			 
+Principais Perguntas: Para o cálculo do markup preciso informar os valores exatos? 
+						Sim. Para que cálculo correto do índice é fundamental que os valores inseridos sejam exatos. Dessa forma você chegará ao preço seguro de venda de seus produtos.
+					  Preciso calcular manualmente o índice do produto? 
+						Não. Basta você inserir os dados que o Office cuida do cálculo para você. 
+					  Consigo aplicar o índice a mais de um produto de uma única vez?
+						Sim. Você pode criar um markup e classificá-lo por produtos ou aplicar um único markup a todos os produtos cadastrados.
+					  Além de auxiliar na precificação, qual é a outra vantagem do índice markup para o meu negócio? 
+						Através do cálculo do índice markup você terá uma melhor compreensão de todas as despesas de seu negócio, colaborando para uma melhor administração dos gastos e de futuras compras, além de poder acompanhar os valores envolvidos
+						em cada setor, analisando a produtividade e custo de cada um.    
+					

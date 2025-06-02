@@ -1,0 +1,70 @@
+>>>Objetivo principal: Gerenciamento de Contratos.
+
+Slogan 1: Gestão dos contratos de forma eficiente, segura e ágil. 
+Slogan 2: A automatização dos processos confere mais segurança às informações, diminuindo o tempo de execução das tarefas e o trabalho manual. 
+Slogan 3: O monitoramento dos contratos auxilia no cumprimento dos serviços dentro do prazo acordado, melhorando o relacionamento com o cliente!
+Slogan 5: Maior transparência e controle das informações, colaborando para uma gestão rápida e simplificada dos contratos.
+Slogan 4: A padronização dos contratos agiliza o processo e garante ao seu negócio as informações necessárias para sua validação, evitando problemas.  
+Slogan 6: A geração dos boletos é rápida e segura, reduzindo os custos de impressão e a necessidade de retrabalho devido a erros manuais. 
+
+Funções:
+		>> Geração automática de mensalidades
+		>> Emissão de notas fiscais
+		>> Envio de boletos por e-mail
+		>> Anexar documento de validação
+		
+Benefícios:	
+		-> Processo:
+			>> Geração automática das mensalidades proporcionando economia de tempo e evitando erros de digitação que possam comprometer a consistência do fluxo de caixa da empresa.
+			>> Emissão descomplicada de notas fiscais para o cumprimento das obrigações fiscais do seu negócio. 
+			>> Agilidade no processo de envio de mensalidades por e-mail, colaborando para redução da inadimplência e mantendo as finanças em dia.
+			>> Redução de custo de armanezagem e impressão através da incorporação dos documentos ao cadastro do contrato, auxiliando na comprovação de legalidade do serviço prestado.
+			>> Facilidade no reajuste de valor das mensalidades através de aplicação de juros e multas. O valor final é calculado automaticamente, auxiliando na redução de tempo de gerenciamento e equilibrando o financeiro da empresa.
+			>> Aumento da transparência dos contratos emitidos através de indicadores precisos, flexibiliando a administração de grandes fluxos contratuais.
+			>> O recurso de geração de todas as mensalidades referentes ao mês agiliza o processo de cobrança, facilitando a rotina do gestor. 
+			>> A autonomia de escolher quais faturas serão geradas impacta na redução de cobranças indevidas, auxiliando no relacionamento com o cliente em casos de negociações.
+			>> A personalização dos registros permite a rápida distinção dos status das faturas, desta forma o gestor consegue identificar as que estão a um dia do vencimento, as que vencem no dia respectivo dia e as que estão vencidas a mais tempo.
+			>> A automatização do envio de faturas vencidas impacta no combate a inadimplência .
+		-> Impressões e Relatórios:
+				>> Relatório objetivo sobre os contratos gerados, fornecendo ao gestor as informações necessárias que irão auxiliar na tomada de decisão.
+		-> Suporte
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+		-> Segurança:
+				>> Controle das mensalidades geradas através de permissões do usuário, mantendo seguras as informações de clientes e financeiras da empresa, atuando na prevenenção de fraudes.  
+				>> Segurança nos dados apresentados por meio do histórico de cadastro do contrato.
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!			
+				
+Automatização: 
+			Gerenciamento de Contratos: Geração automatica das mensalidades
+										Envio automático das mensalidades geradas por e-mail
+										Cálculo automático de juros e multa
+										
+												 
+												
+Integrações: Incluído aos aplicativos Financeiro, Financeiro A Receber.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+
+Principais Perguntas:  
+
+
+O que você ganha ao melhorar e automatizar o gerenciamento de mensalidades?
+É importante conhecer os benefícios garantidos ao iniciar um gerenciamento de mensalidades eficaz em seu negócio. São eles:
+
+Redução de custos
+Quando o gestor implementa a tecnologia na sua empresa, a chance de ocorrer erros com a cobrança de clientes fica muito menor. 
+
+
+Melhora o relacionamento com os clientes
+Ao automatizar o gerenciamento de mensalidades, é viável, por exemplo, que o responsável financeiro possa optar pela melhor data
+ do pagamento da mensalidade e evitar atrasos e inadimplências.
+
+Tendo essas vantagens, a gestão de mensalidades e dos pagamentos é aperfeiçoada. Ainda, é permitido emitir lembretes automáticos
+ de cobrança para reduzir as possibilidades de esquecimento.
+
+Aumento da produtividade
+Como mencionado no tópico anterior, ao automatizar as cobranças, é possível economizar tempo, reduzir erros, evitar atrasos e
+ deixar todo o método sistematizado e mais prático.
+
+Fazer a gestão de assinatura e planos: ele permitirá que sua empresa gerencie as contratações, renovações, reajustes, upgrades,
+ downgrades, itens adicionais e avulsos. Nele é possível também criar planos com trial e acompanhar a conversão;
+

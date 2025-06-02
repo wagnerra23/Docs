@@ -1,0 +1,50 @@
+Objetivo principal:
+O TEF Dedicado é uma solução que estabelece a conexão através de linhas VPN, proporcionando agilidade e rapidez no processo de compartilhamento de informações e, consequentemente, na aprovação da compra. Essa solução pode ser integrada também com a automação industrial da empresa, o que possibilita um único TEF concentrado, desde que as empresas possuam o mesmo CNPJ.
+
+Slogan 1: "Conexão segura, transações rápidas!"
+Slogan 2: "Integração perfeita com a automação que sua empresa precisa."
+Slogan 3: "Mais opções de pagamento, mais satisfação para seus clientes."
+Slogan 4: "TEF Dedicado: A solução que acompanha o ritmo do seu negócio."
+Slogan 5: "Com o Office Impresso as transações diárias são descomplicadas!"
+
+Funções:
+
+-> Conexão através de linhas VPN.
+-> Aceitação de um maior número de bandeiras.
+-> Registro automático de dados no sistema.
+-> Suporte a múltiplos caixas e terminais.
+
+
+Benefícios:
+
+-> Agilidade nas transações.
+-> Segurança nas informações compartilhadas.
+-> Redução de custos com múltiplas máquinas de cartão.
+-> Melhoria no controle das vendas.
+-> Personalização com a identidade visual da empresa.
+
+Automatização:
+- Gerenciamento de vendas: Faturamento automático da venda.
+						   Lançamento das parcelas diretamente no Financeiro
+						   Vínculo ao cadastro do cliente, criando um histórico de venda. 
+						   Aplicação de desconto ou acréscimo automático definido no cadastro da condição de pagamento
+
+- Integrações:
+ -> Incluído aos aplicativos: Venda
+ -> Leitor de Código de Barras
+ -> ECF- Impressão de Nota Fiscal de Consumidor.
+
+
+Principais Perguntas:
+
+O que é TEF Dedicado?
+É uma solução que estabelece a conexão através de linhas VPN para transações digitais, integrando a automação comercial de uma empresa às fornecedoras do serviço de pagamentos de cartão de crédito.
+
+Como o TEF Dedicado beneficia minha empresa de comunicação visual?
+Ele permite uma integração perfeita com a automação de sua empresa, oferecendo mais opções de pagamento aos seus clientes e melhorando o controle das vendas.
+
+É seguro usar o TEF Dedicado?
+Sim, a conexão através de linhas VPN garante a segurança das informações compartilhadas durante as transações.
+
+Como posso integrar o TEF Dedicado ao meu sistema atual?
+O TEF Dedicado é compatível com a maioria dos sistemas de automação comercial e pode ser facilmente integrado através de protocolos específicos.

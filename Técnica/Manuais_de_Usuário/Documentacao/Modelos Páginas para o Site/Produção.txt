@@ -1,0 +1,41 @@
+Objetivo Principal: Acompanhamento e controle dos processos de produção 
+
+Slogan 1:" Visualize suas ideias e concretize seus projetos."
+Slogan 2 " Sua Comunicação visual gerenciada através de poucos cliques "
+Slogan 3 " Do conceito à conclusão! O Office Impresso te auxilia a entregar a satisfação a seus clientes!"
+Slogan 4 " Descomplicando a Produção de seu negócio! "
+
+
+Funções: 
+ -> Gerenciamento prático e rápido das ordens de produção. 
+ -> Encaminhamento ágil das tarefas entre setores
+ -> Duplicação de ordens de produção. 
+ -> Inserção de arquivos 
+ -> Definição de nível de prioridade
+ -> Cadastro de Equipes, Estágios, Situação, Equipamentos, Marcadores e Motivo, elevando o detalhamento e controle das ordens de produção
+ -> Aplicação de serviço padrão a cada equipe.
+
+ 
+
+Benefícios:
+   Melhor gerenciamento de execução de campanhas publicitárias 
+   Automatização e simplificação de processos, reduzindo etapas manuais e eliminando tarefas repetitivas.
+   Melhor planejamento e alocação de recursos, como matéria-prima, mão de obra e maquinário.
+   Identificando gargalos e ineficiências, ajuda a reduzir desperdícios e custos operacionais.
+   Com processos mais ágeis e bem definidos, a produção pode ser acelerada, aumentando a produtividade
+   Possibilita o acompanhamento de produtos em todas as etapas de produção, desde a entrada de matéria-prima até a entrega ao cliente.
+   Facilita a previsão de demandas, permitindo um planejamento de produção mais alinhado às necessidades do mercado.
+   Auxilia na comunicação entre diferentes departamentos, garantindo que todos estejam alinhados e informados.
+ 
+Automatização: 
+	Gerenciamento de Produção: Vínculo de funcionários e responsável na ordem de produção através da seleção da equipe
+							   Definição de estágio fixo para equipe
+							   
+	
+
+
+Integrações: 
+	Incluído aos aplicativos: Planejamento, Fluxo do Produto, Fabricação. 
+
+Principais Perguntas: 
+

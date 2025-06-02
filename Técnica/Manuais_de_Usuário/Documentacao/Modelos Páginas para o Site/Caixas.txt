@@ -1,0 +1,56 @@
+>>>Objetivo principal: Controle do Fluxo de Caixa.
+
+Slogan 1: Realize o monitoramente das entradas e saídas da empresa para uma melhor gestão de seu negócio! 
+Slogan 2: O controle eficiente do fluxo de caixa colabora na tomada de decisão, preservando a saúde financeira da empresa!
+Slogan 3: O registro das movimentações do negócio evita surpresas em suas finanças!
+Slogan 4: Elabore planos de ação condizente com a realidade do seu negócio através de números precisos e seguros. 
+Slogan 5: Te mostramos como controlar as movimentações de sua empresa não precisa ser difícil para alcançar o sucesso.
+Slogan 6: Sem limitações. Você pode criar quantos caixas precisar para a organização dos lançamentos financeiros. 
+
+Funções:
+		>> Registro de recebimentos e pagamentos.
+		>> Transferências de valores provenientes de cartões e cheques para conta bancária
+        >> Emissão do relatório Livro Caixa
+    		
+Benefícios:	-> Processo:
+				>> Organização dos pagamentos e recebimentos por tipo de pagamentos, fornecendo uma visão mais objetiva das movimentações.
+				>> Transferência de valores provenientes a cartões e cheques para a conta bancária cadastrada, conferindo segurança no fechamento do caixa.
+				>> Transparência é essencial para a gestão do negócio. Visualize informações importantes como a data de abertura e fechamento do caixa e o saldo inicial e atual.  
+				>> Consulta a todos os caixas já cadastrados mediante permissão do usuário, concedendo transparência em conferências futuras.
+				>> O acesso a tela de cadastro dos pedidos permite a checagem dos produtos vendidos, auxiliando o gestor na previsão das próximas compras. 
+				>> Múltiplos caixas para atender as necessidades de seu negócio.
+				>> Através da Sangria é possível realizar a retirada de valores em dinheiro, permitindo a transferêcia para locais de maior segurança, como bancos.
+			-> Relatórios:
+				>> Emissão do relatório livro caixa, entregando informações precisas que irão impactar diretamente na elaboração dos planos de negócio.
+			-> Histórico: 
+				>> A inserção de observações no lançamento possibilita a geração de um histórico, tornando a gestão do fluxo de caixa mais precisa.
+			-> Suporte
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+			-> Segurança:
+				>> Ajuste do saldo inicial do caixa, permitindo correções mediante permissão do usuário.
+				>> Caixas fechados são incapazes de receber alterações, preservando a autenticidade das transações e evitando riscos de fraude.
+				>> Permissões de acesso configuradas diretamente no usuário, mantendo a segurança dos registros e prevenindo furos no fluxo de caixa da empresa.
+				>> Por meio do histórico você eleva a confiabilidade nos valores registrados, tendo mais segurança nas movimentações do caixa e nas tomadas de decisões.
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!				
+Automatização: 
+			Gerenciamento de Caixa: Transferência de valores para contas bancárias cadastradas.
+											    										  					
+Integrações: Incluído aos aplicativos Venda, Financeiro, Financeiro A Receber, Financeiro A Pagar, Financeiro Cheque e Recebimento.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+			
+			
+Principais Perguntas: 
+				>> O que viria a ser fluxo de caixa? 
+					O fluxo de caixa pode ser definido como o recurso essencial para a gestão financeira. 
+					É através dele que podemos acompanhar as entradas e saídas diárias de valores da empresa. 	
+				>> Quais são as vantagens do controle de fluxo de caixa? 
+					O registro rigoroso das movimentações permite a geração de relatórios precisos e é essencial para o processo de conciliação bancária,
+					oferecendo segurança nas informações registradas e colaborando para as tomadas de decisão, visando o equilibrio financeiro da empresa.			
+				>> Como posso iniciar o controle do fluxo de caixa do meu negócio?
+					Para uma gestão eficiente do fluxo de caixa é necessário primeiramente estabelecer o valor inicial do caixa e registrar todas as entradas e saídas
+					de valores, mantendo a atualização dos registros para garantir a integridade das informações, podendo visualizar qual é o capital de giro da empresa, viabilizando investimentos seguros.
+				>> É possível reabrir um caixa fechado? 
+					Para garantir a segurança das transações de seu negócio, caixas fechados não podem ser abertos novamente. 
+			
+				
+				

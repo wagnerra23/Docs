@@ -1,0 +1,61 @@
+Objetivo: Venda com impressão de cupons e notas fiscais de consumidor.
+
+Slogan 1: Otimização dos processos de emissão e registros de documentos fiscais, elevando a produtividade da empresa e ecomizando tempo da frente de caixa! 
+Slogan 2: Agilidade e segurança nas emissões de cupons fiscais, atendendo as normas estabelecidas pelos orgãos reguladores.
+Slogan 3: Prevenção de erros na inserção de dados através da automatização de tarefas, melhorando a precisão das informações de venda. 
+Slogan 4: O processo de venda é rápido e descomplicado, proporcionando uma experiência agradável e garantindo a satisfação de seus clientes.
+
+
+Funções:
+	>> Venda e emissão de cupom fiscal.
+	>> Venda e emissão de notas fiscais de consumidor.
+	>> Emissão de documentos fiscais, SINTEGRA e Redução Z.
+	
+Benefícios:
+			-> Processo:
+				>> Atualização automática das lista de produtos, clientes e condições de pagamento, colaborando para o rápido fechamento das vendas, prevenindo filas.	
+				>> Segurança nos processos de retirada e reforço de caixa, facilitando a gestão do seu negócio.
+				>> Diminuição do número de cancelamentos desnecessários e tempo de espera pelo cliente através da consulta de preços.
+				>> Financeiro sob controle por meio do estabelecimento de permissão para o cancelamento de cupons fiscais. 
+				>> Emissão facilitada de Notas fiscais de consumidor, agilizando o processo de venda, reduzindo a margem de erros e melhorando a experiência do consumidor.	
+			-> Tributação: 
+				>> Configure a Natureza da Operação apenas uma vez para que os impostos sejam calculados automaticamente, agilizando suas vendas e descomplicando o processo de tributação.  
+			-> Preço:
+				>> Inserção de acréscimos e descontos mediante permissão do perfil do usuário, garantindo o controle de seus preços!
+				>> Acesso rápido ao cadastro de produtos, permitindo a checagem de informações e alterações mediante permissão do usuário, contribuindo para a integridade dos preços, evitando prejuízos. 
+			-> Relatórios:
+				>> Cumprimento das obrigações fiscais através da geração da Redução Z e relatório Sintegra, auxiliando o setor contábil da empresa.
+			-> Estoque:
+				>> Baixa automatica no estoque ao finalizar a venda, auxiliando na gestão de seu negócio ao evitar excessos ou falta de mercadorias
+			-> Suporte: 
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!			
+			-> Segurança:
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!
+Automatização: 
+			Gerenciamento de vendas: Baixa de Produtos no Estoque
+									 Vínculo ao cadastro do cliente, criando um histórico de venda.
+									 Lançamento das parcelas no financeiro ao finalizar a venda.
+									 Atualização automática de produtos, clientes e condições de pagamento.
+									 
+Integrações: Geração de relatórios como Sintegra e Redução Z.
+			 Incluído aos aplicativos Venda, Financeiro, Contatos, Caixa e Módulo Fiscal(NF-e, NFC-e, NFS-e)
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+
+Principais Perguntas: 
+					O que viria a ser o PAF? 
+						O PAF é um software de gestão que apresenta o objetivo de emitir cupons e documentos fiscais seguindo as regras estabeçecidas pela SEFAZ(Secretaria de Estado da Fazenda)
+						É integrado a um software de venda e deve estar conectado a uma impressora de cupons fiscais.
+					Quais são os tipos de documentos que podem ser gerados pelo PAF?
+						O PAF permite a geração de cupons fiscais e notas fiscais de consumidor.
+					Qual impressora devo implementar ao PAF?
+						A recomendação seria uma impressora do tipo térmica. 
+					Preciso de certificado para a emissão de cupons fiscais? 
+						Sim, o certificado digital permite a realização de transações seguras, atuando como uma assinatura digital da empresa, a identificando e prevenindo fraudes.
+					É possível fazer o cancelamento dos cupons emitidos? 
+						Sim, o cancelamento pode ser efetuado logo após a impressão. 
+						Caso tenha passado do prazo, é necessário entrar em contato com sua contabilidade para a emissão de uma nota de devolução de venda
+					
+						
+					
+
+

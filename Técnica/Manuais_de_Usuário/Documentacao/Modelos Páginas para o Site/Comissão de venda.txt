@@ -1,0 +1,55 @@
+>>>Objetivo principal: Gerar e controlar comissões de vendedores e representantes.
+
+Slogan 1: Entenda os benefícios da definição da política de comissão para seus negócios! 
+Slogan 2: Gestão clara e objetiva das comissões geradas, colaborando com as tomadas de decisão do seu negócio.
+Slogan 3: Através das comissões você motiva seus vendedores e representantes, elevando o fluxo de vendas da empresa! 
+Slogan 4: O comissionamento bem elaborado melhora a alocação de recursos em seu negócio, conferindo agilidade e segurança na apuração dos valores a serem pagos, evitando divergências e prejuízos! 
+Slogan 5: Estabeleça o critério e a porcentagem de comissionamento que melhor se encaixa em seu negócio e veja como é simples controlar as comissões de sua equipe de vendas!
+
+ 
+Funções: >> Comissões para Representantes
+		 >> Comissões para Vendedores
+	 
+		 Benefícios:
+			-> Processo:
+				>> Autonomia para decidir como as comissões serão cobradas. A porcentagem pode ser definida diretamente no cadastro do cliente, funcionário ou fornecedor, no valor de venda dos produtos através do cálculo do índice markup ou sobre o valor total da venda.
+				>> O vínculo do cadastro do funcionário ao usuário do sistema permite que este seja selecionado automaticamente no campo de comissão, trazendo agilidade à rotina de seus vendedores e permitindo realizar um gerencimento seguro e consistente dos valores.	
+				>> A automatização dos processos confere cálculos seguros e precisos dos valores a serem pagos, colaborando com o setor financeiro da empresa e eliminando divergências.	
+				>> A oportunidade de ganhos extras incentivará seus vendedores, elevando o número de vendas e colaborando com a saúde financeira da empresa. 
+				>> Acompanhamento da receita gerada por cada vendedor, permitindo a comparação de resultados de meses anteriores, avaliando a produtividade da equipe e desenvolvendo planos de ação compatíveis com a realidade da empresa.
+				>> O processo de geração e controle dos valores ficou ainda mais simples! O responsável pode decidir de qual representante ou funcionário será gerada a comissão e quais parcelas participarão do cálculo. 
+				>> O cálculo é realizado automaticamente seguindo as porcentagens estabelecidas e o valor a ser pago é enviado ao financeiro, otimizando o processo e apresentando consistência nos valores resultantes.  
+				>> A organização das parcelas por funcionário, representante e venda permite a rápida localização dos lançamentos, impactando na diminuição do tempo de execução do processo.
+				>> A interface intuitiva possibilita visualizar os status dos lançamentos, auxiliando o administrador na geração correta das parcelas e evitando duplicidade de valores.
+			-> Impressões e relatórios:
+				>> Geração de relatórios de comissionamento individuais, possibilitando analisar as vendas efetuadas no período selecionado e os respectivos valores de comissão do vendedor.
+				>> Através dos relatórios é possível uma análise detalhada sobre o fluxo de vendas, impactando diretamente no valor de seus produtos e serviços, auxiliando no ajuste de preços para manter a lucratividade de seu negócio.
+			-> Suporte:
+				>> Suporte humanizado para melhor atender suas dúvidas! Fale conosco em horário comercial por telefone, email ou WhatsApp. Mande um sinal de fumaça para estabelecermos contato!
+			-> Segurança:
+				>> A definição de permissões do usuário garante a segurança do índice estipulado pelo administrador da empresa, oferecendo consistência aos cálculos e relatórios gerados.
+				>> Apenas vendas faturadas podem ser selecionadas para a geração dos valores de comissão, garantindo a consistência do fluxo de caixa da empresa. 
+				>> Backup automático, garantindo a proteção dos dados de seu negócio!	
+			
+Automatização: 
+			Gerenciamento de comissões: Seleção do vendedor no campo de comissão através do vínculo do cadastro de funcionário ao usuário.
+										Envio da parcela de comissão gerada ao financeiro
+										 																							
+Integrações: Incluído aos aplicativos Venda, Pedido de Venda, Financeiro, Contatos e Caixas.
+			 Habilite o pacote de inteligência para ativação de alertas e automatização de processos. 
+ 
+Principais Perguntas: 
+			Como são calculadas as comissões? Existe alguma regra de porcentagem?
+				O responsável irá definir como serão calculadas as comissões, uma vez que a porcentagem pode ser definida tanto no cadastro do
+				vendedor ou representante como na formação do preço de venda dos produtos e serviços ou no valor total da venda. Desta forma é possível
+				estabelecer os critérios e aplicar percentuais diferentes.
+			Como as comissões são pagas?
+				As parcelas são geradas com base nas vendas faturadas selecionadas pelo gestor, criando uma parcela que é enviada automaticamente ao financeiro,
+				onde deve acontecer a baixa do lançamento.				
+			Consigo tirar relatório de comissões?
+				Sim. E a emissão do relatório é muito rápida!  
+			Como as comissões são registradas contabilmente?
+			As comissões são obrigatórias?
+				Não. Elas funcionam como um incentivo adotado por empresas para impulsionar o aumento do fluxo de vendas. 
+			
+
