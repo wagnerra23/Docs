@@ -1,0 +1,87 @@
+Pergunta: Não estou conseguindo acessar o sistema.
+Resposta: 
+1. Cheque se a máquina do servidor está ligada e se todas as outras máquinas estão na mesma rede
+2. Posteriormente, na máquina servidor clique com o botão direito do mouse sobre a barra de tarefas 
+3. Selecione a opção "Gerenciador de Tarefas"
+4. Aberta a tela, clique sobre a aba "Serviços"
+5. Busque por "Firebird" e verifique se na coluna "Status" o serviço está "Em execução"
+6. Caso esteja, clique sobre ele com o botão direito e utilize a opção "Reiniciar"
+7. Tente acessar o sistema e caso ainda não esteja abrindo, siga os passos abaixo
+8. Retorne ao servidor e clique sobre o menu "Iniciar" do Windows
+9. Digite "CMD" e clique "Enter" para abrir o prompt
+10. Aberta a tela, digite o comando "ipconfig"
+11. Localize a linha do "Endereço IPV4" para identificar o ip da máquina
+12. Copie esse número
+13. Baixe o arquivo a seguir Registro Banco de Dados
+14. Clique com o botão direito sobre o arquivo e selecione a opção "Editar"
+15. Aberto o arquivo, localize a linha que inicia com "BANCO"="192.168.1.29
+16. Troque o ip do arquivo pelo ip da máquina do servidor
+17. Salve o arquivo
+18. Envie o arquivo para as máquinas que não estão conectando ao servidor
+19. Dê duplo clique no arquivo para executar o comando e confirme 
+20. Acesse o sistema novamente
+21. Caso ainda não esteja sendo possível conectar, faça as verificações a seguir
+22. Clique sobre o menu "Iniciar"
+23. Procure pela opção "Permitir um aplicativo pelo Firewall do windows"
+24. Verifique se na listagem apresentada existe o serviço "Firebird" e se este está com as 3 caixas marcadas
+25. Caso ele não esteja sendo exibido na listagem, clique em "Alterar Configurações"
+26. Selecione a opção "Permitir outro Aplicativo" 
+27. Aberta a tela, clique em "Procurar" e localize a pasta do Firebird
+28. Geralmente o diretório de instalação é o "C:\Program Files\Firebird"
+29. Sendo firebird versão 2.5, localize a pasta "Bin" e selecione o arquivo "fbserver.exe"
+30. Sendo firebird versão 3.0 selecione o arquivo "firebird.exe"
+31. Clique em "Adicionar" para inserir o serviço na listagem e cheque se as caixas estão marcadas
+32. Clique em "OK" para confirmar o processo
+33. Tente acessar o sistema novamente
+Ainda não sendo possível acessar o sistema, cheque se a máquina possui antivírus
+Caso sim, crie uma exceção para o executável do sistema
+Seguindo as instruções do Antivírus utilizado, insira o caminho como exeção "C:\WR Sistema\WR2.exe"
+Posteriormente, tente acessar o sistema
+Não sendo possível conectar, entre em contato com o suporte técnico
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
