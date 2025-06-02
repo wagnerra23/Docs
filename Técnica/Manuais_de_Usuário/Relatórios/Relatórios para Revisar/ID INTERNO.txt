@@ -1,0 +1,67 @@
+if AID = 'FR0000' then Result:= 'Lista de Arquivos FR3 do Sistema.fr3';                 //'', '');
+  if AID = 'FR0001' then Result:= 'Vendas - Agrupado Por Cliente.fr3';                    //'TImpriVendas_Periodo', '');
+  if AID = 'FR0002' then Result:= 'Vendas - Relação de Vendas.fr3';                       //'TConsuVenda', '');
+  if AID = 'FR0003' then Result:= 'CodBarras.fr3';                                        //'TFrmProduto_Barras', '');
+  if AID = 'FR0004' then Result:= 'Recibo - Personalizado.fr3';                           //'TFrmRecibo', '');
+  if AID = 'FR0005' then Result:= 'Relatório - Produtos Gerencial.fr3';                   //'TImpriProdutos_Gerencial', '');
+  if AID = 'FR0006' then Result:= 'Sintético de Produtos (Agrupados).fr3';                //'TImpriVendas_Periodo', '');
+  if AID = 'FR0007' then Result:= 'Vendas.fr3';                                           //'TImpriVendas_Periodo', '');
+  if AID = 'FR0008' then Result:= 'Vendas Com Parcelas.fr3';                              //'TImpriVendas_Periodo', '');
+  if AID = 'FR0009' then Result:= 'Vendas Com Produtos.fr3';                              //'TImpriVendas_Periodo', '');
+  if AID = 'FR0010' then Result:= 'Vendas Com Produtos - Simplificado.fr3';               //'TImpriVendas_Periodo', '');
+  if AID = 'FR0011' then Result:= 'Vendas - Agrupado Por Cliente.fr3';                    //'TImpriVendas_Periodo', '');
+  if AID = 'FR0012' then Result:= 'Balanço.fr3';                                          //'TFrmBalanco', '');
+  if AID = 'FR0013' then Result:= 'Notas Fiscais.fr3';                                    //'TFrmNFe', ''); //Usado também no TFrmNotasFiscais
+  if AID = 'FR0014' then Result:= 'Cheque Cópia.fr3';                                     //'TImpriCheque', '');
+  if AID = 'FR0015' then Result:= 'Cheque 000.fr3';                                       //'TImpriCheque', '');
+  if AID = 'FR0016' then Result:= 'Nota de Entrada.fr3';                                  //'TFrmNF_Entrada', '');
+  if AID = 'FR0017' then Result:= 'Entrada.fr3';                                          //'TImpriEntradas', '');
+  if AID = 'FR0018' then Result:= 'Financeiro - Devedores.fr3';                           //'TFrmRelatorios', '');
+  if AID = 'FR0019' then Result:= 'Funcionário - Controle de Ponto - Diário.fr3';         //'TDMRelatorios', '');
+  if AID = 'FR0020' then Result:= 'Funcionário - Controle de Ponto.fr3';                  //'TDMRelatorios', '');
+  if AID = 'FR0021' then Result:= 'Produtos - Entrada e Saída.fr3';                       //'TDMRelatorios', '');
+  if AID = 'FR0022' then Result:= 'Produtos - Grade de Corte.fr3';                        //'TDMRelatorios', '');
+  if AID = 'FR0023' then Result:= 'Agenda - Completo.fr3';                                //'TImpriAgenda', '');
+  if AID = 'FR0024' then Result:= 'Agenda - Simplificado.fr3';                            //'TImpriAgenda', '');
+//  if AID = 'FR0025' then Result:= 'Produção - Custos e Lucros.fr3';                     //'TImpriProducao', '');    //  Função desativada
+//  if AID = 'FR0026' then Result:= 'Produção - Finalizações.fr3';                        //'TImpriProducao', '');    //  Função desativada
+//  if AID = 'FR0027' then Result:= 'Produção - Perdas.fr3';                              //'TImpriProducao', '');    //  Função desativada
+//  if AID = 'FR0028' then Result:= 'Produção - Reaproveitamentos.fr3';                   //'TImpriProducao', '');    //  Função desativada
+  if AID = 'FR0029' then Result:= 'Mensalidade.fr3';                                      //'TFrmMensalidade', '');
+  if AID = 'FR0030' then Result:= 'Ficha de Registro de Empregado.fr3';                   //'TFrmPessoas', '');
+  if AID = 'FR0031' then Result:= 'Financeiro - Livro Caixa.fr3';                         //'TFrmFinanceiro', '');
+  if AID = 'FR0032' then Result:= 'Financeiro - Relatório de Devedores.fr3';              //'TFrmFinanceiro', '');
+  if AID = 'FR0033' then Result:= 'Carnê - Financeiro.fr3';                               //'TFrmFinanceiro', '');
+  if AID = 'FR0034' then Result:= 'Financeiro - Duplicata.fr3';                           //'TFrmFinanceiro', '');
+  if AID = 'FR0035' then Result:= 'Financeiro - Relatório.fr3';                           //'TFrmFinanceiro', '');
+  if AID = 'FR0036' then Result:= 'Financeiro - Relatório Contábil.fr3';                  //'TFrmFinanceiro', '');
+  if AID = 'FR0037' then Result:= 'Plano de Contas.fr3';                                  //'TFrmFinanceiro', '');
+  if AID = 'FR0038' then Result:= 'Carnê 1.fr3';                                          //'TFrmFinanceiro_Recebimento', '');
+  if AID = 'FR0039' then Result:= 'Financeiro Recebimento.fr3';                           //'TFrmFinanceiro_Recebimento', '');
+  if AID = 'FR0040' then Result:= 'Ficha Ponto.fr3';                                      //'TFrmFramePessoasFichaPonto', '');
+  if AID = 'FR0041' then Result:= 'Folha de Pagamento.fr3';                               //'TFrmFolhaPagamento', '');
+  if AID = 'FR0042' then Result:= 'Adiantamento Salarial - Vale.fr3';                     //'TFrmFolhaPagamento', '');
+  if AID = 'FR0043' then Result:= 'Eventos.fr3';                                          //'TFrmNotaFiscal', '');
+  if AID = 'FR0044' then Result:= 'Contrato.fr3';                                         //'TConsuContrato', '');
+  if AID = 'FR0045' then Result:= 'Venda - Personalizado - ConsultaTEC.fr3';              //'TFrmVenda', '');
+  if AID = 'FR0046' then Result:= 'Boleto.fr3';                                           //'TDMBoletos', '');
+  if AID = 'FR0047' then Result:= 'DANFeRetrato.fr3';                                     //'TFrmNFe', '');
+  if AID = 'FR0048' then Result:= 'DANFSeNovo.fr3';                                       //'TFrmNFSe', '');
+  if AID = 'FR0049' then Result:= 'DANFeNFCeA4.fr3';                                      //'TFrmNFe', '');
+  if AID = 'FR0050' then Result:= 'Inutilizacao.fr3';                                     //'TFrmNFe', '');
+  if AID = 'FR0051' then Result:= 'Venda - Personalizado.fr3';                            //'TFrmVenda', '');
+  if AID = 'FR0052' then Result:= 'Relação de Ocorrências.fr3';                           //'TConsuOcorrencia', '');
+  if AID = 'FR0053' then Result:= 'Ficha de Ocorrência de Equipamento.fr3';               //'TFrmEquipamentos', '');
+  if AID = 'FR0054' then Result:= 'Pedido de Exclusão de Equipamento.fr3';                //'TFrmEquipamentos', '');
+  if AID = 'FR0055' then Result:= 'Rateio.fr3';                                           //'TFrmRateio', '');
+  if AID = 'FR0056' then Result:= 'Tabela Fipe Valor.fr3';                                //'FrmTabelaFipe_Valor', ''); //CadTabela_Valor
+  if AID = 'FR0057' then Result:= 'Relatório - Produtos Com Valores.fr3';                 //'TFrmPrincipal', '');
+  if AID = 'FR0058' then Result:= 'Relatório - Produtos Pauta Preço.fr3';                 //'TFrmPrincipal', '');
+  if AID = 'FR0059' then Result:= 'Relatório - Produtos Patrimônio.fr3';                  //'TFrmPrincipal', '');
+  if AID = 'FR0060' then Result:= 'Equipamentos - Cadastro e Exclusão.fr3';               //'TFrmPrincipal', '');
+  if AID = 'FR0061' then Result:= 'Associados e Representante Legal.fr3';                 //'TImpriClientes_Ativos', '');
+  if AID = 'FR0062' then Result:= 'Relação de Associados.fr3';                            //'TImpriClientes_Ativos', '');
+  if AID = 'FR0063' then Result:= 'Ocorrência Roubos e Furtos.fr3';                       //'TImpriOcorrencias', '');
+  if AID = 'FR0064' then Result:= 'Ocorrências - Valor Por Placa.fr3';                    //'TImpriOcorrencias', '');
+  if AID = 'FR0065' then Result:= 'Produtos por Dia.fr3';                                 //'TImpriVendas_Periodo', '');
+  if AID = 'FR0066' then Result:= 'Produtos por Venda.fr3';  

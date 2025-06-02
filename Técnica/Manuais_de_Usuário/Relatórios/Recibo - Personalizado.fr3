@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Tag="1" Version="6.9.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Padrão" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41177,669722581" ReportOptions.Description.Text="[Dados]&#13;&#10;Versao=0.0.0.1&#13;&#10;Link=&#13;&#10;Observacao=[Dados]&#13;&#10;Versao=0.0.0.1&#13;&#10;Link=&#13;&#10;Observacao=[Dados]&#13;&#10;Versao=0.0.0.1&#13;&#10;Link=&#13;&#10;Observacao=[Dados]&#13;&#10;Versao=0.0.0.1&#13;&#10;Link=&#13;&#10;Observacao=&#13;&#10;Form=TFrmRecibo&#13;&#10;&#13;&#10;&#13;&#10;Form=TFrmRecibo&#13;&#10;&#13;&#10;&#13;&#10;Form=TFrmRecibo&#13;&#10;&#13;&#10;&#13;&#10;Form=TFrmRecibo&#13;&#10;" ReportOptions.LastChange="41844,6246173611" ReportOptions.VersionBuild="1" ScriptLanguage="PascalScript" ScriptText.Text="procedure ReportTitle1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  try&#13;&#10;  CarregaLogoEmpresa(Picture1);   &#13;&#10;  except end;                           &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;if (IntToStr(&#60;Valor&#62;) = '0')&#13;&#10;then&#13;&#10;begin&#13;&#10;    MemoValor.visible := false;                                            &#13;&#10;end;          &#13;&#10;&#13;&#10;end." StoreInDFM="False" OnReportPrint="frxReportOnReportPrint">
+  <Variables>
+    <item Name=" WR"/>
+    <item Name="Empresa"/>
+    <item Name="Cabecalho1"/>
+    <item Name="Cabecalho2"/>
+    <item Name="Cabecalho3"/>
+    <item Name="PagNome"/>
+    <item Name="PagCNPJCPF"/>
+    <item Name="PagINSCIE"/>
+    <item Name="PagFone"/>
+    <item Name="PagEndereco"/>
+    <item Name="PagBairro"/>
+    <item Name="PagCEP"/>
+    <item Name="PagCidade"/>
+    <item Name="PagUF"/>
+    <item Name="Valor"/>
+    <item Name="ValorExtenso"/>
+    <item Name="Referente"/>
+    <item Name="Data"/>
+    <item Name="DataExtenso"/>
+    <item Name="RecNome"/>
+    <item Name="RecCNPJCPF"/>
+    <item Name="RecFone"/>
+    <item Name="RecEndereco"/>
+    <item Name="RecBairro"/>
+    <item Name="RecCEP"/>
+    <item Name="RecCidade"/>
+    <item Name="RecUF"/>
+    <item Name="NumeroRecibo"/>
+  </Variables>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="385,51206" Left="0" Top="18,89765" Width="718,1107" OnBeforePrint="ReportTitle1OnBeforePrint">
+      <TfrxShapeView Name="Shape1" AllowVectorExport="True" Left="0,32282" Top="0" Width="718,1107" Height="381,73253" Frame.Typ="0"/>
+      <TfrxPictureView Name="Picture1" AllowVectorExport="True" Left="7,55906" Top="7,55906" Width="215,43321" Height="124,72449" Frame.Typ="0" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="1,22047" Top="132,50402" Width="75,5906" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Recebemos de"/>
+      <TfrxMemoView Name="Empresa" AllowVectorExport="True" Left="230,55133" Top="11,33859" Width="359,05535" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="[Empresa]"/>
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="408,18924" Top="97,26778" Width="94,48825" Height="30,23624" Font.Charset="1" Font.Color="-16777208" Font.Height="-27" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Recibo"/>
+      <TfrxMemoView Name="Cabecalho1" AllowVectorExport="True" Left="231,33086" Top="34,01577" Width="476,22078" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Cabecalho1]"/>
+      <TfrxMemoView Name="Cabecalho2" AllowVectorExport="True" Left="231,33086" Top="51,69295" Width="476,22078" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Cabecalho2]"/>
+      <TfrxMemoView Name="Cabecalho3" AllowVectorExport="True" Left="231,33086" Top="70,14966" Width="476,22078" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Cabecalho3]"/>
+      <TfrxLineView Name="Line1" AllowVectorExport="True" Left="0" Top="143,62214" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="1" Top="143,62214" Width="41,57483" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Nome"/>
+      <TfrxLineView Name="Line2" AllowVectorExport="True" Left="0" Top="173,85838" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="338,26005" Top="143,62214" Width="68,03154" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="CNPJ/CPF"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="473,22078" Top="143,62214" Width="41,57483" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="IE/RG"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="605,50433" Top="143,62214" Width="41,57483" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Fone"/>
+      <TfrxLineView Name="Line3" AllowVectorExport="True" Left="336,70099" Top="143,62214" Width="0" Height="30,23624" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line4" AllowVectorExport="True" Left="472,44125" Top="143,62214" Width="0" Height="30,23624" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line5" AllowVectorExport="True" Left="604,7248" Top="143,62214" Width="0" Height="30,23624" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="RazaoSocial" AllowVectorExport="True" Left="0" Top="154,96073" Width="309,92146" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagNome]"/>
+      <TfrxMemoView Name="CNPJCPF" AllowVectorExport="True" Left="336,70099" Top="154,96073" Width="132,28355" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagCNPJCPF]"/>
+      <TfrxMemoView Name="INSCIE" AllowVectorExport="True" Left="472,44125" Top="154,96073" Width="128,50402" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagINSCIE]"/>
+      <TfrxMemoView Name="Fone" AllowVectorExport="True" Left="604,7248" Top="154,96073" Width="109,60637" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagFone]"/>
+      <TfrxLineView Name="Line6" AllowVectorExport="True" Left="0" Top="204,09462" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo7" AllowVectorExport="True" Left="1" Top="173,85838" Width="52,91342" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Endereço"/>
+      <TfrxMemoView Name="Memo8" AllowVectorExport="True" Left="314,3624" Top="173,85838" Width="41,57483" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Bairro"/>
+      <TfrxMemoView Name="Memo9" AllowVectorExport="True" Left="455,20501" Top="173,85838" Width="41,57483" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="CEP"/>
+      <TfrxMemoView Name="Memo10" AllowVectorExport="True" Left="533,69326" Top="173,85838" Width="41,57483" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Cidade"/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" Left="681,09493" Top="173,85838" Width="18,89765" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="UF"/>
+      <TfrxLineView Name="Line8" AllowVectorExport="True" Left="454,40971" Top="173,85838" Width="0" Height="30,23624" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line9" AllowVectorExport="True" Left="532,91373" Top="173,85838" Width="0" Height="30,23624" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line10" AllowVectorExport="True" Left="680,3154" Top="173,85838" Width="0" Height="30,23624" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Endereco" AllowVectorExport="True" Left="0" Top="185,19697" Width="309,92146" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagEndereco]"/>
+      <TfrxMemoView Name="Bairro" AllowVectorExport="True" Left="313,80334" Top="185,19697" Width="136,06308" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagBairro]"/>
+      <TfrxMemoView Name="UF" AllowVectorExport="True" Left="680,3154" Top="185,19697" Width="34,01577" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagUF]"/>
+      <TfrxMemoView Name="Cidade" AllowVectorExport="True" Left="532,91373" Top="185,19697" Width="143,62214" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagCidade]"/>
+      <TfrxMemoView Name="CEP" AllowVectorExport="True" Left="454,64595" Top="185,19697" Width="75,5906" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[PagCEP]"/>
+      <TfrxLineView Name="Line11" AllowVectorExport="True" Left="0" Top="272,12616" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo12" AllowVectorExport="True" Left="1" Top="204,09462" Width="71,81107" Height="11,33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Referente à"/>
+      <TfrxLineView Name="Line12" AllowVectorExport="True" Left="0" Top="303,3624" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line13" AllowVectorExport="True" Left="529,1342" Top="272,12616" Width="0" Height="30,23624" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="MemoValor" AllowVectorExport="True" Left="566,9295" Top="275,12616" Width="151,1812" Height="26,45671" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="[Valor]"/>
+      <TfrxMemoView Name="ValorExtenso" AllowVectorExport="True" Left="1,77953" Top="278,12616" Width="525,35467" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="[ValorExtenso]"/>
+      <TfrxMemoView Name="Date" AllowVectorExport="True" Left="3,77953" Top="306,14193" Width="215,43321" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[DataExtenso]"/>
+      <TfrxLineView Name="Line14" AllowVectorExport="True" Left="423,30736" Top="359,05535" Width="287,24428" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Empresa1" AllowVectorExport="True" Left="423,30736" Top="359,05535" Width="287,24428" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[RecNome]"/>
+      <TfrxMemoView Name="Referente" AllowVectorExport="True" Left="0" Top="217,21274" Width="714,33117" Height="52,91342" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Referente]"/>
+      <TfrxLineView Name="Line7" AllowVectorExport="True" Left="313,70099" Top="173,85838" Width="0" Height="30,23624" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo13" AllowVectorExport="True" Left="532,91373" Top="275,90569" Width="34,01577" Height="26,45671" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="R$"/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+</TfrxReport>

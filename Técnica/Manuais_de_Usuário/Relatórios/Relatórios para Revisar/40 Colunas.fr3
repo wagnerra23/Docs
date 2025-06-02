@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Tag="1" Version="6.9.6" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Padrão" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41260,6571185764" ReportOptions.Description.Text="" ReportOptions.LastChange="41953,6621118519" ReportOptions.VersionBuild="0" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" OnReportPrint="frxReportOnReportPrint">
+  <Datasets>
+    <item DataSet="frxEmpresa" DataSetName="Empresa"/>
+    <item DataSet="FrmVenda_4.frxDBDataset4" DataSetName="VendaFinanceiro"/>
+    <item DataSet="FrmVenda_4.Fr3Cadastro" DataSetName="Cadastro"/>
+    <item DataSet="FrmVenda_4.frxDBDataset2" DataSetName="Produto"/>
+  </Datasets>
+  <Variables>
+    <item Name=" WR2"/>
+    <item Name="ATotal"/>
+    <item Name="TotalDinheiro"/>
+    <item Name="TotalCartao"/>
+    <item Name="TotalCheque"/>
+    <item Name="TotalCrediario"/>
+    <item Name="TotalOutros"/>
+  </Variables>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="101,599934383376" PaperHeight="134,937412852921" PaperSize="256" LeftMargin="2,53999835958439" RightMargin="2,53999835958439" TopMargin="4,49791376176403" BottomMargin="4,49791376176403" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" EndlessHeight="True" MirrorMode="0" FontStyle="0">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="17" Left="0" Top="306" Width="364,8" ColumnWidth="0" ColumnGap="0" DataSet="FrmVenda_4.frxDBDataset2" DataSetName="Produto" RowCount="0">
+      <TfrxDMPMemoView Name="ProdutoPRODUTO" AllowVectorExport="True" Left="0" Top="0" Width="240" Height="17" DataSet="FrmVenda_4.frxDBDataset2" DataSetName="Produto" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Produto.&#34;DESCRICAO&#34;]"/>
+      <TfrxDMPMemoView Name="ProdutoQTDADEPECA" AllowVectorExport="True" Left="259,2" Top="0" Width="38,4" Height="17" DataField="QTDADEPECA" DataSet="FrmVenda_4.frxDBDataset2" DataSetName="Produto" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Produto.&#34;QTDADEPECA&#34;]"/>
+      <TfrxDMPMemoView Name="ProdutoTotal" AllowVectorExport="True" Left="307,2" Top="0" Width="57,6" Height="17" DataField="Total" DataSet="FrmVenda_4.frxDBDataset2" DataSetName="Produto" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Produto.&#34;Total&#34;]"/>
+    </TfrxMasterData>
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="221" Left="0" Top="17" Width="364,8">
+      <TfrxDMPMemoView Name="DMPMemo1" AllowVectorExport="True" Left="0" Top="0" Width="364,8" Height="17" FontStyle="0" Frame.Typ="8" Frame.BottomLine.Style="fsDot" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="[Empresa.&#34;FANTASIA&#34;]"/>
+      <TfrxDMPMemoView Name="VendaCODIGO" AllowVectorExport="True" Left="0" Top="34" Width="364,8" Height="17" DataSet="FrmVenda_4.Fr3Cadastro" DataSetName="Cadastro" FontStyle="0" Frame.Typ="8" Frame.BottomLine.Style="fsDot" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="Pedido: [Cadastro.&#34;CODIGO&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo2" AllowVectorExport="True" Left="9,6" Top="68" Width="96" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="Cliente:"/>
+      <TfrxDMPMemoView Name="DMPMemo3" AllowVectorExport="True" Left="9,6" Top="119" Width="96" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="Cidade:"/>
+      <TfrxDMPMemoView Name="DMPMemo4" AllowVectorExport="True" Left="9,6" Top="85" Width="96" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="Endereço:"/>
+      <TfrxDMPMemoView Name="DMPMemo5" AllowVectorExport="True" Left="9,6" Top="170" Width="96" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="Telefone:"/>
+      <TfrxDMPMemoView Name="DMPMemo6" AllowVectorExport="True" Left="9,6" Top="136" Width="96" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="Cnpj/CPF:"/>
+      <TfrxDMPMemoView Name="VendaRAZAOSOCIAL" AllowVectorExport="True" Left="105,6" Top="68" Width="249,6" Height="17" DataField="RAZAOSOCIAL" DataSet="FrmVenda_4.Fr3Cadastro" DataSetName="Cadastro" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Cadastro.&#34;RAZAOSOCIAL&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo7" AllowVectorExport="True" Left="105,6" Top="119" Width="249,6" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Cadastro.&#34;RESPONSAVEL_CIDADE&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo8" AllowVectorExport="True" Left="105,6" Top="85" Width="249,6" Height="34" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Cadastro.&#34;RESPONSAVEL_ENDERECO&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo9" AllowVectorExport="True" Left="105,6" Top="170" Width="249,6" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Cadastro.&#34;TELEFONE&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo10" AllowVectorExport="True" Left="105,6" Top="136" Width="249,6" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Cadastro.&#34;RESPONSAVEL_CNPJCPF&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo22" AllowVectorExport="True" Left="9,6" Top="153" Width="96" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="IEST/RG:"/>
+      <TfrxDMPMemoView Name="DMPMemo23" AllowVectorExport="True" Left="0" Top="187" Width="105,6" Height="17" FontStyle="0" Frame.Typ="8" Frame.BottomLine.Style="fsDot" ParentFont="False" TruncOutboundText="False" Text=" DATA:"/>
+      <TfrxDMPMemoView Name="VendaDT_EMISSAO" AllowVectorExport="True" Left="105,6" Top="187" Width="259,2" Height="17" DataField="DT_EMISSAO" DataSet="FrmVenda_4.Fr3Cadastro" DataSetName="Cadastro" FontStyle="0" Frame.Typ="8" Frame.BottomLine.Style="fsDot" ParentFont="False" TruncOutboundText="False" Text="[Cadastro.&#34;DT_EMISSAO&#34;]"/>
+    </TfrxReportTitle>
+    <TfrxReportSummary Name="ReportSummary1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="17" Left="0" Top="527" Width="364,8"/>
+    <TfrxHeader Name="Header1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="17" Left="0" Top="272" Width="364,8">
+      <TfrxDMPMemoView Name="DMPMemo12" AllowVectorExport="True" Left="0" Top="0" Width="240" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="Produto/Serviço"/>
+      <TfrxDMPMemoView Name="DMPMemo13" AllowVectorExport="True" Left="259,2" Top="0" Width="38,4" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="QTDE"/>
+      <TfrxDMPMemoView Name="DMPMemo14" AllowVectorExport="True" Left="316,8" Top="0" Width="48" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="Valor"/>
+    </TfrxHeader>
+    <TfrxFooter Name="Footer1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="153" Left="0" Top="340" Width="364,8">
+      <TfrxDMPMemoView Name="DMPMemo15" AllowVectorExport="True" Left="115,2" Top="17" Width="211,2" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[SUM(&#60;Produto.&#34;QUANT&#34;&#62;,MasterData1)]"/>
+      <TfrxDMPMemoView Name="DMPMemo16" AllowVectorExport="True" Left="105,6" Top="34" Width="220,8" Height="17" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Cadastro.&#34;VDESC&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo17" AllowVectorExport="True" Left="153,6" Top="51" Width="172,8" Height="17" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="[Cadastro.&#34;TOTAL&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo18" AllowVectorExport="True" Left="0" Top="68" Width="364,8" Height="68" FontStyle="0" Frame.Typ="8" Frame.BottomLine.Style="fsDot" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="       Assinatura:"/>
+      <TfrxDMPMemoView Name="DMPMemo19" AllowVectorExport="True" Left="9,6" Top="17" Width="105,6" Height="17" FontStyle="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="Quantidade:"/>
+      <TfrxDMPMemoView Name="DMPMemo20" AllowVectorExport="True" Left="9,6" Top="34" Width="96" Height="17" FontStyle="0" Frame.Typ="0" ParentFont="False" TruncOutboundText="False" Text="Desconto:"/>
+      <TfrxDMPMemoView Name="DMPMemo21" AllowVectorExport="True" Left="9,6" Top="51" Width="144" Height="17" FontStyle="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="Total da Venda:"/>
+    </TfrxFooter>
+  </TfrxDMPPage>
+</TfrxReport>

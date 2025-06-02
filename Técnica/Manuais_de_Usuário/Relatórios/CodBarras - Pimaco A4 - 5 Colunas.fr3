@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Tag="1" Version="6.9.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44985,4581658681" ReportOptions.Description.Text="" ReportOptions.LastChange="44985,4581658681" ScriptLanguage="PascalScript" ScriptText.Text="var&#13;&#10;  IsTrue : boolean;&#13;&#10;  ACount : integer;  &#13;&#10;  &#13;&#10;begin&#13;&#10;  IsTrue := False;&#13;&#10;  ACount := 0;  &#13;&#10;end." StoreInDFM="False" OnReportPrint="frxReportOnReportPrint">
+  <Datasets>
+    <item DataSet="IBXQuery1" DataSetName="IBXQuery1"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000">
+    <TfrxIBXQuery Name="IBXQuery1" UserName="IBXQuery1" CloseDataSource="True" FieldAliases.Text="" BCDToCurrency="False" IgnoreDupParams="False" SQL.Text="select b.*, p.descricao_nfe from barras_imprimir b     &#13;&#10;left join produto p on (p.codigo = b.codproduto)                                                                                                                                                  &#13;&#10;order by descricao  " PropData="05704C656674021B0470546F7002150A506172616D65746572730100"/>
+  </TfrxDataPage>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="210" PaperHeight="297" PaperSize="256" LeftMargin="4,5" RightMargin="4,5" TopMargin="10,7" BottomMargin="10,7" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="80,1259842519685" Left="0" Top="18,89765" Width="759,68553" Columns="5" ColumnWidth="144,377952755906" ColumnGap="11,3385826771654" DataSet="IBXQuery1" DataSetName="IBXQuery1" RowCount="0">
+      <TfrxBarCodeView Name="BarCode1" AllowVectorExport="True" Left="14,70588235" Top="35,29411764" Width="104" Height="23,79961078" BarType="bcCodeEAN13" CalcCheckSum="True" Expression="&#60;IBXQuery1.&#34;CODBARRAS&#34;&#62;" Frame.Typ="0" Rotation="0" ShowText="False" TestLine="False" Text="12345678" WideBarRatio="2" Zoom="1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ColorBar="0"/>
+      <TfrxMemoView Name="IBXQuery1DESCRICAO_NFE" IndexTag="1" AllowVectorExport="True" Left="0" Top="5,88235294" Width="139,93564823" Height="26,74078726" DataField="DESCRICAO_NFE" DataSet="IBXQuery1" DataSetName="IBXQuery1" Font.Charset="1" Font.Color="-16777208" Font.Height="-8" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[IBXQuery1.&#34;DESCRICAO_NFE&#34;]"/>
+      <TfrxMemoView Name="Memo1" IndexTag="1" AllowVectorExport="True" Left="1,96078432" Top="60,78431373" Width="139,93564823" Height="13,01529706" DataSet="IBXQuery1" DataSetName="IBXQuery1" Font.Charset="1" Font.Color="-16777208" Font.Height="-8" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[IBXQuery1.&#34;CODPRODUTO&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

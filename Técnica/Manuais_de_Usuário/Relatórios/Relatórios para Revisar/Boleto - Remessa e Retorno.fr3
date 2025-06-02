@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Tag="1" Version="6.9.6" DotMatrixReport="False" EngineOptions.DoublePass="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Padrão" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41177,669722581" ReportOptions.Description.Text="" ReportOptions.LastChange="41443,5801863773" ReportOptions.VersionBuild="34" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;procedure MasterData1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  if &#60;Financeiro_Boleto_Historico.&#34;STATUS&#34;&#62; = 'ATIVO EM ABERTO' then&#13;&#10;    MasterData1.Font.Color := $008080FF&#13;&#10;  else&#13;&#10;    MasterData1.Font.Color := clBlack;                 &#13;&#10;end;&#13;&#10;&#13;&#10;procedure Page1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;  ATexto: string;&#13;&#10;  i: Integer;                           &#13;&#10;begin&#13;&#10;  try   &#13;&#10;  except end;    &#13;&#10;  ATexto:='';            &#13;&#10;  MasterData1.DataSet.First;      &#13;&#10;  for i := 0 to &#60;Line#&#62; - 1 do&#13;&#10;  begin&#13;&#10;    ATexto := ATexto + ',' + &#60;Financeiro_Boleto_Historico.&#34;BOLETO_NOSSO_NR&#34;&#62;;                   &#13;&#10;    MasterData1.DataSet.Next;          &#13;&#10;  end;&#13;&#10;  MasterData1.DataSet.First;&#13;&#10;&#13;&#10;  QuerFinanceiro.SQL.Text := 'select P.DESCRICAO, F.CODPLANOCONTAS, sum(F.VALOR) as VALOR, '+          &#13;&#10;                             '       sum(F.JUROS) as JUROS, sum(F.DESCONTO) as DESCONTO, ' +&#13;&#10;                             '       sum(F.VALOR + coalesce(F.JUROS, 0) - coalesce(F.DESCONTO, 0)) as TOTAL '+&#13;&#10;                             'from FINANCEIRO F '+&#13;&#10;                             'left join PLANOCONTAS P on (P.CODIGO = F.CODPLANOCONTAS) '+                                          &#13;&#10;                             'where F.BOLETO_NOSSO_NR in (0'+ATexto+')'+                                       &#13;&#10;                             'group by P.DESCRICAO, F.CODPLANOCONTAS';&#13;&#10;                                                  &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" OnReportPrint="frxReportOnReportPrint">
+  <Datasets>
+    <item DataSet="frxEmpresa" DataSetName="Empresa"/>
+    <item DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto" DataSetName="Financeiro_Boleto"/>
+    <item DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico"/>
+    <item DataSet="FrmFinanceiro_Boleto_1.frxContas" DataSetName="Contas"/>
+    <item DataSet="QuerFinanceiro" DataSetName="QuerFinanceiro"/>
+  </Datasets>
+  <Variables>
+    <item Name=" WR"/>
+    <item Name="Empresa"/>
+    <item Name="Cabecalho1"/>
+    <item Name="Cabecalho2"/>
+    <item Name="Cabecalho3"/>
+    <item Name="PagNome"/>
+    <item Name="PagCNPJCPF"/>
+    <item Name="PagINSCIE"/>
+    <item Name="PagFone"/>
+    <item Name="PagEndereco"/>
+    <item Name="PagBairro"/>
+    <item Name="PagCEP"/>
+    <item Name="PagCidade"/>
+    <item Name="PagUF"/>
+    <item Name="Valor"/>
+    <item Name="ValorExtenso"/>
+    <item Name="Referente"/>
+    <item Name="Data"/>
+    <item Name="DataExtenso"/>
+    <item Name="RecNome"/>
+    <item Name="RecCNPJCPF"/>
+    <item Name="RecFone"/>
+    <item Name="RecEndereco"/>
+    <item Name="RecBairro"/>
+    <item Name="RecCEP"/>
+    <item Name="RecCidade"/>
+    <item Name="RecUF"/>
+    <item Name="NumeroRecibo"/>
+  </Variables>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000">
+    <TfrxIBXQuery Name="QuerFinanceiro" UserName="QuerFinanceiro" CloseDataSource="True" FieldAliases.Text="" BCDToCurrency="False" IgnoreDupParams="False" SQL.Text="      " PropData="05704C65667403C0000470546F700394000A506172616D65746572730100"/>
+  </TfrxDataPage>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0" OnBeforePrint="Page1OnBeforePrint">
+    <TfrxHeader Name="Header1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="17,00787402" Left="0" Top="257,00804" Width="718,1107">
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="3,55906" Top="0" Width="79,37013" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Documento"/>
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="90,28355" Top="0" Width="94,48825" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Responsável"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="291,22851" Top="0" Width="52,91342" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Vencto"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="354,70099" Top="0" Width="52,91338583" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Pagto"/>
+      <TfrxMemoView Name="Memo7" AllowVectorExport="True" Left="418,85065" Top="0" Width="45,35436" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Valor"/>
+      <TfrxMemoView Name="Memo8" AllowVectorExport="True" Left="469,20501" Top="0" Width="37,7953" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Juros"/>
+      <TfrxMemoView Name="Memo9" AllowVectorExport="True" Left="513,00031" Top="0" Width="64,25201" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Lancto"/>
+      <TfrxMemoView Name="Memo10" AllowVectorExport="True" Left="583,37044" Top="0" Width="56,69295" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Número"/>
+      <TfrxMemoView Name="Memo15" AllowVectorExport="True" Left="648,74057" Top="0" Width="60,47248" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Ret. Ant."/>
+    </TfrxHeader>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="15,11811024" Left="0" Top="298,58287" Width="718,1107" OnBeforePrint="MasterData1OnBeforePrint" ColumnWidth="0" ColumnGap="0" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" RowCount="0">
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoDOCUMENTO" AllowVectorExport="True" Left="3,55906" Top="0" Width="79,37013" Height="13,22834646" DataField="DOCUMENTO" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;DOCUMENTO&#34;]"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoRAZAOSOCIAL" AllowVectorExport="True" Left="90,28355" Top="0" Width="192,75603" Height="13,22834646" DataField="RAZAOSOCIAL" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;RAZAOSOCIAL&#34;]"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoVENCTO" AllowVectorExport="True" Left="291,22851" Top="0" Width="52,91342" Height="13,22834646" DataField="VENCTO" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;VENCTO&#34;]"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoDATAPAGTO" AllowVectorExport="True" Left="354,70099" Top="0" Width="52,91338583" Height="13,22834646" DataField="DATAPAGTO" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;DATAPAGTO&#34;]"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoTotal" AllowVectorExport="True" Left="418,85065" Top="0" Width="45,35436" Height="13,22834646" DataField="Total" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;Total&#34;]"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoDIFERENCA" AllowVectorExport="True" Left="469,20501" Top="0" Width="37,7953" Height="13,22834646" DataField="JUROS" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;JUROS&#34;]"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoTIPO" AllowVectorExport="True" Left="513,00031" Top="0" Width="64,25201" Height="13,22834646" DataField="TIPO" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;TIPO&#34;]"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoBOLETO_NOSSO_NR" AllowVectorExport="True" Left="583,37044" Top="0" Width="56,69295" Height="13,22834646" DataField="BOLETO_NOSSO_NR" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;BOLETO_NOSSO_NR&#34;]"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoRETORNOS_ANTERIORES" AllowVectorExport="True" Left="647,96104" Top="0" Width="64,25201" Height="13,22834646" DataField="RETORNOS_ANTERIORES" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Financeiro_Boleto_Historico.&#34;RETORNOS_ANTERIORES&#34;]"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="56,69295" Left="0" Top="445,98454" Width="718,1107">
+      <TfrxMemoView Name="Memo16" AllowVectorExport="True" Left="343,93723" Top="0" Width="60,47248" Height="26,45671" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="Times New Roman" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="Juros"/>
+      <TfrxMemoView Name="Memo17" AllowVectorExport="True" Left="627,40198" Top="0" Width="56,69295" Height="26,45671" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="Times New Roman" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="Total"/>
+      <TfrxLineView Name="Line1" AllowVectorExport="True" Left="0" Top="0" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo31" AllowVectorExport="True" Left="430,86642" Top="0" Width="105,82684" Height="26,45671" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="Times New Roman" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="Desconto"/>
+      <TfrxMemoView Name="Financeiro_Boleto_HistoricoJUROS" AllowVectorExport="True" Left="290,24428" Top="26,67718" Width="113,3859" Height="18,89765" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;Financeiro_Boleto_Historico.&#34;JUROS&#34;&#62;,MasterData1)]"/>
+      <TfrxMemoView Name="Memo18" AllowVectorExport="True" Left="423,30736" Top="26,67718" Width="113,3859" Height="18,89765" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;Financeiro_Boleto_Historico.&#34;DESCONTO&#34;&#62;,MasterData1)]"/>
+      <TfrxMemoView Name="Memo19" AllowVectorExport="True" Left="570,48856" Top="27,45671" Width="113,3859" Height="18,89765" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto_Historico" DataSetName="Financeiro_Boleto_Historico" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;Financeiro_Boleto_Historico.&#34;TOTAL&#34;&#62;,MasterData1)]"/>
+    </TfrxFooter>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22,67718" Left="0" Top="563,14997" Width="718,1107">
+      <TfrxMemoView Name="Memo23" Align="baClient" AllowVectorExport="True" Left="0" Top="0" Width="718,1107" Height="22,67718" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" VAlign="vaBottom" Text="Página [Page#] de [TotalPages#]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="177,63791" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo48" AllowVectorExport="True" Left="242,11023378" Top="96,35436" Width="245,66945" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="RELATÓRIO DE BOLETOS"/>
+      <TfrxMemoView Name="EmpresaENDERECO" AllowVectorExport="True" Left="300,5671" Top="39,32282" Width="415,7483" Height="13,22834646" DataSet="frxEmpresa" DataSetName="Empresa" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Empresa.&#34;ENDERECO&#34;], [Empresa.&#34;NUMERO&#34;]  -  [Empresa.&#34;BAIRRO&#34;]  -  [Empresa.&#34;CIDADE&#34;]-[Empresa.&#34;UF&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+          <item/>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="EmpresaFONE1" AllowVectorExport="True" Left="291,88992" Top="53" Width="162,51979" Height="13,22834646" DataField="FONE1" DataSet="frxEmpresa" DataSetName="Empresa" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Empresa.&#34;FONE1&#34;]"/>
+      <TfrxMemoView Name="EmpresaCNPJCPF" AllowVectorExport="True" Left="291,88992" Top="67,89765" Width="158,74026" Height="13,2283464566929" DataField="CNPJCPF" DataSet="frxEmpresa" DataSetName="Empresa" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Empresa.&#34;CNPJCPF&#34;]"/>
+      <TfrxMemoView Name="EmpresaEMAIL" AllowVectorExport="True" Left="570,14997" Top="53" Width="264,5671" Height="13,2283464566929" DataField="EMAIL" DataSet="frxEmpresa" DataSetName="Empresa" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Empresa.&#34;EMAIL&#34;]"/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" Left="241,88976378" Top="39,32282" Width="71,81107" Height="13,2283464566929" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Endereço:"/>
+      <TfrxMemoView Name="Memo12" AllowVectorExport="True" Left="241,88976378" Top="53" Width="41,57483" Height="13,2283464566929" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Fone:"/>
+      <TfrxMemoView Name="Memo13" AllowVectorExport="True" Left="241,88976378" Top="67,89765" Width="45,35436" Height="13,2283464566929" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="CNPJ:"/>
+      <TfrxMemoView Name="Memo14" AllowVectorExport="True" Left="507,79561" Top="53" Width="56,69295" Height="13,2283464566929" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="E-mail:"/>
+      <TfrxMemoView Name="FinanceiroRAZAOSOCIAL" AllowVectorExport="True" Left="241,88976378" Top="10,10235" Width="476,22078" Height="22,67718" DataSetName="Financeiro" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="[Empresa.&#34;FANTASIA&#34;]"/>
+      <TfrxMemoView Name="MemoTipoRelatorio" AllowVectorExport="True" Left="241,88992" Top="132,84261" Width="275,90569" Height="18,89765" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto" DataSetName="Financeiro_Boleto" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[Financeiro_Boleto.&#34;DESCRICAO&#34;] Nº [Financeiro_Boleto.&#34;CODIGO&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="517,79561" Top="133,28355" Width="166,29932" Height="18,89765" DataSet="FrmFinanceiro_Boleto_1.frxFinanceiro_Boleto" DataSetName="Financeiro_Boleto" DisplayFormat.FormatStr="dd/mm/yyyy" DisplayFormat.Kind="fkDateTime" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Highlight.Font.Charset="1" Highlight.Font.Color="255" Highlight.Font.Height="-13" Highlight.Font.Name="Arial" Highlight.Font.Style="0" Highlight.Condition="FormatDateTime('DD/MM/YYYY',&#60;Financeiro_Boleto.&#34;DATA_ARQUIVO&#34;&#62;) = '01/01/0001'" Highlight.FillType="ftBrush" Highlight.Frame.Typ="0" Highlight.Visible="False" ParentFont="False" Text=" de [Financeiro_Boleto.&#34;DATA_ARQUIVO&#34;]"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="15,11812" Left="0" Top="408,18924" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="QuerFinanceiro" DataSetName="QuerFinanceiro" RowCount="0">
+      <TfrxMemoView Name="QuerFinanceiroCODPLANOCONTAS" AllowVectorExport="True" Left="7,55906" Top="0" Width="347,71676" Height="15,11812" DataSet="QuerFinanceiro" DataSetName="QuerFinanceiro" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[QuerFinanceiro.&#34;CODPLANOCONTAS&#34;] - [QuerFinanceiro.&#34;DESCRICAO&#34;]"/>
+      <TfrxMemoView Name="Memo25" AllowVectorExport="True" Left="366,07112" Top="0" Width="98,26778" Height="15,11812" DataSet="QuerFinanceiro" DataSetName="QuerFinanceiro" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[&#60;QuerFinanceiro.&#34;VALOR&#34;&#62;]"/>
+      <TfrxMemoView Name="Memo21" AllowVectorExport="True" Left="468,11843" Top="0" Width="60,47248" Height="15,11812" DataField="JUROS" DataSet="QuerFinanceiro" DataSetName="QuerFinanceiro" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[QuerFinanceiro.&#34;JUROS&#34;]"/>
+      <TfrxMemoView Name="Memo26" AllowVectorExport="True" Left="610,26809" Top="0" Width="102,04731" Height="15,11812" DataSet="QuerFinanceiro" DataSetName="QuerFinanceiro" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[QuerFinanceiro.&#34;TOTAL&#34;]"/>
+      <TfrxMemoView Name="Memo29" AllowVectorExport="True" Left="532,37044" Top="0" Width="68,03154" Height="15,11812" DataSet="QuerFinanceiro" DataSetName="QuerFinanceiro" DisplayFormat.FormatStr="%2.2m" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[QuerFinanceiro.&#34;DESCONTO&#34;]"/>
+    </TfrxMasterData>
+    <TfrxHeader Name="Header2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="49,13389" Left="0" Top="336,37817" Width="718,1107">
+      <TfrxLineView Name="Line2" AllowVectorExport="True" Left="0" Top="0" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo20" AllowVectorExport="True" Left="192,75603" Top="30,23624" Width="162,51979" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Plano de contas"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="0" Top="0" Width="718,1107" Height="24,56693402" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Total por Plano de Contas"/>
+      <TfrxMemoView Name="Memo24" AllowVectorExport="True" Left="366,07112" Top="30,23624" Width="98,26774583" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="Valor"/>
+      <TfrxMemoView Name="Memo22" AllowVectorExport="True" Left="468,11843" Top="30,23624" Width="60,47244583" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="Juros"/>
+      <TfrxMemoView Name="Memo27" AllowVectorExport="True" Left="610,26809" Top="30,23624" Width="102,04727583" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="Total"/>
+      <TfrxMemoView Name="Memo28" AllowVectorExport="True" Left="531,70903" Top="30,23624" Width="68,03150583" Height="17,00787402" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="Desconto"/>
+    </TfrxHeader>
+  </TfrxReportPage>
+</TfrxReport>

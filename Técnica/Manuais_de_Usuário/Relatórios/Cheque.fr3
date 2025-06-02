@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Tag="1" Version="6.9.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Padrão" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41177,669722581" ReportOptions.Description.Text="" ReportOptions.LastChange="41884,6788256713" ReportOptions.VersionBuild="0" ScriptLanguage="PascalScript" ScriptText.Text="procedure Page1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  Cruzado1.Visible := &#60;Cruzado&#62;;&#13;&#10;  Cruzado2.Visible := &#60;Cruzado&#62;;           &#13;&#10;  {if Trim(MemoValorExtenso2.Lines.Text) = '' then&#13;&#10;    MemoValorExtenso1.HAlign := haLeft        &#13;&#10;  else&#13;&#10;    MemoValorExtenso1.HAlign := haRight;}                             &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;  if &#60;Verso&#62; then&#13;&#10;    Page1.Visible := False                                                          &#13;&#10;  else&#13;&#10;    Page2.Visible := False;                                       &#13;&#10;end." StoreInDFM="False" OnReportPrint="frxReportOnReportPrint">
+  <Variables>
+    <item Name=" WR2"/>
+    <item Name="Verso"/>
+    <item Name="Banco"/>
+    <item Name="Valor"/>
+    <item Name="ValorExtenso1"/>
+    <item Name="ValorExtenso2"/>
+    <item Name="Data"/>
+    <item Name="Dia"/>
+    <item Name="Mes"/>
+    <item Name="Ano"/>
+    <item Name="Ano2Dig"/>
+    <item Name="Favorecido"/>
+    <item Name="Cidade"/>
+    <item Name="TextoVerso"/>
+  </Variables>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="185" PaperHeight="76,2" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0" OnBeforePrint="Page1OnBeforePrint">
+    <TfrxMemoView Name="Verso" AllowVectorExport="True" Left="518,23622047" Top="20,45669291" Width="90,70863457" Height="18,8976378" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Valor]"/>
+    <TfrxMemoView Name="MemoValorExtenso1" AllowVectorExport="True" Left="113,38582677" Top="48,57480315" Width="510,23655" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[ValorExtenso1]"/>
+    <TfrxMemoView Name="Verso2" AllowVectorExport="True" Left="302,36220472" Top="119,50393701" Width="105,82675457" Height="22,67718" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[Cidade]"/>
+    <TfrxMemoView Name="Verso3" AllowVectorExport="True" Left="410,62990417" Top="119,50393701" Width="26,45668803" Height="22,67718" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[Dia]"/>
+    <TfrxMemoView Name="Verso4" AllowVectorExport="True" Left="464,88188976" Top="119,50402" Width="128,50393701" Height="22,67718" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[Mes]"/>
+    <TfrxMemoView Name="Verso5" AllowVectorExport="True" Left="617,28346457" Top="119,50402" Width="45,35433559" Height="22,67718" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haRight" ParentFont="False" Text="[Ano]"/>
+    <TfrxMemoView Name="Verso6" AllowVectorExport="True" Left="37,79527559" Top="96,1496063" Width="491,33855827" Height="18,8976378" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Favorecido]"/>
+    <TfrxMemoView Name="MemoValorExtenso2" AllowVectorExport="True" Left="37,79527559" Top="71,47244094" Width="578,26809" Height="18,8976378" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[ValorExtenso2]"/>
+    <TfrxLineView Name="Cruzado1" AllowVectorExport="True" Left="200,31509" Top="173,51979" Width="90,70872" Height="-154,96073" Color="0" Frame.Typ="0" Frame.Width="2" Diagonal="True"/>
+    <TfrxLineView Name="Cruzado2" AllowVectorExport="True" Left="249,44898" Top="177,29932" Width="94,48825" Height="-158,74026" Color="0" Frame.Typ="0" Frame.Width="2" Diagonal="True"/>
+  </TfrxReportPage>
+  <TfrxReportPage Name="Page2" HGuides.Text="" VGuides.Text="" PaperWidth="175" PaperHeight="76" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0">
+    <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="132,28355" Top="83,14966" Width="393,07112" Height="124,72449" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[TextoVerso]"/>
+  </TfrxReportPage>
+</TfrxReport>
