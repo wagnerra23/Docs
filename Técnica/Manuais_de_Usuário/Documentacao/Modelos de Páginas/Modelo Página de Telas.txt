@@ -1,0 +1,49 @@
+# Nome do Módulo / Nome do Aplicativo - Documentação das Telas do Aplicativo
+
+## Identificação da Tela:
+- **Nome da Tela:**  
+  Título claro e descritivo que identifica a tela dentro do aplicativo.
+- **Código ou Identificador Único:**  
+  Um identificador único, se aplicável, para facilitar a referência e o acesso.
+
+## Descrição da Tela:
+- **Visão Geral:**  
+  Uma descrição detalhada da tela, explicando seu propósito principal e como ela se encaixa dentro do aplicativo e do módulo.
+- **Funções Principais:**  
+  Uma lista das principais funcionalidades oferecidas pela tela.
+- **Benefícios ao Usuário:**  
+  Descrição dos benefícios que a tela proporciona aos usuários, incluindo como ela facilita a operação ou melhora a eficiência.
+
+## Configurações e Personalização:
+- **Configurações Disponíveis:**  
+  Detalhes sobre as configurações específicas que podem ser ajustadas nesta tela, tais como preferências de layout, opções de dados exibidos e outras configurações personalizáveis.
+- **Personalização:**  
+  Opções disponíveis para personalizar a interface da tela de acordo com as necessidades do usuário ou padrões da empresa.
+
+## Regras de Negócio Associadas:
+- **Regras Aplicáveis:**  
+  Links ou referências para as regras de negócio que impactam diretamente as operações realizadas nesta tela.
+
+## KPIs Relacionados:
+- **Indicadores Monitorados:**  
+  Descrição dos KPIs específicos que são monitorados ou influenciados pelo uso desta tela, com links para a documentação detalhada desses indicadores.
+
+## Acesso e Usabilidade:
+- **Instruções de Acesso:**  
+  Como os usuários podem acessar esta tela dentro do aplicativo.
+- **Interface e Navegação:**  
+  Descrição detalhada da interface do usuário, incluindo informações sobre usabilidade e design específico da tela.
+
+## Histórico de Modificações:
+- **Registro de Alterações:**  
+  Um histórico detalhado das atualizações e mudanças feitas na tela, incluindo datas e descrições das modificações.
+
+## Contato e Suporte:
+- **Assistência Técnica:**  
+  Informações de contato para suporte técnico relacionado a esta tela específica.
+- **Recursos Adicionais:**  
+  Links para FAQs, tutoriais em vídeo e outros recursos que podem ajudar os usuários a entender e utilizar melhor a funcionalidade desta tela.
+
+## Documentos Relacionados:
+- **Links Úteis:**  
+  Links para documentação de outras telas relacionadas, módulos, políticas de segurança ou qualquer outro documento externo relevante.

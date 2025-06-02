@@ -1,0 +1,55 @@
+Título da Documentação:
+
+Nome do Módulo / Nome do Aplicativo - Documentação de Relatórios
+
+Identificação do Relatório:
+Nome do Relatório:
+Título claro e descritivo que identifica o conteúdo do relatório.
+Código ou Identificador Único:
+Um código único, se aplicável, para fácil referência e acesso.
+
+Descrição do Relatório:
+Objetivo:
+Uma explicação detalhada do propósito do relatório e como ele auxilia nas decisões de negócios.
+Tipo de Relatório:
+Classificação do relatório (e.g., financeiro, operacional, recursos humanos).
+
+Parâmetros do Relatório:
+Dados de Entrada:
+Detalhes sobre quais dados são necessários para gerar o relatório.
+Filtros Disponíveis:
+Opções de filtragem para personalizar os dados apresentados.
+Período de Tempo:
+Opções para definir o período temporal dos dados (e.g., diário, semanal, mensal).
+
+Estrutura e Conteúdo do Relatório:
+Campos Incluídos:
+Descrição de todos os campos de dados apresentados no relatório.
+Formato do Relatório:
+Layout e formato do relatório (e.g., tabela, gráfico, lista).
+Exemplos de Visualizações:
+Imagens ou exemplos de como o relatório é visualizado.
+
+Instruções de Acesso e Geração:
+Como Acessar:
+Passos detalhados sobre como localizar e acessar o relatório no sistema.
+Como Gerar:
+Instruções passo a passo para configurar e gerar o relatório.
+Dicas de Uso:
+Sugestões para aproveitar ao máximo as informações fornecidas pelo relatório.
+
+Impacto e Utilização:
+Aplicações do Relatório:
+Descrição de como o relatório pode ser utilizado para melhorar processos ou decisões de negócio.
+Interpretação dos Dados:
+Orientações sobre como interpretar corretamente os dados apresentados.
+
+Histórico de Modificações:
+Registro de Alterações:
+Histórico de todas as mudanças feitas na estrutura ou nos parâmetros do relatório, incluindo datas e descrições.
+
+Contato e Suporte:
+Assistência Técnica:
+Informações de contato para suporte técnico relacionado ao relatório.
+Documentos Relacionados:
+Links para outras documentações ou dados que complementam ou se relacionam com o relatório.

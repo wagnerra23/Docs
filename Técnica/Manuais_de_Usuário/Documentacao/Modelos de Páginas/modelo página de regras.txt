@@ -1,0 +1,51 @@
+Título da Documentação:
+
+Nome do Módulo / Nome do Aplicativo - Documentação de Regras de Negócio
+
+Identificação da Regra:
+Nome da Regra:
+Um título claro e descritivo.
+Código ou Identificador Único:
+Um identificador único, se aplicável, para fácil referência.
+
+Descrição da Regra:
+Objetivo:
+Uma explicação clara do propósito da regra dentro do aplicativo e como ela contribui para os processos de negócio.
+Detalhes de Implementação:
+Uma descrição detalhada de como a regra opera, incluindo qualquer lógica condicional ou sequencial envolvida.
+
+Parâmetros da Regra:
+Inputs Necessários:
+Dados ou informações requeridos para que a regra funcione corretamente.
+Outputs Esperados:
+Resultados ou efeitos produzidos pela aplicação da regra.
+
+Instruções de Configuração e Uso:
+Como Ativar/Desativar:
+Passos específicos para habilitar ou desabilitar a regra.
+Como Modificar:
+Instruções detalhadas sobre como alterar parâmetros ou condições da regra.
+Screenshots ou Diagramas:
+Ilustrações visuais que facilitam o entendimento e a manipulação da regra.
+
+Impacto e Relacionamentos:
+Impacto nos Processos de Negócio:
+Descrição de como a regra afeta outros processos ou operações dentro do sistema.
+Relacionamentos com Outras Regras:
+Informações sobre como esta regra interage ou depende de outras regras dentro do sistema.
+
+Exemplos e Casos de Uso:
+Cenários de Aplicação:
+Exemplos práticos mostrando situações em que a regra é aplicada e seu impacto nas operações do negócio.
+Recomendações de Configuração:
+Dicas e melhores práticas para configurar a regra de modo eficaz.
+
+Histórico de Modificações:
+Registro de Alterações:
+Um histórico detalhado de todas as alterações feitas na regra, incluindo datas e descrições das modificações.
+
+Contato e Suporte:
+Assistência Técnica:
+Informações de contato para suporte técnico relacionado à regra.
+Documentos Relacionados:
+Links para outras documentações relevantes ou regulamentos externos que influenciam a regra.
