@@ -1,0 +1,34 @@
+1 - Todo aplicativo controla uma etapa(pessoa) e gera índices(KPIS)
+2 - Com base nos índices, deve-se sugerir o melhor resultado
+3 - Todo resultado precisa ser levado até a DRE, independente do cliente
+4 - Se algum lançamento foi realizado de forma incorreta, deve ser possível ajustá-lo para gerar a DRE de froma correta. Porém, o histórico original do lançamento deve ser mantido. 
+5 - O ajuste do lançamento pode ser efetuado através do aplicativo "Requisição"
+6 - O recomendável é que a DRE seja gerada por data de "Competência"
+
+****
+1 -  Se houve movimento na tela da requisição, obrigatoriamente gerará financeiro.
+
+****
+1 - É possível ter compra sem produto, restando apenas o financeiro. Neste caso não é enviado para a requisição/estoque
+
+****
+
+1 - Um aplicativo pode depender da instalação de outro para o funcionamento. Exemplo: O aplicativo "Comissão" depende do aplicativo "Venda"
+1 - A instalação de um aplicativo pelo usuário sugere a necessidade de controle de um recurso
+
+****
+
+1 - O índice de "Perdas" é gerado na produção e baixado na tela de requisição 
+
+****
+
+1 - Falando sobre Hierarquia, o responsável pelo "Planejamento" é superior ao gerente de Produção. Este apenas é responsável por coordenar as equipes de produção. Superior ao planejamento somente o responsável pela "Precificação"
+
+****
+
+1 - A tarefa do sistema é somar, dividir e entregar informações. O cliente deve classificar os resultados e informar se deseja aplicar alguma regra sobre um índice de prejuízo.
+
+***
+
+
+
