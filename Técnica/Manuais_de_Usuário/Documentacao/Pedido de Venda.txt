@@ -1,0 +1,5 @@
+Pedido de venda funciona como uma requisição de produção. Através dela é possível controlar o que foi solicitado e o que foi produzido, ou seja, desde entregas parciais á totais. Finalizada a produção é necessário criar uma venda correspondente ao que foi produzido, onde vinculando ao pedido é possível efetuar o faturamento. 
+*******
+Impressão não sai se o pedido estiver sem produto/serviços
+*********
+

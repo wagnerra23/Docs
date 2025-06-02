@@ -1,0 +1,439 @@
+
+	>> PDV: 
+		-> Tela Consulta de Venda - Aba PDV
+		-> Tela Cadastro de Venda - Aba PDV
+		-> Tela Consulta de Pedido - Aba PDV
+		-> Tela Cadastro de Pedido - Aba PDV
+		-> Tela Consulta de Proposta - Aba PDV
+		-> Tela Cadastro de Proposta - Aba PDV
+		-> Tela Consulta de Notas Fiscais - Aba PDV
+		-> Cadastro de Venda - Menu - Configurar PDV
+
+	>> Venda:
+		 -> Cadastro de Produto - Aba Tributos 
+		 ->	Cadastro de Produto - Aba Custos e Formação de Preço - Bloco Formação do Valor de Venda
+		 ->	Cadastro de Produto - Aba Custos e Formação de Preço - Opção Pode Vender, Campo R$ Valor mínimo de venda
+		 ->	Cadastro de Produto - Aba Tabelas de Preço
+		 ->	Cadastro de Produto - Aba SubUnidade  
+		 ->	Cadastro de Contatos - Aba Dados Adicionais - Campo Comissão para Venda
+		 ->	Cadastro de Contatos - Aba Dados Adicionais - Bloco Informações para Nota Fiscal
+		 ->	Cadastro de Contatos - Aba Representantes
+		 ->	Cadastro de Contatos - Aba Vendas
+		 ->	Cadastro de Contatos - Aba Tabela de Preços
+		 ->	Cadastro de Contatos - Aba Histórico de Compras
+		 ->	Cadastro de Contatos - Aba Crediário
+		 ->	Cadastro de Contatos - Aba Anexos - Bloco Venda
+		 ->	Cadastro de Cidades - Campo Provedor NFS-e, Campo Código do País(NFe)
+		 ->	Produção - Detalhes Produção - Aba Classificações - Campo Venda, Campo Cod. Venda Produto
+		 ->	Produção - Projeto (Venda)
+		 ->	Cadastro de Equipe - Permite Orçamento
+		 ->	Cadastro de ações de Produção 
+		 ->	Módulo de Venda - Adicionar Pedido, Consulta de Pedido, Adicionar Venda, Consulta de Venda, PDV, Metas de Vendas, Markup, Tabela de Preço, Comissões, Tipo de Venda, Estágio de Venda, Situação de Venda, Relatório Venda - Relatório Produtos Vendidos
+		 ->	Módulo Fiscal - Notas Fiscais, Consulta de Notas fiscais, Natureza da Operação, Regime Especial Tributação, Código Fiscal de Operações e Prestações, Número Comum do Mercosul/ NBS e TIPI, Código da Situação Tributária, Classificação Nacional de Atividades Econômicas,Tratamento para os erros Notas Fiscais, Configurações de Notas Fiscais
+		 ->	Financeiro - DRE
+		 ->	Financeiro - DRE Classificação
+		 ->	Financeiro - Contratos - Botão Gerar Nota Fiscal
+		 ->	Cadastro de Condição de Pagamento - Chama Cartão TEF
+		 ->	Cadastro de Condição de Pagamento - Percentual de Entrada(Venda)
+		 ->	Cadastro de Tipo de Pagamento - Bloco Nota Fiscal 
+		 ->	CRM - Consulta de Proposta
+		 ->	CRM - Adicionar Proposta
+		 ->	Cadastro de Compra - Campo R$ Valor de Venda, Campo Total de Venda
+	
+	>> Pedido:
+		-> Tela Consulta de Venda - Aba Pedido
+		-> Tela Cadastro de Venda - Aba Pedido
+		-> Tela Consulta Proposta - Aba Pedido
+		-> Tela Cadastro de Proposta - Aba Pedido
+		-> Tela Consulta de Notas Fiscais - Aba Pedido
+	
+	>> Tabela de Preço: 
+		-> Tela Cadastro de Contato - Aba Tabela de Preços
+		-> Tela Cadastro de Venda - Aba Destinatário(Cliente) - Campo Tabela de Preço
+		-> Tela Cadastro de Produto - Bloco Tabelas de Preço
+		-> Tela Cadastro de Pedido - Aba Destinatário (Cliente) - Campo Tabela de Preço
+		-> Tela Cadastro de Proposta - Aba Destinatário(Cliente) - Campo Tabela de Preço
+		-> Tela Cadastro de Tipo de Venda - Campo Tabela de Preços
+		-> Tela Cadastro de Compra - Aba Produtos/Serviços - Detalhes do Produto - Aba Tabela de Preço
+ 
+	>> Mecânica:
+		-> Tela Cadastro de Venda - Aba Produtos/Serviços - Campo Equipamento (Atualmente aplicado através do layout)
+		-> Tela Cadastro de Pedido - Aba Produtos/Serviços - Campo Equipamento (Atualmente aplicado através do layout)
+ 
+	>> Crédito de Cliente:
+		-> Tela Caixa - Crédito ( Não está funcionando atualmente 14/02)
+		-> Tela Cadastro de Pessoa - Aba Crediário: Opção Crédito
+		-> Tela Financeiro - Painel direito - Lançar Crédito
+		-> Tela Financeiro - Clique do mouse - Crédito/ Gerar Crédito
+		-> Tela Financeiro A Receber - Clique do mouse - Crédito/Gerar Crédito
+		-> Tela Financeiro A Pagar - Clique do mouse - Crédito/Gerar Crédito
+		-> Tela Recebimento - Clique do mouse - Crédito/Gerar Crédito
+		-> Tela Financeiro Cheque - Painel direito - Lançar Crédito
+		-> Tela Financeiro Cheque - Clique do mouse - Crédito/Gerar Crédito
+		-> Tela Cadastro de Proposta - Menu - Lançar Crédito (Não funciona no momento 14.02)
+	
+	>> Comissões de Venda:
+		-> Tela Cadastro de Pessoa - Aba Dados Adicionais - Campo Comissão para Venda
+		-> Tela Cadastro de Pessoa - Aba Representante : Campos Comissão
+		-> Tela Cadastro de Pedido - Aba Financeiro - Bloco Comissões
+		-> Tela Cadastro de Venda - Aba Financeiro - Bloco Comissões
+		-> Tela Cadastro de Proposta - Aba Financeiro - Bloco Comissões
+		-> Tela Financeiro - Clique do Mouse - Marcar Comissão Como Não Paga
+		-> Tela Financeiro A Receber - Clique do Mouse - Marcar Comissão Como Não Paga
+		-> Tela Financeiro A Pagar- Clique do Mouse - Marcar Comissão Como Não Paga
+		-> Tela Financeiro Cheques - Clique do Mouse - Marcar Comissão como Não Paga
+
+	>> Caixa:	
+		-> Cadastro de Venda - Aba Financeiro - Campo Caixa
+		-> Cadastro de Pedido - Aba Financeiro - Campo Caixa
+		-> Cadastro de Caixas e Contas Bancárias - Tipo da Conta: Caixa.
+		-> Cadastro de Proposta - Financeiro - Campo Caixa
+		
+	>> Recebimentos:
+		-> Tela Caixa - Botão Recebimento
+	
+	>> TEF Dedicado:
+		-> Tela Cadastro Condição de Pagamento - Aba Configurações - Caixa Seleção: Chama Cartão TEF
+		
+	>> Contratos:
+		-> Tela Agenda de Leads - Evento - Aba Condição de Pagamanto - Campo Mensalidade
+	
+	>> Boletos:	
+		-> Tela Financeiro - Painel Direito: Boletos 100%
+		-> Tela Financeiro - Clique do Mouse - Remessa de Boleto
+		-> Tela Financeiro A Pagar - Painel Direito: Boletos 100%
+		-> Tela Financeiro A Pagar- Clique do Mouse - Remessa de Boleto
+		-> Tela Financeiro A Receber - Painel Direito: Boletos 100%
+		-> Tela Financeiro A Receber - Clique do Mouse - Remessa de Boleto
+		-> Tela Boletos API
+		-> Tela Financeiro Cheque - Painel Direito: Boletos 100%
+		-> Tela Financeiro Cheque - Clique do Mouse - Remessa de Boleto
+		-> Tela Recebimento - Clique do Mouse - Remessa de Boletos
+		-> Tela Financeiro Cheque - Clique do Mouse - Remessa de Boleto
+		-> Tela Cadastro de Caixas e Contas Bancárias - Banco - Botão Configurar Emissão de Boletos, Aba Configuração do Boleto, Aba Adicionais, Aba Mensagem Email
+		-> Tela Conciliação Bancária - Aba Boleto
+		-> Tela Financiro Novo - Aba Boleto
+		-> Tela Centro de Custo - Aba Boleto
+		-> Cadastro de Pessoas - Aba Associação - Botão Contribuição Adm Associado
+		
+	>> DRE:
+		-> Tela Cadastro de Plano de Contas - Classificação da DRE
+	
+	>> Markup: 
+		-> Tela Cadastro de Produto - Aba Custos e Formação de Preço: Campo Markup
+		-> Tela Cadastro de Venda - Aba Produtos/Serviços - Ver Detalhes Produto - Aba Formação do Preço: Campo Markup, Atualiza Markup
+		-> Tela Cadastro de Compra - Aba Produtos - Grid de Informações: Campo Markup
+		-> Tela Cadastro de Compra - Aba Produtos/Serviços - Detalhes do Produto: Campo Markup, Atualiza Markup
+		-> Tela Cadastro de Pedido - Aba Produtos/Serviços - Ver detalhes - Aba Formação do Preço: Campo Markup, Atualiza Markup
+		
+	>>Financeiro:
+		-> Tela Cadastro de Venda - Botão Menu: Financeiro
+		-> Tela Cadastro de Pessoa - Aba Financeiro
+		-> Tela Centro de Custo - Aba Financeiro
+		-> Tela Conciliação Bancária - Aba Financeiro
+		-> Tela Cadastro de DRE - Analisar Financeiro
+		-> Tela Cadastro de Projeto - Aba Financeiro
+		-> Tela Cadastro de Compra - Opção Financeiro Gerado
+		-> Cadastro de Compra - Aba Forma de Pagamento - Opção Enviar as parcelas desta nota para o Financeiro ao Finalizar
+		-> Cadastro de Folha de Pagamento - Botão Fechar Folha 
+	
+	>> Metas de Venda:
+		-> Não é acessada/referenciada em outra tela.
+	
+	>> Lote:
+		-> Tela Cadastro de Movimento de Estoque: Campo Lote
+		
+	>> Variação:
+		-> Tela Consulta de Produto - Aba Variações 
+		-> Tela Cadastro de Produtos - Aba Variações
+ 
+	>> Múltiplos Estoques
+	
+	 ->	Tela Cadastro de Produto - Botão Visualizar Estoques
+	 ->	Tela Cadastro de Produto - Botão Alteração de Estoque
+	 ->	Tela Cadastro de Produto - Bloco Estoque - Aba Geral - Local de Estoque Padrão
+	 ->	Tela Cadastro de Venda - Botão Configuração do item de venda - Local de Estoque
+	 ->	Tela Cadastro de Pedido - Botão Configuração do item de venda - Local de Estoque 
+	 ->	Tela Cadastro de Proposta - Botão Configuração do item de venda - Local de Estoque
+	 ->	Tela Cadastro de Venda - Aba Produtos / Serviços - Ver Detalhes :  Aba Geral - Local do Estoque
+	 ->	Tela Cadastro de Pedido - Aba Produtos / Serviços - Ver Detalhes :  Aba Geral - Local do Estoque
+	 ->	Tela Cadastro de Proposta - Aba Produtos / Serviços - Ver Detalhes :  Aba Geral - Local do Estoque
+	 ->	Tela Cadastro de Compra - Aba Produtos - Local de Estoque
+		
+	>> Balanço de Estoque
+		-> Não é acessado/referenciado por nenhuma outra tela.
+		
+	>> Composição
+		-> Tela Consulta de Produto - Aba Composição
+		-> Tela Cadastro de Produto - Aba Composição
+		-> Tela Produção - Detalhes Produção - Aba Detalhes - Botão Adicionar com Composição 
+		
+	>> Sub-Unidade:
+		-> Tela Cadastro de Produto - Bloco SubUnidade
+		-> Tela Cadastro de compra - Aba Produtos - Campo Unidade +.
+			
+	>> Código de Barras
+		-> Tela Cadastro de Venda - Menu - Código de Barras: Auto Preencher, Imprimir
+		-> Tela Cadastro de Pedido - Menu - Código de Barras: Auto Preencher, Imprimir
+		-> Tela Cadastro de Proposta - Menu - Código de Barras : Auto Preencher, Imprimir
+		-> Tela Balanço Patrimonial - Menu - Enviar Código de Barras
+		-> Tela Cadastro de Compra - Menu - Enviar para Código de Barras, Auto-Preencher Cód de Barras
+    
+	>> Patrimônio:
+		-> Tela Consulta de Produto - Aba Patrimônio
+		-> Tela Adicionar Produto - Aba Patrimônio
+		
+	>> Movimento de Estoque
+		-> Tela Cadastro de Produto - Bloco Custos e Formação de Preço: Movimenta Estoque
+		-> Tela Cadastro de Venda - Ver Detalhes - Aba Formação do Preço: Movimenta Estoque
+		-> Tela Cadastro de Pedido - Ver Detalhes - Aba Formação do Preço: Movimenta Estoque
+		-> Tela Cadastro de Proposta - Ver Detalhes - Aba Formação do Preço: Movimenta Estoque
+		-> Tela Cadastro de Tipo de Produto - Movimentar Estoque
+				
+	>> Centro de custo 
+		-> Tela Cadastro de Produto - Aba Produção - Sub-Aba Fluxo de Produção: Campo Equipe
+		-> Tela Produção - Detalhes da Produção - Aba Informações: Campo Equipe
+		-> Tela Fila de Produção - Opção Selecione a Equipe
+		-> Tela Cadastro de Venda - Botão Produção - Enviar para a Produção: Campo Equipe
+		-> Tela Centro de Custo
+		-> Tela Cadastro de Plano de Contas - Aba Rateio Centro Custo: Campo Centro de Custo
+		-> Tela Financeiro Novo - Aba Centro de Custo	
+		-> Tela Boleto API - Aba Centro de Custo
+		-> Tela Equipe
+		-> Tela Conciliação Bancária - Aba Centro de Custos
+		-> Tela Cadastro de Projeto - Aba Centros de Trabalhos. (Tela inacabada)
+		-> Tela Produção - Painel lateral esquerdo - Equipe
+		-> Tela Produção - Botão Encaminhar - Campo Equipe		
+		-> Tela Produção - Detalhes Produção - Aba Produtos - Consumir Estoque - Equipe
+ 		
+	>> Compras
+		-> Tela Cadastro do Produto - Aba Estoque - Sub-Aba: Compras
+		-> Tela Cadastro do Produto - Aba Custos e Formação de Preço: Bloco Rendimento da Última Compra, Opção Pode Comprar
+		-> Tela Cadastro de Pessoa - Aba Histórico de Compras
+		-> Tela Cadastro de Pedido - Aba Produtos - Ver detalhes - Aba Formação de preço: Bloco Rendimento da Última Compra
+		-> Tela Cadastro de Venda- Aba Produtos - Ver detalhes - Aba Formação de preço: Bloco Rendimento da Última Compra
+		-> Tela Cadastro de Proposta - Aba Produtos - Ver detalhes - Aba Formação de preço: Bloco Rendimento da Última Compra
+	
+	>> Baixa e Importação XML
+		-> Tela Notas Fiscais - Arquivo - Opção: Importar XML ??
+		-> Cadastro de Compra - Botão Importar NF-e
+		-> Manifestação do Destinatário
+		-> Consulta de Compra - Importar XML Arquivo
+		-> Consulta de Compra - Manifestação do Destinário
+
+	>> Solicitação de Compra
+		->	Não é acessada/referenciada em outra tela
+		
+	>> Proposta
+		-> Não é acessada/referenciada em outra tela
+			
+	>> Agendamento:
+		-> Não é acessada/referenciada em outra tela
+		
+	>> Notificações
+		-> Não é acessada/referenciada em outra tela
+			
+	>> Aprovações
+		-> Tela ainda não desenvolvida.
+		
+	 >>Produção
+	  -> Tela Cadastro de Venda - Botão Produção
+	  -> Tela Cadastro de Venda - Aba Anexos - Arquivos para Produção
+	  -> Tela Cadastro de Pedido - Botão Produção
+	  -> Tela Cadastro de Pedido - Aba Anexos - Arquivos para Produção
+	  -> Tela Cadastro de Pedido - Ver Detalhes: Aba Produção, Aba Fluxo de Produção
+	  -> Tela Cadastro de Pedido - Ver Detalhes - Aba Anexos: Bloco Produção
+	  -> Tela Consulta de Venda- Botão Faturar Produção
+	  -> Tela Cadastro de Venda - Ver Detalhes: Aba Produção, Aba Fluxo de Produção.
+	  -> Tela Cadastro de Venda - Ver Detalhes - Aba Anexos: Bloco Produção
+	  -> Tela Cadastro de Pessoa - Aba Anexos - Bloco Produção
+	  -> Tela de Cadastro de Pessoa - Aba Funcionário - Sub-Aba: Produção.
+	  -> Tela Cadastro de Produto - Bloco Produção.
+	  -> Tela Cadastro de Pessoa - Aba Funcionário - Sub-Aba Anexo: Bloco Produção
+	  -> Tela Ações 
+	  -> Tela Motivos de Produção 
+	  -> Tela Situações de Produção
+	  -> Tela Estágios 
+	  
+	>> Planejamento
+		-> Não é acessada/referenciada em outra tela.
+	
+	>> Fabricação
+		-> Tela ainda não desenvolvida
+		
+	>> Projeto:
+		-> Não é acessada/referenciada em outra tela
+			
+	>> Fluxo de Produto (Estágios)
+		-> Tela Cadastro de Produto - Aba Produção - Fluxo de Produção. 
+		-> Tela Estágios
+		-> Tela Produção - Detalhes da Produção : Campo Estágio
+		-> Tela Cadastro de Equipe - Aba Estágios
+		-> Tela Cadastro de Venda - Aba Produtos / Serviços - Ver Detalhes - Aba Fluxo de Produção
+		-> Tela Cadastro de Pedido - Ver Detalhes - Aba Fluxo de Produção
+		-> Tela Cadastro de Proposta - Ver Detalhes - Aba Fluxo de Produção
+		
+	>> Sintegra:
+		->  Não é acessada/referenciada em outra tela.
+				
+	>> SPED:
+		-> Não é acessada/referenciada em outra tela
+		
+	>> Contabil:
+		-> Sintegra ( Não é acessada/referenciada em outra tela)
+		-> SPED (Não é acessada/referenciada em outra tela)
+
+	>> Folha de Pagamento:
+		-> Não é acessada/referenciada em outra tela
+		
+	>> Ficha Ponto:
+		-> Tela Cadastro de Funcionário - Aba Funcionário -Sub-Aba: Ficha Ponto
+		-> Tela Cadastro de folha de pagamento - Aba Detalhamento da Folha - Sub-Aba: Ficha Ponto
+		-> Tela Cadastro de folha de pagamento - Botão Imprimir - Imprimir ficha ponto
+		
+	>> Anexos:
+		-> Tela Cadastro de Produto - Outros - Anexos
+		-> Tela Cadastro de Pessoas - Aba Funcionário - Sub-Aba Anexo
+		-> Tela Cadastro de Pessoas - Aba Anexos
+		-> Tela Produção - Detalhes Produção - Aba Anexos
+		-> Tela Cadastro de Projeto - Aba Arquivos(Tela Inacabada)
+		-> Tela Cadastro de Venda - Aba Produtos/ Serviços - Ver detalhes - Aba Anexo
+		-> Tela Cadastro de Venda - Aba Anexos
+		-> Tela Cadastro de Venda - Botão Anexos
+		-> Tela Cadastro de Pedido - Ver detalhes - Aba Anexo
+		-> Tela Cadastro de Pedido - Aba Anexos
+		-> Tela Cadastro de Pedido - Botão Anexos
+		-> Tela Cadastro de Email em Massa - Anexos
+		-> Tela Cadastro de Proposta - Aba Anexos
+		-> Tela Cadastro de Proposta - Botão Anexos
+		-> Tela Ocorrências - Aba Fotos
+		-> Tela Contribuição - Aba Arquivos
+		-> Tela Cadastro de Equipamentos - Aba Fotos
+		-> Tela Cadastro de Projeto - Aba Centros de Trabalhos. (Tela inacabada)
+
+	>>Equipamentos:
+		-> Tela Contribuição - Aba Antifurto
+		-> Tela Ocorrências - Aba Principal: Campo Equip
+		-> Tela Contribuição- Aba Equipamentos - Sub-Aba: Equipamentos para exclusão
+		-> Tela Boletos Eventuais a contribuição - Campo Equipamento.
+ 	
+	>> Ocorrências:
+		-> Tela Contribuição - Aba Ocorrências
+		-> Tela Cadastro de Equipamento - Aba Ocorrências	
+		
+	>> Rateio:
+		-> Tela Contribuição - Aba Ocorrências - Sub-Aba: Ocorrências - Botão Ratear, Botão Cancela Rateio
+		-> Tela Cadastro de Equipamento - Campo: Base Rateio
+		-> Tela Cadastro de Situação - Caixas de seleção: Gera Rateio, Participa do Rateio Anti-furto, Participa do Rateio do Valor de Mercado
+		
+	>> Boletos Eventuais: 
+		-> Não é acessada/referenciada em outra tela
+		
+	>> NFC-e: 
+		-> Tela Cadastro de Produto - Aba Tributos - Dados da Nota Fiscal
+		-> Tela Cadastro de Cidades - Campo Código do País (NFe)
+		-> Tela Cadastro de Pessoas - Aba Dados Adicionais - Bloco Informações para Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Nota Fiscal - Botão NFC-e (Desabilitado/habilitado no cadastro da empresa e não no aplicativo)
+		-> Tela Cadasto de Venda - Aba Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Venda - Campo Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Produtos/Serviços - Ver Detalhes - Aba Tributação - Dados Fiscais e Impostos ??
+		-> Tela Cadastro de Venda - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Consulta de Venda - Aba Superior - Notas Fiscais
+		-> Tela Consulta de Venda - Botão Emitir Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe)
+		-> Tela Consulta de Pedido - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Pedido - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Pedido - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Cadastro de Pedido - Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		-> Tela Cadastro de Pedido - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe) ( Não tenho certeza se aparece, os demais aplicativos não desinstalam pra ter certeza)
+		-> Tela Cadastro de Tipo de Venda - Bloco Nota Fiscal 
+		-> Tela Cadastro de Tipo de Venda - Bloco Configurações Adicionais - Permite Emitir NF
+		-> Módulo Fiscal( Notas Fiscais, Consulta de Notas Fiscais, Natureza da Operação, Regime Especial Tributação, CFOP, NCM, CST, CEST, CNAE, 
+		-> Tela Financeiro - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Financeiro A Receber - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Financeiro A Pagar - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Financeiro Cheque - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Contratos - Gerar Nota Fiscal
+		-> Tela Consulta de Proposta - Aba Superior Notas Fiscais
+		-> Tela Cadastro de Proposta - Aba Superior Notas Fiscais
+		-> Tela Cadastro de Proposta - Aba Produtos/Serviços - Ver Detalhes - Aba Tributação - Dados Fiscais e Impostos ??
+		-> Tela Cadastro de Proposta - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Cadastro de Proposta - Aba Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		-> Tela Cadastro de Proposta - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe) ( Não tenho certeza se aparece, os demais aplicativos não desinstalam pra ter certeza)
+	
+	>> NF-e: 
+		-> Tela Cadastro de Produto - Aba Tributos - Dados da Nota Fiscal
+		-> Tela Cadastro de Cidades - Campo Código do País (NFe)
+		-> Tela Cadastro de Pessoas - Aba Dados Adicionais - Bloco Informações para Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Nota Fiscal - Botão NF-e (Desabilitado/habilitado no cadastro da empresa e não no aplicativo)
+		-> Tela Cadasto de Venda - Aba Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Venda - Campo Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Produtos/Serviços - Ver Detalhes - Aba Tributação - Dados Fiscais e Impostos ??
+		-> Tela Cadastro de Venda - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Consulta de Venda - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Venda - Clique do mouse - Nota Fiscal
+		-> Tela Consulta de Venda - Botão Emitir Notas Fiscais
+		-> Tela Cadastro de Venda - Aba Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe)
+		-> Tela Consulta de Pedido - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Pedido - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Pedido - Aba Produtos/Serviços - Ver Detalhes - Aba Tributação - Dados Fiscais e Impostos ??
+		-> Tela Cadastro de Pedido - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Cadastro de Pedido - Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		-> Tela Cadastro de Pedido - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe)
+		-> Tela Cadastro de Tipo de Venda - Bloco Nota Fiscal 
+		-> Tela Cadastro de Tipo de Venda - Bloco Configurações Adicionais - Permite Emitir NF
+		-> Módulo Fiscal( Notas Fiscais, Consulta de Notas Fiscais, Natureza da Operação, Regime Especial Tributação, CFOP, NCM, CST, CEST, CNAE, 
+		-> Tela Financeiro - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Financeiro A Receber - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Financeiro A Pagar - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Contratos - Gerar Nota Fiscal
+		-> Tela Consulta de Proposta - Aba Superior Notas Fiscais
+		-> Tela Cadastro de Proposta - Aba Superior Notas Fiscais
+		-> Tela Cadastro de Proposta - Aba Produtos/Serviços - Ver Detalhes - Aba Tributação - Dados Fiscais e Impostos ??
+		-> Tela Cadastro de Proposta - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Cadastro de Proposta - Aba Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		-> Tela Cadastro de Proposta - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe)
+				
+	>> NFS-e: 
+		-> Tela Cadastro de Produto - Aba Tributos - Dados da Nota Fiscal
+		-> Tela Cadastro de Cidades - Campo Código do País (NFe)
+		-> Tela Cadastro de Pessoas - Aba Dados Adicionais - Bloco Informações para Nota Fiscal
+		-> Tela Cadasto de Venda - Aba NFSe
+		-> Tela Cadastro de Venda - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Venda - Campo Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Produtos/Serviços - Ver Detalhes - Aba Tributação - Dados Fiscais e Impostos ??
+		-> Tela Consulta de Venda - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Venda - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Cadastro de Venda - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe)
+		-> Tela Cadastro de Venda - Aba Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		-> Tela Cadastro de Pedido - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe)
+		-> Tela Consulta de Pedido - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Pedido - Aba Superior - Notas Fiscais
+		-> Tela Cadastro de Pedido - Aba Produtos/Serviços - Ver Detalhes - Aba Tributação - Dados Fiscais e Impostos ??
+		-> Tela Cadastro de Pedido - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Cadastro de Pedido - Aba Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		-> Tela Cadastro de Tipo de Venda - Bloco Nota Fiscal 
+		-> Tela Cadastro de Tipo de Venda - Bloco Configurações Adicionais - Permite Emitir NF
+		-> Tela Módulo Fiscal( Notas Fiscais, Consulta de Notas Fiscais, Natureza da Operação, Regime Especial Tributação, CFOP, NCM, CST, CEST, CNAE, 
+		-> Tela Financeiro - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Financeiro A Receber - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Financeiro A Pagar - Campo Nota Fiscal, Campo Dt Nota Fiscal
+		-> Tela Contratos - Gerar Nota Fiscal
+		-> Tela Consulta de Proposta - Aba Superior Notas Fiscais
+		-> Tela Cadastro de Proposta - Aba Superior Notas Fiscais
+		-> Tela Cadastro de Proposta - Aba Produtos/Serviços - Ver Detalhes - Aba Tributação - Dados Fiscais e Impostos ??
+		-> Tela Cadastro de Proposta - Aba Produtos/Serviços - Clique do mouse - Opção Nota Fiscal
+		-> Tela Cadastro de Proposta - Aba Destinatário(Cliente) - Campo Cód Cidade Próprio(NFSe)
+		-> Tela Cadastro de Proposta - Aba Destinatário(Cliente) - Campo Email para envio da Nota Fiscal
+		
+	>> PAF:
+		-> Tela Cadastro de Produto - Aba Tributos - Bloco Cupom Fiscal - PAF-ECF
+		-> Tela Cadastro de Produto - Aba Tributos - Cupom Fiscal - PAF-ECF
+		-> Tela Natureza da Operação (ICMS aplicado ao PAF)
+	
+
+	

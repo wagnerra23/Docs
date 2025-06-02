@@ -1,0 +1,7 @@
+- Faturar só funciona em venda não faturadas e em vendas previsão. Não "duplica" o faturamento pois as vendas originais ficam somente em "Pedido" e a agrupadora faturada fica somente na consulta da Venda.
+
+- Emitir Nota Fiscal só realiza o agrupamento, porém mantém as vendas onde estão. Estas se não classificadas corretamente pode levar a duplicação do faturamento.
+
+Até Versão 2022.2.1.106
+****************
+

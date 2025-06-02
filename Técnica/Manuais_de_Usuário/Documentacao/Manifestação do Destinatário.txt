@@ -1,0 +1,22 @@
+
+**************
+A função “Consultar” realiza a consulta automática das notas emitidas contra o seu CNPJ. As novas notas estarão localizadas no bloco "Novo". Selecionada a nota realiza-se a manifestação através das opções: 
+
+ Ciência
+ Confirmação
+ Não Realizada
+ Desconhecimento
+
+ - Lembrando que o evento de Ciência apenas indica que se tem conhecimento da operação representada pela nota e permite baixar o xml da nota fiscal, sendo obrigatório a realização de um dos eventos: Confirmação, Desconhecimento ou Não realizada em até 180 dias. 
+
+ - O que vale na manifestação do destinário é o último evento realizado na nota
+
+ - E não é possível registrar a ciência da emissão após ter registrado outro evento
+
+
+ - Feita a "Ciência da Operação" é necessário aguardar a resposta da SEFAZ que varia entre 30 minutos a 24 horas
+ - Liberado o XML das notas, os mesmos estarão listados no bloco "Lançar na Compra"
+ - Selecionada a nota, basta clicar em "Importar" para realizar a importação da nota de compra
+
+
+
