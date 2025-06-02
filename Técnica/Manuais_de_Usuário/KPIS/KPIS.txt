@@ -1,0 +1,822 @@
+-> Módulo Produção: 
+ - Aplicativo Produção: (LISTADO OK)
+		Taxa de Atraso por Funcionário (Motivo: Alteração no Planejamento/Falta de Matéria-Prima/Falta Mão de Obra/Problema Equipamento)
+		Taxa de Atraso por Produto
+		Taxa de Perda por Produto
+		Taxa de Perda por Funcionário (Motivo: Erro Humano/ Problema Máquina)
+		Taxa de Reaproveitamento por Produto
+		Taxa de Reaproveitamento por Funcionário ( Ainda não funciona, pois depende do planejamento)
+		Produtividade Funcionário/Hora
+		Número de Serviços/Produtos Entregues
+		Taxa de Produção
+		Tempo de Inatividade
+		Eficiência do Equipamento
+		Tempo médio entre Falhas
+		Tempo médio para Reparos
+		Produção Parada
+		Produtividade da Equipe (Medida da quantidade de trabalho concluída pela equipe em um período específico.
+	 
+ - Aplicativo Projeto (LISTADO OK)
+		Taxa de Projetos Concluídos fora Prazo
+		Taxa de Projetos Concluídos no Prazo
+		Taxa de Projetos Dentro do Orçamento
+		Taxa de Projetos Fora do Orçamento
+		Taxa de Mudança no Escopo
+		Taxa de Problemas/Incidentes (Número de problemas ou incidentes reportados durante a execução do projeto)
+		Taxa de Utilização de Recursos (Percentual de recursos (como pessoal, equipamentos ou materiais) que estão sendo utilizados em relação ao total disponível)
+		Custo Médio por Atividade/Tarefa
+		Taxa de Tarefas Concluídas
+		
+	
+ - Aplicativo Planejamento (Listado, Ok)
+		Taxa de Alteração do Escopo
+		Média Recursos Utilizados 
+		Taxa de Cancelamentos(Exige motivo pré-cadastrado)
+		Taxa de Excluídos
+		Taxa de Metas Alcançadas
+		Taxa de Riscos Identificados 
+		Custo Médio do Processo de Planejamento 
+		Taxa de eficiência do Processo de Planejamento (Tempo médio necessário para completar o ciclo de planejamento, desde a definição até a revisão das metas)
+		Adesão ao Plano (Percentual de departamentos, equipes ou indivíduos que estão seguindo o plano estabelecido)
+		
+		
+ - Fluxo de Produto (Listado, Ok)
+		Tempo de Ciclo do Produto (Tempo médio que um produto leva para passar por todo o processo, desde a entrada até a saída)
+		Tempo de Resposta a Alterações (Tempo necessário para adaptar ou reconfigurar o fluxo de produto em resposta a mudanças na demanda ou outros fatores)
+		Taxa de Defeitos ou Rejeições (Percentual de produtos que são rejeitados ou identificados com defeitos durante o processo.)
+		Tempo de Espera Médio (Tempo médio que os produtos passam esperando para serem processados ou movidos para o próximo estágio)
+		Taxa de Cumprimento de Pedidos (Percentual de pedidos que são atendidos e entregues conforme prometido)
+		Taxa da Alteração da Equipe Padrão
+		Pré-Requisitos Pendentes
+		Baixa Automática Ativa
+		
+ >> Fabricação (Composição) (Listado, Ok)
+		Taxa de Defeitos (Percentual de unidades compostas que são defeituosas ou não atendem aos padrões de qualidade)
+		Custo de Produção por Unidade Composta (Custo total para produzir uma unidade do produto composto.)
+		Média de Diferença de Valor
+		Percentual de Composições Sem Fórmula
+		Taxa de Utilização de Máteria-Prima (Percentual de componentes efetivamente usados na produção de produtos compostos.)
+		Taxa de Rendimento 
+		Taxa de Rotatividade de Estoque de Componentes (Número de vezes que o estoque de componentes foi utilizado e reposto em um período específico.)
+		Margem de Lucro por Unidade Composta (Lucro obtido por cada unidade do produto composto vendida)
+		Taxa de Ruptura de Estoque de Componentes (Percentual de vezes em que um componente necessário não está disponível em estoque)
+		Taxa de Retorno ou Devolução (Percentual de produtos compostos devolvidos pelos clientes)
+	
+ 
+ 
+-> Módulo Venda: 
+  - Aplicativo Venda (Listado, Ok)
+		Taxa de Desconto 
+		Taxa de Frete cobrado no período
+		Taxa de Acréscimo Aplicado 
+		Taxa de Vendas não faturadas
+		Produtividade da Equipe de Vendas (Medida da eficácia da equipe de vendas, como vendas por vendedor ou número de chamadas realizadas.)
+		Taxa de Churn (Percentual de clientes que deixam de fazer negócios com a empresa em um período específico.)
+		Ticket Médio (Valor médio de venda por cliente.)
+		Receita de Vendas (Total de receita gerada pelas vendas.)
+		Taxa de Conversão de Vendas (Percentual de leads ou oportunidades que se converteram em vendas fechadas)
+		Volume de Vendas do Período (Mede o número total de vendas realizadas em um determinado período.)
+		Taxa de Vendas Abaixo do Mínimo 
+		Taxa de Vendas Excluídas por Vendedor
+		Margem de Lucro por Venda (Lucro líquido gerado por cada venda.)
+		Taxa de Vendas Vinculadas
+		Tempo de Ciclo de Venda
+		Vendas por Canal
+		Vendas por Região
+						
+			
+  - Aplicativo Pedido de Venda (Listado)
+		Taxa de Desconto Concedidos 
+		Volume de Pedidos (Mede o número total de pedidos realizados em um determinado período.)
+		Taxa de Frete Cobrado
+		Taxa de Acréscimo 
+		Tempo Médio de Processamento de Pedido (Tempo médio necessário para processar um pedido desde o recebimento até a preparação para envio)
+		Taxa de Pedidos Atrasados (Percentual de pedidos que não foram entregues ou concluídos dentro do prazo prometido)
+		Ticket médio do Período 
+		Taxa de Pedidos Excluídos por Vendedor
+		Taxa de Pedidos Entregues no Prazo
+		Tempo Médio de Entrega (Tempo médio entre a conclusão do processamento do pedido e a entrega ao cliente)
+		Taxa de Pedidos Recorrentes (Percentual de clientes que fazem pedidos repetidos em relação ao total de clientes)
+		Taxa de Pedidos Pendentes de Envio a Produção
+		Taxa de Pedidos Enviados a Produção
+		Taxa de Pedidos Abaixo do Valor Mínimo 
+			
+  - Aplicativo PDV: (Listado, OK)
+		Volume de Vendas Diárias (Total de vendas processadas pelo PDV em um dia específico)
+		Valor Médio de Venda (Valor médio das transações de vendas processadas pelo PDV)
+		Número de Itens por Venda (Média de itens vendidos por transação)
+		Valor Total de Venda 
+		Taxa de Meios de Pagamento Utilizados (Distribuição das vendas com base no método de pagamento (dinheiro, cartão de crédito, débito, etc)
+		Taxa de Cancelamento (Percentual de transações que foram devolvidas ou canceladas)
+		Vendas por Hora/Período do Dia (Análise das vendas com base em diferentes períodos do dia para identificar picos de venda)
+		Tempo Médio de Atendimento (Tempo médio que leva para atender e processar uma transação de venda)
+		Taxa de Acréscimo  (Percentual de vendas que tiveram algum acréscimo aplicado)	
+		Taxa de Desconto por Vendedor (Percentual de vendas que tiveram algum tipo de desconto aplicado)
+		Taxa de Fidelidade do Cliente (Percentual de vendas realizadas para clientes recorrentes em comparação com novos clientes)
+		
+	 
+	-Aplicativo NF-e (Listado, OK)
+		Volume de Notas Emitidas (Total de notas fiscais emitidas em um período específico (diário, semanal, mensal)
+		Taxa de Notas Fiscais Rejeitadas (Número ou percentual de notas fiscais rejeitadas por órgãos fiscais devido a erros ou inconsistências.)
+		Taxa de Notas Fiscais Canceladas 
+		Taxa de Notas Fiscais Desconhecidas
+		Valor Total das Notas Emitidas (Valor total (bruto) das notas fiscais emitidas em um período específico.)
+		Valor Total dos Impostos Declarados: ICMS, ICMS ST, IPI, PIS, Cofins, ISSQN, II(Importação) (Valor total dos impostos declarados nas notas fiscais emitidas)
+		Taxa de Notas Contestadas (Percentual de notas fiscais que são contestadas ou disputadas por clientes ou fornecedores)
+		Taxa de Notas com Acréscimo 
+		Taxa de Notas com Frete por Funcionário
+		Taxa de Notas sem Faturamento por Funcionário
+		Taxa de Cartas de Correção Emitidas 
+		Taxa de Notas Emitidas Após Faturamento por Funcionário
+		Taxa de Notas com Desconto por Funcionário
+				
+	-Aplicativo NFC-e (Listado, OK)
+		Volume de Notas Emitidas  (Total de notas fiscais emitidas em um período específico (diário, semanal, mensal))
+		Valor Total das Notas Emitidas (Valor total (bruto) das notas fiscais emitidas em um período específico.)
+		Taxa de Notas Fiscais Canceladas 
+		Taxa de Notas Fiscais Desconhecidas
+		Taxa de Notas com Acréscimo 
+		Taxa de Notas com Desconto 
+		Taxa de Notas Emitidas Após Faturamento 
+		Taxa de Notas sem Faturamento 
+		Valor Total dos Impostos Declarados: ICMS, ICMS ST, IPI, PIS, Cofins (Valor total dos impostos declarados nas notas fiscais emitidas)		
+	
+	- Aplicativo NFS-e (Listado, OK)
+		Volume de NFS-e Emitidas (Total de notas fiscais de serviço emitidas em um período específico (diário, semanal, mensal))
+		NFS-e Rejeitadas (Número ou percentual de NFS-e rejeitadas por órgãos fiscais ou pelo sistema devido a erros ou inconsistências.)
+		Valor Total das NFS-e Emitidas (Valor total (bruto) das NFS-e emitidas em um período específico.)
+		Valor Total dos Impostos Declarados (Valor total dos impostos (ISS) declarados nas NFS-e emitidas.)
+		NFS-e por Cliente (Distribuição do número ou valor de NFS-e por cliente)
+		Taxa de Notas Canceladas por Funcionário (Percentual de NFS-e que são canceladas após a emissão.)
+		Taxa de Notas Fiscais Desconhecidas
+		Taxa de Notas com Acréscimo 
+		Taxa de Notas com Desconto 
+		Taxa de Notas Emitidas Após Faturamento
+		Taxa de Notas sem Faturamento por Funcionário 
+		Taxa de Notas com Frete 
+		
+		
+	- Aplicativo PAF (Listado, Ok)
+		Taxa de Vendas com Acréscimo 
+		Taxa de Vendas com Desconto 
+		Taxa de Cupom Cancelado 
+		Taxa de Item Cancelado 
+		Retirada de Caixa
+		Reforço de Caixa
+		Volume de Vendas Registradas (Total de vendas registradas pelo PAF em um período específico (diário, semanal, mensal).)
+		Tempo Médio de Processamento de Venda (Tempo médio necessário para registrar e concluir uma venda no PAF)
+		Valor Total de Vendas (Quantidade e valor das vendas registradas .)
+	
+			
+	- Crédito de Cliente (Listado, OK)
+		Valor Total de Crédito Concedido (Valor total do crédito concedido aos clientes em um período específico)
+		Número de Créditos Concedidos no Período (Quantidade de novas solicitações de crédito recebidas em um período determinado.)
+		Valor Médio de Crédito Concedido (Valor médio do crédito concedido por cliente)
+		Duração Média do Crédito (Tempo médio entre a concessão do crédito e sua liquidação ou vencimento.)
+		Taxa de Utilização de Crédito (Percentual do crédito utilizado pelos clientes em relação ao crédito total disponível.)
+		Taxa de Clientes com Crédito Pendente
+		
+		
+	- Tabela de Preço (Listado, Ok)
+		
+		Número de Transações por Tabela de Preço (Quantidade de vendas realizadas sob cada tabela de preço)
+		Margem Média de Lucro por Tabela de Preço (Lucro médio obtido de vendas realizadas sob cada tabela de preço.)
+		Descontos Médios Concedidos (Valor ou percentual médio de descontos concedidos nas vendas, por tabela de preço.)
+		Taxa de Adoção de Novas Tabelas de Preço (Velocidade e percentual de adoção de novas tabelas de preço introduzidas no sistema)
+		Média de Acréscimos Aplicados (Percentual de acréscimos concedidos nas vendas, por tabela de preço.)
+		Taxa de Retenção de Clientes por Tabela de Preço (Percentual de clientes que continuam comprando sob uma determinada tabela de preço)
+		Tempo Médio para Atualização de Tabelas de Preço (Tempo médio necessário para implementar e comunicar atualizações nas tabelas de preço)
+		Comparação de Vendas Previstas vs. Realizadas por Tabela de Preço (Comparação entre as vendas projetadas e as vendas reais para cada tabela de preço.)
+		Valor Vitalício do Cliente (LTV) por Tabela de Preço (Valor total que um cliente é esperado gerar ao longo de seu relacionamento com a empresa, para cada tabela de preço)
+			
+	- Markup (Listado, OK)
+		Índice Médio (Índice médio de Markup aplicado aos produtos ou categorias de produtos.)
+		Número de Produtos/Serviços Abaixo do Markup desejado
+		Número de Produtos/Serviços Acima do Markup desejado
+		Margem Média de Lucro (Lucro médio obtido de vendas, refletindo a eficácia do Markup aplicado)
+		Taxa de Retenção de Clientes (Percentual de clientes que continuam comprando após mudanças nos índices de Markup.)
+		Variação do Markup ao Longo do Tempo (Análise da evolução do índice de Markup ao longo de diferentes períodos)
+		Margem Bruta Média (Percentual médio de lucro obtido de vendas após considerar o custo dos produtos vendidos)
+		Volume de Vendas por Categoria de Markup (Valor ou quantidade de vendas realizadas para diferentes categorias ou faixas de Markup)
+		Taxa de Ajustes de Markup (Frequência com que os índices de Markup são ajustados em resposta a fatores internos ou externos.)
+			
+	- Mecânica (Listado, OK)
+		Volume de Serviços Realizados (Número total de serviços mecânicos realizados em um período específico)
+		Tempo Médio de Atendimento (Tempo médio gasto para concluir um serviço ou reparo.)	
+		Taxa de Ordens de Serviço com Frete
+		Taxa de Ordens de Serviço com Descontos por Funcionário
+		Taxa de Ordens de Serviço com Descontos por Serviço
+		Taxa de Ordens de Serviço com Descontos por Categoria
+		Taxa de Ordens de Serviço com Acréscimos por Funcionário
+		Taxa de Ordens de Serviço com Acréscimos por Serviço
+		Taxa de Ordens de Serviço com Acréscimos por Categoria
+		Margem de Lucro por Serviço (Lucro obtido por serviço após deduzir os custos associados.)
+		Rotatividade de Estoque de Peças (Número de vezes que o estoque de peças é renovado em um período específico.)
+		Taxa de Ocupação da Oficina (Percentual de capacidade de atendimento da oficina que está sendo utilizado.)
+		Taxa de Retorno de Veículos (Percentual de veículos que retornam à oficina para correções ou ajustes após um serviço inicial.)
+		Receita média por Ordem de Serviço
+		Taxa de Conversação de Orçamentos em Ordens de Serviço (Percentual de orçamentos apresentados que são convertidos em serviços reais.)
+		Taxa de Serviços Realizados no Prazo
+		Taxa de Ocupação de Funcionários
+		Taxa de Utilização de Equipamentos e Ferramentas (Percentual de tempo que equipamentos e ferramentas são utilizados em relação à sua disponibilidade total.)
+		Taxa de Garantia
+		
+		
+	- Comissão de Venda (Listado, OK) 
+		Total de Comissões Pagas (Valor total pago em comissões durante um período específico.)
+		Taxa Média de Comissão (Percentual médio de comissão pago em relação ao valor total de vendas.)
+		Número de Pagamentos de Comissão (Quantidade total de pagamentos de comissão realizados em um período específico.)
+		Tempo Médio para Pagamento de Comissão  (Tempo médio entre a venda realizada e o pagamento da comissão correspondente.)
+		Discrepâncias nas Comissões(Número de vezes em que houve uma diferença entre a comissão calculada e a comissão realmente paga.)
+		Comissão Média por Vendedor (Valor médio de comissão pago a cada vendedor)
+		Custo Total de Comissões como Percentual das Vendas (Percentual do valor total de vendas que foi pago como comissão)
+		Número de Vendas Qualificadas para Comissão 
+		Retorno sobre Investimento de Comissão (Relação entre lucro gerado pelas vendas e o total de comissões pagas)
+		
+-> Módulo Financeiro:	
+		
+	- Caixa (Listado, OK)
+		Saldo de Caixa Diário (Quantidade de dinheiro disponível em caixa e bancos em um dia específico)
+		Fluxo de Caixa Operacional (Diferença entre as entradas e saídas de dinheiro provenientes das atividades operacionais da empresa)
+		Variação do Saldo de Caixa (Diferença entre o saldo inicial e final de caixa em um período determinado.)
+		Dias de Caixa Disponível (Número de dias que a empresa pode operar com o caixa disponível, sem considerar novas entradas.)
+		Índice de Liquidez Imediata (Relação entre o caixa disponível e as obrigações de curto prazo.)
+		Taxa de Crescimento do Saldo de Caixa (Percentual de aumento ou diminuição do saldo de caixa em relação a um período anterior.)
+		Despesas Não Planejadas (Valor total de despesas que não estavam previstas no orçamento ou planejamento financeiro.)
+		Razão de Cobertura de Caixa (Mede a capacidade da empresa de cobrir suas obrigações de curto prazo usando apenas o caixa disponível.)
+		Fluxo de Caixa Livre (Representa o valor do fluxo de caixa operacional menos os investimentos em ativos fixos)
+		Taxa de Desconto 
+		Taxa de Juros
+		Exclusões por Funcionário
+		Sangrias do Período
+		Despesa Diária/Mensal 
+		Receita Diária/Mensal
+		Taxa de Pagamentos Realizados
+		Taxa de Recebimentos no Prazo
+		Taxa de Recebimento fora do Prazo
+		Fluxo de Caixa Mensal
+		Volume de Transações
+		
+	- Recebimento (Listado, OK)
+		Taxa de Juros Cobrados no Período
+		Taxa de Multa Cobrada no Período
+		Taxa de Recebimentos Parciais
+		Valor Total de Recebimentos Pendentes (Montante total de dinheiro que ainda não foi recebido, mas que é esperado com base nas vendas realizadas.)
+		Dias Médios de atraso no Recebimento
+		Prazo Médio de Recebimento (Número médio de dias que a empresa leva para receber pagamentos de seus clientes após a venda ou prestação de serviço.)
+		Taxa de Contas a Receber Vencidas (Proporção de contas a receber que ultrapassaram a data de vencimento em relação ao total de contas a receber.)
+		Taxa de Cobrança Efetiva (Percentual de contas a receber que foram efetivamente coletadas em relação ao total de contas a receber.)
+		Taxa de Descontos Concedidos (Proporção de descontos concedidos em relação ao total de vendas a crédito.)
+		Valor Médio de Recebimento por Cliente (Média de dinheiro recebido de cada cliente durante um período específico)
+			
+	- Contratos (Listado, Ok)
+	
+		Mensalidades Pendentes do Mês
+		Juros Cobrados no Período 
+		Descontos Aplicados no Período
+		Multa Aplicada no Período
+		Tempo Médio de Ciclo de Contratação (Duração média desde a criação até a assinatura final de um contrato)
+		Percentual de Contratos Renovados (Proporção de contratos que são renovados em relação ao total de contratos que expiram.)
+		Taxa de Conformidade Contratual (Percentual de contratos que são executados conforme os termos e condições acordados)
+		Valor Total dos Contratos Ativos (Soma do valor de todos os contratos que estão atualmente em vigor)
+		Taxa de Risco Contratual (Percentual de contratos que apresentam riscos significativos para a organização, seja financeiro, operacional ou legal)
+		Tempo Médio de Aprovação de Contrato (Duração média desde a submissão de um contrato até sua aprovação final)
+		Taxa de Cumprimento de Obrigações Contratuais (Percentual de obrigações contratuais (como entregas, pagamentos, etc.) que foram cumpridas no prazo)
+		Número de Contratos por Fornecedor/Cliente (Quantidade média de contratos ativos por fornecedor ou cliente)
+		Taxa de Vencimento de Contratos (Percentual de contratos que estão próximos do vencimento em relação ao total de contratos ativos) 
+		Taxa de Cancelamento de Contratos (Percentual de contratos que foram cancelados) 
+		Valor Médio de Mensalidade 
+		Média de dias para Recebimento
+		Taxa de Adesão no Período
+		Taxa de Desacordo de Mensalidade ( Quando as mensalidades são contextadas pelo cliente, resultando em seu não pagamento.)
+		Receita Mensal/Anual
+		
+		
+	- Boletos (Listado, OK)
+		Taxa de Inadimplência (Percentual de boletos que não foram pagos até a data de vencimento)
+		Taxa de Boletos pagos Após o Vencimento (Percentual de boletos que foram pagosapís a data de vencimento)
+		Taxa de Pagamento Antecipado (Percentual de boletos que foram pagos antes da data de vencimento)
+		Tempo Médio de Recebimento (Número médio de dias entre a emissão do boleto e o seu pagamento)
+		Valor Total de Boletos Emitidos (Soma do valor de todos os boletos emitidos em um período específico)
+		Valor Total de Boletos Pagos (Soma do valor de todos os boletos que foram efetivamente pagos em um período específico)
+		Taxa de Boletos Contestados (Percentual de boletos que foram contestados ou questionados pelos clientes)
+		Taxa de Boletos Enviados a Protesto (Percentual de boletos que foram enviadas a cartório)
+		Taxa de Renegociação de Boletos (Percentual de boletos vencidos que foram renegociados)
+		Taxa de Cancelamento de Boletos (Percentual de boletos que foram cancelados antes do vencimento)
+		Taxa de Erros na Emissão de Boletos (Percentual de boletos que apresentaram erros durante a emissão e que necessitaram de correção)
+		Valor Médio por Boleto Emitido (Valor médio dos boletos emitidos em um período específico)
+		Taxa de Juros Aplicada 
+		Taxa de Multa Aplicada 
+		Taxa de Descontos Concedidos por funcionário
+		Taxa de Boletos Pendentes de Impressão
+		Total de Boletos Emitidos
+		Valor Total de Boletos Emitidos
+			
+		
+	- TEF: (Listado, OK)
+		Taxa de Sucesso de Transações (Percentual de transações bem-sucedidas em relação ao total de transações tentadas)
+		Tempo Médio de Processamento de Transações (Tempo médio necessário para processar uma transação, desde o momento em que o cartão é inserido até a aprovação ou recusa)
+		Taxa de Falhas de Transação (Percentual de transações que falharam devido a erros do sistema, falta de fundos, etc)
+		Volume de Transações no Período (Número total de transações processadas em um período específico)
+		Valor Médio de Transação (Valor médio das transações processadas)
+		Taxa de Chargeback/Estorno (Percentual de transações que foram revertidas após serem inicialmente aprovadas)
+		Disponibilidade do Sistema (Percentual de tempo em que o sistema TEF esteve operacional e disponível para transações.)
+		Taxa de Uso de Diferentes Modalidades de Pagamento (Percentual de transações realizadas através de diferentes métodos de pagamento (crédito, débito, vouchers, etc.)
+		Taxa de Conversão em Transações de Crédito Parcelado (Percentual de transações de crédito que foram feitas em parcelas, em relação ao total de transações de crédito)
+		Valor Total de Transações no Período
+		Taxa de Transações Negadas (Percentual de transações que foram recusadas)
+		Tempo Médio de Resposta
+		Taxa de Falhas de Comunicação
+		Custo Médio Por Transação
+			
+	- DRE (Listado, Ok)
+		Tempo de Elaboração da DRE (Tempo necessário para compilar e gerar o relatório completo)
+		Precisão dos Dados (Percentual de acurácia dos dados apresentados na DRE, comparados com os registros contábeis)
+		Taxa de Erros de Cálculo (Percentual de erros encontrados nos cálculos de receitas, despesas, impostos, etc)
+		Taxa de Revisões ou Correções (Número de vezes que a DRE teve que ser revisada ou corrigida após a primeira elaboração)
+		Eficiência na Integração de Dados (Avaliação da capacidade do sistema de integrar dados de diferentes departamentos ou sistemas (como vendas, compras, estoque, etc) para a elaboração da DRE)
+		Taxa de Conclusão de Relatórios (Percentual de relatórios DRE concluídos em relação ao total de relatórios iniciados.)
+		Taxa de Auditorias Bem-sucedidas (Percentual de auditorias externas ou internas que não resultaram em ajustes significativos na DRE.)
+		Taxa de Conformidade Fiscal (Extensão em que o sistema ajuda a empresa a cumprir com todas as obrigações fiscais relacionadas à elaboração da DRE.)
+		Ebitda - Lucro antes de juros, impostos, depreciação e amortização (Indica a geração operacional de caixa da empresa.)
+		Taxa de Despesas do Período
+		Taxa de Receitas do Período
+		Taxa do Lucro Líquido do Período
+		Margem Bruta  do Período ( Porcentagem que sobra de cada venda após deduzir os custos diretos)
+		Margem Líquida do Período (Porcentagem que sobra de cada venda após deduzir todos os custos e despesas)
+		Crescimento da Receita (Mede a taxa de crescimento da receita em relação ao período anterior.)
+		Custo dos Produtos Vendidos CPV ( Mede o custo direto de produção dos bens ou serviços vendidos.)
+		Despesas Operacionais (Inclui despesas como salários, aluguel e custos administrativos.)
+		Margem Operacional ( Calculada como Lucro Operacional / Receita.)
+		Índice de Cobertura de Juros (Mede a capacidade da empresa de cumprir suas obrigações de juros.)
+		Liquidez Corrente (Mede a capacidade da empresa de pagar suas dívidas de curto prazo)
+				
+	- Centro de Custo  (Listado, Ok)
+		Precisão na Alocação de Custos (Percentual de acurácia na alocação de custos aos respectivos centros)
+		Taxa de Erros de Alocação (Percentual de erros na alocação de custos aos centros de custo)
+		Taxa de Revisões ou Correções (Número de vezes que os dados de um centro de custo tiveram que ser revisados ou corrigidos)
+		Custo total por centro de Custo 
+		Custo Médio por Centro de Custo
+		Taxa de Crescimento dos Custos
+		Taxa de custos Indiretos 
+		Taxa de Custos Diretos
+		Margem de Contribuição (Mede a rentabilidade de um centro de custo, subtraindo os custos variáveis das receitas geradas)
+					
+	- Metas de Venda (Listado, Ok)
+		Taxa de Alcance de Metas (Percentual de metas de vendas alcançadas em relação ao total estabelecido)
+		Tempo Médio para Alcançar Metas (Tempo médio necessário para alcançar uma meta de vendas.)
+		Taxa de Ajuste de Metas (Frequência com que as metas são ajustadas para refletir mudanças nas condições de mercado ou estratégias da empresa)
+		Custo por Meta Alcançada (Custo total associado ao alcance de cada meta de vendas)
+		Taxa de Erros de Configuração de Metas (Percentual de erros ou inconsistências na configuração de metas de vendas)
+				
+	- Financeiro: (Listado, OK)
+		Lifetime Value (LTV) do Cliente (Valor total que um cliente gera durante todo o seu ciclo de vida com a empresa)
+		Taxa de Crescimento Anual Composta (CAGR) (Taxa de crescimento anual da receita ou de outro indicador financeiro relevante)
+		Eficácia do Ciclo de Cobrança (Tempo médio necessário para converter vendas a crédito em receita) 
+		Taxa de Inadimplência (Percentual de contas a receber que não foram pagas dentro do prazo.)
+		Índice de Endividamento (Relação entre o total de dívidas e o total de ativos)
+		Custo Operacional (Custo total para manter as operações da empresa)
+		Taxa de Retenção de Clientes (Percentual de clientes que continuam a fazer negócios com a empresa em um determinado período)
+		Lançamentos Não Conciliados ??
+		Retorno sobre o Investimento (ROI) (Mede o retorno financeiro em relação ao capital investido)
+		Margem de Lucro Bruto e Líquido (Percentual do lucro em relação à receita, tanto bruto quanto líquido)
+		Liquidez Corrente (Avalia a capacidade da empresa de pagar suas dívidas de curto prazo)
+		Taxa de Juros  Aplicado no Período
+		taxa de Multa Aplicada no Período
+		Taxa de Desconto Concedido no Período
+		Valor de Comissão Não Paga do Período
+		Taxa de Parcelas Excluídas 
+		Taxa de Parcelas sem Conta 
+		Prazo Médio de Recebimento (Número médio de dias que a empresa leva para receber pagamentos de seus clientes.)
+		Prazo Médio de Pagamento (Número médio de dias que a empresa leva para pagar seus fornecedores.)
+		Ciclo Financeiro (Representa o tempo total que a empresa leva desde a compra de matéria-prima até o recebimento pelas vendas)
+		Variação Percentual das Receitas e Despesas (Comparação da evolução das receitas e despesas em relação a períodos anteriores.)
+		Custo Fixo Médio Mensal (Valor médio dos custos fixos por mês.)
+		
+	
+-> Módulo Compras (Listado, OK)
+	>>	Compras: 
+		Taxa de Cumprimento de Pedidos (Percentual de pedidos de compra atendidos integralmente e no prazo acordado.)
+		Taxa de Notas Pendente de Finalização
+		Taxa de Vínculos incorretos
+		Taxa de Notas Finalizadas Sem Conferência
+		Taxa de imposto no Período(ICMS, ICMS ST, Seguro, IPI, PIS, Confins, FCP(Não tem campo))
+		Taxa de Frete no Período
+		Ciclo Médio de Compra (Tempo médio desde a requisição de compra até o recebimento dos itens)
+		Custo Total de Aquisição (Custo total para adquirir um produto ou serviço, incluindo preço, taxas e custos de logística)
+		Taxa de Conformidade de Fornecedores (Percentual de fornecedores que cumprem com os termos e condições acordados)
+		Taxa de Retorno de Mercadorias (Percentual de produtos devolvidos em relação ao total comprado.)
+		Taxa de Erros de Faturamento (Percentual de notas cujo faturamento contêm erros e precisam ser corrigidas.)
+		Taxa de Notas Finalizadas sem financeiro gerado
+		Taxa de Notas Finalizadas sem estoque gerado
+		Número de Fornecedores Ativos (Quantidade de fornecedores com os quais a empresa realizou transações em um período específico)
+		Concentração de Compras por Fornecedor (Percentual de compras realizadas com os principais fornecedores)
+		Nota de Conhecimento de Transporte sem vínculo
+		Taxa de Compras com CT-e Vinculadas
+
+	
+	>> Solicitação de Compra: (Listado, OK)
+		
+		Valor Médio de Solicitação de compra (Valor médio de cada solicitação de compra realizada)
+		Taxa de Urgência de Compra (Percentual de solicitação de compra que são classificados como urgentes)
+		Tempo Médio de Aprovação de Solicitação (Mede o tempo médio necessário para aprovar uma solicitação de compra após seu envio.)
+		Taxa de Aprovação de Primeira Passagem (Percentual de solicitações de compra aprovadas na primeira tentativa, sem necessidade de revisão ou correção)
+		Taxa de Rejeição de Solicitações (Percentual de solicitações de compra rejeitadas em relação ao total de solicitações feitas)
+		Número de Itens por Solicitação  (Média de itens listados em cada solicitação de compra, o que pode indicar a complexidade das necessidades de compra)
+		Taxa de Conformidade de Compra ( Percentual de solicitações de compra que estão em conformidade com as políticas e procedimentos da empresa.)
+		Taxa de Erros de Solicitação (Percentual de solicitações de compra que contêm erros, como informações incorretas ou incompletas.)
+		Taxa de Conversão de Solicitação para Compra (Percentual de solicitações de compra que são efetivamente convertidas em pedido de compras)
+		
+
+
+-> Módulo CRM
+	-> Proposta: (Listado, OK)
+	
+		Taxa de Conversão de Propostas ( Percentual de propostas convertidas em vendas fechadas)
+		Tempo Médio para Fechamento (Tempo médio necessário desde a emissão da proposta até o fechamento da venda.)
+		Valor Médio da Proposta (Valor médio das propostas emitidas, o que pode indicar a qualidade ou complexidade das oportunidades de vendas.)
+		Taxa de Resposta do Cliente (Percentual de propostas que recebem uma resposta do cliente, seja positiva ou negativa.)
+		Ciclo de Vida Médio da Proposta (Tempo médio que uma proposta permanece ativa ou em consideração.)
+		Taxa de Revisão de Propostas (Percentual de propostas que requerem revisão ou renegociação antes do fechamento.)
+		Taxa de Desconto Médio (Percentual médio de desconto concedido nas propostas.)
+		Taxa de Erros de Proposta (Percentual de propostas que contêm erros, como informações incorretas ou omissões.)
+		Satisfação do Cliente (Medido através de pesquisas de satisfação ou feedback direto após o fechamento da venda.)
+		Taxa de Retenção de Cliente (Percentual de clientes que continuam a fazer negócios após a primeira venda.)
+		Margem Média de Lucro por Proposta (Lucro médio gerado por cada proposta convertida.)
+		Taxa de Propostas Recusadas (Percentual de propostas rejeitadas ou não aceitas pelos clientes)
+		Tempo Médio para Aprovação de Proposta
+		Taxa de Propostas com Frete no Período (Percentual de propostas que incluíram algum valor de frete. )
+		Taxa de Propostas com Acréscimo no Período (Percentual de propostas que incluíram algum tipo de acréscimo.)
+		Volume de Propostas Emitidas (Número total de propostas enviadas em um período específico.)
+			
+		
+	- Agendamento (Listado, Ok)
+		
+		Percentual de Eventos Transferidos
+		Percentual de Eventos Sem Responsável
+		Percentual de Eventos Sem Setor
+		Percentual de Eventos Concluídos 
+		Percentual de Eventos Cancelados (Percentual de agendamentos que são cancelados antes de serem realizados)
+		Percentual de Eventos Urgentes
+		Taxa de Ocupação (Mede o percentual de slots de tempo ou recursos que estão efetivamente sendo usados.)
+		Taxa de No-show (Percentual de agendamentos onde o cliente ou recurso não comparece.)
+		Taxa de Reagendamento (Percentual de agendamentos que são reagendados.)
+		Taxa de Conversão (Percentual de agendamentos que resultam em uma venda ou outro resultado desejado.) (Tem campo, mas não funciona ): )
+		Taxa de Erros (Percentual de erros ou problemas ocorridos durante o processo de agendamento.)
+		Valor Médio de Agendamentos
+		Valot Total de Agendamentos
+			
+-> Módulo Estoque 
+	>> Estoque (Listado, Ok)
+		Giro de Estoque (Mede quantas vezes o estoque é vendido e reposto durante um determinado período.)
+		Dias de Estoque (Indica o número médio de dias que os itens ficam em estoque antes de serem vendidos.)
+		Custo de Carregamento de Estoque (Mede os custos associados ao armazenamento de produtos não vendidos.)
+		Valor Médio do Estoque (Mede o valor médio dos produtos em estoque durante um determinado período.)
+		Volume Médio de Estoque ( Mede a quantidade média de itens mantidos em estoque.)
+		Valor Total do Estoque
+		Nível de Serviço de Estoque (Mede a capacidade de atender aos pedidos dos clientes a partir do estoque disponível.)
+		Taxa de Falta de Estoque ( Indica a frequência com que os itens não estão disponíveis quando os clientes fazem um pedido.)
+		Tempo de Reposição ( Mede o tempo necessário para repor o estoque depois que ele atinge o nível de reabastecimento.)
+		Taxa de Devolução ( Mede a porcentagem de produtos devolvidos pelos clientes.)
+		Taxa de Produtos Acima do Estoque Máximo
+		Taxa de Produtos Abaixo do Estoque Mínimo
+		Taxa de Perda 
+		Taxa de Obsolescência (Indica a porcentagem de itens de estoque que se tornaram obsoletos.)
+	
+	>>  Balanço de Estoque (Listado, Ok)
+		Taxa de Erros de Contagem (Indica a porcentagem de itens contados incorretamente durante o balanço.)
+		Tempo Médio por Contagem (Mede o tempo médio necessário para contar um item ou um conjunto de itens.)
+		Tempo Total de Balanço (Mede o tempo total necessário para completar o balanço de todo o estoque.)
+		Custo de Balanço por Item (Calcula o custo total do balanço dividido pelo número de itens contados.)
+		Frequência de Balanços (Indica quantas vezes o balanço de estoque é realizado em um período específico.)
+		Taxa de Precisão do Estoque ( Mede a precisão entre o estoque físico e os dados registrados no sistema.)
+		Valor Total do Estoque (Valor financeiro total dos itens mantidos em estoque durante um período específico.)
+		Taxa de Obsolescência (Percentual de itens em estoque que se tornaram obsoletos ou não vendáveis)
+		Taxa de Estoque Excedente  (Percentual de itens que ultrapassaram a quantidade máxima definida)
+		Taxa de Estoque de Segurança (Campo reservado do cadastro do produto ??)
+		Percentual de Estoque Perdido (Percentual de itens perdidos devido a furtos, danos ou erros.)
+		Taxa de Atualizações de Estoque 
+		Balanços com Estoques Negativos
+		
+		
+	
+	>> Código de Barras (Listado, OK)
+		Impressões sem código cadastrado
+		Média de Etiquetas por impressão
+		Média de Produtos por impressão
+		Tempo Médio de Impressão
+		
+	
+			
+	>> Grade 
+		Taxa de Rotatividade de Itens por Variação (Mede a frequência com que o estoque de produtos na grade é vendido e reabastecido)
+		Taxa de Ruptura de Estoque por Variação (Percentual de vezes em que uma variação específica de produto não está disponível em estoque)
+		Tempo Médio para Reabastecimento por Variação (Tempo necessário para reabastecer o estoque de cada variação de produto)
+		Taxa de Devolução de Produto por Variação (Percentual de cada variação de produto devolvida pelos clientes)
+		Margem de Lucro por Variação (Calcula o lucro obtido por cada variação de produto vendida.)
+		Volume de Venda por Variação
+		Estoque Máximo por Variação
+		Estoque Mínimo por Variação
+		Taxa de Desconto Médio por Variação
+		Taxa de Acréscimo Médio por Variação
+		Taxa de Obsolescência por Variação (Percentual de itens de variação que não são vendidos, tornando-se obsoletos.)
+		Custo Médio de Produção por Variação
+		Valor Total por Variação
+	
+	>> Lote (Listado, Ok)
+		Margem de Lucro por Lote (Calcula o lucro obtido por cada lote de produto vendido.)
+		Taxa de Ruptura de Estoque por Lote (Percentual de vezes em que um lote específico de produto não está disponível em estoque.)
+		Taxa de Vendas por Lote (Percentual de visitantes que realizam uma compra de um lote específico de produto.)
+		Tempo Médio para Reabastecimento por Lote (Tempo necessário para reabastecer o estoque de cada lote de produto.)
+		Retorno sobre o Investimento (ROI) por Lote (Mede o retorno financeiro gerado pela venda de cada lote de produto)
+		Rastreabilidade de Lote (Capacidade de rastrear cada lote de produto desde a produção até a venda)
+		Produtos Expirados por Lote (Número de produtos em um lote específico que atingiram sua data de validade)
+		Taxa de Retorno por Lote (Percentual de produtos de um lote específico que foram retornados pelos clientes)
+		Tempo Médio de Rotação de Lote (Tempo médio que um lote leva para ser completamente vendido ou utilizado)
+		Taxa de Utilização de Capacidade de Lote (Percentual de capacidade de produção ou armazenamento utilizada para cada lote.)
+		Taxa de Desperdício por Lote
+		Tempo Médio de Vida Útil Restante (Tempo médio restante antes que os produtos em um lote atinjam sua data de validade)
+		Eficiência de Rotação de Estoque por Lote (Número de vezes que o estoque de um lote específico é vendido e reposto em um período definido)
+		Taxa de Lotes com Alterações (Percentual de lotes que passaram por alterações ou modificações após a produção inicial)
+		
+	>> Movimento de Estoque (Listado, Ok)
+		Tempo de Ciclo de Estoque (O tempo necessário para completar um ciclo de estoque, desde o pedido até a entrega.)
+		Taxa de Obsolescência de Estoque (Percentual de estoque que se torna obsoleto ou não vendável ao longo do tempo)
+		Taxa de Acuracidade do Estoque (Percentual de concordância entre o estoque físico e o registrado no sistema.) (Entraria no Aplicativo 
+		Volume Médio de Movimentação Diária (Quantidade média de produtos movimentados diariamente no armazém)
+		Tempo Médio de Movimentação (Tempo médio necessário para movimentar um produto do ponto A ao ponto B no armazém.) (Entraria no Aplicativo Multiplos Estoques)
+		Tempo Médio de Permanência em Estoque (Tempo médio que um produto permanece em estoque antes de ser vendido ou utilizado)
+		Taxa de Produtos Danificados ou Perdidos (Percentual de produtos que são danificados ou perdidos durante a movimentação ou armazenamento)
+		Eficiência de Localização de Produtos (Tempo médio necessário para localizar e acessar um produto específico no armazém)
+		Taxa de Utilização de Equipamentos de Movimentação (Percentual de tempo em que equipamentos de movimentação (como empilhadeiras) estão efetivamente em operação)
+		
+	>> Múltiplos Estoques (Listado, OK)
+		Acuracidade do Estoque por Localização (Percentual de concordância entre o estoque físico e o registrado no sistema para cada localização)
+		Taxa de Giro de Estoque por Localização (Número de vezes que o estoque é vendido e reposto em um período específico para cada armazém)
+		Tempo Médio de Transferência entre Localizações (Tempo médio necessário para transferir produtos de um armazém para outro)
+		Custo Médio de Armazenamento por Localização (Custo total associado ao armazenamento de produtos em cada localização, considerando espaço, manutenção, segurança, entre outros)
+		Taxa de Produtos Danificados ou Perdidos por Localização (Percentual de produtos que são danificados ou perdidos durante a movimentação ou armazenamento em cada armazém)
+		Taxa de Pedidos Atendidos por Localização (Percentual de pedidos atendidos em relação ao total de pedidos recebidos em cada armazém)
+		Taxa de Devoluções por Localização (Percentual de produtos devolvidos pelos clientes em relação ao total vendido em cada localização) 
+		Nível de Estoque Mínimo por Localização
+		Nível de Estoque Máximo por Localização (Indica se os níveis de estoque em cada local estão dentro dos limites desejados)
+		Taxa de Ruptura de Estoque por Local (Percentual de vezes em que um item não está disponível em estoque em um local específico.)
+		Custo de Transferência entre Locais (Custo associado à transferência de itens entre diferentes locais)
+		Taxa de Utilização de Espaço de Armazenamento por Localização (Percentual do espaço de armazenamento efetivamente utilizado em cada local)
+		Taxa de Obsolescência de Estoque (Percentual de estoque que se torna obsoleto ou não vendável ao longo do tempo em cada local)
+		Retorno sobre o Investimento em Estoque (ROII) por Local (Mede o retorno financeiro gerado pelo estoque em cada local)
+		Taxa de Perdas por Localização
+		
+	>> Sub-Unidade (Listado, Ok)
+		Volume de Conversões Realizadas (Número total de conversões de unidade realizadas em um período específico)
+		Acuracidade da Conversão (Percentual de conversões que são precisas e consistentes com padrões reconhecidos ou especificações internas)
+		Taxa de Erros de Conversão (Percentual de conversões que resultam em erros ou discrepâncias)
+		Flexibilidade do Sistema (Número de diferentes unidades de medida que o sistema pode converter)
+		Tempo de Atualização de Taxas de Conversão (Frequência com que as taxas ou fatores de conversão são revisados e atualizados no sistema (Cadastro do produto- Alteração das Sub-unidades)
+		Taxa de Conversões Automáticas vs. Manuais (Percentual de conversões realizadas automaticamente pelo sistema em comparação com as que requerem intervenção manual)
+		Taxa de Conversões Revertidas (Número ou percentual de conversões que foram revertidas ou corrigidas devido a erros ou mudanças nas especificações)
+		
+	>> Patrimônio (Listado, Ok)
+		Valor Total do Patrimônio (Valor total dos ativos fixos e intangíveis da organização)
+		Taxa de Depreciação de Ativos (Percentual anual de depreciação dos ativos fixos com base em sua vida útil estimada)
+		Custo Total de Propriedade (Inclui todos os custos associados à aquisição, manutenção e operação de um ativo)
+		Retorno sobre Ativos (Mede o lucro gerado por cada unidade de ativo)
+		Tempo Médio entre Falhas  (Mede a confiabilidade dos ativos, indicando o tempo médio entre falhas)
+		Tempo Médio para Reparo (Mede o tempo médio necessário para reparar um ativo após uma falha.)
+		Taxa de Utilização de Ativos (Mede o grau em que os ativos estão sendo utilizados)
+		Custo de Manutenção por Ativo (Mede o custo total de manutenção de cada ativo em relação ao seu valor)
+		Retorno Sobre Investimento em Ativos ( Retorno sobre o investimento feito em ativos.)	
+		Tempo Médio de Venda de Ativos 	(Tempo médio necessário para vender um ativo.)
+		Valor Residual (Valor de um ativo após sua vida útil.)
+		Custo Operacional por Ativo (Custo total para operar um ativo durante um período específico.)
+		Eficiência Energética (Mede a eficiência energética de ativos como máquinas e equipamentos.)
+		
+		
+	-> Módulo RH
+	>> Ficha Ponto (Listado, Ok)
+		Tempo Médio de Aprovação de Ponto (O tempo médio que leva para um supervisor ou gerente aprovar os registros de ponto)
+		Taxa de Erros de Registro (Percentual de registros de ponto que contêm erros e precisam ser corrigidos.)
+		Taxa de Ausências Não Justificadas (Percentual de ausências que não foram justificadas através do sistema de ficha ponto.)
+		Taxa de Adesão dos Funcionários (Percentual de funcionários que estão usando o sistema de ficha ponto conforme esperado)
+		Taxa de Ocorrências de Horas Extras (Percentual de registros que indicam trabalho em horas extras.)
+		Eficiência na Geração de Relatórios (Mede a rapidez e precisão na geração de relatórios relacionados ao tempo de trabalho)
+		Taxa de Pontualidade (Percentual de registros de ponto que indicam que o funcionário chegou no horário)
+		Taxa de Conformidade com Escalas (Mede o alinhamento entre os registros de ponto e as escalas de trabalho planejadas.)
+		Taxa de Funcionários sem Horário Definido 
+		Taxa de Ausências Justificadas
+		Taxa de Lançamentos Manuais	
+	
+	>> Folha de Pagamento (Listado, OK)
+		Taxa de Precisão da Folha de Pagamento (Mede a acurácia dos pagamentos feitos aos funcionários, incluindo salários, bônus e deduções.)
+		Tempo de Processamento da Folha de Pagamento (Tempo médio necessário para processar completamente uma folha de pagamento, desde a coleta de dados até o pagamento efetivo.)
+		Taxa de Erros de Pagamento (Percentual de pagamentos que contêm erros e precisam ser corrigidos.)
+		Taxa de Adesão a Pagamentos Digitais (Percentual de funcionários que optam por pagamentos digitais ou depósitos diretos em vez de cheques impressos)
+		Taxa de Pagamentos Pontuais (Percentual de pagamentos feitos dentro dos prazos estabelecidos, o que é crucial para a satisfação do funcionário e conformidade legal.)
+		Percentual de Horas Extras
+		Percentual de Horas Faltas
+		Valor Médio de INSS
+		Valor Médio de FGTS
+		Média Salarial
+		Percentual de Adiantamentos
+		Folhas em Aberto
+		Vínculos Financeiros Divergentes
+		
+	
+	>> Funcionários (Listado, Ok)
+		Custo por Contratação (Mede o custo total envolvido no processo de recrutamento e seleção de um novo funcionário)
+		Taxa de Rotatividade de Funcionários (Mede o número de funcionários que saem da empresa em relação ao número total de funcionários.)
+		Taxa de Retenção de Funcionários (Mede o percentual de funcionários que permanecem na empresa durante um período específico.)
+		Taxa de Absenteísmo (Mede o número de dias perdidos devido a ausências em relação ao número total de dias trabalhados.)
+		Horas de Treinamento  (Mede o número médio de horas de treinamento fornecidas a cada funcionário.)
+		Custo Médio por Funcionário (Mede o custo total de um funcionário para a empresa, incluindo salário, benefícios e outros custos)
+		Taxa de Utilização de Benefícios (Mede o percentual de funcionários que estão utilizando os benefícios oferecidos pela empresa.)
+		Taxa de Acidentes de Trabalho (Mede o número de acidentes de trabalho em relação ao número total de horas trabalhadas.)
+		Ferramentas Vinculadas ao Funcionário
+		Taxa de Atualização Salarial
+		Pensão Alimentícia
+		Atualização de Função
+		Taxa de Férias Concedidas
+		Taxa de Funcionários com Dependentes
+
+	-> Produtividade
+	>> Notificações (Listado, OK)
+		Taxa de Entrega (Mede o percentual de notificações entregues com sucesso em relação ao número total de notificações enviadas.)
+		Taxa de Abertura (Mede o percentual de notificações que foram abertas pelos usuários após serem entregues.)
+		Taxa de Conversão (Mede o percentual de ações desejadas realizadas pelos usuários após clicar na notificação.)
+		Taxa de Erros (Mede o percentual de notificações que não foram entregues ou que contêm erros.)
+		Taxa de Cancelamento de Inscrição (Mede o percentual de usuários que optaram por não receber mais notificações.)
+		Volume de Notificações (Mede o número total de notificações enviadas em um determinado período.)
+		Capacidade de Pico (Mede o número máximo de notificações que o sistema pode processar em um curto período de tempo)
+		Taxa de Retentativa de Envio (Mede o percentual de notificações que são reenviadas após uma falha inicial.)
+			
+		
+	>> Aprovações (Listado, OK)
+		Tempo Médio de Aprovação (Mede o tempo médio necessário para aprovar uma solicitação desde o momento em que é enviada.)
+		Taxa de Atraso nas Aprovações (Mede o percentual de aprovações que não foram concluídas dentro do prazo estabelecido.)
+		Taxa de Erros de Aprovação (Mede o percentual de aprovações que contêm erros ou informações incorretas.)
+		Taxa de Rejeição (Mede o percentual de solicitações que são rejeitadas em relação ao total de solicitações recebidas.)
+		Volume de Solicitações (Mede o número total de solicitações de aprovação recebidas em um determinado período.)
+		Taxa de Aceitação (Mede o percentual de solicitações que são aceitas em relação ao total de solicitações recebidas.)
+		Taxa de Rastreabilidade (Mede a capacidade do sistema de rastrear e documentar todo o processo de aprovação para cada solicitação)
+	
+	>> Sintegra (Listado, OK)
+		Taxa de Conformidade Sintegra (Mede o percentual de registros enviados ao Sintegra que estão em conformidade com as regras fiscais.)
+		Taxa de Erros de Submissão ( Mede o percentual de registros enviados com erros ou inconsistências.)
+		Tempo Médio de Submissão (Mede o tempo médio necessário para preparar e enviar os registros ao Sintegra.)
+		Taxa de Atraso nas Submissões (Mede o percentual de submissões que não foram enviadas dentro do prazo estabelecido.)
+		Taxa de Auditoria Bem-sucedida (Mede o percentual de registros Sintegra que passaram com sucesso por auditorias internas ou externas.)
+		Índice de Rastreabilidade (Mede a capacidade da empresa de rastrear e validar os registros enviados ao Sintegra.)
+		Volume de Registros (Mede o número total de registros fiscais enviados ao Sintegra em um determinado período.)
+		Taxa de Envios Pontuais: Porcentagem de arquivos enviados dentro do prazo estabelecido.
+			
+		
+	>> Módulo Contábil
+	
+	>> ATO COTEPE (PAF) 
+		Taxa de Conformidade com o Ato COTEPE (Mede o percentual de transações ou operações que estão em conformidade com as normas estabelecidas.)
+		Índice de Precisão de Dados (Mede a acurácia dos dados fornecidos em conformidade com o Ato COTEPE.)
+		Taxa de Atraso na Conformidade (Mede o percentual de casos em que a conformidade não foi alcançada dentro do prazo estabelecido.)
+		Taxa de Sucesso em Auditorias ( Mede o percentual de auditorias realizadas que confirmam a conformidade com o Ato COTEPE)
+		Índice de Rastreabilidade (Mede a capacidade de rastrear transações ou operações para fins de auditoria e conformidade.)
+		
+	
+	>> SPED (Listado, Ok)
+		Taxa de Conformidade SPED ( Mede o percentual de registros enviados ao SPED que estão em conformidade com as regras fiscais.)
+		Taxa de Erros de Submissão (Mede o percentual de registros enviados com erros ou inconsistências.)
+		Tempo Médio de Submissão (Mede o tempo médio necessário para preparar e enviar os registros ao SPED.)
+		Taxa de Atraso nas Submissões (Mede o percentual de submissões que não foram enviadas dentro do prazo estabelecido.)
+		Taxa de Auditoria Bem-sucedida ( Mede o percentual de registros SPED que passaram com sucesso por auditorias internas ou externas.)
+		Índice de Rastreabilidade (Mede a capacidade da empresa de rastrear e validar os registros enviados ao SPED.)
+		Volume de Registros (Mede o número total de registros fiscais enviados ao SPED em um determinado período.)
+		Retorno sobre o Investimento (ROI) (Mede o retorno financeiro ou benefícios obtidos através da conformidade com o SPED, como evitar multas e penalidades.)
+		
+		
+	-> Módulo Associação
+	>> Rateio (Listado, OK)
+		Volume de Rateios do Período
+		Média de Equipamentos por Rateio
+		Retorno sobre Investimento (ROI)(Mede o retorno financeiro gerado pelo sistema de rateio veicular.)
+		Taxa de Precisão no Rateio (Mede o percentual de acertos na alocação de custos entre as diferentes partes.)
+		Tempo Médio para Rateio (Mede o tempo médio necessário para completar o processo de rateio após a utilização do veículo.)
+		Taxa de Atraso no Rateio (Mede o percentual de rateios que não foram concluídos dentro do prazo estabelecido.)
+		Taxa de Sucesso em Auditorias (Mede o percentual de rateios que passaram com sucesso por auditorias internas ou externas.)
+		Custo Médio por Rateio (Mede o custo médio associado a cada processo de rateio.)
+		Média de Cotas por Rateio
+			
+	>> Ocorrências (Listado, Ok)
+		Taxa de Ocorrências no Período (Mede o percentual de ocorrências no período especificado.)
+		Taxa de Resolução de Ocorrências (Mede o percentual de ocorrências resolvidas com sucesso dentro de um determinado período)
+		Custo Médio por Ocorrência (Mede o custo médio para resolver uma ocorrência, incluindo custos de reparo, multas e outros.)
+		Taxa de Ocorrências com danos Totais
+		Taxa de Ocorrências com danos Parciais
+		Taxa de Ocorrências com Monta Pequena
+		Taxa de Ocorrências com Monta Média
+		Taxa de Ocorrências com Monta Grande
+		Índice de Recorrência (Mede a taxa de ocorrências recorrentes, ajudando a identificar áreas que podem necessitar de melhorias.)
+		Taxa de Ocorrências em Aberto
+		Taxa de Recuperação por Sistema Antifurto
+		Média de Associados Participantes por Ocorrência
+		
+	
+	>> Equipamentos 
+		Custo Total de Propriedade (TCO) (Mede todos os custos associados à posse e operação de um veículo.)
+		Média de Equipamentos por Associado
+		Total de Equipamentos no Período
+		Taxa de Equipamentos Sem Rateio
+		Taxa de Equipamentos Sem Mensalidade
+		Taxa de Equipamentos sem Rateio Antifurto
+		Taxa de Equipamentos com Boleto Gerado
+		Tempo Médio Entre Ocorrências (Mede o tempo médio entre ocorrências de um equipamento específico.)
+		Taxa de Equipamentos sem Contribuição
+		Taxa de Caminhões
+		Taxa de Semi-Reboques
+		Taxa de Veículos sem Atualização Pela Tabela Fipe
+		Média de Base para Rateio no Período
+			
+		
+	>> Boletos Eventuais 
+		Taxa de Boletos Emitidos por Veículo
+		Taxa de Boletos Emitidos por Associado
+		Taxa de Pagamento Antecipado (Percentual de boletos pagos antes da data de vencimento)
+		Tempo Médio de Recebimento (Número médio de dias entre a emissão do boleto e o seu pagamento)
+		Valor Total de Boletos Emitidos (Soma do valor de todos os boletos emitidos em um período específico)
+		Valor Total de Boletos Pagos (Soma do valor de todos os boletos que foram efetivamente pagos em um período específico)
+		Taxa de Boletos Pagos Após o Vencimento
+		Taxa de Inadimplência (Percentual de boletos que não foram pagos até a data de vencimento.)
+		Taxa de Boletos Contestados (Percentual de boletos que foram contestados ou questionados pelos membros)
+		Taxa de Renegociação de Boletos (Percentual de boletos vencidos que foram renegociados)
+		Taxa de Cancelamento de Boletos (Percentual de boletos que foram cancelados antes do vencimento)
+		Valor Médio por Boleto Emitido (Valor médio dos boletos emitidos em um período específico)
+		Taxa de Conversão de Boletos Emitidos em Pagamentos (Percentual de boletos emitidos que resultaram em pagamentos efetivos)
+		Enviados para Protesto (Percentual de boletos emitidos que foram enviados a cartório para Protesto)
+		Variação da Taxa de Emissão no Período
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
