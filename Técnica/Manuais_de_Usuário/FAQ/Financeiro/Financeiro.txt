@@ -1,0 +1,308 @@
+Pergunta: Ao tentar receber uma parcela no financeiro é exibida a mensagem: Há parcelas anteriores a serem recebidas
+Resposta: 
+1. As parcelas devem ser recebidas na sequência de criação
+2. Para alterar essa regra, acesse as configurações no ícone de engrenagem no canto superior direito da tela do "Financeiro"
+3. Na aba "Financeiro" localize a opção "Recebimento – Permitir Recebimento de parcelas de vendas que tenham parcelas anteriores não pagas"
+4. Marque a opção para permitir o recebimento fora de sequência das parcelas
+5. Feche a tela para salvar a alteração realizada
+6. Prossiga com o recebimento da parcela
+Tag:
+***
+Pergunta: Como posso visualizar as informações de uma parcela?
+Resposta: 
+1. Selecione o lançamento desejado
+2. Clique com o botão direito e selecione a opção "Histórico do Lançamento"
+3. Uma tela com todas as modificações realizadas no lançamento será exibida
+4. Dê duplo clique sobre o registro para ver o histórico detalhado 
+Tag:
+***
+Pergunta: Como agrupar parcelas no financeiro?
+Resposta: 
+1. Para realizar agrupamento de parcels todas precisam ser do mesmo cliente, do mesmo tipo de pagamento e conta
+2. Selecione os lançamentos desejados
+3. Clique com o botão direito do mouse e utilize a opção "Agrupamento/Vinculo -> Agrupar"
+4. Confirme o agrupamento 
+5. Finalizado o processo, o lançamento agrupado exibirá o status de "Ativo Agrupado"
+Tag:
+***
+Pergunta: No financeiro a parcela está com o status Ativo Previsão
+Resposta: 
+1. Há três modos de um lançamento financeiro apresentar o status “Ativo Previsão”
+2. O primeiro é no cadastro da venda, na aba “Destinatário(Cliente)” a opção “Fatura Venda como Previsão” estiver marcada
+3. O segunda é se no cadastro do tipo de pagamento utilizado na geração das parcelas da venda o campo “Tipo de Data de Previsão” estiver habilitado
+4. O terceiro é no cadastro do cliente, na “Aba Crediário”, a opção “Previsto - A Faturar” estiver selecionada
+5. Para retirar um lançamento do status Ativo Previsão, na tela do “Financeiro” clique com o botão direito sobre o mesmo
+6. Selecione a opção “Reativar Lançamento”
+Tag:
+***
+Pergunta: Como juntar as parcelas no financeiro para fazer o parcelamento da dívida total do cliente?
+Resposta: 
+1. Na tela do “Financeiro” selecione as parcelas desejadas
+2. Clique do botão direito para encontrar a opção "Agrupamento/Vínculo → Agrupar" 
+3. Após a geração da parcela agrupada, ainda com a mesma selecionada, clique com o botão direito do mouse 
+4. Selecione a opção "Duplicar /Dividir Conta → Dividir Parcela"
+5. Marque a opção "Dividir Parcela" e preencha os demais campos
+6. Deixe a opção "Mês" marcada caso o vencimento de todas as parcelas seja para o mesmo dia de cada mês
+7. Clique em "Gerar Parcelas" e confira as informações
+8. Finalize o processo confirmando o parcelamento
+Tag:
+***
+Pergunta: Não está sendo possível alterar a descrição do tipo de pagamento
+Resposta: 
+1. Não é possível alterar a descrição de um tipo de pagamento padrão do sistema
+2. Caso necessário, acesse o cadastro desejado e altere o campo "Ativo" para "N"
+3. Dessa forma o cadastro será inativado e somente será exibido se o filtro de "Arquivados" for aplicado na tela de consulta
+Tag: Financeiro - Tipo de Pagamento
+***
+Pergunta: Como fazer o recebimento parcial de uma parcela?
+Resposta: 
+1. Selecione o lançamento e clique em “Receber” 
+2. Aberta a janela para inserção das informações de recebimento selecione a opção "Parcial"
+3. Informe o valor pago no campo "Valor Pago" 
+4. Finalize a operação clicando no botão "Parcial"
+5. Posteriormente haverá dois lançamentos
+6. Um referente ao valor pago pelo cliente e outro do valor restante a ser recebido
+Tag:
+***
+Pergunta: Ao imprimir o recibo, o mesmo não aparece na tela
+Resposta: 
+1. Para que a tela de pré-visualização seja exibida, a opção “Impressão Rápida” deve estar desmarcada
+2. Essa opção pode ser encontrada clicando no ícone da seta, ao lado do botão “Imprimir”
+Tag: Financeiro - Recibo
+***
+Pergunta: Como remover o status de Ativo Previsão de um lançamento? 
+Resposta: 
+1. Selecione o lançamento desejado
+2. Clique com o botão direito do mouse e selecione a opção "Reativar Lançamento"
+Tag: Financeiro - Ativo Previsão
+***
+Pergunta: Como aplicar desconto ou acréscimo em uma condição de pagamento? 
+Resposta: 
+1. No módulo "Financeiro" acesse "Condição de Pagamento"
+2. Selecione o registro desejado e dê duplo clique para abrir seu cadastro
+3. Localize o campo "Desconto / ou Acréscimo em Percentual(%) padrão na venda"
+4. Para aplicação de desconto realize o preenchimento inserindo o sinal de negativo antes do percentual "-10"
+5. Para aplicação de acréscimo insira apenas o percentual "15"
+6. Caso o desconto da condição de pagamento deva substituir o desconto aplicado na venda, marque a opção "Substitui o Desconto da Venda"
+6. Clique em "Confirmar" para finalizar o processo
+Tag:
+***
+Pergunta: Como criar condições de pagamento?
+Resposta: 
+1. No módulo "Financeiro" acesse "Condição de Pagamento"
+2. Clique em "+Novo" para criar um novo registro
+3. Aberta a tela preencha o campo de "Descrição"
+4. No bloco "Selecione a opção desejada" informe como será a configuração das parcelas
+5. Marcando a opção "Descrição", caso na descrição da condição de pagamento exista a informação das parcelas separadas por barras (Parcelamento 1/2/3), a informação será aplicada na geração das parcelas
+6. Marcando a opção "Parcelas" o número de parcelas obedecerá a informação inserida no campo "Quantidade de Parcelas"
+7. Caso seja marcada a opção "Parcelas & Intervalo de 1 mês" número de parcelas obedecerá a informação inserida no campo "Quantidade de Parcelas" e será aplicado o intervalo de um mês entre as parcelas
+8. Em "Tipos de Utilização" informe se a condição de pagamento será aplicada em recebimentos, pagamentos ou ambos
+9. Em "Tipo de Pagamento" selecione qual será o tipo de pagamento 
+10. Caso tenha sido marcada a opção "Parcelas" informe o número de parcelas no campo "Quantidade de Parcelas"  
+11. E o intervalo em dias no campo "Intervalo entre as parcelas"
+12. Se houver um percentual de entrada, este deverá ser informado no campo "Percentual de Entrada(Venda)"
+13. No campo "S/N - Colocar como Recebida a primeira parcela(entrada) T" defina se a primeira parcela entrará como recebida
+14. Selecionando a opção "T", todas as parcelas entrarão como recebidas
+15. Os campos referentes a plano de contas devem ser preenchidos somente se a empresa utilizar o aplicativo
+16. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como criar tipos de pagamento?
+Resposta: 
+1. No módulo "Financeiro" acesse "Cadastro de Tipo de Pagamento"
+2. Clique em "+Novo" para criar um novo registro
+3. Aberta a tela preencha o campo de "Descrição"
+4. Informe qual será a conta padrão para o tipo de pagamento no campo "Conta Padrão"
+5. A conta vinculada poderá ser do tipo caixa ou bancária
+6. O campo "Padrão" define se tipo de pagamento será ou não padrão do sistema
+7. Em caso de lançamentos com previsão de pagamento, habilite a opção "Tipo de Data de Previsão"
+8. Informe no campo "Dia de Fechamento" com o dia em que será realizado o fechamento da parcela
+9. No campo "Dia de Crédito" informe o dia em que a parcela será creditada no financeiro
+10. Habilite o campo "Sem Data de Pagto ao gerar a parcela na venda" para que a parcela recebida não apresente data de recebimento
+11. Habilite o campo "Vincular os lançamentos de cartão para o responsável ao transferir" para que parcelas transferidas para conta bancária recebam o nome do responsável de que foi gerado a venda
+12. Habilite o campo "Vincular os lançamentos de Cartão a essa pessoa (Banco) ao transferir do caixa para o banco" para que parcelas transferidas do caixa para conta bancária recebam o nome do banco para qual ocorreu a transferência
+13. Marcando o campo anterior, informe no campo "Banco da Tranferência" para qual banco os lançamentos serão transferidos
+14. Importante lembrar que neste caso o banco precisará estar cadastrado como "Fornecedor"
+15. Habilitando a opção "Colocar parcela como recebida ao transferir do caixa", parcelas transferidas do caixa irão apresentar o status de "Recebidas" 
+16. Taxa ou valor fixo aplicado pelo banco sobre as parcelas podem ser informados nos campos "Taxa em %" e "Taxa em Valor"
+17. O preenchimento do campo "Tipo Pagto" somente é necessário em caso de emissão de nota fiscal
+18. Neste caso, basta selecionar o tipo de pagamento para que o código identificador seja preenchido corretamente
+19. Conferidas as informações, basta finalizar o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como realizar um lançamento financeiro?
+Resposta: 
+1. No módulo "Financeiro" acessa a tela "Financeiro"
+2. Aberta a tela, clique no botão "Novo" para criar o lançamento
+3. Preencha ao menos os campos "Descrição", "Tipo de Pagamento","Tipo de Lançamento", "Condição de Pagamento", Valor" e "Código da Conta"
+4. Lembrando que lançamentos bem preenchidos garantem relatórios mais detalhados 
+5. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como gerar um relatório financeiro?
+Resposta: 
+1. Acessando o financeiro, localize os filtros de consulta na parte inferior da tela
+2. Utilize os filtros para obter as informações desejadas
+3. No painel a direita da tela é possível realizar a impressão do relatório em dois modelos
+4. O primeiro é gerado clicando na opção "Relatório"
+5. O segundo é gerado clicando na opção "Relatório Contábil"
+6. Ainda é possível emitir um relatório somente dos devedores do período através da opção "Rel. Devedores"
+7. A seguir será exibida a janela para informar o período de vencimento e ordenação dos resultados
+8. Clicando em "Confirmar" o relatório será exibido
+Tag:
+***
+Pergunta: Como calcular juros de lançamentos já vencidos de forma automática?
+Resposta: 
+Tag:
+***
+Pergunta: Como filtrar e consultar os lançamentos financeiros de forma rápida e prática?
+Resposta: 
+1. A tela do financeiro conta com os filtros rápidos localizados na parte inferior da tela
+2. Para consultas mais detalhadas é possível utilizar a função "Opções de Consulta"
+3. Esta função está localizada no painel a direita da tela  
+4. Preencha os campos desejados e selecione "F1-Pesquisar" para que os dados sejam exibidos na tela
+Tag: Financeiro - Consulta
+***
+Pergunta:  Como classificar os lançamentos financeiros?
+Resposta: 
+1. Os lançamentos financeiros podem ser classificados utilizando o Plano de Contas
+2. Para entender como criar planos de conta clique [AQUI]
+Tag:
+***
+Pergunta: Como registrar lançamentos do tipo cheque?
+Resposta: 
+1. Na tela do financeiro clique em "Novo" para criar um novo lançamento
+2. Realize o preenchimento dos campos normalmente
+3. Importante lembrar que o preenchimento deve ser o mais completo possível para garantir a emissão de relatórios precisos
+4. No campo "Tipo de Pagamento" selecione a opção "Cheque"
+5. Informe o número do cheque no campo "Cheque Nº"
+6. Finalizado o preenchimento, clique em "Confirmar"
+7. Dê duplo clique o lançamento para abrir a janela de informações do cheque
+8. Preencha as informações conforme impresso do cheque recebido
+9. Confira os dados e clique em "Confirmar" para finalizar o processo
+Tag: Cheque
+***
+Pergunta: Como cadastrar uma nova conta bancária?
+Resposta: 
+1. No módulo "Financeiro" acesse "Caixas&Contas Bancárias"
+2. Clique em "+Novo" para criar um novo registro
+3. Aberta a tela preencha o campo de "Descrição"
+4. No campo "Tipo de Conta" selecione a opção "BANCO"
+5. No campo "Empresa" selecione a empresa em que a conta será vinculada
+6. Preencha o campo "Banco"
+7. O preenchimento dos campos "Agência" e "Nº da Conta" são opcionais
+8. Finalize o processo clicando em "Confirmar"
+Tag: Conta Bancária
+***
+Pergunta: Como transferir valores entre contas de forma ágil e prática?
+Resposta: 
+1. Na tela do financeiro clique com o botão direito do mouse
+2. Selecione a opção "Transferência entre Contas"
+3. No bloco "Origem/Saída" informe no campo "Conta" qual será a conta de onde o valor será retirado
+4. Caso a empresa utilize plano de contas, preencha o respectivo campo 
+5. No bloco "Destino/Entrada" informe no campo "Conta" qual será a conta para onde o valor será transferido
+6. Preencha o valor que será transferido no campo "Valor a ser Transferido"
+7. Em "Data lançamento" informe a data que deverá constar na transferência
+8. Confira as informações
+9. Clique em "Confirmar" para finalizar a operação
+Tag: Transferência entre contas
+***
+Pergunta:  Como gerar comprovantes de pagamento para os clientes?
+Resposta: 
+1. No financeiro selecione o lançamento desejado
+2. No painel a direita da tela clique na opção "Recibo"
+3. Confira as informações e clique em "Imprimir"
+Tag: Recibo
+***
+Pergunta: Como verificar meu fluxo de caixa?
+Resposta: 
+1. Acesse a tela do "Financeiro"
+2. Nos filtros abaixo da tela marque os filtros "Recebidas", "Pagas", "A Receber" e "A Pagar" 
+3. Utilize os filtros de data para selecionar o período desejado
+4. Posteriormente as informações serão exibidas na tela
+Tag:
+***
+Pergunta: Como localizar uma parcela excluída no financeiro?
+Resposta: 
+1. Acesse a tela do "Financeiro"
+2. Aplique os filtros "Recebidas", "Pagas", "A Receber", "A Pagar" conforme necessário
+3. No painel a direita da tela clique em "Opções de Consulta"
+4. Utilize os campos "Documento", "Código ou Responsável" e "Código da Conta" para facilitar a busca
+5. No campo "Status" selecione a opção "Todos" para visualizar todos os lançamentos, incluindo os excluídos
+6. Clique em "F1-Pesquisar" para efetuar a busca
+7. Selecione o lançamento excluído 
+8. Clique com o botão direito e utilize a opção "Reativar Lançamento" para reativar o lançamento
+Tag:
+***
+Pergunta: Como fazer um recebimento em uma parcela?
+Resposta: 
+1. Na tela do financeiro ative o filtro "A Receber"
+2. No painel a direita da tela utilize a função "Opções de Consulta" para localizar o lançamento
+3. Selecione o lançamento desejado
+4. Ainda no painel a direita da tela clique em "RECEBER"
+5. Confira as informações e faça os ajustes, caso necessário
+6. No bloco "Pagamento" informe se o recebimento será "Integral" ou "Parcial"
+7. Em caso de recebimento parcial, preencha o valor recebido no campo "Valor Pago"
+8. Finalize o processo clicando em "Parcial"
+9. Neste caso será criada uma parcela com o valor restante a ser recebido
+9. Em caso de recebimento integral, finalize o processo clicando em "Receber"
+Tag: Financeiro - Recebimento
+***
+Pergunta: Como fazer um pagamento? 
+Resposta: 
+1. Na tela do financeiro ative o filtro "A Pagar"
+2. No painel a direita da tela utilize a função "Opções de Consulta" para localizar o lançamento
+3. Selecione o lançamento desejado
+4. Ainda no painel a direita da tela clique em "PAGAR"
+5. Confira as informações e faça os ajustes, caso necessário
+6. No bloco "Pagamento" informe se o pagamento será "Integral" ou "Parcial"
+7. Em caso de pagamento parcial, preencha o valor pago no campo "Valor Pago"
+8. Finalize o processo clicando em "Parcial"
+9. Neste caso será criada uma parcela com o valor restante a ser pago
+10. Em caso de pagamento integral, finalize o processo clicando em "PAGAR"
+Tag:
+***
+Pergunta: Como desagrupar parcelas? 
+Resposta: 
+1. Na tela do "Financeiro" localize o lançamento desejado
+2. Clique com o botão direito do mouse e selecione a opção "Agrupamento / Vínculo -> Desagrupar"
+3. Confirme a operação para que as parcelas sejam desagrupadas
+Tag: Financeiro - Desagrupar Parcela
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

@@ -1,0 +1,58 @@
+Pergunta: O que significa as letras "A" e "T" nos planos de contas? 
+Resposta: 
+1. As contas Título(T) são aquelas cujo saldo é calculado através da soma de duas ou mais contas Analíticas(A)
+2. Já as contas Analíticas(A) são aquelas que representam os elementos patrimoniais no maior grau de detalhamento
+Tag: REVISAR
+***
+Pergunta: Como criar um novo plano de contas?
+Resposta: 
+1. No módulo "Financeiro" acesse "Plano de Contas"
+2. Clique em "+Novo" para criar um novo registro
+3. Aberta a tela siga o exemplo de preenchimento abaixo
+4. 
+5. 
+6. 
+8. 
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

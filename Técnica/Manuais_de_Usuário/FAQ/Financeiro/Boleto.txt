@@ -1,0 +1,377 @@
+***
+Pergunta: Como ajustar o próximo número de remessa?
+Resposta: 
+1. Acesse ao banco e cheque o histórico de remessas enviadas para visualizar o último número da sequência
+2. No sistema, acesse o módulo "Financeiro" e clique sobre a opção “Caixas e Contas Bancárias”
+3. Uma vez aberta a tela, dê duplo clique na conta desejada para abrir seu cadastro
+4. No meio da tela localize a aba "Configurações do Boleto"
+5. Informe no campo “Nº Sequencial de Remessa” o último número de remessa enviado
+6. Clique em "Confirmar" para salvar a alteração
+Tag: Boleto – Financeiro
+***
+Pergunta: O arquivo de remessa já foi gerado, ainda não enviei ao banco, mas preciso alterar a data de vencimento dos boletos
+Resposta: 
+1. No módulo "Financeiro" acesse a tela "Boletos 100%"
+2. Aberta a tela, confira a conta selecionada
+3. Localize a remessa desejada
+4. Clique com o botão direito do mouse sobre o boleto desejado e selecione a opção "Remover e Enviar na Próxima remessa"
+5. Acesse a tela do "Financeiro"
+6. Localize o boleto e clique em "Alterar" para editar a data de vencimento
+7. Clique em "Confirmar" para salvar a alteração
+8. Posteriormente será necessário imprimir o boleto novamente com a nova informação de vencimento
+9. Selecione o ícone da seta azul
+10. Clique em "Sim" para abrir a tela de configuração do boleto
+11. Utilize a opção "Imprimir" para realizar a impressão do boleto atualizado
+12. Posteriormente, no painel a direita da tela clique em "Boletos 100%"
+13. Aberta a tela, verifique se a conta selecionada está correta
+14. Caso não, alterne entre as contas utilizando as setas 
+15. Traga o boleto de volta a remessa através da opção "Buscar Boletos para Remessa"
+16. Finalize o processo ao criar um novo arquivo de remessa através da função "Gerar Arquivo de Remessa"
+Tag:
+***
+Pergunta: Onde ficam salvos os arquivos de remessa gerados?
+Resposta: 
+1. Os arquivos podem ser encontrados no diretório “WR Sistema\Boletos\1\Remessa”
+2. Onde o número “1” representa o código de cadastro da conta bancária no sistema
+Tag:
+***
+Pergunta: Ao tentar imprimir o boleto, é exibida a mensagem: O boleto já foi impresso em outro computador
+Resposta: 
+1. Reinicie o sistema
+2. Tente realizar uma nova impressão do boleto
+3. Verifique se não existe outro usuário realizando a impressão do mesmo boleto
+4. Posteriormente, cheque se o campo "Carteira" está preenchido
+5. Caso estiver vazio, verifique nos demais boletos do mesmo banco qual foi o número especificado no campo
+6. No módulo Financeiro selecione a opção "Caixas&Contas Bancárias"
+7. Abra o cadastro da conta desejada
+8. Selecione "Configurar Emissão de Boletos"
+9. No Passo 2, apague a informação do campo "Carteira" e clique em "Fechar"
+10. Confirme a alteração no painel lateral direito da tela
+11. Clique novamente na opção "Configurar Emissão de Boletos"
+12. No Passo 2, insira o número da carteira e clique em "Fechar"
+13. Confirme a alteração e prossiga com a impresssão do boleto
+Tag: Boleto - Financeiro
+***
+Pergunta: É possível registrar vários boletos de uma só vez?
+Resposta: 
+1. Sim. Na tela do Financeiro selecione os lançamentos desejados
+2. No painel lateral direito clique na opção "Boleto Seleção"
+3. Aguarde o término do registro dos boletos
+Tag: Boleto - Financeiro
+***
+Pergunta: Qual é a função do campo "Aceite" no boleto? 
+Resposta: 
+1. Utilizado para informar se o cliente está ciente ou não da existência do boleto
+2. Seu preenchimento é opcional
+Tag:
+***
+Pergunta: A remessa já foi enviada ao banco e preciso alterar o vencimento de um boleto
+Resposta: 
+1. Acesse a tela do "Financeiro"
+2. Selecione o boleto desejado e clique em "Alterar"
+3. Realize a modificação necessária 
+4. Clique em "Confirmar" para salvar as alterações
+5. Ainda com o lançamento selecionado utilize o botão de "Seta Azul" para abrir as configurações do boleto
+6. Aberta a tela, selecione a opção "Nova Ocorrência"
+7. Em "Tipo da Ocorrência" marque a opção "To RemessaAlterarVencimento"
+8. Confirme a ocorrência
+9. O sistema irá indicar que o evento de alteração do vencimento será enviado na próxima remessa gerada
+10. Clique em "Sim" para continuar
+11. Feche a tela
+12 Para finalizar o processo, gere um novo arquivo de remessa para enviar ao banco
+Tag:
+***
+Pergunta: Como gerar e enviar os boletos ao banco? 
+Resposta: 
+1. Acesse a tela do Financeiro
+2. Localize o lançamento desejado
+3. Verifique se o campo "Tipo de Pagamento" está preenchido como "Boleto"
+4. E se a conta bancária correta está selecionada no campo "Código da Conta"
+5. O campo "Documento" também deve estar preenchido
+6. Confira as demais informações
+7. Dê duplo clique sobre o lançamento para abrir a tela de geração de boleto
+8. Utilize a opção "Gerar e Imprimir"
+9. A seguir o boleto será impresso e o Nosso Numero gerado
+10. Salve a impressão e feche a tela 
+11. Realize o mesmo processo para todos os boletos que precisam ser gerados
+12. Posteriormente, no painel direito da tela selecione a opção "Boletos 100%"
+13. Aberta a tela, cheque se a conta exibida é a correta 
+14. Caso não, alterne entre as contas utilizando as setas 
+15. Clique em "Buscar Boletos para Remessa" 
+16. Todos os boletos gerados serão exibidos na listagem
+17. Faça a conferência das informações
+18. Sendo necessário remover algum boleto da remessa, clique com o botão direito sobre o lançamento e utilize a opção "Remover e enviar na Próxima Remessa"
+20. Finalize o processo clicando em "Gerar Arquivo de Remessa"  
+21. Após, basta encaminhar o arquivo gerado ao banco
+Tag:
+***
+Pergunta: Como inserir os arquivos de retorno no sistema?
+Resposta: 
+1. No módulo "Financeiro" acesse a tela "Boletos 100%"
+2. Aberta a tela, verifique se a conta selecionada está correta
+3. Caso não, alterne entre as contas utilizando as setas 
+4. Clique na opção "Tratar Arquivo de Retorno"
+5. Localize o arquivo de remessa baixado no site do banco
+6. Aguarde a leitura do arquivo
+7. Posteriormente as informações sobre os boletos serão exibidos na tela e as baixas de pagamentos realizadas automaticamente
+Tag:
+***
+Pergunta: Como enviar uma baixa de boleto ao banco? 
+Resposta: 
+1. Acesse a tela do "Financeiro"
+2. Selecione o boleto desejado 
+5. Clique sobre o botão de "Seta Azul" para abrir as configurações do boleto
+6. Aberta a tela, selecione a opção "Nova Ocorrência"
+7. Em "Tipo da Ocorrência" marque a opção "To RemessaBaixar"
+8. Confirme a ocorrência
+9. Feche a tela
+10. Para finalizar o processo, gere um novo arquivo de remessa para enviar ao banco
+Tag: Boleto - Baixa
+***
+Pergunta: Como configurar uma conta bancária para emissão de boleto? 
+Resposta: 
+1. No módulo "Financeiro" acesse "Caixas&Contas Bancárias"
+2. Selecione a conta a ser configurada e dê duplo clique para abrir seu cadastro
+3. Localize a aba "Configurações Conta"
+4. Clique no botão "Configurar Emissão de boleto"
+5. Aberta a tela, no bloco "1º Passo" informe o número da agência e conta nos campos "Agência" e "Nº da Conta"
+6. Selecione o bloco "2º Passo"
+7. Preencha os campos "Convênio", "Código do Cedente", "Carteira", "Variação" e "Codigo de Transmissão" com as informações cedidas por seu banco 
+8. Dependendo do banco, o preenchimento dos campos "Variação" e "Codigo de Transmissão" é opcional
+9. No campo "Espécie Padrão" selecione a opção informada pelo banco
+10. Geralmente essa opção costuma ser "DM"
+11. Em "Responsável pela Emissão" informe a opção "Cliente Emite"
+12. Em "Característica Título" informe a opção "Simples (Rápida com Registro)"
+13. No campo "Nome do Cedente" insira o nome do beneficiário
+14. Caso o banco seja uma cooperativa, preencha o bloco "Dados da Cooperativa"
+15. No bloco "Arquivo de Remessa" verifique com o seu banco qual será o layout da remessa (240 ou 400)
+16. A seguir, selecione o bloco "4º Passo" 
+17. Informe no campo "Próx Nosso Número" qual será o próximo nosso número a ser emitido
+18. Preencha os campos "Nº Sequencial Remessa" e "Nº sequencial retorno"
+19. Todas essas informações são obtidas com de seu banco
+20. Clique em "Fechar" e acesse a aba "Configuração do Boleto"
+21. Preencha os campos "Local do Pagamento" e "Demonstrativo Padrão(Instruções)"
+22. Na parte inferior da tela localize o bloco "Juros"
+23. No campo "Juros ao Dia%" informe o percentual de juros diário a ser cobrado 
+24. No campo "Dias de Tolerância" informe se haverá um período adicional oferecido ao cliente após o vencimento do boleto onde não será efetuada a cobrança de juros
+25. Prossiga com o mesmo padrão de preenchimento no bloco "Multa"
+26. No bloco "Dias para" informe o prazo para envio do boleto para "Protesto" e "Baixa/Devolução"  
+27. Existindo um valor de desconto para ser aplicado em caso de pagamento antecipado, insira o valor no campo "Desconto p/pagamento antecipado"
+28. Na possibilidade de pagamento por chave pix, insira a chave no respectivo campo
+29. Clique na aba "Adicionais" 
+30. Preencha os campos "Mensagem Multa", "Mensagem Juros" e "Protesto" com as mensagens que irão aparecer no demonstrativo do boleto
+31. Posteriormente finalize a configuração do cadastro clicando em "Confirmar"
+Tag:
+***
+Pergunta: Onde posso alterar a informação de juros e multa dos boletos? 
+Resposta: 
+1. No módulo "Financeiro" acesse "Caixas&Contas Bancárias"
+2. Selecione a conta desejada dê duplo clique para abrir seu cadastro
+3. Localize a aba "Configurações do Boleto" 
+4. No bloco "Juros" insira a nova informação no campo "Juros ao Dia %"
+5. No bloco "Multa" insira a nova informação no campo "Multa %"
+6. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Foi gerado nosso número no boleto, porém o cliente deseja outra forma de pagamento
+Resposta: 
+1. Localize o boleto desejado
+2. Clique no ícone de seta para abrir as configurações do boleto
+3. Utilize a opção "Remover da Remessa" para que as informações do Nosso Número e Remessa sejam removidos
+4. Lembrando que por segurança, essa função exige senha 
+5. Caso o usuário seja autorizado, basta inserir a senha e clicar em "Confirmar" para prosseguir
+6. Posteriormente, clique em "Alterar" 
+7. Realize a alteração dos campos "Código da Condição de Pagamento" e "Tipo de Pagamento" conforme acordado com o cliente
+7. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Porque os boletos não estão aparecendo na remessa?
+Resposta: 
+1. Um boleto só aparecerá na remessa se o tipo de pagamento estiver como "Boleto"
+2. E já ter sido impresso para gerar o Nosso Número
+3. Com esses requisitos atendidos, basta utilizar a função "Buscar Boletos para Remessa"
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
