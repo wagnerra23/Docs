@@ -1,0 +1,8 @@
+- A tela de modelos de grade é onde serão criados os modelos possíveis de variação para serem aplicados posteriormente nos produtos criados
+- O produto variação em si não tem estoque. No momento da venda será selecionado uma das variações do produto para poder dar baixa no estoque corretamente.
+- Um produto pode variar em tamanho, cor ou lote. No caso do lote, o produto não pode ter movimentação de estoque no momento da criação do lote.
+- Variação pode ter outra variação 
+- Variação não pode ser alterada na venda
+- No caso de uma variação diferente de quantidade, primeiro deve-se criar o modelo de grade para após criar a variação onde o modelo será aplicado. 
+- A variação (Pai) somente irá totalizar a quantidade em estoque das variações filhas.
+- 

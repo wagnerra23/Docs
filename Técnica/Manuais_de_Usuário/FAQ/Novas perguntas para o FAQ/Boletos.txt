@@ -1,0 +1,2 @@
+- Função "Reenviar" atualiza os boletos listados.
+- Função "Cancelar Boleto" remove o boleto da remessa, desde que seja a última remessa gerada. 

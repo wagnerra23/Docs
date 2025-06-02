@@ -1,0 +1,12 @@
+- Indicador deve abrir a tela já filtrando, totalizar os registros e oferecer opção de classificação do resultado/erro para poder travar ou liberar ações dos usuários.
+- Apenas um responsável por tela. Caso para completar um processo é necessário mais de uma pessoa, esse processo deve ser dividido em telas para isolar a responsabilidade de cada usuário e facilitar a identificação de erros.
+- Tela para controle de impostos é de resposabilidade do faturamento, que emite a nota fiscal
+- A função do Office é Agrupar, Somar e Classificar valores. Informações que devem estar sempre visíveis na tela são: Quem foi que realizou a ação? Onde foi(Em que tela)? E como pode ser corrigido, caso o lançamento estiver incorreto.
+- Não esquecer de isolar a responsabilidade por tela. 
+- Processo deve ser finalizado por senha antes de mudar de responsabilidade. 
+- O usuário não pode ser impedido de realizar a ação, mas, para isolar a responsabilidade, a finalização do processo deve ser mediante a senha. 
+- Erros devem ser passíveis de correção pelo administrador. 
+- Após a identificação de erros nos lançamentos, deve ser possível inserir uma "tranca" para impedir que aconteçam novamente. 
+- Um erro que o sistema não possa controlar não deve ser exibido ao usuário
+
+

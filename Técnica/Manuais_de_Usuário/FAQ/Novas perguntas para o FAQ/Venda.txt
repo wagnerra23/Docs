@@ -1,0 +1,1 @@
+- Ao duplicar um pedido, o financeiro só traz informação da condição de pagamento, pois o financeiro da venda precisa respeitar o pedido atual. 

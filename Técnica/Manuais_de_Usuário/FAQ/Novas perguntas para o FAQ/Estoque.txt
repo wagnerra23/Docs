@@ -1,0 +1,6 @@
+- Composição, variação e serviço não possuem estoque
+- Qualquer alteração de estoque deve ser feito por meio do balanço, transferência de mercadoria pela compra ou pela requisição
+- Local de estoque: Não pode ser alterado manualmente, portanto vai para a requisição sem qualquer alteração. Isso garante o rastreio de informações de origem e destino
+- O cadastro de local de estoque Principal não pode sofrer alteração.
+- Cada local de estoque deverá conter as regras de como a baixa irá ocorrer. Sempre que houver uma regra para trancar o processo, consequentemente, deverá existir uma senha de liberação para não impedir o usuário de realizar o processo.
+- No caso do mesmo banco de dados e múltiplas empresas, o estoque de cada empresa é individual

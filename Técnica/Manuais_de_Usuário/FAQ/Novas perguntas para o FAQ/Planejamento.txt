@@ -1,0 +1,5 @@
+- Tela de Planejamento realiza a gestão de recursos e tempo. Recursos são pessoas e equipamentos.  
+- Quanto mais recursos, menor o tempo. 
+- Se o planejamento ainda não ocorreu, não é possível mensurar custo
+- O planejamento está acima do gerente de produção
+- 

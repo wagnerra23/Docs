@@ -1,0 +1,1 @@
+- Para a impressão do relatório, todos os campos precisam ser preenchidos para contabilizar corretamente as horas extras e faltas. 

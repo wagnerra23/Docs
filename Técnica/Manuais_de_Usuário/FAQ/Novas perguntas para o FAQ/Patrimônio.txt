@@ -1,0 +1,4 @@
+- Patromônio deve gerar um serviço para ser inserido na composição
+- Precisa ser vinculado ao centro de custo para que o valor seja levado a precificação. O centro de resultado é o que sobra
+- Na compra de um equipamento(que pode gerar receita e despesa), este deve ser informado como patrimônio e lançado na requisição
+- 

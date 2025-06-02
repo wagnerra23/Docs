@@ -1,0 +1,1 @@
+- Erros de conversão não são considerados, já que não vai comprometer o valor já em estoque

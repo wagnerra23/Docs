@@ -1,0 +1,2 @@
+- Quando o valor da venda divergir to total dos produtos, verificar se existe ISS retido. Esse imposto vem do cadastro do cliente e varia de prefeitura para prefeitura. 
+- Se no cadastro do cliente a opção do ISS Retido está habilitada, no momento de abertura da venda, na aba NFS-e o campo "ISS Retido" é setado automaticamente como "Sim". Por conta de um bug visual, essa opção não aparece, dessa forma caso seja alterada novamente, o valor será recalculado. (Versões até 2022.1.1.106)

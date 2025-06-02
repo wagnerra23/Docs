@@ -1,0 +1,7 @@
+- Caso o produto já tenha movimentação de estoque não será permitido sua exclusão, apenas inativá-lo
+- Para que o valor de custo seja replicado no valor de venda, basta inserir "0" no campo "Margem"
+- A função "Pode Vender" se encontra no bloco "Custos e Formação de Preço" e caso desmarcada, impede o produto de ser inserido na venda
+- Produtos do tipo "Matéria-prima" não podem ser vendidos
+- Produto personalizado terá pré-requisitos e fórmulas
+- É possível alterar o código do produto caso o estoque seja igual a "0". Caso seja necessário alterar o código do produto, é necessário dar saída manual do estoque, alterar o código e posteriormente, dar entrada novamente. 
+

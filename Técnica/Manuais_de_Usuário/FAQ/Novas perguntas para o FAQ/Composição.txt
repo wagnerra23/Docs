@@ -1,0 +1,8 @@
+- A configuração se a composição pode ou não ter o valor de suas matérias-primas atualizados na entrada de nota deve estar no cadastro da própria composição.
+- Composições que estão pendente de atualização devem ser destacadas em vermelho na consulta
+- O lucro pode ser inserido no valor das matérias-primas, na diferença de valor ou no serviço de mão de obra
+- Composição não pode ser comprada, uma vez que é resultado da combinação de matérias-primas e/ou serviços
+- Uma das principais funções da composição é medir o desperdício 
+- Composição pode ter outra composição em sua fórmula
+- Composição não pode ter suas matérias-primas alteradas na venda. O ideal é que possa ser inseridas variações dentro das composições para garantir que os vendedores escolham somente os materiais corretos na venda
+- A baixa acontece somente nas máterias-primas da composição para evitar divergências em estoque

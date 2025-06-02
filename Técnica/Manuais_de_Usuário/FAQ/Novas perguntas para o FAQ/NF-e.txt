@@ -1,0 +1,3 @@
+- Se a empresa emitente é do Simples Nacional e está vendendo para consumidor final, não será efetuado destaque de ICMS
+- No cadastro da Natureza de Operação o CST é exibido de acordo com o regime informado no cadastro da empresa
+- Frete por conta: Informação deve vir do cadastro do cliente e não do tipo de venda, já que deve-se considerar a distância. 

@@ -1,0 +1,5 @@
+- Perdas se originam na Produção e são baixadas na tela de requisição
+- O gerente de produção é quem cordena quem da equipe vai trabalhar. Não manda em nada e deve seguir apenas o que foi autorizado pelo planejamento.
+- O valor das horas de cada funcionário é gerado pela folha de pagamento, porém, não deve ser exibida para a pessoa da produção, por não ser de sua competência
+- Retrabalho deve ser autorizado pelo gerente de produção
+- Situação de produção dispara uma ação que pode exigir um motivo.

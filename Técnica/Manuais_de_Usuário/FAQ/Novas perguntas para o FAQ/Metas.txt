@@ -1,0 +1,1 @@
+- Precisa ser feita por ano e dividida em meses por: Produto Vendido, Categoria, Grupo de Produto e Tipo de Produto. 

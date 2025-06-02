@@ -1,0 +1,3 @@
+- A  responsabilidade da tela deve ser somente de uma pessoa
+- Se houver necessidade de duas pessoas mexerem na mesma tela, a função deve ser desmembrada em um novo aplicativo para um melhor controle das obrigações.7
+- Se não existe informação no módulo anterior, se deve partir da origem do dado.

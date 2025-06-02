@@ -1,0 +1,2 @@
+- Requisição e apontamento percentem a mesma tabela
+- Objetivo da tela é mostrar o que de fato aconteceu com o produto. Não envolve transação financeira

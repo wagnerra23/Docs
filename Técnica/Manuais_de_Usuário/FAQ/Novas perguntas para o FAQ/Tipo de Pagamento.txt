@@ -1,0 +1,1 @@
+- A taxa definida no tipo de pagamento são aplicadas no momento da transferência do lançamento, ou seja, no fechamento do caixa.

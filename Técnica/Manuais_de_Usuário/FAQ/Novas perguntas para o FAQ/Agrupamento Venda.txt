@@ -1,0 +1,2 @@
+- Quando uma venda é agrupada, as parcelas das vendas agrupadas ficam como "Inativo Previsão" no financeiro para evitar a duplicação de valores. A única parcela que fica com o status "Ativo" no financeiro é a parcela do agrupamento.
+- Quando vendas são agrupadas para faturamento, as vendas agrupadas adquirem o status de inativo agrupado, sumindo da consulta de venda, ficando apenas a venda agrupadora. (Até versão 2022.1.1.107)

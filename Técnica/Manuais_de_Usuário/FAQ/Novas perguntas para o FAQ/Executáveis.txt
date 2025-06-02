@@ -1,0 +1,1 @@
+- Versões 2023: Função visualizar nota antes de imprimir não gera mais número de nota fiscal 26/07

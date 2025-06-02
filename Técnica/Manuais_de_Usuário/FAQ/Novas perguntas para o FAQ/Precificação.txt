@@ -1,0 +1,2 @@
+- Na tela de precificação estarão listados os equipamentos e a potência para gerar o valor de energia e poder ratear direta ou indiretamente. Deve existir um campo fixo para o plano de contas de energia
+- Caso o aplicativo esteja instalado, qualquer alteração de preço deve ocorrer antes da venda

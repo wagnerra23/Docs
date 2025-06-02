@@ -1,0 +1,9 @@
+- O valor da compra não pode sobrescrever o valor anterior, uma vez que compromete a informação do lucro real de venda do produto.
+- Os campos de margem, preço de venda e custo não devem ser exibidos na compra, já que não é responsabilidade do comprador informar esses valores
+- Se na compra são vinculados os produtos de fornecedores diferentes ao mesmo cadastro, fica impossível de gerar um relatório detalhado, portanto, não é possível saber qual produto de qual fornecedor foi vendido. 
+- O valor do ICMS está incluso no custo do produto. Caso o campo do valor de ICMS venha zerado, deverá ser questionado se este valor será pago por fora. Caso sim, valor deve ser informado para que seja realizado o rateio sobre os produtos
+- Na importação de uma nova nota de entrada, quando um produto novo é vinculado a outro produto já cadastrado no sistema, deve ser gerada uma solicitação ao administrador para que esse novo vínculo seja ou não aprovado. Se o usuário tem permissão habilitada para confirmar o vínculo, exigir a senha para confirmar a operação.
+- Quando a nota for finalizada, enviar uma notificação ao administrador para que ele possa conferir se as informações estão corretas e liberar a entrada dos produtos no estoque.
+- Não se pode dar entrada em produto do tipo "Variação". Produtos do tipo "Variação" devem ser criadas somente pelo administrador.
+- Na finalização da compra, questionar se não existe uma CTE para importar. Caso tenha, impedir a finalização para vincular a CTE na compra e poder ratear o valor sobre os produtos. A ação de confirmação do vínculo deve ser mediante a senha do usuário. Desta forma, o custo correto da mercadoria é garantido e a responsabilidade da ação devidamente apontada.
+- No caso de CTE importada após a finalização da compra, deverá ser alertado ao usuário por meio de um indicador, pois é um custo que não foi incluído na mercadoria. 

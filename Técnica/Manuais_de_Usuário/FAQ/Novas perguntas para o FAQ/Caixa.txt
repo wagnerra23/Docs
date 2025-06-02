@@ -1,0 +1,1 @@
+- Caixa não pode ser fechado com saldo negativo. Neste caso, os lançamentos pagos podem ser alterados no financeiro para uma conta bancária, dessa forma possibilitando o fechamento correto do caixa.
