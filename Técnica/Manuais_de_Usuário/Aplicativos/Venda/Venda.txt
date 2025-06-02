@@ -1,0 +1,558 @@
+Pergunta: Ao abrir a tela de venda não aparece nada
+Resposta: 
+1. O layout da tela não está selecionado.
+2. Para ativá-lo segure as teclas Ctrl + F12
+3. Posteriormente clique no ícone da engrenagem localizado no canto inferior da tela
+4. Selecione as opções "Layout" e "Salvar Layout Atual" para salvar o layout aplicado
+Tag: Venda - Pedido de Venda - Proposta
+***
+Pergunta: Como vejo o histórico da venda?
+Resposta: 
+1. No cadastro da venda localize a aba “Atividade”
+2. Dê duplo clique sobre o registro para exibir todo o histórico da venda
+Tag: 
+***
+Pergunta: Como alterar uma venda faturada?
+Resposta: 
+1. Para realizar alterações em uma venda faturada é preciso primeiramente efetuar o cancelamento do faturamento 
+2. Clique sobre o botão “Cancelar Fatura” para liberar a venda para edição
+3. Caso as parcelas da venda estiverem como recebidas e o caixa do dia já estiver fechado, não será possível cancelar o faturamento
+4. Neste caso, entre em contato com o suporte técnico 
+Tag:
+***
+Pergunta:Ao faturar a venda, consta que o caixa do dia está fechado mesmo depois de abrir o caixa
+Resposta:
+1. Primeiramente é necessário conferir se o caixa do dia está de fato aberto
+2. No módulo "Financeiro" acesse a opção "Caixas" e clique no caixa desejado
+3. Uma vez aberta tela verifique se no canto superior direito da tela o status do caixa se encontra como "Ativo"
+4. Caso esteja, retorne ao cadastro na venda e selecione a aba “Financeiro” 
+5. Clique em "Gerar Parcelas" para atualizar as informações
+6. Confira as parcelas e finalize o processo clicando em "Faturar"
+Tag: Venda - Caixa
+***
+Pergunta: Como duplicar uma venda?
+Resposta: 
+1. No cadastro da venda a ser duplicada clique sobre o botão “Menu” 
+2. Selecione a opção “Duplicar Pedido”
+2. Exibida a janela informe ao menos o tipo da venda e clique em "Confirmar" para efetuar a duplicação
+3. Para finalizar o processo, clique em “Confirmar”(Painel Lateral Direito) para salvar o novo registro no sistema
+Tag: 
+***
+Pergunta: É possível que a venda já abra com um tipo definido?
+Resposta: 
+1. Sim. Abra o cadastro da venda e selecione o tipo desejado
+2. Após, clique sobre o ícone de engrenagem localizado no canto inferior direito da tela
+3. Ative a opção “Definir este tipo de venda como Padrão”
+Tag: Venda 
+***
+Pergunta: Na venda é exibida a mensagem: A soma das parcelas difere do total da venda
+Resposta: 
+1. Mensagem exibida quando após a geração das parcelas, o valor total da venda foi modificado
+2. Acesse a aba “Financeiro” e clique em "Gerar Parcelas" para atualizar o valor das parcelas
+3. Clique em "Confirmar" para salvar as alterações
+Tag: Venda - Pedido de Venda - Proposta
+***
+Pergunta: Criei um tipo de venda, mas ele não aparece
+Resposta: 
+1. No módulo "Venda" acesse a opção "Tipo de Venda"
+2. Dê duplo clique para abrir o cadastro desejado
+3. Verifique se no campo "Modelo" a tela informada está correta. Ou seja, a tela onde o tipo de venda deverá aparecer
+4. Neste caso a opção a ser selecionada seria "Venda"
+5. Realize a modificação necessária e clique em "Confirmar" para salvar o cadastro
+6. Abra o cadastro da venda e cheque se o novo tipo está sendo exibido
+7. Caso o cadastro da venda já esteja aberto no momento da alteração do tipo de venda, será necessário fechá-lo para atualizar a informação
+Tag: Venda - Proposta - Nota Fiscal
+***
+Pergunta: Ao lançar produto na venda é exibida a mensagem: Produto não pode ser vendido
+Resposta: 
+1. O produto está com a configuração “Pode Vender” desmarcada
+2. Acesse o “Cadastro do Produto”
+3. Localize o bloco “Custos e Formação de Preço”
+4. Habilite a opção “Pode Vender”
+5. Confirme a alteração 
+6. Retorne ao cadastro da venda e insira novamente o produto
+Tag: Venda - Pedido de Venda - Proposta
+***
+Pergunta: Na venda não é possível inserir as medidas no produto
+Resposta: 
+1. No módulo "Produto" acesse a "Consulta de Produto"
+2. Selecione o item desejado e dê duplo clique para abrir o seu cadastro
+1. Verifique no campo "UN" qual é a unidade de medida do produto
+2. Caso ele esteja em outra unidade de medida, é recomendável realizar um novo cadastro com a unidade desejada, evitando assim divergências no estoque
+3. Ainda não aparecendo os campos, no módulo “Produto” selecione a opção “Unidades”
+4. Abra o cadastro da unidade desejada e cheque se os campos de medida desejados estão marcados
+5. Caso não estejam, marque as opções desejadas e clique em "Confirmar" para salvar as alterações
+6. Retorne ao cadastro da venda e lance o produto novamente
+Tag: Venda - Pedido de Venda - Proposta
+***
+Pergunta: Não consigo encontrar uma venda
+Resposta: 
+1. Primeiramente, cheque se existe um filtro de data aplicado (Emissão/Faturamento/Competência)
+2. Verifique se a data está correta
+3. Verifique se aba selecionada é a correta (Venda/Pedido/Nota Fiscal)
+4. Caso ainda não esteja localizando a venda, ela pode ter sido excluída
+5. Vendas excluídas adquirem o status de "Inativo Excluído"
+6. Na tela de consulta de venda clique sobre o ícone "Filtro"
+7. Selecione a opção "Arquivados" para checar se a venda é exibida
+8. Localizada a venda, clique sobre ela e utilize a opção "Reativar" para removê-la dos arquivados
+Tag: Venda - Pedido de Venda - Proposta
+***
+Pergunta: Na venda é exibida a mensagem: Cannot Perform this operation on a closed dataset
+Resposta: 
+1. Mensagem exibida quando houve perda da conexão com o banco de dados
+2. Geralmente ocasionada por quedas de energia no servidor ou instabilidade na rede
+3. Feche o sistema
+4. Verifique se o servidor está ligado e a conexão com a rede se encontra estável
+5. Acesse o sistema e execute a ação novamente
+6. Caso a mesma mensagem seja retornada, entre em a equipe de suporte
+Tag: Venda - Pedido de Venda - Proposta 
+***
+Pergunta: Na venda é exibida a mensagem: Há informações que não estão corretas, a operação será fechada para garantir a integridade do estoque. Erro:[FireDAC][Phys][IB]deadlock update conflicts with concurrent update concurrent transaction number is 000000000
+Resposta: 
+1. Mensagem exibida quando existe duplicidade de ação, ou seja, outro usuário está alterando o mesmo registro
+2. Também é exibida em casos onde houve instabilidade na conexão ou queda de energia que comprometeu a segurança da operação
+3. Verifique se não existe outro usuário acessando o mesmo registro
+4. Se estiver, apenas um dos usuários deverá prosseguir alterando o registro
+5. Caso não, reinicie o servidor e verifique se a conexão de rede está funcionando normalmente
+6. Se ainda sim a mesma mensagem continuar sendo exibida, entre em contato com o suporte técnico
+Tag: Venda - Pedido de Venda - Proposta 
+***
+Pergunta: É possível faturar uma venda sem valor?
+Resposta:
+1. Sim. Ao clicar em “Faturar” o sistema criará uma parcela referente a venda, mesmo que seu valor seja zerado
+Tag:
+***
+Pergunta: Na impressão da venda a ordem das parcelas está incorreta
+Resposta:  
+1. Acesse a aba "Financeiro" da venda
+2. Verifique a ordem das parcelas
+3. Estando fora de ordem, clique sobre o campo "Ordem" para ajustá-la
+4. Realize a impressão novamente
+5. Caso a ordem das parcelas ainda esteja incorreta, retorne na aba "Financeiro"
+6. Clique com o botão direito do mouse e selecione a opção "Excluir Parcelas"
+7. Posteriormente basta clicar em "Gerar Parcelas" para criar novas parcelas
+8. Confira as informações e realize a impressão novamente 
+Tag: Venda – Pedido de Venda - Proposta
+***
+Pergunta: Lancei o produto na venda, mas o valor está errado
+Resposta: 
+1. O valor de venda do produto é definido pela nota de entrada
+2. Ou manualmente em seu cadastro
+3. O uso de tabelas de preço ocasiona alterações no preço de venda
+4. Assim como utilização de "Variações"
+5. Cheque primeiramente qual em que nota de compra o produto deu entrada
+6. Para isso acesse o módulo "Produto" e selecione a opçõa "Consulta de Produto"
+7. Localize o cadastro desejado e dê duplo clique para abrí-lo
+8. Acesse o bloco "Estoque"
+9. Na aba "Compras" serão exibidas as informações de todas as notas por onde o produto deu entrada
+10. No módulo "Compra" acesse a opção de "Consulta de Compras"
+11. Pesquise pelo número da nota e abra o cadastro para verificar se o campo "R$ Valor Venda" foi preenchido
+12. A segunda verificação seria a aplicação de uma tabela de preço ao produto
+13. Retorne ao cadastro do produto e selecione o bloco "Tabelas de Preço"
+14. Posteriormente será aberta a tela onde as tabelas aplicadas ao produto serão exibidas
+15. A última checagem seria a existência de uma variação de preço para a o produto
+16. No módulo "Produto" acesse a opção "Variação"
+17. Aberta a tela de consulta, existindo uma variação do item, a mesma será aparecerá na listagem
+18. Abra o cadastro e selecione o bloco "Variação" para listar todas as variações aplicadas
+Tag: Venda - Pedido de Venda – Proposta – Produto – Variação
+***
+Pergunta: Como encontrar em quais vendas o meu produto foi registrado?
+Resposta: 
+1. No módulo "Produto" acesse a tela "Consulta de Produto"
+2. Localize o produto desejado e dê duplo clique para abrir seu cadastro
+3. Clique no bloco “Estoque”
+4. Localize a aba “Histórico de Movimento”
+5. Uma vez selecionada, serão exibidas todas as vendas em que o produto foi registrado
+6. E com duplo clique sobre a venda desejada, seu cadastro será aberto
+Tag: Produto - Venda
+***
+Pergunta: Como parcelar uma venda já faturada, onde não é possível cancelar o faturamento?
+Resposta: 
+1. Não sendo possível alterar vendas faturadas, é necessário ajustar a parcela diretamente no "Financeiro"
+2. Localize a parcela
+3. Clique com o botão direito do mouse sobre ela e selecione a opção "Duplicar/Dividir Conta"
+4. Uma vez aberta a tela, selecione a opção “Dividir Parcela”
+5. Informe o número de parcelas e preencha os demais campos
+6. Clique em "Gerar Parcelas" e confira as informações
+7. Finalize o processo através do botão "Confirmar"
+Tag: Venda - Financeiro
+***
+Pergunta: Na venda é exibida a mensagem: Há informações que não estão corretas, a operação será fechada para garantir a integridade do estoque. Erro:[FireDAC][Phys][IB]deadlock update conflicts with concurrent update concurrent transaction number is 000000000
+Resposta: 
+1. Mensagem exibida quando existe duplicidade de ação, ou seja, outro usuário está executando a mesma ação.
+2. Também é exibida em casos onde houve instabilidade na conexão ou queda de energia que comprometeu a segurança da operação.
+3. Necessário reiniciar o servidor
+4. Caso após este processo o sistema ainda esteja exibindo a mesma mensagem, entre em contato com o suporte técnico
+Tag: Venda - Pedido de Venda - Proposta
+***
+Pergunta: Inseridos produtos compostos na venda, após realizar modificações o campo ordem ficou em vermelho e o valor total não está correto
+Resposta: 
+1. Alterada a ordem dos itens e seus respectivos valores, a soma das composições não acontecerá da forma correta
+2. Neste caso remova as composições com valores incorretos
+3. Após, insira os produtos compostos novamente, sem alterar a ordem dos itens (a cor verde indica que a ordem está certa)
+4. Faça as alterações de valores desejadas e confira os valores
+5. Clique em "Confirmar" para salvar o registro
+Tag: Venda - Pedido de Venda - Proposta
+***
+Pergunta:  Consigo agrupar várias vendas para realizar o faturamento do valor final?
+Resposta: 
+1. Sim, desde que as vendas sejam do mesmo cliente 
+2. Selecione as vendas desejadas e clique sobre o botão “Faturar”
+3. Exibida a janela, selecione “Sim” para continuar o processo
+4. Informe a seguir o “Tipo de Venda” e posteriormente clique em “Confirmar” no painel lateral direito para salvar o registro
+Tag:
+***
+Pergunta: Qual a função da opção "Não recalcular impostos na impressão da nota"?
+Resposta: 
+1. Função utilizada quando a tributação é inserida manualmente no produto e é preciso garantir que os impostos não sejam recalculados conforme o configurado na natureza de operação. 
+Tag:
+***
+Pergunta: É possível duplicar uma venda que foi agrupada?
+Resposta: 
+1. Sim. No cadastro da venda a ser duplicada, clique sobre o botão “Menu” 
+2. Selecione a opção “Duplicar Pedido”
+3. Prossiga com o processo e clique em "Confirmar" para salvar o novo registro
+Tag:
+***
+Pergunta: Ao inserir o produto na venda é exibida a mensagem: Erro desconhecido ao inserir produto
+Resposta: 
+1. Reinicie o sistema
+2. Tente inserir o produto novamente
+3. Caso a mensagem ainda persista, duplique a venda através do botão "Menu", opção "Duplicar Pedido"
+4. Preencha os campos e confirme a duplicação do registro
+5. Exclua o registro da venda anterior
+Tag:
+***
+Pergunta: Qual é o limite de casas decimais possível no sistema?
+Resposta: 
+1. Através da aba “Motor de Cálculo” no cadastro da venda é possível trabalhar com até 10 casas decimais
+2. Caso tenha dúvidas como preencher, contate a equipe de suporte
+Tag: Venda - Pedido de Venda - Prosposta
+***
+Pergunta: Na venda está aparecendo a mensagem "Previsão"
+Resposta: 
+1. O status "Previsão" é utilizado em vendas que serão realizadas no mês e faturadas em outro
+2. O valor da venda não é considerado na soma dos totais do financeiro
+3. A configuração "Previsão" pode ser aplicada de duas formas
+4. A primeira é ativando a opção no cadastro do cliente
+5. Para localizá-la, no módulo "Contatos" selecione a tela de "Consulta de Pessoas"
+6. Busque o cadastro do cliente e dê duplo clique para abrí-lo
+7. Clique na aba "Crediário"
+8. Desmarque o campo "Previsto"
+9. A segunda forma é no cadastro da venda
+10. Selecione a aba "Destinatário Cliente"
+11. Desmarque a opção "Fatura Venda como Previsão"
+12. E confirme a alteração 
+Tag:
+***
+Pergunta: Na consulta de venda porque a coluna Pedido Principal está preenchida?
+Resposta: 
+1. Quando uma venda é duplicada, o código da venda original é preenchido no campo “Pedido Principal”
+Tag: Venda - Consulta de Venda
+***
+Pergunta: A função Duplicar Pedido não está funcionado
+Resposta: 
+1. Verifique se a venda não possuí o status “Ativo Criado”
+2. Caso tenha, não será possível duplicá-la
+Tag: Venda - Pedido de Venda - Orçamento - Duplicar Pedido
+***
+Pergunta: Como adicionar uma venda no sistema?
+Resposta: 
+1. No módulo “Venda” acesse a opção “Adicionar Venda”
+2. No campo "Código ou Nome" clique no botão "..." para abrir a consulta de pessoas 
+3. Localize o cadastro do cliente e dê duplo clique para adicioná-lo na venda
+4. Posteriormente no campo "Código do produto ou Serviço" clique no botão "..." para abrir a consulta de produto
+5. Selecione o produto desejado 
+6. Informe a quantidade a ser vendida no campo "Peças"
+7. Caso o produto tenha medidas, insira o comprimento no campo "Comp", a largura no campo "larg" e a espessura no campo "Esp"
+8. No campo "R$ Valor" será exibido o valor unitário do produto que foi inserido em seu cadastro
+9. No campo "R$ Total" será exibido o valor total do produto
+10. Clique na seta para baixo para inserir o produto na venda
+11. Repita o processo para os demais produtos
+12. Sendo necessário remover algum produto, basta selecioná-lo e clicar na seta para cima
+13. Na parte inferior da tela estão localizados os campos "Desconto" e "Acréscimo"
+14. Posteriormente, clique na aba "Financeiro"
+15. No campo "Código da Condição de Pagamento" clique no botão "..." para abrir a consulta de condição de pagamento
+16. Selecione a opção desejada 
+17. No campo "Parcelas" informe o número de parcelas a serem geradas
+18. No campo "Intervalo" informe qual será o intervalo de dias entre as parcelas
+19. No caso do vencimento das parcelas serem no mesmo dia de cada mês basta marcar a opção "Mês" 
+20. No campo "Caixa" insira o número do caixa onde serão registradas as parcelas
+21. Clique em "Gerar Parcelas" e confira as informações
+22. Caso precise remover as parcelas, clique com o botão direito do mouse e selecione a opção "Excluir Parcelas" 
+23. Clique em "Confirmar" para salvar o registro
+24. Envie as parcelas ao financeiro clicando no botão "Faturar"
+25. E realize a impressão da venda através do botão "Imprimir"
+Tag: Venda
+***
+Pergunta: Como aplicar desconto na venda?
+Resposta: 
+1. No cadastro da venda existem dois campos relativos a desconto
+2. Estes estão localizados no canto inferior direito da tela
+3. No campo "% Desconto" é possível inserir a porcentagem de desconto que será aplicada
+4. Ao lado estará o campo "R$", onde poderá ser informado o valor em reais de desconto que será aplicado a venda
+Tag: Venda - Pedido de Venda - Orçamento - Desconto
+***
+Pergunta: Como excluir uma venda?
+Resposta: 
+1. No módulo "Venda" acesse a "Consulta de Venda"
+2. Localize o cadastro da venda desejada e dê duplo clique para abrí-la
+3. Clique no botão "Excluir" 
+4. O status de inativo excluído será aplicado e a venda será movida para o filtro de "Arquivados"
+5. Caso necessário reativar a venda clique no botão "Menu"
+6. Selecione a opção "Reativar Venda"
+Tag: Venda - Pedido de Venda - Orçamento - Exclusão
+***
+Pergunta: Como realizar a impressão de orçamentos e vendas? 
+Resposta: 
+1. No cadastro da venda, no painel lateral direito clique no botão “Imprimir”
+2. Os modelos de impressões disponíveis serão exibidos
+3. Selecione a impressão desejada para visualizar o documento
+Tag: Venda - Pedido de Venda - Orçamento - Impressão
+***
+Pergunta: Como recuperar uma venda excluída? 
+Resposta: 
+1. No módulo "Venda" acesse a "Consulta de Venda"
+2. Clique no ícone de filtro e selecione a opção "Arquivados"
+3. Selecione o cadastro da venda desejada
+4. Clique na opção "Reativar" 
+5. Posteriormente basta clicar no ícone do filtro e utilizar a opção "Remover Filtros"
+6. A venda já estará aparecendo na listagem
+Tag: Venda - Pedido de Venda - Orçamento - Reativar
+***
+Pergunta: Como inserir observação na venda? 
+Resposta: 
+1. No cadastro da venda, no canto inferior esquerdo da tela existe um campo para inserir informações adicionais
+2. Caso as informações sejam extensas, selecione a tecla F8 par expandido para uma melhor visualização
+3. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como saber se uma venda foi quitada?
+Resposta: 
+1. No módulo "Venda" acesse a "Consulta de Venda"
+2. Localize a venda desejada
+3. Verifique se o campo "Situação Financeira" está ativo no grid de informações
+4. Caso não esteja, veja como ativá-lo [AQUI]
+5. Vendas quitadas exibirão a informação "Quitada"  
+Tag: Venda 
+***
+Pergunta: É possível personalizar o modelo de impressão da venda?
+Resposta: 
+Tag:
+1. Sim. Basta o responsável da empresa entrar em contato com a equipe de suporte solicitando a personalização da impressão
+***
+Pergunta: Como inserir o prazo de entrega na venda?
+Resposta: 
+1. Com a tela de venda aberta localize o campo "Prometido Para"
+2. Insira a data acordada com o cliente  
+3. Clique em "Confirmar" para salvar a alteração
+Tag:
+***
+Pergunta: Como vincular uma venda a um determinado vendedor?
+Resposta: 
+1. Ao abrir uma nova venda o vendedor será vinculado automaticamente 
+2. Lembrando que para isso o login do vendedor deve estar ligado a seu cadastro de funcionário 
+3. Caso necessária a alteração do vendedor inserido na venda, siga os passos abaixo
+4. Na venda selecione a aba "Financeiro"
+5. Na parte inferior da tela será visualizado o campo "Código do Funcionário"
+6. Clicando no botão "..." será aberta a consulta de funcionários para realizar a alteração
+7. Selecionado o vendedor, clique em "Confirmar" para salvar a alteração
+8. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+9. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: Como criar um tipo de venda? 
+Resposta: 
+1. No módulo "Venda" acesse a opção "Tipo de Venda"
+2. Aberta a tela, clique no botão "+Novo" para abrir a tela de cadastro
+3. Informe qual será o nome do tipo de venda no campo "Descrição"
+4. No campo "Modelo" deverá ser selecionada a tela onde o tipo de venda será habilitado
+5. Entre os modelos, "Orçamento" é recomendável para empresas que trabalham com equipes de prospecção e possuam o módulo "CRM" instalado
+6. Indique se a operação é uma entrada(E) ou saída (S)
+7. O preenchimento do campo "Plano de Contas" é opcional
+9. No bloco "Configurações Adicionais" informe se o tipo de venda poderá ser faturado, enviado a produção e emitir nota fiscal
+10. Caso exista uma tabela de preço a ser vinculada ao tipo de venda, basta clicar no campo "Tabela de Preços" para selecioná-la
+11. O preenchimento dos campos abaixo somente é necessário se houver emissão de nota fiscal 
+12. Marque a opção "Destaca II nos Dados Adicionais" se for preciso destacar o Imposto de Importação
+13. Preencha os campos "Finalidade", "Operação" e "Natureza da Operção" conforme indicado por sua contabilidade
+14. Sendo necessário criar uma nova natureza de operação, clique [AQUI]
+14. Em "Frete por Conta" indique como se dará a cobrança do frete
+15. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como criar uma situação de venda?
+Resposta: 
+1. Uma situação de venda pode ser criada para uma melhor classificação das transações
+2. No módulo "Venda" acesse "Situação de Venda"
+3. Aberta a tela, clique no botão "+Novo" para abrir a tela de cadastro
+4. Preencha o campo "Descrição"
+5. Marque a opção "Faturamento" caso a situação deva ser aplicada assim que a venda for faturada
+6. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como criar um estágio de venda?
+Resposta: 
+1. 
+2. No módulo "Venda" acesse "Estágio de Venda"
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+Tag:
+***
+Pergunta: COMO FILTRAR NA TELA DE CONSULTA GRID (VÍDEO OU TUTORIAL COM IMAGENS)
+Resposta: 
+Tag:
+***
+Pergunta: Como vincular um representante a uma venda?
+Resposta: 
+1. No cadastro da venda selecione a aba "Financeiro"
+2. Na parte inferior da tela será visualizado o campo "Código do Representante"
+3. Clicando no botão "..." será aberta a consulta de representantes para realizar a seleção
+4. Selecionado o representante, clique em "Confirmar" para salvar a alteração
+5. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+6. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: Como vincular uma agência a uma venda?
+Resposta: 
+1. No cadastro da venda selecione a aba "Financeiro"
+2. Na parte inferior da tela será visualizado o campo "Código da Agência"
+3. Clicando no botão "..." será aberta a consulta de agência para realizar a seleção
+4. Selecionado o representante, clique em "Confirmar" para salvar a alteração
+5. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+6. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta: Como acompanhar o status das vendas?
+Resposta: 
+1. No módulo "Venda" acesse a "Consulta de Venda"
+2. Vendas fechadas, ou seja, enviadas ao financeiro terão o campo "Dt. Faturamento" preenchido
+4. Ainda é possível classificar os registros através do "Tipo de Venda", "Estágio" ou "Situação"
+5. Veja como criar estágios [AQUI]
+6. Veja como criar Tipos de Venda [AQUI]
+7. Veja como criar "Situações" [AQUI]
+8. Escolhido o campo, na consulta de venda é possível aplicar o filtro
+9. Clique aqui para entender como funcionam os filtros [AQUI]
+Tag:
+***
+Pergunta: Como impedir um tipo de venda de ser faturado?
+Resposta: 
+Tag:
+***
+Pergunta: Como bloquear a emissão de nota fiscal de um tipo de venda? 
+Resposta: 
+Tag:
+***
+Pergunta: Na consulta de venda não é possível visualizar as informações dos produtos
+Resposta: 
+Tag:
+***
+Pergunta: Na consulta de venda não está aparecendo o total das vendas
+Resposta: 
+Tag:
+***
+Pergunta: É possível ver as vendas de todas as empresas cadastradas no sistema? 
+Resposta: 
+Tag:
+***
+Pergunta: Ao lançar o produto na venda aparece a mensagem: "Produto não pode ser vendido"
+Resposta: 
+Tag:
+***
+Pergunta: Como fazer faturamento parcial? 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

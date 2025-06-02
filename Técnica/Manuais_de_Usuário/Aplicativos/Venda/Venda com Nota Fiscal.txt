@@ -1,0 +1,661 @@
+***
+Pergunta: A Inscrição estadual do cliente foi atualizada no cadastro, do cliente, porém na emissão da nota continua constando como inválida
+Resposta: 
+1. A venda foi aberta antes da alteração no cadastro do cliente
+2. Desta forma é necessário acessar a aba “Destinatário(Cliente)"
+3. E clicar em “Atualizar pelo Cadastro” para atualizar os dados do cliente
+4. Posteriormente basta clicar em “Confirmar” para salvar as alterações e prosseguir com a emissão da nota
+Tag: Venda – NF-e - NFS-e 
+***
+Pergunta: Como alterar uma venda com nota fiscal?
+Resposta: 
+1. Acesse o cadastro da venda
+2. Remova o número da nota fiscal do campo "Nota Fiscal"
+3. Clique em "Confirmar"
+4. Realize as alterações desejadas
+5. Insira novamente o número da nota no campo
+6. Clique em "Confirmar" para salvar as alterações
+Tag: Venda – NFC-e – NF-e -NFS-e
+***
+Pergunta: No momento da emissão da nota fiscal apareceu a mensagem: Rejeição 999: Erro não catalogado
+Resposta: 
+1. A mensagem indica uma instabilidade no servidor da SEFAZ
+2. Necessário aguardar alguns minutos e consultar o status da nota
+3. Para isso, no cadastro da venda selecione a aba "Nota Fiscal"
+4. Clique com o botão direito do mouse sobre a nota e utilize a opção “Consultar na SEFAZ”
+5. Caso o status da nota seja "Não Autorizada", efetue uma nova emissão
+Tag: Venda – NF-e - NFC-e 
+***
+Pergunta: Após a emissão, a nota fiscal aparece como desconhecida
+Resposta: 
+1. Servidor da SEFAZ apresentou instabilidade no momento da emissão
+2. Necessário aguardar alguns minutos e consultar o status da nota
+3. Para isso, no cadastro da venda selecione a aba "Nota Fiscal"
+4. Clique com o botão direito do mouse sobre a nota e utilize a opção “Consultar na SEFAZ”
+5. Caso o status da nota seja "Não Autorizada", efetue uma nova emissão
+Tag: Venda – NF-e - NFC-e 
+***
+Pergunta: Na emissão da nota fiscal aparece a mensagem de IE inválida
+Resposta: 
+1. A Inscrição Estadual informada no cadastro do cliente difere da registrada na SEFAZ
+2. Entre em contato com o cliente ou consulte a inscrição correta através do site SINTEGRA
+3. Corrija a informação no cadastro do cliente e confirme antes de fechar o cadastro
+4. Retorne ao cadastro da venda
+5. Acesse a aba “Destinatário(Cliente)"
+6. Clique em "Alterar"
+7. Após, selecione a opção “Buscar do Cadastro” para atualizar a informação do cliente na venda
+8. Clique em "Confirmar" para salvar a alteração e prossiga com a emissão
+Tag: Venda -NF-e – NFS-e - Contatos 
+***
+Pergunta: Ao emitir a nota fiscal é retornado o erro “Out of Memory”
+Resposta: 
+1. Mensagem exibida quando a logo da empresa possui o tamanho maior que o permitido ou quando a máquina não possuí memória RAM suficiente.
+2. Para solucionar a questão da logo é necessário alterar seu tamanho
+3. Acesse o módulo "Empresa" e clique na opção "Sua Empresa"
+4. Dê duplo clique sobre o nome da empresa para abrir seu cadastro 
+5. Clique na opção "Logo Empresa" e em "Alterar"
+6. Selecione a nova logo com tamanho correto
+7. Tamanho aproximado da logo: 200 kb Formato: bmp
+8. Clique em "Confirmar" para salvar a informação
+9. Retorne ao cadastro da venda e prossiga com a emissão
+10. Caso ainda retorne a mesma mensagem, acione a equipe de suporte
+Tag: Venda – NF-e  - NFS-e 
+***
+Pergunta: A nota fiscal foi cancelada e não está sendo possível emitir uma outra nota da mesma venda
+Resposta:
+1. No cadastro da venda localize a aba "Nota Fiscal" 
+2. Clique sobre a nota com o botão direito do mouse e selecione a opção "Consultar na Sefaz"
+3. Apague o número da nota cancelada do campo "Nota Fiscal"
+4. Clique em "Confirmar" para salvar a alteração
+5. Prossiga com a emissão da nova nota
+Tag: Venda – NF-e – NFC-e 
+***
+Pergunta: Ao emitir a nota fiscal é exibida a mensagem: “BC ICMS difere do somatório dos itens”
+Resposta: 
+1. No cadastro da venda selecione a aba “Produtos e Serviços” e dê duplo clique sobre os produtos
+2. Aberta a tela localize a aba "Tributação – Dados Fiscais e Impostos" clique em "ICMS"
+3. Verifique se os campos estão preenchidos corretamente
+4. Os campos "Calcula ICMS" e "Calcula ICMS ST" não podem estar vazios
+5. Existindo destaque de demais impostos, consulte sua contabilidade para verificar se os dados de tributação estão corretos
+6. Não havendo destaque de impostos, os campos de valores precisam estar vazios
+7. Confirme as alterações e feche a tela do produto
+8. Vale lembrar que o destaque incorreto de outros valores pode resultar na repetição da mensagem de erro
+9. Caso a mensagem persista, entre em contato com o suporte técnico
+Tag: Venda – NF-e
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: Falha na validação dos dados da nota: <det nItem ='1'> Código NCM Nenhum valor informado ou Conteúdo inválido.
+Resposta: 
+1. O parâmetro nItem informa qual item da venda está com a informação faltante ou incorreta.
+2. Neste caso é necessário acessar o cadastro do produto e clicar sobre o bloco "Tributos"
+3. Localize o campo "Código do NCM/TIPI" e verifique se está preenchido corretamente
+4. O NCM é um código que pode expirar, portanto, é válido checar com sua contabilidade se o informado ainda é válido
+5. Faça a alteração necessária e clique em "Confirmar" para salvar a alteração
+6. Retorne ao cadastro da venda
+7. Clique com o botão direito sobre o produto e selecione a opção "Nota Fiscal" - "Calcular Todos os Impostos"
+8. Dessa forma a informação do NCM será atualizada na venda
+9. Prossiga com a emissão da nota
+Tag: Venda – NF-e - NFC-e – Produto
+***
+
+Pergunta: Após a emissão da nota ela aparece a mensagem “Assinatura Inválida”
+Resposta: 
+1. No momento da emissão ocorreu alguma instabilidade na conexão com a SEFAZ
+2. Primeiramente é necessário verificar se foi gerado o protocolo de emissão
+3. No cadastro da venda acesse a aba “Nota Fiscal”
+4. Localize no grid de informações o ícone “*”
+5. Habilite o campo “Protocolo” clicando sobre ele
+6. Caso a nota esteja como autorizada e este campo estiver preenchido, o documento é válido
+7. É possível acessar o site da SEFAZ e baixar o arquivo xml para importar no sistema sem a marca de assinatura Inválida
+8. Faça a exclusão da nota com a marca de assinatura inválida através do botão direito “Deletar”
+9. Posteriormente, acesse o módulo "Fiscal"
+10. Selecione a opção "Notas Fiscais"
+11. Aberta a tela, clique em "Arquivo" e selecione a opção "Importar XML"
+12. Selecione o xml correto
+13. A seguir, a tela de consulta de venda será aberta
+14. Dê duplo clique na venda correta para vincular o xml
+15. Após, basta acessar o cadastro da venda para visualizar o documento sem a marca de assinatura inválida
+Tag: Venda - NFe
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: ' is not a valid integer value'
+Resposta: 
+1. Algum campo numérico obrigatório está vazio ou preenchido incorretamente
+2. Verifique o “Cadastro do Cliente”
+3. Posteriormente cheque o “Cadastro do Produto”
+4. Corrigida a informação, remova o produto/cliente do cadastro da venda
+5. Insira-o novamente e clique em "Confirmar" para salvar as alterações
+6. Prossiga com a emissão da nota
+Tag: Venda – NF-e – NFC-e – Contatos – Produto
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: Is not valid integer value for field “CPF_CNPJ”
+Resposta: 
+1. O campo CPF/CNPJ está preenchido incorretamente 
+2. Acesse o cadastro do cliente e faça a correção 
+3. Clique em "Confirmar" para salvar a alteração
+4. Retorne ao cadastro da venda
+5. Selecione a aba “Destinatário(Cliente)” 
+6. Clique na opção “Buscar do Cadastro” para que a alteração feita no cadastro do cliente seja atualizada na venda
+7. Prossiga com a emissão da nota
+Tag: Venda - NF-e - NFC-e – Contatos
+***
+Pergunta: Nota fiscal aparece na tela de notas fiscais, porém não aparece no cadastro da venda
+Resposta: 
+1. Acesse o módulo “Fiscal”
+2. Clique na opção “Notas Fiscais” 
+3. Uma vez aberta a tela de consulta de notas fiscais, selecione a respectiva nota 
+4. Clique com o botão direito do mouse e  escolha a opção “Vincular Venda”
+5. Posteriormente será aberta a tela de consulta de venda
+6. Localize a venda e dê duplo clique sobre ela para realizar o vínculo
+7. Finalizando o processo, basta fechar a tela
+Tag: Venda – NF-e - NFC-e 
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: Total do frete difere do somatório dos itens
+Resposta: 
+1. No cadastro da venda localize o campo "Frete"
+2. Remova o valor do campo e clique em “Confirmar” 
+3. Insira inserir o valor novamente no campo e confirme
+4. Posteriormente basta continuar com a emissão da nota fiscal
+Tag: Venda - NF-e
+***
+Pergunta: No cadastro da venda, acessando os produtos, qual é a função da opção Não recalcular impostos na impressão da nota?
+Resposta: 
+1. Função utilizada quando a tributação é inserida manualmente no produto e é preciso garantir 
+que esses dados não sejam substituídos pelos que estão cadastrados na natureza de operação
+Tag: Venda – NF-e – NFC-e - NFS-e
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: Origem da mercadoria não encontrada
+Resposta: 
+1. Essa informação é encontrada no cadastro do produto
+2. Acesse o módulo "Produto"
+3. Selecione a opção "Consulta de Produto"
+4. Localize o cadastro do produto
+5. Uma vez aberta a tela, selecione o bloco "Tributos"
+6. Cheque se o campo “Origem” está preenchido 
+7. Caso esteja, altere para qualquer outra opção e confirme 
+8. Volte a alterar para a opção correta e confirme novamente
+9. Retorne ao cadastro da venda
+10. Realize a remoção do produto
+11. Insira-o novamente na venda e prossiga com a emissão
+Tag: Venda – NF-e - NFC-e – Produto
+***
+Pergunta: Na emissão de nota fiscal aparece a mensagem: IE do Destinatário não informada
+Resposta: 
+1. Indica que o cliente possuí inscrição estadual e esta não foi informada em seu cadastro
+2. Consulte o CNPJ do cliente no Sintegra para obter a informação correta da inscrição 
+3. No cadastro da venda selecione a aba “Destinatário(Cliente)”
+4. Realize as correções necessárias e clique em "Confirmar"
+5. Clique sobre a opção “Atualizar Cadastro” para atualizar os dados do cliente
+6. Posteriormente basta prosseguir com a emissão da nota fiscal
+Tag: Venda - NF-e – NFS-e
+***
+Pergunta: Onde posso inserir os dados de frete?
+Resposta:  
+1. No cadastro da venda acesse a aba “Nota Fiscal” 
+2. No canto inferior esquerdo da tela, abaixo dos “Dados Adicionais” são exibidos os campos referentes as informações de frete 
+3. Em "Frete Por Conta" selecione a modalidade do frete
+3. No campo "Código" clique no botão "..." para abrir a consulta de pessoas e selecione a transportadora
+3. Preencha a quantidade a ser transportada no campo "Quant"
+4. No campo "Espécie" informe a especie da mercadoria a ser transportada (Caixa - Fardo - Volume)
+5. O preenchimento dos demais campos é opcional
+5. Clique em "Confirmar" para salvar as alterações
+Tag: Venda – NF-e 
+***
+Pergunta: Após a emissão, a nota fiscal consta como duplicada
+Resposta: 
+1. Mensagem retornada quando já existe uma nota emitida com a numeração utilizada
+2. Neste caso é necessário realizar algumas verificações
+3. Acesse o menu "Fiscal" e selecione a opção "Notas Fiscais"
+4. Cheque se já existe uma nota emitida com a mesma numeração utilizada
+5. Caso sim, retorne ao cadastro da venda
+6. Apague o número de nota do campo "Nota Fiscal"
+7. Desta forma o número utilizado na emissão será o próximo da sequência 
+8. No caso de não localizar a numeração de nota, faça as verificações a seguir
+9. A nota pode ter sido excluída do sistema? 
+10. Se sim, é importante realizar sua importação no sistema
+11. A empresa utiliza outro software para emitir nota fiscal?
+12. Neste é preciso checar qual foi o último número de nota fiscal emitido
+13. A contabilidade costuma emitir nota fiscal?
+14. Se sim, é preciso checar qual foi o último número de nota fiscal emitido
+15. Nas duas últimas situações é preciso ajustar a sequência de notas no sistema
+16. Retorne a tela de "Notas Fiscais"
+17. Na parte superior da tela clique sobre a opção "Arquivo"
+18. Selecione a opção "Configurações NF-e"
+19. Aberta a tela clique em "Próximo Número"
+20. Preencha o campo "Nota Fiscal" do bloco "NF-e" com o próximo número da sequência
+21. Clique em "Confirmar" para salvar a informação
+22. Retorne ao cadastro da venda
+23. Remova o número de nota do campo "Nota Fiscal"
+24. E prossiga com a emissão 
+Tag: Venda - NF-e - NFC-e
+***
+Pergunta: Durante a emissão da nota fiscal é exibida a mensagem: Emitente não habilitado para emissão de NF-e
+Resposta:
+1. Necessário entrar em contato com a contabilidade para verificar se a empresa está de fato habilitada para emissão de nota fiscal. 
+Tag: NF-e
+***
+Pergunta: Após a emissão de nota fiscal a mesma aparece como Denegada
+Resposta: 
+1. Mensagem retornada pela Sefaz indicando pendência no CNPJ do emissor ou no do destinatário
+2. Consultar sua contabilidade ou cliente para verificação
+3. Após a resolução da pendência fiscal uma nova emissão poderá ser realizada com um novo número de nota
+Tag:
+***
+Pergunta: Na emissão de nota fiscal é exibida a mensagem: A soma do valor das parcelas difere do total da fatura
+Resposta: 
+1. Mensagem retornada em casos de dízima periódica
+2. No cadastro da venda localize a coluna "Valor"
+3. Verifique se algum dos produtos possuí este campo preenchido com mais de duas casas decimais
+4. Remova a terceira casa decimal e arredonde o valor, caso necessário
+5. Realize o mesmo processo na coluna "Total"
+6. Cheque se não houve alteração do valor total da venda
+7. Clique em "Confirmar" e prossiga com a emissão da nota
+Tag: Venda - NF-e - NFC-e
+***
+Pergunta: Na emissão da nota fiscal, o campo "Consumidor Final" é alterado para “N”
+Resposta: 
+1. Essa informação é encontrada no cadastro do cliente
+2. Acesse o cadastro e localize a aba “Dados Adicionais” 
+3. Ajuste o campo “Consumidor Final”
+4. Confirme a alteração e feche o cadastro
+5. No cadastro da venda selecione a aba "Destinatário(Cliente)"
+6. Clique em "Bucar do Cadastro" para atualizar as informações
+7. Prossiga com a emissão da nota
+Tag: Venda - NF-e - NFC-e
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: "Origem da mercadoria não encontrada"
+Resposta: 
+1. Acesse o “Cadastro do Produto” e clique no bloco "Tributos"
+2. Cheque se o campo “Origem” está preenchido
+3. Caso esteja, altere para qualquer outra opção, confirme e volte a alterar para a opção correta
+4. Confirme a alteração 
+5. Retorne ao cadastro da venda
+6. Remova e insira o produto novamente
+7. Prossiga com a emissão da nota
+Tag: Venda - NFC-e - NF-e
+***
+Pergunta: É possível agrupar vendas já faturadas somente para a emissão da nota fiscal? 
+Resposta: 
+1. É possível desde que as vendas sejam do mesmo cliente 
+2. Selecione as vendas desejadas e clique sobre a opção “Nota Fiscal” para agrupá-las
+3. Confira as informações e prossiga com a emissão da nota fiscal
+4. Vale lembrar que o faturamento desta venda não deve ser realizado para evitar duplicidade de valores no financeiro e na baixa de estoque
+Tag: Venda - NFC-e - NF-e
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: Rejeição: Número do item fora da ordem sequencial
+Resposta: 
+1. Para que a sequência dos produtos seja corrigida, basta duplicar a venda
+2. O processo é feito acessando o cadastro da venda e clicando no botão "Menu"
+3. Selecione a função "Duplicar Pedido"
+4. Confirme a duplicação do registro
+5. Prossiga com a emissão da nota
+6. Faça a exclusão da venda original para evitar duplicidade de valores
+Tag:
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: <det nItem="3"> cEAN: Código de Barra do Item: Código GTIN inválido
+Resposta: 
+1. O parâmetro nItem informa qual item da venda está com a informação correta
+2. No módulo "Produto" selecione a opção "Consulta de Produto"
+3. Localize o produto e dê duplo clique para abrir o cadastro
+4. O campo “Código EAN” deve estar preenchido apenas com números, contendo 8, 12,13 ou 14 dígitos
+5. Após realizada a alteração no cadastro, remova e insira o produto na venda novamente
+6. Vale lembrar que caso o código ainda esteja incorreto, é recomendável entrar em contato com sua contabilidade para mais informações
+7. Ou remova o código para realizar a emissão da nota
+Tag: Venda - NF-e - NFC-e
+***
+Pergunta: Após emissão da nota fiscal, ao visualizá-la é exibida a mensagem: Bitmap image is not valid
+Resposta: 
+1. A logo inserida no cadastro de empresa excede o tamanho permitido ou diverge do formato aceito "bitmap"
+2. Verifique se a logo da empresa possuí as dimensões “256x256”
+3. Realize a modificação necessária no arquivo da logo para inserí-la no sistema
+4. Para alteração da logo acesse o módulo "Empresa"
+5. Selecione a opção "Sua Empresa" e dê duplo clique no nome da empresa para abrir o seu cadastro
+6. Posteriormente, clique em "Logo Empresa" e "Alterar" para escolher a nova logo
+7. Clique em "Confirmar" 
+8. Retorne ao cadastro da venda e prossiga com a emissão da nota
+Tag: Venda - NF-e
+***
+Pergunta: Na emissão da nota fiscal é retornada a mensagem de CST inválido, porém o campo está preenchido
+Resposta: 
+1. Verifique com a sua contabilidade se o CST utilizado na emissão está correto
+Tag: Venda - NF-e - NFC-e
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: O somatório dos produtos/serviços difere do total da nota
+Resposta: 
+1. Se a venda não estiver faturada, verifique se o campo “Tipo de Produto” está devidamente preenchido
+2. Outro ponto é se não existe um item "serviço" que possuí CFOP de produto e vice-versa
+3. Faça o ajuste necessário e clique em "Alterar" seguido de "Confirmar" para que os valores totais sejam recalculados
+4. Caso a mensagem volte a ser exibida, contate a equipe de suporte
+Tag: NF-e - NFC-e
+***
+Pergunta: Como emitir uma nota de venda com produto devolvido? 
+Resposta:  
+1. Na emissão de notas fiscais valores negativos no campo de quantidade não são aceitos pela SEFAZ
+2. Neste caso, é possível inserir o produto na venda normalmente e aplicar seu valor como desconto
+3. E posteriormente inserir uma observação nos dados adicionais da nota referente a devolução
+4. Ou emitir uma nota de devolução de mercadoria e após uma da venda de mercadoria, uma vez que uma nota fiscal só pode conter uma operação
+Tag: Venda - NF-e
+***
+Pergunta: Como inserir o número do pedido de compra para sair na nota fiscal?
+Resposta: 
+1. No cadastro da venda, clique na aba Nota Fiscal
+2. Localize o campo "Ped Compra” no canto direito da tela
+3. Ao preencher esse campo, a informação será aplicada em todos os itens da nota
+4. Caso apenas um dos itens precise conter a informação do pedido de compra, siga a instrução abaixo
+5. Vá para a aba "Produtos / Serviços"
+6. Selecione o item desejado e dê duplo clique sobre ele
+7. Aberta a tela, clique na aba "Tributação - Dados Fiscais e Impostos"
+8. No bloco Pedido de Compra serão exibidos os campos "Pedido" e "Item"
+9. Preencha os campos necessários e confirme a alteração
+Tag:
+***
+Pergunta: Ao emitir uma nota fiscal é retornada a mensagem: Rejeição: “Código do Município: Conteúdo inválido”
+1. Mensagem retornada quando o código do município no cadastro do cliente difere do registrado no IBGE
+2. No cadastro da venda selecione a aba "Destinatário Cliente"
+4. O campo "Cód Cidade" deverá estar preenchido com o código do IBGE, composto por 8 dígitos
+5. Em caso de dúvidas, clique no botão "..." para abrir a listagem de códigos válidos do IBGE 
+6. Selecione o município desejado e clique em "Confirmar" para corrigir a informação
+7. Posteriormente utilize a opção "Atualizar Cadastro" para atualizar a informação no cadastro do cliente
+8. Prossiga com a emissão da nota
+***
+Pergunta:  Na emissão da nota é exibida a mensagem: Não informado o grupo de ICMS para a UF de destino 
+Resposta: 
+1. Mensagem retornada quando a nota a ser emitida é para fora do estado e a tributação não foi preenchida corretamente
+2. Entre em contato com sua contabilidade para checar os dados de tributação 
+3. Após obter os dados, entre em contato com a equipe de suporte para que a configuração seja realizada 
+4. Dessa forma o cálculo correto será efetuado automaticamente
+Tag:
+***
+Pergunta: Preciso alterar o código da origem da mercadoria pra emitir a nota fiscal
+Resposta: 
+1. No módulo "Produto" acesse a "Consulta de Produto"
+2. Localize o cadastro do produto desejado e dê duplo clique para abrí-lo
+3. Selecione o bloco "Tributos"
+4. Realize a alteração necessária no campo "Origem da Mercadoria"
+5. Confirme a alteração e feche o cadastro
+6. Retorne ao cadastro da venda
+7. Caso o produto já tenha sido lançado na venda, será necessário atualizar as informações
+8. Para isso clique com o botão direito do mouse sobre os produtos e selecione a opção "Nota Fiscal - Calcular todos os impostos"
+9. Clique em "Confirmar" para salvar as informações
+10. Prossiga com a emissão da nota fiscal
+Tag:
+***
+Pergunta: Alterei a tributação no produto, mas a informação não salva
+Resposta: 
+1. Para que os dados de tributação não sejam automaticamente substituídos pelos que estão configurados na natureza de operação é necessário habilitar a opção "Não recalcular impostos na Impressão da nota"
+2. No cadastro da venda selecione a aba "Produtos / Serviços"
+3. Dê duplo clique no item para abrir seu detalhamento
+4. Acesse a aba "Tributação - Dados Fiscais e Impostos"
+5. Marque a opção "Não Recalcular Impostos na Impressão da Nota" 
+6. Feche a tela de configuração do produto 
+7. Clique em "Confirmar" para salvar as alterações
+8. Repita o processo caso existam mais produtos
+Tag: Venda - NF-e - NFC-e
+***
+Pergunta: Como fazer a transferência de mercadorias entre filiais?
+Resposta: 
+Tag:
+***
+Pergunta: Como emitir notas fiscais para diferentes alíquotas do ICMS?
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

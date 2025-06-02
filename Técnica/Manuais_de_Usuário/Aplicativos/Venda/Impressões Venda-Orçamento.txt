@@ -1,0 +1,10 @@
+Pergunta: Não consigo salvar a impressão do orçamento/venda
+Resposta: 
+1. Cheque se na descrição dos produtos da venda ou no cadastro do cliente existem caracteres especiais('aspas') ou quebras de linha
+2. Isso pode ser feito copiando o conteúdo do campo e colando em um bloco de notas
+3. Onde o cursor do mouse ficar abaixo da informação é indicação de quebra de linha
+2. Remova o caractere e confirme para atualizar a informação do cadastro
+3. Remova o produto ou cliente do cadastro da venda
+4. Insira o cliente/produto novamente na venda e clique em "Confirmar"
+5. Efetue uma nova impressão e salve o arquivo 
+Tag: Pedido de Venda – Proposta - Orçamento 
