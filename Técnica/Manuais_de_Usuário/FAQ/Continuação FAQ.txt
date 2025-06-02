@@ -1,0 +1,17 @@
+Pergunta: 
+Resposta: Preenchendo os campos de Difal
+---------------------------------------------------------------------------------------------------------------------------------
+Pergunta: Alterar data de vencimento de boleto: Ir no financeiro, localizar o boleto e realizar a alteração necessária.
+Resposta: Após confirmar a alteração, é necessário imprimir o boleto atualizado e em seguida, utilizar a opção
+"Nova Ocorrência". Em tipo de ocorrência, selecionar a opção "to RemessaAlterar Vencimento"
+Confirme a nova ocorrência e feche a janela para concluir a operação. Na próxima remessa gerada,
+o sistema enviará o boleto com o evento de alteração de vencimento
+---------------------------------------------------------------------------------------------------------------------------------
+Pergunta: Não é possível realizar a conversão do produto na compra
+Resposta: Verificar no cadastro do produto qual é a unidade de medida do mesmo. Não é possível converter para uma unidade
+diferente da informada no cadastro do produto. Fechar a janela da compra e alterar no cadastro do produto a unidade de medida e estoque correto.
+Após confirmar a alteração,  reabrir o cadastro da compra e realizar a conversão.
+---------------------------------------------------------------------------------------------------------------------------------
+Pergunta: Não é possível alterar informações da nota de compra
+Resposta: Verificar se a compra não está finalizada. Caso estiver, é necessário cancelar a finalização para realizar a alteração
+----------------------------------------------------------------------------------------------------------------------------------

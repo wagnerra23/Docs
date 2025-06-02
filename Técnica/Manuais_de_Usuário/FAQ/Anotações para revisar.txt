@@ -1,0 +1,256 @@
+
+Extract: Antes de aplicar o processo, ter utilizado a função corrigir NAN dentro do sistema. Após, realizar o extract sem verbose. Caso 
+retorne erro de NAN, localizar as linhas apontadas e ir no arquivo sql gerado pelo extract. Localizar as vendas(normalmente são vendas), abrir 
+o sistema e verificar quais são os erros da venda. 
+---------------------------------------------------------------------------------------------------------
+Em versões antigas o crédito do cliente deve ser lançado na venda como recebido. E também deve constar o número do caixa
+------------------------------------------------------------------------------------------------------
+
+Configuração do boleto e código do cedente geralmente são os mesmos em bancos comuns.
+---------------------------------------------------------------------------------------------------------
+Migração de servidor: Wirecompression no firebird.conf
+---------------------------------------------------------------------------------------------------------
+Configurações de imposto por estado:
+INSERT INTO PRODUTO_GRUPO_IMPOSTOUF (CODPRODUTO_GRUPO, ESTADO, MVA, PRECO_PAUTA, PICMSST, PICMS, DT_ALTERACAO, PREDBCST, PFCP, CODVENDA_TIPO, PREDMVA_SIMPLES, CODNF_NATUREZA_OPERACAO)
+ VALUES ('1', 'SP', 0, 0, 18, 12, NULL, 0, 0, 0, NULL, 1005);						
+Primeiro Campo 18: Alíquota AC-AC (intra estadual, próprio estado)
+Segundo Campo 12: Alíquota SP-AC (destino)
+---------------------------------------------------------------------------------------------------------
+Lançamento duplicado no financeiro acontece quando as vendas são agrupadas e emitidas nota através da função Emitir nota fiscal
+já que esta opção apenas agrupa e emite a nota, mantendo os pedidos e venda agrupadora no mesmo local, então a falta dessa separação acaba duplicando no financeiro. Versão antiga
+---------------------------------------------------------------------------------------------------------
+
+Passo 1. Para comparar duas colunas e identificar se os valores de uma estão presentes na outra, é necessário usar a função PROCV, 
+caraterizada pela estrutura "=PROCV (valor procurado; intervalo onde será feita a busca; coluna índice; valores exatos [0] ou aproximados [1]".
+ No exemplo deste tutorial, a fórmula ficou "=PROCV(A2;B2:B9;1;0)" (sem aspas), porque estamos buscando a palavra Samsung (célula A2) que está
+ na segunda coluna (intervalo B2:B9), sendo que queremos a própria palavra apareça caso seja localizada na correspondência exata.
+ --------------------------------------------------------------------------------------------------------
+  Erro de emissão: Total líquido da nota diverge do total menos desconto: Verificar as casas decimais e xml.  Versão Antiga (Makan Adesivos)
+ --------------------------------------------------------------------------------------------------------
+ Banco Inter: Registro automático do Boleto. Consulta apresenta o retorno, mas é necessário realizar a troca do status manualmente.
+ --------------------------------------------------------------------------------------------------------
+ Contrato é toda cobrança mensal de um serviço realizado
+ --------------------------------------------------------------------------------------------------------
+ O que pode ser corrigido em uma carta de correção? 
+Código Fiscal de Operação e Prestação (CFOP);
+Código de Situação Tributária (CST);
+Descrição das características de produtos, como volume, modo de embalagem, peso;
+Endereço do destinatário (parcial); 
+Razão social do Destinatário (parcial);
+Data de saída do produto se for no mesmo período de apuração do ICMS;
+Razão Social (desde que não altere por completo);
+Adição de dados adicionais, como o nome da transportadora que participará da operação, por exemplo.
+---------------------------------------------------------------------------------------------------------
+No ECF (Emissor de Cupom Fiscal):
+A impressora permitida é a fiscal e deverá lacrada antes do uso
+Dever cumprir a obrigatoriedade do Bloco X
+Após esgotar a memória fiscal da impressora ou cessar seu uso, a mesma deverá ser realizada a baixa junta a uma empresa certificada e
+mantê-la guardada por 05 anos.
+No ECF, os dados das transações ficam registrados na memória do equipamento. Em regra, ao final do mês, são encaminhados ao contador,
+para que só então sejam enviadas para a SEFAZ. Assim, a consolidação das vendas dura em média 20 dias.
+cupom é emitido para o consumidor final, comprovando a compra e venda de produtos.
+Cupom Fiscal Eletrônico não reúne todo o recolhimento de informação do consumidor.Sendo assim, ele não trabalha como garantia de troca de produto. 
+Emitir documentos e cupons fiscais
+O PAF-ECF deve ser instalado localmente no banco de dados do PDV e por isso, não requer conexão com a internet para o seu funcionamento.
+A transmissão das vendas à SEFAZ é feita a partir do PAF-ECF ou de um software de gestão integrado ao PAF para um Emissor de Cupom Fiscal, 
+através do Sintegra ou do SPED periodicamente (mensal).
+
+
+Na NFC-e (Nota Fiscal de Consumidor Eletrônica)
+A impressora é do tipo não fiscal (térmica, laser ou deskjet). 
+Durante a impressão, é criado um código QR Code que acompanha a NFC-e
+Existe a transmissão direta com o governo
+Não é necessário realizar a redução Z, pois essa é automática
+Dispensa a obrigatoriedade do envio do bloco X.
+No modelo de NFC-e, todo o processo de emissão é feito em tempo real, via Internet. Tão logo o cliente efetua a compra, os dados são
+encaminhados à SEFAZ, e o consumidor já pode consultar a NFC-e por meio da chave gerada ou do QR Code impresso no cupom.
+A NF sempre vai reunir dados pessoais do consumidor
+Uma vez emitida a nota não é possível realizar qualquer alteração e a emissão de carta de correção é vedada pela SEFAZ.
+Tempo de cancelamento: 30 minutos.
+O cupom impresso da NFC-e não é um documento fiscal, e sim o DANFE NFC-e (Documento Auxiliar da Nota Fiscal do Consumidor Eletrônica) e serve 
+principalmente para facilitar o acesso do cliente ao verdadeiro documento, o arquivo XML que fica nos servidores da SEFAZ!
+não-obrigatoriedade de identificar o destinatário da nota. I
+---------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Após criar CR continua constando chave existente: Acessar CR da venda e alterar o campo de valor para o próximo número.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Puxar a logo da empresa diretamente do cadastro CarregaLogoEmpresa(Picture1);
+---------------------------------------------------------------------------------------------------------
+Ao inserir a comissão de funcionário no produto, clicando em aplicar o valor do produto será modificado. Ou seja, ele irá "pagar" o valor da comissão. MARKUP REVISAR!!!
+---------------------------------------------------------------------------------------------------------
+O markup funciona como uma fórmula, na qual são dispostos os valores de tudo que representa despesa operacional, mais a margem de lucro e o custo de produção
+---------------------------------------------------------------------------------------------------------
+Markup = 100/[100-(DV+DF+LP)] 
+DV são as despesas variáveis
+DF são as despesas fixas
+LP é a margem de lucro pretendida
+
+Para calcular o preço de venda, aplique o índice do markup no custo do serviço:
+---------------------------------------------------------------------------------------------------------
+Comissão = valor das vendas x percentual de comissionamento
+-----------------------------------------------------------------------------------------------------------------------------------------------
+A comissão definida no cadastro do cliente só será "ativada" na venda caso o cliente seja selecionado nos três campos relativos a comissão da venda!
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Erro: Falha no Schema XML do lote de NFe: NCM errado! Versão antiga
+---------------------------------------------------------------------------------------------------------
+A TAG <xPed> corresponde ao campo Pedido Compra.
+A TAG <nItemPed> corresponde ao campo Item Ped. Compra.
+---------------------------------------------------------------------------------------------------------
+Condição de Pagamento com entrada: Parcelas N 
+	1ª Referente a entrada
+	2ª Referente ao saldo restante 
+---------------------------------------------------------------------------------------------------------
+ TABELA BALANÇO - BALANÇO TÍTULO (Alteração de data do balanço )
+ --------------------------------------------------------------------------------------------------------
+Divisão de responsabilidades: 
+Financeiro: Cobrança de boletos atrasados.
+Faturamento: Emissão de boletos e notas fiscais
+---------------------------------------------------------------------------------------------------------
+Em casos de troca: Abrir a venda, inserir os itens de que serão devolvidos inserindo o sinal de (-) no campo peças e a seguir, lançar os itens que serão levados pelo cliente
+---------------------------------------------------------------------------------------------------------
+FICHA PONTO:  Campo PIS precisa estar preenchido
+Para importar o arquivo: Processar Arquivo, Gerar Ponto.
+---------------------------------------------------------------------------------------------------------------------------------
+RELATÓRIO NÃO APARECE DETERMINADOS REGISTROS: Diminuir tamanho do campo.
+---------------------------------------------------------------------------------------------------------------------------------
+ERRO DESCONHECIDO AO INSERIR PRODUTO: Testar se é apenas na inserção do item em específico ou não. Caso não seja, duplicar a venda.
+---------------------------------------------------------------------------------------------------------
+LUCRO REAL DEVOLUÇÃO: Repete os dados da nota, destacando os impostos.  CST: 00
+---------------------------------------------------------------------------------------------------------
+Na chave de acesso, a data de emissão está identificada aqui, em Ano e Mês: 4223 0382 1795 2400 0156 5500 1000 5074 4410 5788 9292
+Onde:
+2 Primeiros dígitos: cUF – Código da Unidade Federativa em que a empresa emissora da NFe está localizada
+4 dígitos: AAMM – Ano e mês em que a NFe foi emitida
+4 dígitos: AAMM – Ano e mês em que a NFe foi emitida
+14 dígitos: CNPJ – Número do Cadastro Nacional de Pessoa Jurídica da empresa emissora da NFe
+2 dígitos: mod – Modelo da NFe
+3 dígitos: série da NFe
+9 dígitos: nNF – número da nota fiscal eletrônica
+1 dígito: tpEmis – tipo de emissão do documento
+8 dígitos: cNF – código numérico da chave de acesso
+1 dígito: cDV – dígito verificador da chave de acesso da NFe
+
+---------------------------------------------------------------------------------------------------------
+VALOR DE DESCONTO NA VENDA: VERIFICAR ISS RETIDO!!!!!
+---------------------------------------------------------------------------------------------------------
+Nota fiscal de serviço: Nem todas são processadas. Antes de entrar em contato com a prefeitura, pedir o protocolo de uma nota
+autorizada e verificar se a nota chegou até a prefeitura e qual foi o tempo que ela levou para ser processada.
+------------------------------------------------------------------------------------------------------
+Quando o sistema não atualizar ou não ser possível executar uma ação, verificar se não existe uma segunda instância do sistema rodando em segundo plano!!!
+--------------------------------------------------------------------------------------------------------------------------------
+Empresas do simples não podem se apropriar do crédito do ICMS das compras de seus insumos.
+----------------------------------------------------------------------------------------------------------------------------------
+Em alterações de casas decimais no motor de calculo, após a confirmação se houver qualquer outra alteração no produto, o valor
+será recalculado.
+---------------------------------------------------------------------------------------------------------
+Convênio e código do cedente normalmente são os mesmos em bancos comuns.
+-------------------------------------------------------------------------------------------------------------------------------
+Campo PICMSST: Alíquota interestadual própria do estado
+Campo PICMS: Alíquota do estado de origem para o destino.
+------------------------------------------------------------------------------------------------------------------------------
+xPed = Pedido - é numero numero do pedido de compra
+nItemPed = Item - é o numero do item no Pedido de Compra 
+--------------------------------------------------------------------------------------------------------------------------------
+Impressão de recibo possui código -4
+--------------------------------------------------------------------------------------------------------------------------------
+Origem da mercadoria: 
+0 -> Nacional
+1 -> Estrangeira, importação direta
+2 -> Estrageira, mercado interno
+3 -> Nacional, importação maior que 40%
+--------------------------------------------------------------------------------------------------------------------------------
+CST 200 em devolução: Consultar origem da mercadoria para inserir no cadastro do produto. Na nota CST será 2900
+--------------------------------------------------------------------------------------------------------------------------------
+Regime Simples não destaca IPI em campo próprio, entra como acréscimo e na observação da nota
+--------------------------------------------------------------------------------------------------------------------------------
+Correções de saldo precisam ser sempre sobre a data de competência, ou seja, na data em que ocorreu o serviço
+---------------------------------------------------------------------------------------------------------------------------------
+Nota de devolução emitida incorretamente: Emitir uma nota de entrada, com CFOP 2949
+---------------------------------------------------------------------------------------------------------------------------------
+Tamanho Impressão: 29,70
+--------------------------------------------------------------------------------------------------------------------------------
+Impressões de notas podem ser excluídas, já que são baixadas automaticamente. 
+--------------------------------------------------------------------------------------------------------------------------------
+Planos de contas analíticos somam no título.
+---------------------------------------------------------------------------------------------------------------------------------
+Em notas de devolução onde a empresa seja do regime normal o cst a ser utilizado é o mesmo da nota de compra/venda
+---------------------------------------------------------------------------------------------------------------------------------
+No cadastro do tipo de venda, é exibido apenas o código da natureza de operação: Clicar com f3 no campo onde é referenciada, alte-
+rar e confirmar o cadastro.
+---------------------------------------------------------------------------------------------------------------------------------
+Alterar a data de emissão para a impressão: [now]
+---------------------------------------------------------------------------------------------------------------------------------
+Ato Cotepe: Acessar "GAD" e selecionar a opção "TDM"
+Data: Mês anterior
+Nome: Mês Referência
+Gerar Relatório
+---------------------------------------------------------------------------------------------------------------------------------
+Dimensões do relatório: 21x29,70
+---------------------------------------------------------------------------------------------------------------------------------
+Em transferências de matriz para filial os impostos devem ser inseridos como um acréscimo para serem rateados nos produtos, uma 
+vez que é a Matriz quem paga, mas eles precisam estar embutidos nos produtos para não prejudicar a formação de preço. 
+---------------------------------------------------------------------------------------------------------------------------------
+Customizar Filtros no campo: 
+Campo Referente: Custom %,%
+---------------------------------------------------------------------------------------------------------------------------------
+O arquivo para a conferência das notas fiscais é o envlot.xml
+---------------------------------------------------------------------------------------------------------------------------------
+Em devoluções com desconto o cálculo do ICMS é calculado com o valor total, já com o desconto. 
+---------------------------------------------------------------------------------------------------------------------------------
+Simples não destaca tributação, apenas se o cliente pedir e enviar um espelho com os dados de tributação.
+Se a empresa do Simples destacar para outra empresa que não se enquadra no simples, precisa destacar a lei e valor nos dados
+adicionais.
+---------------------------------------------------------------------------------------------------------------------------------
+O documento XML de entrada do serviço esta fora do padrão especificado: Caractere especial no conteúdo da nota
+---------------------------------------------------------------------------------------------------------------------------------
+Venda com cálculo de Difal: Questionar com a contabilidade se o cálculo é necessário
+---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+Nota fiscal de exportação: CFOP: 6502 CST: 41 
+---------------------------------------------------------------------------------------------------------------------------------
+Quando agrupamento dá errado: Excluir a venda agrupadora. Na consulta, verificar se as vendas estão com o campo "Pode Faturar" = 'S'
+Se não estiverem, ajustar via Ibe com select do João. 
+---------------------------------------------------------------------------------------------------------
+Para utilizar o recurso da consulta de CPF é preciso que o certificado digital esteja configurado!
+---------------------------------------------------------------------------------------------------------
+Caso, após uma atualização o sistema esteja apresentando alguma falha em determinado filtro, por exemplo, executar um select no
+ibe para verificar se os dados serão apresentados. Se sim, o problema não é o banco corrompido, mas em todo caso, no próprio IBE
+Services -> Database Validation. Executar o backuprestore novamente pode ajudar, no caso de caracteres especiais
+---------------------------------------------------------------------------------------------------------
+Venda Inativo Cancelado: Novo -> Cancelar
+---------------------------------------------------------------------------------------------------------
+PAF: Quando der erro ao ler a impressora, consultar o log. Caso tenha violação de primary key dos produtos, é provável que o banco
+esteja corrompido. Neste caso, se faz um backup do banco e via ibe é feito um delete from produto p, retornando o arquivo para a
+máquina, uma vez que o PAF lê o banco de dados do office para iniciar, então todos os registros são carregados novamente.
+---------------------------------------------------------------------------------------------------------
+A data de competência, por padrão é a mesma que a data de emissão, podendo ser alterada caso necessário
+---------------------------------------------------------------------------------------------------------
+No sql duas tabelas diferentes não podem ser atualizadas na mesma instrução
+---------------------------------------------------------------------------------------------------------
+Requisições que serão atendidas parcialmente irão se dividir!!
+---------------------------------------------------------------------------------------------------------
+Aba Fluxo de Produção -> Materiais para baixa automática: É onde serão decididos quais materiais não podem retornar ao estoque, caso a produção seja cancelada.
+--------------------------------------------------------------------------------------------------------------------------------------
+Pré-requisitos no fluxo de produção de um produto é uma atapa que precisa ser executada!
+--------------------------------------------------------------------------------------------------------------------------------------
+Venda com Requisição não pode ser cancelada. Caso necessário o cancelamento, deverá ser enviada uma solicitação de cancelamento para
+a Requisição. 22/11/23
+--------------------------------------------------------------------------------------------------------------------------------------
+O próximo número é setado na tabela Parâmetros -> NotaFiscal para as versões 2019.
+--------------------------------------------------------------------------------------------------------
+
+ERRO: 
+Cannot create file "\\srv01\WR Sistema\NF-e\18030457000104\LogoNFe.bmp". A conta referenciada está bloqueada no momento e pode não ser 
+possível fazer logon.
+
+Verificar se o compartilhamento de pastas está ativo e o caminho do servidor está correto em Empresa -> Sua Empresa -> DFE (NF-e/NFC-e)->Geral
+Salvar XML 
+---------------------------------------------------------------------------------------------------------
+Acesso remoto a porta é 3389 / 3050
+---------------------------------------------------------------------------------------------------------
+
+
+
+ 
+					
