@@ -1,0 +1,174 @@
+Pergunta: Preciso ver as alterações feitas no cadastro do cliente
+Resposta: 
+1. Acesse o módulo "Contatos"
+2. Selecione a opção "Consulta de Pessoas"
+3. Efetue a busca pelo cliente
+4. Aberto o cadastro, localize a aba "Atividade"
+5. Nela serão visualizadas todas as alterações efetuadas no cadastro
+6. Dê duplo clique sobre a linha desejada e será aberto todo o histórico
+Tag:
+***
+Pergunta: Como devo proceder para cadastrar uma empresa internacional no sistema?
+Resposta: 
+1. Realize o preenchimento normalmente dos campos
+2. No campo "Tipo" selecione a opção "O"
+3. E no campo "Cidade" selecione Exterior
+4. Finalize o processo confirmando a operação no painel direito da tela
+Tag:
+***
+Pergunta: No cadastro do cliente, clicando no botão de lupa a consulta do CNPJ não abre
+Resposta: 
+1. Primeiramente é necessário que o sistema operacional esteja atualizado
+2. Em casos de sistemas operacionais descontinuados, ou seja, que não recebem mais atualizações de segurança, a consulta pode não funcionar
+3. Para checar este item, clique no ícone do Windows e procure pela opção “Windows Update” 
+4. Cheque se existem atualizações pendentes
+5. Após, verifique se o navegador Microsoft Edge está com a opção de compatibilidade com o Internet Explorer habilitada
+6. Para isso, abrindo o navegador, insira o caminho na barra de navegação: edge://settings/default browser 
+7. Acesse as configurações e procure pela opção: "Permitir que os sites sejam recarregados no modo Internet Explorer (modo IE)"
+8. Marque-a como "Permitir"
+9. Outro item a ser verificado é o executável do sistema, que precisa estar nomeado como WR2
+10. O executável pode ser encontrado em C:\WR Sistema
+11. Caso não esteja, clique sobre ele e altere o nome através da opção "Renomear"
+12. Verifique se o certificado digital está configurado no sistema
+13. Pra isso, no módulo "Empresa" acesse a opção "Sua Empresa"
+14. Abra o cadastro da empresa desejada com duplo clique
+15. Selecione a aba "Contabilidade e Certificado Digital"
+16. Utilize a opção "Status de Serviço" para verificar se o certificado está em operação
+17. A mensagem retornada deverá ser "Serviço em Operação"
+18. Exibida mensagem de erro, clique em "Carregar Certificado Digital" para listar os certificados instalados na máquina
+19. Selecione o certificado correto e clique em "Confirmar" para salvar a configuração
+20. Reinicie o sistema e efetue a consulta novamente
+21. Se a consulta ainda não funcionar entre em contato com a equipe do suporte
+Tag:
+***
+Pergunta: Como cadastrar um novo cliente ou fornecedor no sistema? 
+Resposta: 
+1. No módulo “Contatos” selecione a opção “Cadastro de Pessoas”
+2. Será exibida a janela para informar o “Tipo da Pessoa” (Cliente/Fornecedor/Funcionário/…)
+3. Marque a opção desejada para prosseguir com o cadastro
+4. No campo "Tipo" informe se o cliente é pessoa Jurídica(J), Física(F) ou Outros(O)
+5. No caso de pessoa jurídica preencha o campo “CNPJ/CPF”  
+6. Clique sobre o ícone de “Lupa” para efetuar a busca na base da receita federal
+7. Dessa forma o cadastro será preenchido de forma rápida e automática
+8. Em casos de pessoa física, informe o CPF e clique no ícone ao lado da lupa para realizar a busca das informações
+9. Para finalizar o processo basta clicar em "Confirmar" 
+10. Em casos de instabilidade os serviços tercerizados de consulta podem não funcionar
+11. Neste caso é necessário aguardar a normalização do serviço ou realizar o preenchimento manualmente
+Tag: 
+***
+Pergunta: É possível cadastrar mais de um contato por pessoa jurídica?
+Resposta: 
+1. Sim é possível cadastrar mais de um contato tanto por pessoa jurídica quanto física
+2. No módulo "Contatos" acesse a "Consulta de Pessoas"
+3. Localize o cadastro desejado e dê duplo clique para acessá-lo
+4. Selecione a aba Contatos
+5. Preencha os campos e utilize a seta para baixo para inserir a informação no registro
+Tag: 
+***
+Pergunta: É possível cadastrar mais tipos de pessoa?
+Resposta: 
+1. Sim. No módulo “Contatos” acesse a opção “Cadastro de Tipo de Pessoa” 
+2. Aberta a tela de consulta clique no botão "+Novo" para criar um novo cadastro
+3. No campo "Sigla" informe qual será a sigla do tipo de pessoa 
+4. Preencha o campo "Descrição"  
+5. No painel a direita da tela marque as opções que serão habilitadas no tipo de pessoa
+6. Clique em "Confirmar" para salvar o registro e finalizar o processo
+Tag: Contatos - Tipos de Pessoa
+***
+
+***
+Pergunta: Como alterar um cadastro de cliente? 
+Resposta: 
+1. No módulo "Contatos" acesse a opção "Consulta de Pessoas"
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Clique em "Alterar" no painel a direita da tela
+4. Realize a alteração desejada
+5. Clique em "Confirmar" para salvar as informações
+6. Caso o botão "Alterar" esteja inativo(cinza), o usuário não possui permissão para realizar a ação
+7. Neste caso o responsável da empresa pode realizar a liberação da permissão
+8. Ou a equipe de suporte mediante a autorização do responsável da empresa
+Tag: Contatos - Representante - Funcionário- Agência
+***
+Pergunta: É possível vincular o cadastro de uma pessoa a uma empresa?
+Resposta: 
+1. No módulo “Contatos” acesse a “Consulta de Pessoas”
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Na tela de cadastro clique na aba "Dados Adicionais"
+4. No campo "Empresa Matriz" clique no botão "..." para abrir a consulta de pessoas
+5. Selecione o cadastro da empresa desejada
+6. Finalize o processo clicando em "Confirmar" 
+Tag: Contatos - Empresa
+***
+Pergunta: Como localizar um cadastro de cliente no sistema? 
+Resposta: 
+1. No módulo “Contatos” acesse a “Consulta de Pessoas”
+2. Aberta a tela, no lado superior direito da tela será exibida a barra de pesquisa
+3. A busca pode ser realizada por razão social, CNPJ, telefone, endereço, código de cadastro ou cidade
+4. Digite a informação desejada e tecle “Enter” para os resultados serem exibidos
+5. Caso o registro não seja localizado clique no ícone de “Filtro”
+6. Selecione a opção “Arquivados” para verificar se o cadastro não se encontra inativo no sistema
+7. Precisando reativar o cadastro, dê duplo clique para acessá-lo
+8. Altere o campo "Ativo" para "S" e confirme a alteração
+9. Retornando à tela de consulta, clique novamente no ícone de filtro
+10. E remova o filtro de arquivados através da opção "Retirar Filtros"
+Tag: Contatos - Consulta
+***
+Pergunta: Onde encontro todas as compras efetuadas por um cliente?
+Resposta: 
+1. No módulo “Contatos” acesse a “Consulta de Pessoas”
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Aberto o cadastro selecione a aba “Vendas” 
+4. Serão exibidas todas as vendas efetuadas para o cliente, incluindo as excluídas
+5. E ainda na mesma tela é possível acessar os cadastros das venda 
+6. Basta dar duplo clique sobre o registro desejado
+Tag: Contatos - Vendas
+***
+Pergunta: É possível classificar um cliente? 
+Resposta: 
+1. No módulo “Contatos” acesse a “Consulta de Pessoas”
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Clique sobre a aba “Dados Adicionais”
+4. Será exibido o campo “Classificação do Cliente”
+5. Selecione a opção desejada e clique em “Confirmar” para salvar a informação
+Tag: Contatos - Classificação Cliente
+***
+Pergunta: É possível definir uma condição de pagamento padrão para um cliente? 
+Resposta: 
+1. No módulo “Contatos” acesse a “Consulta de Pessoas”
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Clique na aba “Crediário”
+4. No campo “Condição de Pagamento Padrão” clique no botão "..." para abrir a tela de consulta 
+5. Selecione a condição de pagamento desejada e clique em “Confirmar” para salvar a informação
+Tag: Contatos - Condição de Pagamento Padrão
+***
+Pergunta: Como cadastrar o contador no sistema? 
+Resposta: 
+1. No módulo "Contatos" acesse a opção "Cadastro de Pessoa"
+2. Aberta a tela, informe qual é o tipo de pessoa que será cadastrado
+3. Preencha os campos da forma mais completa possível
+4. Clique em "Confirmar" para finalizar o cadastro
+5. Posteriormente, é necessário vincular o cadastro do contador com o da empresa
+6. No módulo "Empresa" selecione a opção "Sua empresa"
+7. Dê duplo clique sobre o nome da empresa para abrir o seu cadastro
+8. Selecione a aba "Contabilidade e Certificado Digital"
+9. No campo "Contador" clique no botão "..." para abrir a consulta de pessoas
+10. Selecione o cadastro do contador
+11. Finalize o processo clicando em "Confirmar"
+Tag: Contatos - Contabilidade
+***
+Pergunta: Como vincular uma transportadora a um cliente? 
+Resposta: 
+1. No módulo "Contatos" abra a "Consulta de Pessoas"
+2. Localize o cadastro do cliente desejado e dê duplo clique para abrí-lo
+3. Aberta a tela clique na aba "Dados Adicionais"
+4. No campo "Transportadora" clique no botão "..." para abrir a consulta de pessoas
+5. Selecione o cadastro da transportadora
+6. Caso exista um valor padrão de frete é possível inserí-lo no campo "Valor frete padrão"
+7. Se o envio de e-mail estiver configurado, é possível inserir o email da transportadora no campo "Email NF-e/NFS-e"
+8. Finalize o processo clicando em "Confirmar"
+Tag: Contatos - Transportadora
+***
+Pergunta:
+Resposta: 
+Tag:
+***
