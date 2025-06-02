@@ -1,0 +1,11 @@
+COMPOSIÇÃO:
+A soma de todas as composições é igual ao valor de venda do produto 
+Uma vez que o cliente insere um valor diferente da soma, o sistema aplica
+a diferença, que pode ser negativa ou positiva, dependendo do preço
+decidido. Basicamente, é a falta de informação do porque o produto ficou 
+mais caro ou barato.
+
+Valor de uma composição pode ser calculado: 
+- Inserindo o valor diretamente nas matérias-primas
+- Inserindo o valor no item "diferença"
+- Criando um produto chamado "mão de obra" e inserindo o valor desejado

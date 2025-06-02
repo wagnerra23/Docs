@@ -1,0 +1,2 @@
+É possível existir uma compra sem produto. Cliente adquire um serviço e gera apenas o financeiro da nota. 
+Uma vez que não é enviado para estoque, não gera requisição. 
