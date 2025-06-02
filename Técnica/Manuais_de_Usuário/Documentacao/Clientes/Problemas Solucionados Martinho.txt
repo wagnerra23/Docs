@@ -1,0 +1,16 @@
+Problemas Anteriores Martinho. 
+
+Vendedor estava escolhendo produtos similares mais
+baratos, mantendo os mais caros acumulados em estoque.
+Como foi solucionado? Na compra, os produtos foram vinculados, impedindo a criação de outros produtos similares, garantindo o preço correto de venda e evitando acúmulo de estoque.  Produtos que não podem estar na área de venda receberam a propriedade "Pode Vender = N"
+
+Vendedor estava aplicando descontos nos produtos, compromentendo o lucro. 
+Como foi solucionado? Trancada a permissão de aplicar desconto, incluindo alterações no valor unitário e total através do grid de informações.
+
+Vendedor precisava conceder uma margem de desconto
+permitida pela Kamila. 
+Como foi solucionado? Liberada a permissãode desconto e definido um valor de venda mínimo para todos os produtos.
+
+A quantidade de produtos em estoque não batia com a do estoque físico. Produtos de unidades de medida diferentes dos cadastrados estavam sendo vinculados ao mesmo cadastro, compromentendo a soma da quantidade em estoque
+Como foi solucionado? Na nota de compra foi implementada a ferramenta de conversão de unidade.
+Dessa forma a quantidade correta dos produtos da é enviada para o cadastro. 
