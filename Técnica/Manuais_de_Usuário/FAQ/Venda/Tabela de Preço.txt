@@ -1,0 +1,154 @@
+***
+Pergunta: Não aparece a opção de inserir a tabela de preço no cadastro do cliente
+Resposta:  
+1. A opção "Tabela de Preço" não está habilitada no tipo de pessoa
+2. Vá ao módulo “Contatos” selecione a opção “Cadastro de Tipo de Pessoa”
+3. Dê duplo clique no cadastro desejado para abrí-lo 
+4. No canto direito da tela serão exibidas as opções disponíveis para serem habilitadas
+5. Marque a opção "Tabela de Preços" e clique em "Confirmar"
+6. Retorne ao cadastro do cliente e cheque se a aba "Tabela de Preço" é exibida
+7. Posteriormente basta clicar sobre o campo para vincular a tabela ao cliente
+Tag: Tabela de Preço - Contatos
+***
+Pergunta: Como definir preços diferentes para um cliente?
+Resposta: 
+1. Primeiramente é necessário criar a tabela de preço
+2. Caso tenha dúvidas sobre a criação da tabela, clique [AQUI]
+3. A seguir é preciso vincular a tabela ao cliente desejado
+4. No módulo "Contatos" acesse a opção "Consulta de Pessoas"
+5. Localize o cliente desejado e dê duplo clique para abrir seu cadastro
+6. Aberto a tela acesse a aba "Tabela de Preço"
+7. No campo "Tabela de Preço" clique no botão "..." para abrir a consulta de tabelas de preço
+8. Indique a tabela que será aplicada ao cliente
+9. Confirme a alteração no painel a direita da tela
+Tag: Tabela de Preço - Cliente
+***
+Pergunta: Como definir preços diferentes para tipos de venda? 
+Resposta: 
+1. Primeiramente é necessário criar a tabela de preço
+2. Caso tenha dúvidas sobre a criação da tabela, clique [AQUI]
+3. A seguir é preciso vincular a tabela ao tipo de venda desejado
+4. No módulo "Venda" acesse a opção "Tipo de Venda"
+5. Localize o tipo de venda desejado e dê duplo clique para abrir seu cadastro
+6. No bloco "Configurações Adicionais" clique no ícone de seta para visualizar as demais opções
+7. No campo "Tabela de Preço" clique no botão "..." para abrir a consulta de tabelas de preço
+8. Indique qual tabela será aplicada quando o tipo de venda for selecionado na venda
+9. Confirme a alteração no painel a direita da tela 
+Tag: Tabela de Preço - Tipo de Venda
+***
+Pergunta: Como criar tabelas de preço? 
+Resposta: 
+1. No módulo "Venda" selecione a opção "Tabela de Preço"
+2. Aberta a tela clique em "+Novo" para criar um novo cadastro
+3. Preencha os campos "Descrição" e "Empresa"
+4. Selecione a aba "Produtos" 
+5. No campo "Produto" clique no botão "..." para abrir a consulta de produtos
+6. Localize o item desejado e dê duplo clique para selecioná-lo
+7. No campo "R$ Valor" informe qual será o valor do produto na tabela
+8. Clique na seta para baixo para lançar o produto na tabela de preço
+9. Repita o processo para os demais produtos
+10. Confirme as alterações no painel direito da tela
+Tag: Tabela de Preço
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

@@ -1,0 +1,178 @@
+***
+Pergunta: Como desfazer uma venda agrupada?
+Resposta:
+1. O processo para desagrupar as vendas é simples
+2. Acesse o cadastro da venda agrupadora
+3. Clique em "Excluir"
+4. As vendas anteriormente agrupadas retornarão para a tela de consulta, podendo serem agrupadas novamente
+Tag:
+***
+Pergunta: Como agrupar várias vendas para realizar o faturamento do valor final?
+Resposta: 
+1. As vendas a serem agrupadas devem ser do mesmo cliente
+2. Selecione as vendas desejadas
+3. Clique em "Faturar"
+4. Posteriormente, clique em "Sim" para prosseguir com o agrupamento
+5. Aberta a tela de cadastro de venda, informe ao menos o tipo da venda e confirme a criação do agrupamento
+6. Clique novamente em "Confirmar" no painel lateral direito para salvar o novo registro no sistema
+Tag:
+***
+Pergunta: É possível duplicar uma venda que foi agrupada?
+Resposta: 
+1. Sim. O processo para duplicar uma venda agrupada é o mesmo
+2. Acesse o cadastro da venda desejada
+3. Clique sobre o botão "Menu"
+4. Selecione a opção "Duplicar Pedido"
+5. Aberta a tela de cadastro de venda, informe ao menos o tipo da venda e confirme a criação da nova venda
+6. Clique novamente em "Confirmar" no painel lateral direito para salvar o novo registro no sistema
+Tag: 
+***
+Pergunta: É possível agrupar vendas já faturadas somente para a emissão da nota fiscal?
+Resposta: 
+1. Desde que as vendas sejam do mesmo cliente, é possível
+2. Acesse o módulo "Venda"
+3. Selecione a opção "Consulta de Venda"
+4. Uma vez aberta a consulta, selecione as vendas desejadas
+5. Clique sobre a opção "Nota Fiscal"
+6. Informe ao menos o tipo da venda para prosseguir com o agrupamento
+7. Clique em "Confirmar" para finalizar o agrupamento
+8. Clique novamente em "Confirmar", no painel direito da tela para salvar o registro
+9. Posteriormente basta prosseguir com a emissão da nota
+Tag:  VENDA – NF-e -NFS-e 
+***
+Pergunta: Fiz o agrupamento e não consigo localizar as vendas que foram agrupadas
+Resposta: 
+1. Para não haver duplicação de valores, as vendas selecionadas para o agrupamento ficam na consulta de pedidos
+2. Já a venda agrupadora será localizada na consulta de venda
+Tag: Venda - Pedido
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

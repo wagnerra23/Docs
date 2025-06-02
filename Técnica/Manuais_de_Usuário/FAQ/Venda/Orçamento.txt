@@ -1,0 +1,163 @@
+***
+Pergunta: Como criar um orçamento?
+Resposta: 
+1. Em caso da empresa possuir uma equipe de prospecção siga os passos abaixo
+2. No módulo "CRM" acesse a opção "Adicionar Proposta"
+3. Aberta a tela, no campo "Código ou Nome" clique no botão "..." para abrir a consulta de pessoas 
+3. Localize o cadastro do cliente e dê duplo clique para adicioná-lo no orçamento
+4. Posteriormente no campo "Código do produto ou Serviço" clique no botão "..." para abrir a consulta de produto
+5. Selecione o produto desejado 
+6. Informe a quantidade a ser vendida no campo "Peças"
+7. Caso o produto tenha medidas, insira o comprimento no campo "Comp", a largura no campo "larg" e a espessura no campo "Esp"
+8. No campo "R$ Valor" será exibido o valor unitário do produto que foi inserido em seu cadastro
+9. No campo "R$ Total" será exibido o valor total do produto
+10. Clique na seta para baixo para inserir o produto no orçamento
+11. Repita o processo para os demais produtos
+12. Sendo necessário remover algum produto, basta selecioná-lo e clicar na seta para cima
+13. Na parte inferior da tela estão localizados os campos "Desconto" e "Acréscimo"
+14. Posteriormente, clique na aba "Financeiro"
+15. No campo "Código da Condição de Pagamento" clique no botão "..." para abrir a consulta de condição de pagamento
+16. Selecione a opção desejada 
+17. No campo "Parcelas" informe o número de parcelas a serem geradas
+18. No campo "Intervalo" informe qual será o intervalo de dias entre as parcelas
+19. No caso do vencimento das parcelas serem no mesmo dia de cada mês basta marcar a opção "Mês" 
+20. No campo "Caixa" insira o número do caixa onde serão registradas as parcelas
+21. Clique em "Gerar Parcelas" e confira as informações
+22. Caso precise remover as parcelas, clique com o botão direito do mouse e selecione a opção "Excluir Parcelas" 
+23. Clique em "Confirmar" para salvar o registro
+24. Se não houver uma equipe de prospecção, um novo orçamento pode ser criado através da tela de venda
+25. No módulo "Venda" selecione a opção "Adicionar Venda"
+26. Selecione a opção "Orçamento" no campo "Tipo"
+27. Se o tipo não estiver aparecendo, será necessário cadastrá-lo [AQUI]
+26. Prossiga com o preenchimento do orçamento como descrito anteriormente
+Tag:
+***
+Pergunta: É possível personalizar o modelo de impressão dos orçamentos?
+Resposta: 
+Tag:
+1. Sim. Basta o responsável da empresa entrar em contato com a equipe de suporte solicitando a personalização da impressão
+***
+Pergunta: Como inserir o prazo de entrega no orçamento?
+Resposta: 
+1. Com o orçamento aberto localize o campo "Prometido Para"
+2. Insira a data acordada com o cliente  
+3. Clique em "Confirmar" para salvar a alteração
+Tag:
+***
+Pergunta: Como duplicar um orçamento?
+Resposta: 
+1. No cadastro do orçamento a ser duplicado clique sobre o botão “Menu” 
+2. Selecione a opção “Duplicar Pedido”
+2. Exibida a janela informe ao menos o tipo da venda e clique em "Confirmar" para efetuar a duplicação
+3. Para finalizar o processo, clique em “Confirmar”(Painel Lateral Direito) para salvar o novo registro no sistema
+Tag:
+***
+Pergunta: Como transformar um orçamento em venda? 
+Resposta: 
+Tag:
+***
+Pergunta: Como vincular um orçamento a um determinado vendedor?
+Resposta: 
+1. Ao abrir um novo orçamento o vendedor será vinculado automaticamente 
+2. Lembrando que para isso o login do vendedor deve estar ligado a seu cadastro de funcionário 
+3. Caso necessária a alteração do vendedor inserido no orçamento, siga os passos abaixo
+4. Na venda selecione a aba "Financeiro"
+5. Na parte inferior da tela será visualizado o campo "Código do Funcionário"
+6. Clicando no botão "..." será aberta a consulta de funcionários para realizar a alteração
+7. Selecionado o vendedor, clique em "Confirmar" para salvar a alteração
+8. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+9. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: Como vincular um orçamento a um determinado representante?
+Resposta: 
+1. No cadastro do orçamento selecione a aba "Financeiro"
+2. Na parte inferior da tela será visualizado o campo "Código do Representante"
+3. Clicando no botão "..." será aberta a consulta de representantes para realizar a seleção
+4. Selecionado o representante, clique em "Confirmar" para salvar a alteração
+5. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+6. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: Como vincular um orçamento a uma determinada agência?
+Resposta: 
+1. No cadastro do orçamento selecione a aba "Financeiro"
+2. Na parte inferior da tela será visualizado o campo "Código da Agência"
+3. Clicando no botão "..." será aberta a consulta de agência para realizar a seleção
+4. Selecionado o representante, clique em "Confirmar" para salvar a alteração
+5. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+6. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
