@@ -1,0 +1,166 @@
+***
+Pergunta: Funcionário não está mais na empresa, mas aparece na listagem da folha de pagamento
+Resposta: 
+1. Necessário acessar o cadastro do funcionário para corrigir as informações
+2. Existem duas formas de acessá-lo
+3. A primeira é acessar o módulo "CRM" e selecionar a opção "Funcionários"
+4. A segunda é acessar o módulo "Contatos" e selecionar a opção "Consulta de Pessoas"
+5. Aberta a tela, clique sobre a aba "Funcionários" e localize o cadastro desejado
+6. Dê duplo clique para abrir o cadastro 
+7. Altere o campo "Ativo" para "N"
+8. Clique no botão "Tipos" e desmarque a opção "Funcionário"
+9. Localize a aba "Funcionário"
+10. Clique em "Demissão"
+11. Preencha o campo de data de demissão
+8. Clique em "Confirmar" para salvar as alterações
+9. Reabra o cadastro da folha de pagamento
+10. O funcionário já não aparecerá na listagem da folha de pagamento
+Tag: Folha de Pagamento - Contatos
+***
+Pergunta: Como faço para o salário do funcionário aparecer na folha de pagamento? 
+Resposta: 
+1. É preciso que este valor esteja inserido no cadastro do funcionário
+2. Existem duas formas de acessá-lo
+3. A primeira é acessar o módulo "CRM" e selecionar a opção "Funcionários"
+4. A segunda é acessar o módulo "Contatos" e selecionar a opção "Consulta de Pessoas"
+5. Aberta a tela, clique sobre a aba "Funcionários" e localize o cadastro desejado
+6. Dê duplo clique para abrir o cadastro 
+7. Na aba "Funcionários" selecione a opção "Geral"
+8. No campo "Salário" digite o valor desejado 
+9. Clique em "Confirmar" para salvar a alteração
+10. Posteriormente, basta abrir uma nova folha de pagamento
+Tag: Folha de Pagamento - Contatos
+***
+Pergunta: Não está sendo possível fechar a folha de pagamento
+Resposta: 
+1. Caso a folha tenha lançamentos vinculados ao financeiro e estes foram divergentes dos valores descritos em folha, seu fechamento não poderá ser efetuado
+2. Na aba “Detalhamento da Folha” os itens divergentes estarão em vermelho
+3. Feitas as correções necessárias, prossiga com o fechamento da folha
+Tag: Folha de Pagamento - Financeiro
+***
+Pergunta: Não consigo encontrar os itens para inserir na folha de pagamento
+Resposta: 
+1. Os itens precisam ser cadastrados antes de gerar a folha de pagamento
+2. Acesse o módulo "Produto" e utilize a função "Adicionar Produto"
+3. Realize o cadastro do item e no campo "Tipo" informe a opção "FOLHA"
+4. No módulo RH acesse a tela "Folha de Pagamento"
+5. Clique no botão "Menu", "Configurações"
+6. Será aberta a tela de configurações dos itens da folha
+7. Preencha os campos e clique em "Confirmar" para salvar as alterações
+8. Posteriormente, os itens poderão ser lançados na aba "Detalhamento da Folha"
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

@@ -1,0 +1,184 @@
+***
+Pergunta: Alterado manualmente o preço de uma matéria-prima que faz parte de um produto composto, como posso atualizar o preço do produto?
+Resposta: 
+1. A atualização do preço do produto composto pode ser efetuada de duas formas
+2. A primeira seria através do módulo "Compra", ao utilizar a opção "Importar Xml - Arquivo" para dar entrada na nota 
+3. Neste caso, ao marcar a opção "Atualizar Preço" todos os itens da nota terão seus valores de cadastro atualizados
+4. A alteração de valores também ocorrerá nos produtos compostos
+5.
+6.
+7.
+8.
+9.
+10.
+PENDENTE!!
+Tag:
+***
+Pergunta: No cadastro da composição é exibido o item Diferença de valor 
+Resposta: 
+1. O valor total da composição consiste na soma de todas as matérias-primas
+2. Caso após a finalização da inserção dos itens houver alteração manual do valor final da composição, será criado o item “Diferença no valor” 
+Tag:
+***
+Pergunta: É possível aplicar uma tabela de preço a um produto composto? 
+Resposta: 
+1. Neste caso é recomendado montar a composição com os valores das matérias-primas zerados
+2. O valor total da composição deverá ser inserido manualmente no campo  “R$Valor”
+3. Desta forma não existirão origens distintas de definição de preço para o produto final
+4. Possibilitando a aplicação de uma tabela de preço  
+6. Para aplicar a tabela selecione o bloco "Tabelas de Preço"
+7. No campo "Código" clique no botão "..." para abrir a listagem de tabelas
+8. Selecione a tabela desejada
+9. Informe  no campo "R$ Valor" qual será o preço do produto quando a tabela for aplicada
+10. Clique na seta para baixo para vincular a tabela ao produto
+11. Posteriormente, basta clicar em "Confirmar" para salvar as alterações
+Tag: Fabricação - Tabela de preço
+***
+Pergunta: Como cadastrar produtos compostos?
+Resposta: 
+1. No módulo “Produto” selecione a opção “Composição”
+2. Clique sobre o botão “Novo” para abrir a tela de cadastro
+3. Uma vez aberta a tela, preencha ao menos os campos "Descrição" e "Unidade" 
+4. Selecione o bloco “Composição” em Montagem de Produto
+5. Clique em “Materiais”
+6. Localize ao lado direito da tela a opção "Informe as Dimensões do Produto" 
+7. Informe a unidade de medida do produto final, a quantidade a ser montada e suas medidas 
+8. Posteriormente, no campo “Matéria-prima” clique no botão "..." para abrir a tela de consulta de produto
+9. Selecione a matéria-prima desejada 
+10. Informe a quantidade de peças que será utilizada e a fórmula de cálculo
+11. Sem a fórmula informada o cálculo da composição não acontecerá da forma correta
+11. Abaixo seguem as informações sobre cada fórmula
+12. A Cada: Quantidade de matéria-prima que será consumida em cada produto final
+13. Exemplificando: A cada 1 kit(produto final) será consumida 3 unidades de matéria-prima
+14. Área Quadrada: 
+15. Barras: 
+16. Folhas/Chapa: 
+17. Igual: 
+18. Igual Largura:
+19. Ilhós: 
+20. Perímetro: 
+21. Personalizada:
+22. Proporcional:
+22.Repita o processo para todas os demais itens que irão compor o produto final
+Tag: REVISAR
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

@@ -1,0 +1,132 @@
+***
+Pergunta: Como posso inserir o arquivo gerado pelo ponto eletrônico no sistema? 
+Resposta:
+1. Para que o arquivo seja lido e os registros inseridos corretamente, cheque os itens abaixo
+2. No módulo "RH" selecione a opção "Funcionários"
+3. Localize o cadastro do funcionário e dê duplo clique para abrí-lo
+4. Clique aba “Funcionário”, opção “Geral” e cheque se os campos “PIS N” e “Nº Registro” estão preenchidos corretamente
+5. Os horários da jornada de trabalho também precisam ser informados
+6. Para definir o horário selecione a aba "Horários"
+7. Preencha os campos e confirme as alterações no cadastro de todos os funcionários
+5. No arquivo de texto gerado pelo ponto eletrônico, na última linha consta a assinatura eletrônica
+6. Esta linha deve ser apagada, uma vez que não é lida pelo sistema e interfere na leitura dos demais registros
+7. Posteriormente, acesse o módulo "RH" e selecione a opção "Ficha-Ponto"
+8. Aberta a tela, utilize a opção "Processar Arquivo" para buscar o arquivo do ponto
+9. Localize o arquivo e  clique em "Processar Arquivo" para iniciar a leitura do arquivo
+10. Terminado o processamento do arquivo, abra o cadastro do funcionário para verificar as informações
+Tag: Ficha-Ponto - Contatos
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
