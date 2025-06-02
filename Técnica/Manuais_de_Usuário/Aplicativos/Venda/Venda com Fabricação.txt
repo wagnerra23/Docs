@@ -1,0 +1,129 @@
+***
+Pergunta:  Ao inserir um item composto na venda e alterar a quantidade, o valor não está sendo calculado corretamente
+Resposta:
+1. No módulo "Produto" acesse a opção "Composição"
+2. Localize o item desejado e dê duplo clique para abrir seu cadastro
+3. Selecione a opção "Montagem de Produto" 
+4. Localize a aba "Materiais"
+5. Cheque se o campo "Ordem" exibe a cor verde, indicando que está correto
+6. Caso não esteja, utilize a opção "Arruma" para corrigir
+7. Verifique se os itens da composição estão com o campo "Fórmula" preenchido
+8. Realize as alterações necessárias  
+9. Clique em "Confirmar" para salvar as alterações
+10. Retorne ao cadastro da venda e lance o produto novamente
+Tag: Venda - Fabricação
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

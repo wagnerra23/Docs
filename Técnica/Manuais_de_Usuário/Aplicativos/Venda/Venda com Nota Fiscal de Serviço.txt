@@ -1,0 +1,519 @@
+Pergunta: Como alterar uma venda com nota fiscal de serviço?
+Resposta: 
+1. Acesse o cadastro da venda
+2. Remova o número da nota fiscal do campo "Nota Fiscal"
+3. Clique em "Confirmar"
+4. Realize as alterações desejadas
+5. Insira novamente o número da nota no campo
+6. Clique em "Confirmar" para salvar as alterações
+Tag: Venda – NFC-e – NF-e -NFS-e
+***
+Pergunta: Ao emitir uma nota fiscal de serviço é retornada a mensagem: “Número de lote já informado”
+Resposta: 
+1. Acesse o site de sua prefeitura
+2. Verifique qual foi o último número de RPS enviado
+3. Posteriormente, acesse a ordem de serviço
+4. Remova o número do campo “Nota Fiscal”
+5. Clique em "Confirmar"
+6. Selecione a aba “NFSe”
+7. Clique no botão "Configurar"
+8. Após a abertura da tela selecione a opção “Próximo Número”
+9. No campo “NFSe”, com base na verificação de numeração realizada no site da prefeitura, insira qual será o próximo número de RPS
+8. Não é necessário o preenchimento do campo "Homologação"
+9. Clique em "Confirmar" para salvar as alterações e prossiga com a emissão da nota
+10. Importante: Dependendo da prefeitura, o número a ser informado no “Próximo Número” poderá ser próximo número sequencial de nota
+Tag: Venda – NFS-e 
+***
+Pergunta: Nota no sistema está como Não Autorizada, mas foi autorizada no site da prefeitura.
+Resposta: 
+1. O envio da resposta de autorização da nota ocorre uma única vez pelo webservice da prefeitura
+2. Desta forma, se no webservice não estiver implementado o serviço de consulta do status da nota, a mesma continuará como Não Autorizada
+3. Neste caso é possível acessar o cadastro da ordem de serviço e inserir o número da nota autorizada no campo "Nota Fiscal"
+Tag: Venda – NFS-e 
+***
+Pergunta: No momento da emissão da nota fiscal de serviço o campo “Tipo de Serviço” está puxando o código incorreto
+Resposta: 
+1. Para definir o tipo de serviço padrão acesse o módulo "Empresa" e selecione "Sua Empresa"
+2. Aberta a tela, dê duplo clique no nome da empresa para abrir o cadastro
+3. Localize a aba "NFS-e" e clique em "Lista de Serviço"
+4. No campo "Lista de Serviço" insira o código correto fornecido por sua contabilidade
+5. Clique em "Confirmar" para salvar as alterações
+6. Novas ordens de serviço já serão abertos com a informação atualizada
+7. Em ordens de serviço abertas antes da alteração é necessário atualizar a informação
+8. Para isso, clique na aba "NFSe" da ordem de serviço e clique em "Carregar Padrões"
+9. Posteriormente basta confirmar a alteração e prosseguir com a emissão
+Tag:
+***
+Pergunta: Na emissão da nota fiscal aparece a mensagem de IE inválida
+Resposta: 
+1. A Inscrição Estadual informada no cadastro do cliente difere da registrada na SEFAZ
+2. Entre em contato com o cliente ou consulte a inscrição correta através do site SINTEGRA
+3. Corrija a informação no cadastro do cliente e confirme antes de fechar o cadastro
+4. Retorne ao cadastro da venda
+5. Acesse a aba “Destinatário(Cliente)"
+6. Clique em "Alterar"
+7. Após, selecione a opção Buscar do Cadastro” para atualizar a informação do cliente na venda
+8. Clique em "Confirmar" para salvar a alteração e prossiga com a emissão
+Tag: Venda -NF-e – NFS-e - Contatos 
+***
+Pergunta: A nota fiscal de serviço foi cancelada e não está sendo possível emitir uma outra nota na mesma ordem de serviço
+1. No cadastro da ordem de serviço localize a aba "NFSe" 
+2. Apague o número da nota cancelada do campo "Nota Fiscal"
+4. Clique em "Confirmar" para salvar a alteração
+5. Prossiga com a emissão da nova nota
+Tag: Venda - NFS-e
+***
+Pergunta: Na emissão da nota fiscal de serviço é exibida a mensagem:' is not a valid integer value'
+Resposta: 
+1. Algum campo numérico obrigatório está vazio ou preenchido incorretamente
+2. Verifique o “Cadastro do Cliente”
+3. Posteriormente cheque o “Cadastro do Produto”
+4. Corrigida a informação, remova o produto/cliente do cadastro da venda
+5. Insira-o novamente e clique em "Confirmar" para salvar as alterações
+6. Prossiga com a emissão da nota
+Tag: Venda – NFS-e – Contatos – Produto
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: Is not valid integer value for field “CPF_CNPJ”
+Resposta: 
+1. O campo CPF/CNPJ está preenchido incorretamente 
+2. Acesse o cadastro do cliente e faça a correção 
+3. Clique em "Confirmar" para salvar a alteração
+4. Retorne ao cadastro da venda
+5. Selecione a aba “Destinatário(Cliente)” 
+6. Clique na opção "Buscar do Cadastro” para que a alteração feita no cadastro do cliente seja atualizada na ordem de serviço
+7. Prossiga com a emissão da nota
+Tag: Venda - NF-e – NFS-e – Contatos
+***
+Pergunta: Na emissão da nota fiscal de serviço a alíquota não aparece
+Resposta: 
+1. No módulo "Produto" acesse a opção "Consulta de Produto"
+2. Selecione a aba "Serviços" e localize o cadastro do serviço desejado
+3. Acesse o bloco "Tributos"
+4. Verifique se o campo "NCM" está preenchido
+5. Uma vez preenchido, clique sobre o campo e tecle F3
+6. A seguir, a tela de cadastro do NCM será aberta
+7. Insira a alíquota no campo "ISS Município"
+8. Confirme a alteração e feche a tela de cadastro
+9. Retorne ao cadastro da ordem de serviço
+10. Vá para a aba "Produtos / Serviços"
+11. Clique com o botão direito do mouse e selecione "Nota Fiscal -> Calcular Todos os Impostos"
+12. Localize a aba "NFSe" 
+13. No campo "Alíquota SN" será exibida a informação da alíquota
+Tag:
+***
+Pergunta: Ao emitir uma nota fiscal de serviço é retornada a mensagem: Rejeição: “Código do município gerador de ISSQN inexistente”
+1. Mensagem retornada quando o código do município no cadastro do cliente está vazio
+2. No cadastro da venda selecione a aba "Destinatário Cliente"
+3. Clique na opção "Abrir Cadastro do Responsável" para acessar o cadastro do cliente
+4. O campo "Cidade" deverá estar preenchido com o código do IBGE, composto por 8 dígitos
+5. Em caso de dúvidas, clique no botão "..." para abrir a listagem de códigos válidos do IBGE
+6. Selecione o município desejado e confirme o cadastro do cliente
+7. Retornando ao cadastro da venda, clique na opção "Buscar do Cadastro" para atualizar a informação
+8. Prossiga com a emissão da nota
+Resposta: 
+Tag:
+***
+Pergunta: Ao emitir a nota está aparecendo a mensagem: "could not execute jdbc batch update" 
+Resposta: 
+1. Mensagem indica instabilidade no WebService da Prefeitura
+2. Aguarde alguns minutos antes de uma nova emissão
+3. Caso a mensagem persista, entre em contato com a sua prefeitura
+Tag: Venda - NFS-e
+***
+Pergunta: Como emitir uma nota fiscal de serviço? 
+Resposta: 
+1. Uma vez que a equipe de suporte já foi contata para realizar as configurações para emissão siga os passos abaixo
+2. No módulo "Venda" acesse a "Consulta de Venda" 
+3. Localize o cadastro da ordem de serviço desejada e dê duplo clique para abrí-la
+4. Confira as informações 
+5. Estando tudo certo selecione a aba "NFSe"
+6. Clique no botão "NFSe Emitir" para realizar a emissão
+7. Aguarde o retorno do WebService da prefeitura
+8. Após a confirmação, a nota autorizada será exibida na tela
+Tag:
+***
+Pergunta: No momento da emissão aparece a mensagem "Lote em Processamento"
+Resposta: 
+1. Mensagem retornado pelo webservice da prefeitura quando o envio da nota foi realizado, porém, o processamento pela prefeitura ainda não ocorreu
+2. Necessário acessar o site da prefeitura para acompanhar o status da nota
+3. Caso o webservice da prefeitura disponibilize a função de consulta, no sistema clique com o botão direito sobre a nota e selecione a opção "Consultar Por - Lote"
+4. 
+5.
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
