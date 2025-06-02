@@ -1,0 +1,38 @@
+Procedimento de análise de relatórios
+
+
+1 - O que de fazer?
+	- Esta no driver
+	- esta no cliente 
+	- esta perdido por ai 
+
+2 - Lançar por Gemini
+	- Analizar o arquivo 
+		1 - ver se tem a-os malditos campos dt_prometido
+		2 - perc_desc 
+		3 - vacrescimo
+		.. completar com os outros campos
+		se tiver esses campos como o gemini deve etiquetar a classificação ?? até a versão final(Exemplo: 2022.26) 
+		- deve classificar e módugo e app
+		- sugestionar o nome do relatório
+
+3 -É informar como deve ser o teste para essa versão?
+	- Gerar um PFD
+	- Gerar um pint, para capa da documentação do arquivo, e mostra na documentação como o relatório é.
+	- arqmazenar o arquivo no driver
+		- deve possuir a segunite nomeclatura
+			- Módulo/APP/Tela - Nome e a versão
+
+4 - Gerar o documentoção padarão do relatório
+	- aquele docemnto que eu criei(fechou)
+	- colocar na rais da pasta relatório
+	- tem que saber se esse relatório precisa ser revisado??
+	- No nome do arquivo uma "_revisao" no inicio indicando que precisa de revisão
+	 
+* Image deve ter sua trasncrição
+* Padrão de erro da Imagem do Relatório
+* Trascrição de ter o mesmo nome do arquivo.md
+	- Saber como criar o prompt para que o gemini saiba dacumentar da forma que imaginamos
+
+- classificou o relatorio nome e descricao
+- 

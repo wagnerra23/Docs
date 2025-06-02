@@ -1,0 +1,115 @@
+Instrução de como proceder com a análise:
+1 - Leia arquivo como XML;
+2 - Analise o arquivo seguindo o <Padrão de análise>;
+3 - Caso falte alguma informação para completar a tarefa peça para usuário completar;
+
+<Padrão de análise>
+# Nome do Módulo / Nome do Aplicativo - Documentação de Relatórios
+
+## 1. Identificação do Relatório:
+- **Nome do Relatório:**  
+  Título claro e descritivo que identifica o conteúdo do relatório.
+- **Código ou Identificador Único:**  
+  Um código único, se aplicável, para fácil referência e acesso.
+
+## 2. Descrição do Relatório:
+- **Objetivo:**  
+  Uma explicação detalhada do propósito do relatório e como ele auxilia nas decisões de negócios.
+- **Tipo de Relatório:**  
+  Classificação do relatório (e.g., financeiro, operacional, recursos humanos).
+
+## 3. Parâmetros do Relatório:
+- **Dados de Entrada:**  
+  Detalhes sobre quais dados são necessários para gerar o relatório.
+- **Filtros Disponíveis:**  
+  Opções de filtragem para personalizar os dados apresentados.
+- **Período de Tempo:**  
+  Opções para definir o período temporal dos dados (e.g., diário, semanal, mensal).
+
+## 4. Estrutura e Conteúdo do Relatório:
+- **Campos Incluídos:**  
+  Descrição de todos os campos de dados apresentados no relatório.
+- **Formato do Relatório:**  
+  Layout e formato do relatório (e.g., tabela, gráfico, lista).
+- **Exemplos de Visualizações:**  
+  Imagens ou exemplos de como o relatório é visualizado.
+
+## 5. Telas Relacionadas ao Relatório:
+- **Visão Geral das Telas:**  
+  Descrição geral das interfaces de usuário utilizadas para visualizar e interagir com o relatório.
+- **Detalhes das Telas:**  
+  Informações detalhadas sobre cada tela específica relacionada ao relatório, incluindo elementos de interface, opções interativas e funcionalidades específicas.
+- **Navegação e Acesso:**  
+  Instruções claras sobre como navegar até as telas do relatório dentro do sistema, com ênfase em menus, barras de ferramentas e atalhos disponíveis.
+
+## 6. Instruções de Acesso e Geração:
+- **Como Acessar:**  
+  Passos detalhados sobre como localizar e acessar o relatório no sistema.
+- **Como Gerar:**  
+  Instruções passo a passo para configurar e gerar o relatório.
+- **Dicas de Uso:**  
+  Sugestões para aproveitar ao máximo as informações fornecidas pelo relatório.
+
+## 7. Impacto e Utilização:
+- **Aplicações do Relatório:**  
+  Descrição de como o relatório pode ser utilizado para melhorar processos ou decisões de negócio.
+- **Interpretação dos Dados:**  
+  Orientações sobre como interpretar corretamente os dados apresentados.
+
+## 8. Segurança de Dados:
+- **Medidas de Proteção:**  
+  Descrição das medidas de segurança implementadas para proteger os dados no relatório.
+
+## 9. Feedback e Melhorias Contínuas:
+- **Canais de Feedback:**  
+  Informações sobre como os usuários podem fornecer feedback sobre o relatório e como esse feedback é utilizado para realizar melhorias.
+
+## 10. Requisitos Técnicos:
+- **Requisitos de Sistema:**  
+  Detalhes sobre os requisitos técnicos necessários para acessar o relatório.
+
+## 11. Glossário de Termos:
+- **Definições:**  
+  Um glossário de termos técnicos ou jargões utilizados no relatório.
+
+## 12. Anexos ou Casos de Uso:
+- **Exemplos Práticos:**  
+  Casos de uso que demonstram a aplicação prática das informações do relatório.
+
+## 13. Informações Sobre Atualizações:
+- **Frequência de Atualizações:**  
+  Detalhes sobre como e quando o relatório é atualizado.
+
+## 14. Testes e Validação:
+- **Validação de Versões:**  
+  Para garantir a compatibilidade e precisão do relatório, cada versão do relatório foi testada nas seguintes versões do sistema:
+  - **Versão do Sistema:** 1.0 | **Versão do Relatório:** 2.1 | [Download do PDF](#link-para-download-do-pdf-versão-1.0)
+  - **Versão do Sistema:** 1.1 | **Versão do Relatório:** 2.2 | [Download do PDF](#link-para-download-do-pdf-versão-1.1)
+  - **Versão do Sistema:** 1.2 | **Versão do Relatório:** 2.3 | [Download do PDF](#link-para-download-do-pdf-versão-1.2)
+  - Adicione mais linhas conforme necessário para cada versão testada.
+
+- **Arquivo Fonte:**  
+  O arquivo FR3 original utilizado para gerar os relatórios também está disponível para download:
+  - [Download do arquivo FR3](#link-para-download-do-arquivo-fr3)
+
+- **Procedimento de Testes:**  
+  Descreva o procedimento detalhado utilizado para testar cada versão do relatório. Inclua quaisquer scripts automatizados, cenários de teste manual, e critérios de validação utilizados.
+
+- **Resultados e Observações:**  
+  Sumarize os resultados dos testes, destacando quaisquer problemas encontrados e como foram resolvidos. Inclua observações sobre o desempenho do relatório nas diferentes versões do sistema.
+
+- **Recomendações para Usuários:**  
+  Forneça recomendações para os usuários sobre qual versão do sistema utilizar para obter os melhores resultados com o relatório.
+
+## 15. Histórico de Modificações:
+- **Registro de Alterações:**  
+  Histórico de todas as mudanças feitas na estrutura ou nos parâmetros do relatório, incluindo datas e descrições.
+
+## 16. Contato e Suporte:
+- **Assistência Técnica:**  
+  Informações de contato para suporte técnico relacionado ao relatório.
+
+## 17. Documentos Relacionados:
+- **Links Úteis:**  
+  Links para outras documentações ou dados que complementam ou se relacionam com o relatório.
+<FIM Padrão de análise>
