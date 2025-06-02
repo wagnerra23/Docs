@@ -1,0 +1,50 @@
+Pergunta: Não é possível arquivar nota na manifestação do destinatário
+Resposta: 
+1. No momento da seleção das notas deixe a caixa “Situação” desmarcada
+Tag:
+***
+Pergunta: Na Manifestação do Destinatário é retornado erro ao efetuar a Ciência da Operação
+Resposta: 
+1. Fechar o sistema e abrir novamente
+2. Posteriormente, cheque se o certificado digital está configurado no sistema e se este não está expirado
+3. Essa informação pode ser encontrada na parte superior esquerda da tela
+4. A operação de ciência pode ser efetuada em até 10 dias a partir da data de autorização da NFe
+5. Passado do prazo estabelecido pela SEFAZ, é necessário baixar o XML da nota através de sua chave de acesso 
+6. Acesse o site https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=7PhJ+gAVw2g= e efetue o download do arquivo xml
+7. Lembrando que para baixar o arquivo é necessário ter o certificado digital instalado na máquina
+8. Uma vez baixado o arquivo xml, realize sua importação através do módulo "Compra", acessando a opção "Importar XML- Arquivo"
+Tag: Manifestação do Destinatário - Compras
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

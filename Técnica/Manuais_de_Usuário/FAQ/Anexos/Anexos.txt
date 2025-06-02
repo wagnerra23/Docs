@@ -1,0 +1,128 @@
+Pergunta: Porque arquivos inseridos na aba anexos não estão aparecendo nas outras máquinas ?
+Resposta: 
+1. A função de compartilhamento de pastas na rede deve estar ativa nas máquinas
+2. A pasta "Fotos" (C:\WR Sistema\Fotos) do servidor deve ter sido compartilhada
+3. Uma vez realizado o compartilhamento, acesse a aba “Anexos” do cadastro desejado
+4. Clique no ícone de engrenagem para exibir as configurações dos anexos
+5. Verifique se a opção “Pasta na Rede” está selecionada
+6. Cheque se nos campos “Caminho server” e "Caminho Local" está especificado o caminho da pasta no servidor onde serão salvos os arquivos
+7. Exemplo do caminho: “\\NOMEOUIPDOSERVIDOR\Fotos\”
+8. Realize os ajustes necessários e clique em "Tentar Conectar" para testar a conexão
+9. Posteriormente, basta arrastar os arquivos para o bloco de anexos desejado
+10. Caso os arquivos ainda não sejam exibidos nas outras máquinas entre em contato com a equipe de suporte
+Tag: Produto – Contatos – Venda – Pedido de Venda – Proposta - Produção 
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
