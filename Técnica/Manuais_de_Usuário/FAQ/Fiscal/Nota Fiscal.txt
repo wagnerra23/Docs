@@ -1,0 +1,193 @@
+***
+Pergunta: É possível alterar os dados da nota fiscal após sua emissão?
+Resposta: 
+1. Após a emissão, dependendo do dado a ser alterado, é possível emitir uma carta de correção.
+2. Para saber quais informações podem ser modificadas é necessário entrar em contato com sua contabilidade 
+Tag:
+***
+Pergunta: Não encontro a nota fiscal 
+Resposta: 
+1. Acesse o módulo "Fiscal" e selecione a opção "Notas Fiscais"
+2. Aberta a tela verifique se o "Período" selecionado está correto 
+3. Cheque se os filtros "Tipo" e "Situação" estão marcados corretamente
+4. Em casos de multiplas empresas, cheque qual está selecionada no campo "Empresa"
+5. Se ainda não estiver encontrando  a nota, é possível que tenha sido excluída do sistema
+6. Neste caso, entre em contato com o suporte técnico
+Tag: NFC-e, NFS-e 
+***
+Pergunta: Como fazer uma carta de correção?
+Resposta: 
+1. Acesse o módulo "Fiscal" e selecione a opção "Notas Fiscais"
+2. Localize a nota e clique com o botão direito sobre ela
+3. Selecione a opção "Carta de Correção"
+4. Após a abertura da tela, insira qual será a informação a ser considerada na nota
+5. Antes de confirmar o envio, contate sua contabilidade para verificar quais informações podem ser corrigidas via Carta de Correção Eletrônica(CC-e)
+Tag:
+***
+Pergunta: Estão faltando numerações na sequência das notas fiscais
+Resposta: 
+1. Durante a emissão de nota o número do campo "Nota Fiscal" não deve ser apagado
+2. Caso isso ocorra, na próxima tentativa de emissão o sistema irá preencher o campo com o próximo número de nota
+Resposta deve ser elaborada para a versão anterior(Pré-visualizar)
+Tag: NF-e - NFC-e
+***
+Pergunta: Como posso definir a observação utilizada nas notas fiscais?
+Resposta: 
+ 1. Acesse o módulo "Empresa" e clique em "Sua Empresa"
+ 2. Aberta a tela, dê duplo clique para abrir o cadastro da empresa
+ 3. Localize a aba  "DFe(NF-e / NFC-e)"
+ 4. Clique em "Geral" para visualizar o campo "Simples Nacional NFe"
+ 5. Insira a observação desejada no campo e clique em "Confirmar"
+ 6. A observação padrão será exibida ao "Recalcular Impostos", processo efetuado automaticamente pelo sistema no momento da emissão da nota.
+Tag: NFC-e, NF-e
+***
+Pergunta: Após confirmada a carta de correção no sistema, ela não aparece na SEFAZ
+Resposta: 
+1. Isso se deve ao tempo de processamento da carta de correção eletrônica (CCE) pela SEFAZ
+2. Basta aguardar alguns minutos e consultar novamente a chave de acesso da nota para visualizar o evento
+Tag:
+***
+Pergunta: Não encontro a nota fiscal na consulta de notas 
+Resposta: 
+1. Cheque se o “Período” selecionado está correto
+2. Cheque também se os  filtros “Tipo” e “Situação” estão marcados
+3. Se a nota fiscal não for exibida na consulta a mesma foi excluída do sistema
+4. Necessário entrar em contato com a equipe de suporte
+Tag: NF-e - NFC-e
+***
+Pergunta: Após a emissão da nota a mesma apresenta o status Desconhecida
+Resposta: 
+1. Mensagem exibida quando o servidor da SEFAZ apresenta instabilidade e não envia o retorno da nota
+2. Aguarde alguns minutos 
+3. Realize a consulta da nota através do clique com o botão direito, selecionando a opção “Consultar na SEFAZ”
+Tag: NF-e - NFC-e
+***
+Pergunta: Qual é o limite de produtos que pode ser inserido na nota fiscal?
+Resposta:  
+1. Até o momento a SEFAZ permite a inserção de até 990 produtos na nota fiscal
+Tag: NF-e - NFC-e
+***
+Pergunta: Consigo emitir uma nota fiscal conjugada?
+Resposta: 
+1. Sim. É possível desde que seu município esteja em acordo com a SEFAZ para a emissão deste tipo de nota
+2. Após a confirmação é necessário a obtenção dos dados de tributação da emissão
+3. Posteriormente, é só entrar em contato com a equipe de suporte para que as configurações sejam realizadas
+Tag: NF-e - NFS-e
+***
+Pergunta:  Como alterar o modelo de impressão da nota fiscal?
+Resposta: 
+1. O layout da nota fiscal é padrão da Secretaria da Fazenda (SEFAZ)
+2. Portanto não é possível realizar alterações
+Tag: NF-e
+***
+Pergunta: Quanto tempo leva para a SEFAZ autorizar as notas após a emissão?
+Resposta: 
+1. O tempo médio de autorização de uma nota pela Secretaria da Fazenda é de geralmente um segundo
+2. Contudo, esse tempo de resposta pode variar de acordo com o volume de transmissões sendo processadas no momento e a disponibilidade do sistema autorizador
+3. Instabilidades na conexão de rede também eleva o tempo de autorização da nota
+Tag:
+***
+Pergunta: Como visualizar as notas emitidas?
+Resposta: 
+1. No módulo "Fiscal" acesse a opção "Notas Fiscais"
+2. Aberta a tela marque no bloco "Tipo" os tipos de nota a serem visualizados (NFE - NFSe - NFCe)
+3. No bloco "Situação" selecione a situação das notas a serem visualizadas
+4. Informe o período de emissão no campo "Período" 
+5. Clique em "Pesquisar" para que as notas emitidas sejam exibidas 
+6. Caso exista mais de uma empresa cadastrada selecione a desejada no campo "Empresa"
+7. Ainda é possível realizar a busca através do número da nota fiscal, preenchendo o campo "Número da Nota"
+8. Ou através do código da venda, preenchendo o campo "Cód da Venda"
+9. Para visualizar a nota basta dar duplo clique sobre ela
+Tag: NF-e - NFS-e -NFC-e
+***
+Pergunta: Preciso enviar as notas para a contabilidade
+Resposta: 
+1. No módulo "Fiscal" acesse a opção "Notas Fiscais"
+2. Aberta a tela marque no bloco "Tipo" os tipos de nota a serem enviados
+3. No bloco "Situação" selecione a situação das notas a serem enviadas
+4. Informe o período de emissão no campo "Período" 
+5. Clique em "Pesquisar" para que as notas emitidas sejam exibidas 
+6. No canto superior direito da tela marque a opção "Filtrar para a Contabilidade"
+7. Caso o envio de e-mail esteja habilitado no sistema, clique em "Enviar para a Contabilidade"
+8. Será aberta a tela de envio de email
+9. O contador precisa ter sido informado no cadastro de empresa e a configuração do e-mail realizada pela equipe de suporte
+10. Caso não saiba como realizar o cadastro do contador clique [AQUI] para visualizar as instruções
+11. Posteriormente basta clicar em "Enviar" para finalizar o processo
+12. Se o provedor de e-mail não possibilitar o envio de e-mail por software de terceiros, siga a instrução abaixo
+13. Clique em "Salvar" para que o sistema reuna todas as notas em um único arquivo
+14. Informe o nome do arquivo e selecione o local onde ele será salvo
+15. Finalize o processo clicando em "Salvar"
+16. Dessa forma o arquivo ficará disponível para ser enviado por outros meios
+Tag: Nota Fiscal - Envio Contabilidade
+***
+Pergunta: O que é necessário para emissão de nota fiscal? 
+Resposta: 
+1. Primeiramente é necessário que a empresa esteja habilitada para emissão de nota fiscal
+2. Posteriormente, a contabilidade deve ser contatada para gerar o arquivo digital e informar os dados de tributação a serem utilizados pela empresa
+3. No sistema, certifique-se de que os produtos cadastrados estejam com o campo "NCM" preenchido
+4. Essa informação é uma exigência da SEFAZ na emissão de notas
+5. Em dúvida de como cadastrar o NCM em seus produtos clique [AQUI]
+6. Configure o certificado digital no cadastro de empresa [AQUI] 
+6. Insira os dados de tributação no sistema conforme as instruções [AQUI]
+7. Ou entre em contato com o suporte do sistema para solicitar a configuração dos dados de tributação
+8. Caso a empresa já tenha emitido nota, é necessário verificar com a contabilidade qual foi o último número utilizado
+9. Posteriormente, o próximo número correto de nota deve ser informado no sistema. Veja [AQUI]
+10. Seguidos os passos anteriores, basta abrir o cadastro da venda desejada e emitir a nota [AQUI]
+Tag: Nota Fiscal
+***
+Pergunta: O que fazer se o certificado digital expirar?
+Resposta: 
+Tag:
+***
+Pergunta: É obrigatório o uso do certificado digital A1?
+Resposta: 
+Tag:
+***
+Pergunta: Como inserir o logotipo da empresa na nota fiscal?
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

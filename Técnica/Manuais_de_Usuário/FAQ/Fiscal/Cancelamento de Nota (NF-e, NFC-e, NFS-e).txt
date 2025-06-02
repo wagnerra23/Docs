@@ -1,0 +1,98 @@
+Pergunta: Como efetuar o cancelamento de uma nota fiscal?
+Resposta:
+1. O cancelamento pode ser feito de duas formas
+2. No cadastro da venda selecione a aba "Nota Fiscal"
+3. Clique sobre a nota autorizada com o botão direito do mouse
+4. Utilize a opção "Cancelar Nota"
+5. Preencha o campo "Motivo" e confirme para enviar o evento de cancelamento
+6. O segundo modo é acessar o menu "Fiscal" e selecionar a opção "Notas Fiscais"
+7. Aberta a tela, localize a nota desejada
+8. Clique sobre ela com o botão direito do mouse
+9. Selecione a opção "Cancelar Nota"
+10. Preencha o campo "Motivo" e confirme para enviar o evento de cancelamento
+11. Vale lembrar que o cancelamento somente será possível se estiver dentro do prazo definido pela SEFAZ
+12. Sendo este: 24 horas para NF-e, 30 minutos para NFC-e e para NFS-e o cancelamento é efetuado diretamente pelo site da respectiva prefeitura. 
+13. Passado o prazo de cancelamento, contate sua contabilidade
+Tag: NFC-e - NF-e - NFS-e
+***
+Pergunta: Passado o prazo de cancelamento da nota fiscal a contabilidade realizou o cancelamento extemporâneo. Como proceder para cancelar a nota no sistema?
+Resposta: 
+1. No cancelamento extemporâneo é gerado um protocolo que permite o cancelamento da nota fora do prazo legal
+2. No sistema o processo para cancelamento não muda
+2. Acesse o menu "Fiscal" e selecione a opção "Notas Fiscais"
+3. Aberta a tela de notas, localize a nota desejada
+4. Clique sobre ela com o botão direito do mouse
+5. Selecione a opção "Cancelar Nota"
+6. Preencha o campo "Motivo" e confirme para enviar o evento de cancelamento
+Tag:
+***
+Pergunta: Ao realizar o cancelamento da nota é retornada a mensagem: Rejeição 578: A data do evento não pode ser maior que a data do Processamento 
+Resposta: 
+1. Mensagem exibida quando o horário de envio do evento de cancelamento é superior ao horário do servidor da SEFAZ
+2. Neste caso cheque o horário da máquina servidor
+3. Realize o ajuste necessário
+4. Efetue o cancelamento novamente
+Tag: NF-e - NFC-e
+***
+Pergunta: Ao emitir a nota é exibida a mensagem: Rejeição 12002: Timeout
+Resposta: 
+1. Mensagem retornada quando existe instabilidade no servidor da SEFAZ
+2. Aguarde alguns minutos antes de realizar uma nova emissão
+Tag:
+***
+Pergunta: É possível cancelar uma NFS-e já autorizada? Em qual prazo?
+Resposta: 
+1. O cancelamento de NFS-e deve ser feito diretamente pelo site da prefeitura
+Tag: NFS-e - Cancelamento
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+
+

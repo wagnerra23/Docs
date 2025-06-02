@@ -1,0 +1,131 @@
+***
+Pergunta: Como altero a alíquota de um serviço?
+Resposta: 
+1. No módulo "Produto" acesse a opção "Serviços"
+2. Dê duplo clique sobre o serviço desejado para abrir seu cadastro
+3. Selecione o bloco "Tributos"
+4. Clique no campo "Código do NCM" e tecle F3 para acessar o cadastro do NCM
+5. No campo "ISS Município" realize a alteração da alíquota
+6. Confirme a alteração e feche o cadastro do NCM
+7. Retornando ao cadastro do serviço, basta finalizar o processo clicando em "Confirmar"
+Tag: NFS-e - Alíquota
+***
+Pergunta:  O que é necessário para emissão de nota fiscal de serviço?
+Resposta: 
+1. É necessário primeiramente contatar a prefeitura de seu município para verificar se a mesma autoriza a emissão de notas de serviço por softwares de terceiros
+2. Caso seja permitido, entre em contato com a equiepe de suporte para que seja iniciado o processo de configuração
+3. Também será necessário contatar sua contabilidade para obter os dados de tributação para a emissão (CNAE, Código de Serviço, CFOP e CST)
+Tag:
+***
+Pergunta: É possível emitir nota para clientes de outros municípios?
+Resposta: 
+1. Sim, é possível emitir Nota Fiscal de Serviços Eletrônica (NFS-e) para clientes de outros municípios
+2. Somente se atente em qual município será cobrado os impostos para que os mesmos se adequem dentro da lei
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

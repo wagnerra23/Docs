@@ -1,0 +1,143 @@
+***
+Pergunta: Como inutilizar numerações de notas fiscais?
+Resposta:  
+1. Acesse o módulo "Fiscal"
+2. Selecione a opção "Notas Fiscais"
+3. Aberta a tela, na parte superior esquerda da tela clique em "Nota Fiscal"
+4. Selecione “Inutilizar Numeração”
+5. Uma vez aberta a tela, preencha os campos necessários 
+6. No campo "Modelo" preencha com o número “65” para NFC-e e “55” para NF-e
+6. No caso de inutilização de uma única numeração o preenchimento deve ser: Número Inicial: 115 Número Final: 115
+7. No caso de sequência de numerações: Número Inicial: 200 Número Final: 205
+8. Informe a justificativa e clique em "Confirmar" para enviar o evento
+9. Em seguida o documento será exibido na tela
+10. Salve o arquivo e envie para sua contabilidade
+11. Caso existam duas empresas cadastradas: PENDENTE
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
