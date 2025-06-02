@@ -1,0 +1,181 @@
+Pergunta: Onde encontro o histórico do produto?
+Resposta: 
+1. No módulo "Produto" acesse a tela "Consulta de Produto"
+2. Localize o produto desejado e dê duplo clique para abrir seu cadastro
+3. Clique sobre a aba "Histórico de Atividade"
+4. Dê duplo clique sobre a informação para que todo histórico seja exibido
+5. Após, clique sobre o campo "Data" para ordenar os registros e realize as verificações necessárias
+Tag:
+***
+Pergunta: Ao Confirmar o cadastro de um produto é exibida a mensagem: A descrição não pode ficar vazia ou em branco
+Resposta:
+1. Mensagem exibida quando o campo “Descrição” está vazio ou quando existe outro produto cadastrado com a mesma descrição
+2. Esta regra também vale para produtos inativos
+3. Neste caso é necessário alterar a descrição do produto, podendo por exemplo, inserir espaços extras entre as palavras
+4. Ou alterar a descrição do produto mais antigo ou inativo 
+Tag: Produto - Compra
+***
+Pergunta: É possível excluir um produto permanentemente do sistema?
+Resposta: 
+1. É possível somente inativar o produto 
+2. Dessa forma ele não será utilizado em vendas e será exibido somente se o filtro de Inativos estiver habilitado na consulta de produto para futuras conferências
+3. A inativação do produto pode ser feita de duas formas
+4. Na consulta de produto selecione o item desejado
+5. Clique com o botão direito do mouse e utilize a opção "Desativar"
+6. Ou acesse o cadastro do produto e altere o campo "Ativo" para "N"
+Tag:
+***
+Pergunta: Como cadastrar um novo produto ou serviço?
+Resposta: 
+1. O cadastro pode ocorrer manualmente ou automaticamente, através da finalização de notas de entrada
+2. Em caso de dúvidas como importar as notas de compra para o sistema, clique [AQUI]
+3. Siga os passos abaixo para efetuar o cadastro manualmente
+4. Acesse o módulo "Produto"
+5. Selecione a opção “Adicionar Produto”
+6. A tela de cadastro será aberta
+7. Informe o tipo do produto no campo "Tipo"
+8. Realize o preenchimento dos demais campos, como "Descrição", "Unidade", "R$ Custo" e "R$ Valor"
+9. Caso necessário, é possível informar o código de fábrica e  código EAN nos respectivos campos   
+10. E classificar o produto através de uma categoria. Veja [AQUI] como criar uma categoria
+11. Finalize o cadastro clicando em "Confirmar"
+Tag: Produto - Cadastro
+***
+Pergunta: É possível cadastrar mais de um fornecedor para o mesmo produto?
+Resposta: 
+1. Sim. No módulo "Produto" acesse a opção "Consulta de Produto"
+2. Localize o cadastro do produto desejado
+3. Aberto o cadastro selecione o bloco "Estoque" 
+4. Clique na aba “Fornecedor”
+5. Dois campos serão exibidos
+6. Em "Fornecedor Principal" indique o fornecedor padrão para o produto
+7. Clique no botão "..." para abrir a consulta de pessoas e selecionar o fornecedor
+8. No bloco "Outros Fornecedores" defina um segundo fornecedor para o produto
+9. Clique no botão "..." para abrir a consulta de pessoas e selecionar o segundo fornecedor
+10. Realizadas as modificações confirme para salvar as informações
+Tag: Produto - Fornecedor
+***
+Pergunta: Como alterar o tipo de um item já cadastrado?
+Resposta: 
+1. No módulo "Produto" acesse a "Consulta de Produto"
+2. Selecione o cadastro desejado
+3. Clique em "Migrar Tipo"
+4. Aberta a janela informe nos campos "Classificação" e "Tipo de Produto" qual será o novo tipo do item
+5. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como alterar os dados de um produto já cadastrado?
+Resposta: 
+1. No módulo "Produto" acesse a opção "Consulta de Produto"
+2. Localize o item desejado e dê duplo clique para abrir seu cadastro
+3. Clique em "Alterar" no painel direito da tela
+4. Realize a modificação necessária
+5. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como funciona a categoria?
+Resposta: 
+1. É possível classificar os produtos através de categorias
+2. Primeiramente deve ser criada a categoria do tipo "T" (Titulo)
+3. O tipo "T" agrupa as demais categorias analíticas "A"
+4. E por sua vez, as analíticas "A" são as classificações efetuadas dentro de uma categoria título "T"
+5. Segue o exemplo abaixo
+6. 1.0 Papelaria (T)
+7. 1.1 – Lápis (A)
+8. 1.2 – Caneta (A)
+9. 1.2.1 – Caneta Ponta Fina (A)
+10. 1.2.2 – Caneta Ponta Grossa (A)
+11. Para criar uma categoria acesse o módulo “Produto”   
+12. Selecione a opção “Categoria” para abrir a tela de consulta
+13. Clique no botão “+Novo” localizado na parte superior direita da tela para abrir um novo cadastro
+14. Abrindo a tela de cadastro preencha o campo "Descrição" 
+15. No campo "Código / Classificação" informe a sequência da categoria separando-a por números (Exemplo: 1.2.3 - Caneta Vermelha)
+16. Informe o tipo da categoria (A/T) e clique em "Confirmar" para salvar o registro
+Tag: Produto - Categoria
+***
+Pergunta: Como atualizar os preços de vários produtos ao mesmo tempo?
+Resposta: 
+1. Para garantir a segurança e precisão na gestão de preços, o  sistema adota uma abordagem que permite a alteração de valores de produtos de forma individual
+Tag: Produto - Preço
+***
+Pergunta: Como inserir a informação da marca nos produtos?
+Resposta: 
+1. No módulo "Produto" selecione a opção "Marca"
+2. Aberta a tela clique no botão “+Novo” localizado na parte superior direita da tela para abrir um novo cadastro
+3. Preencha a descrição da marca 
+4. Clique em "Confirmar" para salvar o novo registro
+5. Ainda no módulo "Produto" abra a "Consulta de Produto"
+6. Localize o item desejado e dê duplo clique para abrir seu cadastro
+7. Acesse o bloco "Dados Adicionais"
+8. No campo "Marca" clique no botão "..." 
+9. Aberta a tela de consulta selecione a marca desejada
+10. Finalize o processo clicando em "Confirmar"
+Tag: Produto - Marca
+***
+Pergunta: Como impedir que um produto seja lançado na venda? 
+Resposta: 
+1. No módulo "Produto" acesse a "Consulta de Produto"
+2. Localize o cadastro do produto desejado e dê duplo clique para abrí-lo
+3. Selecione o bloco "Custo e Formação de Preço"
+4. Desmarque a opção "Pode Vender"
+5. Salve a alteração clicando em "Confirmar"
+Tag:
+***
+Pergunta: Posso aplicar uma observação no produto? 
+Resposta: 
+1. Sim, é possível 
+2. A observação será exibida na consulta de produto caso a opção "Exibir Observação do Produto" esteja habilitada
+3. Para encontrar essa função basta clicar com o botão direito do mouse na consulta de produto
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+Tag:
+***
+Pergunta: Como visualizar a informação do produto na consulta? 
+Resposta: 
+Tag:
+***
+Pergunta: Como visualizar a movimentação do produto? 
+Resposta: 
+Tag:
+***
+Pergunta: Posso visualizar as compras do produto? 
+Resposta: 
+Tag:
+***
+Pergunta: Como realizar um ajuste manual do estoque de um produto? 
+Resposta: 
+Tag:
+***
+Pergunta: É possível aplicar um valor mínimo ao produto?
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

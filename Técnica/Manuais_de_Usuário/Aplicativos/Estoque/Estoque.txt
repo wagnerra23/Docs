@@ -1,0 +1,124 @@
+***
+Pergunta: Ao acessar o cadastro do produto o ícone de estoque não aparece
+Resposta: 
+1. Na tela de cadastro selecione o bloco "Custos e Formação de Preço"
+2. Marque a opção "Movimenta Estoque" e confirme a alteração
+3. Reabra a tela de cadastro e verifique se o ícone é exibido
+4. Se a função ainda não for exibida, o usuário não tem a permissão para acessá-la
+5. Neste caso o responsável da empresa poderá realizar a liberação ou a equipe de suporte mediante a solicitação do responsável
+Tag: Estoque - Produto
+***
+Pergunta: Como habilitar a opção de controle de estoque para um produto?
+Resposta: 
+1. O processo pode ser feito de duas formas
+2. Na primeira acesse o cadastro do produto desejado
+3. Selecione o bloco "Estoque"
+4. Localize a aba "Geral"
+5. Habilite a opção "Controla Estoque"
+6. Clique em "Confirmar" para salvar a alteração
+7. A segunda forma seria na consulta de produto
+8. Clique no ícone [url mini tutorial] para habilitar a configuração "Controla Estoque?"
+9. Clique sobre o a coluna habilitada e arraste para cima para realizar o agrupamento
+10. Na lateral esquerda tela serão exibidas os blocos "N", "S" e "Vazio"
+11. Localize o produto desejado  
+12. Clique sobre ele e arraste para o bloco "S"
+13. Dessa forma a configuração de controle de estoque será aplicada ao item 
+Tag: Produto - Estoque
+***
+Pergunta: Como controlar a entrada e saída de matérias-primas no almoxarifado?
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

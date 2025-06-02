@@ -1,0 +1,100 @@
+***
+Pergunta: O que é a situação de produção?
+Resposta: 
+1. Situação é uma forma de organizar o processo de produção na empresa
+2. Dispara uma "Ação" sobre o item, podendo esta exigir o preenchimento de um motivo
+Tag:
+***
+Pergunta: Como encaminhar o pedido para a equipe de produção?
+Resposta: 
+Tag:
+***
+Pergunta: Como acompanhar o andamento do pedido nas etapas de produção?
+Resposta: 
+Tag:
+***
+Pergunta: Como emitir ordens de produção para fabricação dos itens?
+Resposta: 
+Tag:
+***
+Pergunta: É possível vincular ordens de produção diretamente a vendas ou pedidos de clientes?
+Resposta: 
+Tag:
+***
+Pergunta: Ao finalizar a produção, como atualizar o estoque do produto acabado no sistema?
+Resposta: 
+Tag:
+***
+Pergunta: Como consultar o histórico de alterações em uma ordem de produção?
+Resposta: 
+Tag:
+***
+Pergunta: Como cancelar uma ordem caso a produção não tenha sido iniciada?
+Resposta: 
+Tag:
+***
+***
+Pergunta: Como excluir uma ordem caso a produção não tenha sido iniciada?
+Resposta: 
+Tag:
+***
+Pergunta: Como duplicar uma ordem de produção para agilizar o processo?
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

@@ -1,0 +1,405 @@
+***
+Pergunta: Ao realizar um novo lançamento no caixa, é exibida a mensagem: Não existe saldo suficiente para o lançamento.
+Resposta: 
+1. Verifique se o tipo de pagamento do lançamento possui saldo suficiente em caixa
+2. Exemplificando: Realizado um lançamento do tipo Pago, em dinheiro, no valor de 200,00
+3. No caixa deverá existir saldo suficiente do “Tipo de Pagamento: Dinheiro” para cobrir este pagamento
+Tag:
+***
+Pergunta: No caixa está aparecendo um registro com a descrição “Baixa de crédito”
+Resposta: 
+1. O cliente possuía valor de crédito em seu cadastro e este foi utilizado(pago) na respectiva venda
+Tag:
+***
+Pergunta:  Ao realizar o fechamento do caixa, foi realizada a sangria do valor total, esquecendo de manter o valor inicial para o dia seguinte
+Resposta: 
+1. Caso após o fechamento do caixa ainda não tenha sido aberto nenhum outro caixa utilize a opção "Reabrir Caixa"
+2. Clique em "Novo" para criar um novo lançamento de estorno do tipo "Recebido"
+3. Insira o valor que deveria constar em caixa e clique em "Confirmar"
+4. Prossiga com o fechamento do caixa
+5. Se houver outro caixa em aberto, não será possível realizar a reabertura do caixa anterior
+6. Dessa forma, o lançamento de estorno deverá ser efetuado no último caixa aberto
+Tag:
+***
+Pergunta: Como realizar lançamentos de entrada e saída de dinheiro no caixa?
+Resposta: 
+1. No módulo "Financeiro" acesse a opção "Caixas"
+2. Selecione o caixa desejado
+3. Aberta a tela crie um novo lançamento através do botão "Novo"
+4. No campo "Código ou descrição do responsável" clique no botão "..." para abrir a consulta de pessoas 
+5. Selecione o cadastro da pessoa a quem será realizado o pagamento/recebimento
+6. Caso essa não esteja cadastrada no sistema, basta inserir o nome no campo
+7. No campo "Código da Condição de Pagamento" clique no botão "..." para indicar a condição de pagamento
+8. Em "Tipo de Pagamento" clique na seta para selecionar o tipo de pagamento
+9. Informe se foi um recebimento ou pagamento no campo "Tipo de Lançamento"
+10. No campo "Valor" informe qual foi o valor da operação
+11. Informe a data de vencimento e pagamento nos campos "Dt Vencimento" e "Dt Pagamento"
+12. O preenchimento dos demais campos é opcional
+13. Mas vale lembrar que para futuras análises é recomendável o preenchimento do maior número de campos possível
+14. Clique em "Confirmar" para salvar o lançamento
+14. Parcelas recebidas ou pagas que receberam o código do caixa e foram faturadas serão lançadas automaticamente
+Tag:
+***
+Pergunta: Como realizar a abertura do caixa?
+Resposta: 
+1. No módulo "Financeiro" acesse a opção "Caixas"
+2. Selecione o caixa desejado
+3. Aberta a tela clique no botão "Abrir Caixa"
+Tag:
+***
+Pergunta: Como realizar o fechamento do caixa?
+Resposta: 
+1. No módulo "Financeiro" acesse a opção "Caixas"
+2. Selecione o caixa desejado
+3. Aberta a tela, verifique se existem lançamentos do tipo "Boleto", "Cartão de Crédito", "Cartão de Débito", "Cheque" e "Pix"
+4. Caso existam, todos esses lançamentos precisam ser transferidos para a conta bancária, uma vez que no caixa somente ficam os valores em dinheiro
+5. Para realizar a transferência clique em "Transferir"
+6. Aberta a tela marque a opção "Cheque/Cartão/Pix"
+7. No campo "Conta de Destino" clique no botão "..." para selecionar a conta bancária para onde serão transferidos os valores
+8. Caso a conta ainda não tenha sido cadastrada no sistema, efetue o cadastro conforme indicado [AQUI]
+9. Selecione todos lançamentos a serem transferidos e clique em "Transferir"
+10. Posteriormente clique em "Fechar Caixa"
+11. Será exibida uma janela para informar o valor de Sangria
+12. Sangria será o valor em dinheiro a ser retirado do caixa em seu fechamento
+13. Informe o valor e finalize o processo clicando em "Fechar Caixa"
+Tag:
+***
+Pergunta: Como alterar o saldo inicial do caixa?
+Resposta: 
+1. No módulo "Financeiro" acesse a opção "Caixas"
+2. Selecione o caixa desejado
+3. Aberta a tela clique na opção "Alterar Valor Inicial"
+4. No campo "R$ Valor" informe qual é o valor inicial correto do caixa
+5. Clique em "Confirmar" para finalizar o processo
+Tag:
+***
+Pergunta: Como emitir relatórios de caixa?
+Resposta: 
+1. Na tela do caixa clique no ícone de impressora para gerar o relatório
+Tag:
+***
+Pergunta: Como realizar transferências no caixa?
+Resposta: 
+1. Na tela do caixa selecione a opção "Transferir"
+2. Em "Transferir" marque qual será o tipo de lançamento a ser transferido (Dinheiro/Cheque/Cartão/Pix)
+3. No campo "Conta de Destino" indique qual será a conta a receber o valor
+4. Informe o valor a ser transferido no campo "Valor a ser Transferido"
+5. Para finalizar o processo basta clicar em "Transferir"
+Tag:
+***
+Pergunta: Como fazer reforço de caixa?
+Resposta: 
+1. Na tela do caixa clique em "Novo" para criar um lançamento
+2. No campo "Código ou Descrição do Responsável" informe "Reforço de Caixa"
+3. Preencha o campo "Código da Condição de Pagamento"
+3. Em "Tipo de Lançamento" selecione "Recebida"
+4. Em "Tipo de Pagamento" selecione "Dinheiro"
+5. Informe qual é o valor que está entrando no campo "Valor"
+6. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta: Existe algum limite no número de caixas?
+Resposta: 
+1. Não. Atualmente não existe uma limitação no número de caixas
+Tag:
+***
+Pergunta: Como criar um novo caixa?
+Resposta: 
+1. No módulo "Financeiro" acesse a opção "Caixas&Contas Bancárias"
+2. Clique em "+Novo" para criar um novo cadastro
+3. Preencha o campo "Descrição" com o nome do caixa
+4. No campo "Tipo da Conta" seleciona a opção "Caixa"
+5. No caso de múltiplas empresas indique no campo "Empresa" a qual empresa o caixa será vinculado
+6. Finalize o cadastro clicando em "Confirmar"
+Tag:
+***
+Pergunta: Como acessar o histórico da parcela no caixa?
+Resposta: 
+1. Na tela do caixa clique sobre o lançamento desejado
+2. Clique com o botão direito do mouse e selecione a opção "Visualizar histórico da Parcela"
+3. Posteriormente será aberta a tela com as modificações realizadas na parcela
+4. Dê duplo clique sobre a alteração desejada para acessar o detalhamento do histórico
+Tag: Histórico - Caixa
+***
+Pergunta: Como acessar a venda da parcela recebida no caixa?
+Resposta: 
+1. Na tela do caixa clique sobre a parcela desejada
+2. Selecione a opção "Visualizar Pedido"
+3. Caso o usuário tenha permissão, o cadastro da venda será aberto
+Tag:
+***
+Pergunta: Como acessar caixas de dias anteriores? 
+Resposta: 
+1. Na tela do caixa clique em "Consultar"
+2. A consulta de caixas será aberta
+3. Busque pela data de abertura do caixa
+4. Ou visualize todos os caixas  
+5. Localizado o caixa desejado basta dar duplo clique para abrí-lo
+Tag: Consulta de Caixas
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:

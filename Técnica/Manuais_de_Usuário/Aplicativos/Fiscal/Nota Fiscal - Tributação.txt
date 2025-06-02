@@ -1,0 +1,426 @@
+Pergunta: Campos de CST e CFOP estão em vermelho no cadastro da venda
+Resposta: 
+1. Após a inserção de todos os produtos na venda, realize uma rápida verificação
+2. Na Aba "Produtos / Serviços" clique com o botão direito do mouse e selecione a opção → Nota Fiscal → Calcular todos os impostos
+3. Verifique se os campos foram preenchidos
+4. Caso não aconteça, as verificações abaixo precisam ser efetuadas
+5. Acesse o cadastro do produto e clique sobre o bloco "Tributos"
+6. Cheque se o campo "Cód. Grupo imposto" está preenchido"
+7. Estando preenchido, vá ao módulo "Fiscal" e acesse a opção "Natureza da Operação"
+8. Acesse o cadastro correspondente ao tipo de venda que está sendo efetuado
+9. Na aba "Grupos Vinculados" observe se o grupo informado no produto está listado
+10. Caso não esteja, clique sobre o campo "Código do produto" e selecione o grupo de produto desejado
+11. Clique na seta para baixo para lançar o grupo na listagem
+12. Preencha as informações de CST, CFOP Dentro do Estado, CFOP Fora do Estado e Consumidor Final
+13. Importante lembrar que caso a emissão de notas ocorra para ambos tipos de consumidor será necessário criar duas configurações de tributação por grupo de produto
+14. Finalizado o preenchimento, clique em "Confirmar" para salvar as alterações
+15. Após, é necessário verificar se o tipo de venda selecionado está ligado à Natureza de Operação correspondente
+16. Para isso, acesse o módulo venda e clique na opção "Tipo de Venda"
+17. Acesse o cadastro correspondente e cheque se o campo "Natureza de Operação" está preenchido corretamente
+18. Feitas as correções, retorne ao cadastro da venda
+19. Mude o campo "Tipo", confirme e alterne novamente para o tipo de venda correto para que as informações sejam atualizadas
+20. Após, na aba "Produtos/Serviços" clique com o botão direito do mouse e selecione a opção → Nota Fiscal → Calcular todos os impostos
+21. Preenchidos os campos, basta prosseguir com a emissão
+Tag: Venda – NF-e – NFC-e - NFS-e – Produto
+***
+Pergunta: Ao inserir a tributação nos produtos na emissão da nota fiscal os dados são alterados
+Resposta: 
+1. Na emissão, a tributação definida no cadastro da natureza de operação é aplicada aos produtos
+2. Caso a tributação de um produto seja modificada manualmente é necessário marcar a opção "Não recalcular impostos na Impressão da nota"
+3. Para localizar essa opção clique com o botão direito do mouse sobre o produto que teve a tributação alterada e selecione a opção "Ver Detalhes"
+4. Aberta a tela clique na aba "Tributação – Dados Fiscais e Impostos"
+5. Marque a opção "Não recalcular impostos na Impressão da nota" e clique em "Confirmar"
+6. Dessa forma, a tributação inserida manualmente não será substituída pela configurada na natureza de operação
+Tag: Venda – NF-e - NFC-e 
+***
+Pergunta: Preciso cadastrar o código NCM no produto, mas ele não aparece na lista
+Resposta:
+1. No cadastro do produto feche a tela de consulta de NCM
+2. Digite o código desejado no campo “Código do NCM”
+3. Clique em “Confirmar” para salvar a alteração
+Tag: Produto - NF-e - NFC-e
+***
+Pergunta: Na emissão da nota fiscal é exibida a mensagem: Falha na validação dos dados da nota: <det nItem ='1'> CFOP Nenhum valor informado ou Conteúdo inválido.
+Resposta: 
+1. Após a inserção de todos os produtos na venda, realize uma rápida verificação
+2. Na Aba "Produtos / Serviços" clique com o botão direito do mouse e selecione a opção → Nota Fiscal → Calcular todos os impostos
+3. Verifique se os campos foram preenchidos
+4. Caso não aconteça, as verificações abaixo precisam ser efetuadas
+5. Acesse o cadastro do produto e clique sobre o bloco "Tributos"
+6. Cheque se o campo "Cód. Grupo imposto" está preenchido"
+7. Estando preenchido, vá ao módulo "Fiscal" e acesse a opção "Natureza da Operação"
+8. Acesse o cadastro correspondente ao tipo de venda que está sendo efetuado
+9. Na aba "Grupos Vinculados" observe se o grupo informado no produto está listado
+10. Caso não esteja, clique sobre o campo "Código do produto" e selecione o grupo de produto desejado
+11. Clique na seta para baixo para lançar o grupo na listagem
+12. Preencha as informações de CST, CFOP Dentro do Estado, CFOP Fora do Estado e Consumidor Final
+13. Importante lembrar que caso a emissão de notas ocorra para ambos tipos de consumidor será necessário criar duas configurações de tributação por grupo de produto
+14. Finalizado o preenchimento, clique em "Confirmar" para salvar as alterações
+15. Após, é necessário verificar se o tipo de venda selecionado está ligado à Natureza de Operação correspondente
+16. Para isso, acesse o módulo venda e clique na opção "Tipo de Venda"
+17. Acesse o cadastro correspondente e cheque se o campo "Natureza de Operação" está preenchido corretamente
+18. Feitas as correções, retorne ao cadastro da venda
+19. Mude o campo "Tipo", confirme e alterne novamente para o tipo de venda correto para que as informações sejam atualizadas
+20. Após, na aba "Produtos/Serviços" clique com o botão direito do mouse e selecione a opção → Nota Fiscal → Calcular todos os impostos
+21. Preenchidos os campos, basta prosseguir com a emissão
+Tag: Venda - NF-e - NFC-e
+***
+Pergunta: Como configurar alíquotas para emissão de nota fiscal?
+Resposta: 
+1. No módulo "Fiscal" acesse a opção "Natureza da Operação"
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Verifique se a aba "Grupos Vinculados" está ativa
+4. Caso esteja é necessário configurar a tributação em cada grupo
+5. Selecione o grupo onde será aplicada a tributação
+6. Clique na aba "Configuração de Impostos"
+7. No canto esquerdo da tela informe para qual tipo de consumidor a configuração será aplicada
+8. No campo "Calcular o ICMS" selecione "Sim"
+9. Em "Modalidade de Cálculo BC" selecione "Valor da Operação"
+10. Insira a alíquota informada por sua contabilidade no campo "Alíquota do ICMS"
+11. Caso exista Substituição Tributária siga os passos abaixo
+12. No campo "Calcular ICMS ST" selecione "Sim"
+13. Em "Modalidade de Cálculo BC ST" selecione "Valor da Operação"
+14. Deixe o campo "Percentual de Redução da BC ST" vazio
+15. No campo "Percentual de MVA" insira o valor informado por sua contabilidade
+16. Após, acesse a aba "Imposto por Estado"
+17. Em "Estado" informe para qual estado será configurada a substituição tributária
+18. No campo "% ICMS UF Destino" informe a alíquota do estado de destino 
+19. No campo "%ICMS" informe a alíquota do estado de origem
+20. Não é necessário preencher os campos "MVA", "Preço Pauta", "Red ICMS ST%" e "FCP%"
+21. Utilize a seta para baixo para inserir a configuração no registro
+22. Finalize o processo clicando em "Confirmar"
+23. Caso a emissão ocorra para ambos os tipos de consumidor, após finalizar o processo altere o tipo de consumidor para duplicar a configuração
+Tag:  Venda - NF-e - NFC-e
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:

@@ -1,0 +1,43 @@
+***
+Pergunta: Como gerar crédito para um cliente? 
+Resposta: 
+1. O crédito do cliente pode ser lançado de três formas
+2. A primeira é através do módulo "Contatos"
+3. Selecione a opção "Consulta de Pessoas" 
+4. Localize o cliente desejado e dê duplo clique para acessar o cadastro
+5. Clique na aba "Crediário" e selecione a opção "Crédito"
+6. Uma vez aberta a tela, utilize a opção "Lançar Crédito"
+7. Preencha os campos necessários
+8. Caso o valor já tenha sido recebido e ainda não foi lançado no sistema, marque a opção "Lança no Financeiro/Caixa como recebida"
+9. Clique em confirmar para finalizar o processo
+10. A segunda forma é lançando diretamente pela venda
+11. Aberto o cadastro da venda, certifique-se de que o cliente selecionado é o correto
+12. Clique em "Menu" e selecione a opção "Lançar Crédito"
+13. Siga os passos descritos anteriormente e finalize o processo através do "Confirmar"
+14. A terceira forma é através do caixa
+15. Aberta a tela, localize a opção "Crédito"
+16. Insira as informações e clique em "Confirmar" para finalizar o processo
+Tag:
+***
+Pergunta: Como cancelar o crédito de um cliente? 
+Resposta: 
+1. Através do módulo "Contatos" acesse o cadastro do cliente
+2. Clique na aba "Crediário" e selecione a opção "Crédito"
+3. Uma vez aberta a tela, clique sobre o crédito que deseja cancelar
+4. Utilize a opção "Cancelar Crédito"
+5. Informe a justificativa do cancelamento 
+6. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

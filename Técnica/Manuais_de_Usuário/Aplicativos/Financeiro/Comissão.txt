@@ -1,0 +1,427 @@
+Pergunta: Como inserir ou alterar o percentual de comissão? 
+Resposta: 
+1. Para inserir a informação do percentual acesse o cadastro do funcionário, representante ou agência
+2. Isso pode ser feito através do módulo "Contatos", acessando a opção "Consulta de Pessoas"
+3. Acesse a opção "Dados Adicionais"
+4. Insira o percentual de comissão no campo "Comissão para a Venda"
+5. Confirme a alteração e feche o cadastro
+Tag:
+***
+Pergunta: A parcela da comissão aparece no financeiro, mas está zerada
+Resposta: 
+1. O percentual de comissão não foi informado no cadastro do funcionário/cliente/representante ou no relatório
+2. No módulo "Financeiro" acesse a opção "Comissão - Financeiro"
+3. Dê duplo clique no relatório desejado
+4. Verifique se o campo "%Comissão" está preenchido
+5. Caso não estiver, é necessário cancelar a finalização do relatório para alterar o relatório
+6. Clique em "Cancelar" 
+7. No campo "% Comissão" informe qual será o percentual a ser calculado o valor da comissão
+8. Confira as informações
+9. Clique em "Finalizar" para enviar a parcela corrigida ao financeiro
+10. Posteriormente você pode acessar o cadastro do funcionário/cliente/representante para informar o percentual
+Tag:
+***
+Pergunta: A parcela da comissão não aparece no financeiro
+Resposta: 
+1. A parcela da comissão somente será enviada ao financeiro caso o relatório tenha sido finalizado
+2. No módulo "Financeiro" acesse a opção "Comissão - Financeiro"
+3. Dê duplo clique no relatório desejado
+4. Clique em "Finalizar"
+Tag:
+***
+Pergunta: Como funciona o processo de comissão do funcionário? 
+Resposta: 
+1. Primeiramente, é necessário que o funcionário esteja cadastrado no sistema com o tipo "Funcionário"
+2. E o percentual da comissão esteja informado em seu cadastro
+3. Para inserir a informação do percentual acesse o cadastro do funcionário
+4. Isso pode ser feito através do módulo "Contatos", acessando a opção "Consulta de Pessoas"
+5. Selecione a aba "Funcionário" e dê duplo clique no cadastro desejado para abrí-lo
+6. Na aba "Funcionário" acesse a opção "Geral"
+7. Insira o percentual de comissão no campo "Comissão para a Venda"
+8. Confirme a alteração e feche o cadastro
+9. Posteriormente, o nome do funcionário deve ser vinculado a venda
+10. Caso o login do usuário ter sido ligado ao cadastro de funcionário no sistema, ao abrir uma nova venda o funcionário será
+automaticamente vinculado. Para aprender a realizar esse vínculo, clique [AQUI]
+11. Para apontar manualmente qual funcionário receberá comissão da venda, siga os passos abaixo
+12. No cadastro da venda selecione a aba "Financeiro"
+13. Localize o campo "Código do Funcionário" e clique no botão "..." para abrir a consulta de funcionários
+14. Selecione o funcionário e confira o percentual de comissão
+15. Salve as alterações realizadas através do "Confirmar"
+16. Vale lembrar que a venda precisa ser faturada antes da geração do relatório
+17. Para a geração do relatório de comissão siga para o módulo "Financeiro" e acesse a tela "Comissão -> Comissão Financeiro"
+18. Clique em "Novo" para abrir a tela de cadastro de comissão
+19. Selecione no campo "Nome" o funcionário de que será gerada a comissão
+20. No campo "Referência" verifique se a data informada corresponde ao período a ser pago
+21. Posteriormente, clique em "Adicionar Parcelas"  
+22. Nos filtros "A Receber", "Recebida", "A Pagar", "Paga" marque o tipo da parcela que será gerada a comissão
+23. Informe o período de emissão das vendas
+24. Ao lado esquerdo da tela serão exibidos os funcionários que foram vinculados as vendas
+25. Clique no funcionário desejado para exibir as vendas 
+26. Dê duplo clique na parcela a ser incluída no relatório
+27. Ou segure a tecla Ctrl, selecione todas as parcelas desejadas e tecle "Enter" para inserí-las no relatório
+28. Caso necessária a alteração do percentual, basta clicar sobre o campo "%Comissão" e inserir a nova informação
+29. Cheque as informações e finalize o processo enviando a parcela ao financeiro através do botão "Finalizar"
+Tag:
+***
+Pergunta: Como funciona o processo de comissão de um representante? 
+Resposta: 
+1. Primeiramente, é necessário que o representate esteja cadastrado no sistema com o tipo "Representante"
+2. E o percentual da comissão esteja informado em seu cadastro
+3. Para inserir a informação do percentual acesse o cadastro do representante
+4. Isso pode ser feito através do módulo "Contatos", acessando a opção "Consulta de Pessoas"
+5. Selecione a aba "Representantes" e dê duplo clique no cadastro desejado para abrí-lo
+6. Acesse a opção "Dados Adicionais"
+7. Insira o percentual de comissão no campo "Comissão para a Venda"
+8. Confirme a alteração e feche o cadastro
+9. Posteriormente, o nome do representante deve ser vinculado a venda
+10. Para apontar manualmente qual representante receberá comissão da venda, siga os passos abaixo
+11. No cadastro da venda selecione a aba "Financeiro"
+12. Localize o campo "Código do Representante" e clique no botão "..." para abrir a consulta de representantes
+13. Selecione o representante e confira o percentual de comissão
+14. Salve as alterações realizadas através do "Confirmar"
+15. Vale lembrar que a venda precisa ser faturada antes da geração do relatório
+16. Para a geração do relatório de comissão siga para o módulo "Financeiro" e acesse a tela "Comissão -> Comissão Financeiro"
+17. Clique em "Novo" para abrir a tela de cadastro de comissão
+18. Selecione no campo "Nome" o representante de que será gerada a comissão
+19. No campo "Referência" verifique se a data informada corresponde ao período a ser pago
+20. Posteriormente, clique em "Adicionar Parcelas"  
+21. Nos filtros "A Receber", "Recebida", "A Pagar", "Paga" marque o tipo da parcela que será gerada a comissão
+22. Informe o período de emissão das vendas
+23. Ao lado esquerdo da tela serão exibidos os representantes que foram vinculados as vendas
+24. Clique no representante desejado para exibir as vendas 
+25. Dê duplo clique na parcela a ser incluída no relatório
+26. Ou segure a tecla Ctrl, selecione todas as parcelas desejadas e tecle "Enter" para inserí-las no relatório
+27. Caso necessária a alteração do percentual, basta clicar sobre o campo "%Comissão" e inserir a nova informação
+28. Cheque as informações e finalize o processo enviando a parcela ao financeiro através do botão "Finalizar"
+Tag:
+***
+Pergunta: Como funciona o processo de comissão de uma agência? 
+Resposta:
+1. Primeiramente, é necessário que a agência esteja cadastrada no sistema com o tipo "Agência"
+2. E o percentual da comissão esteja informado em seu cadastro
+3. Para inserir a informação do percentual acesse o cadastro do representante
+4. Isso pode ser feito através do módulo "Contatos", acessando a opção "Consulta de Pessoas"
+5. Localize o cadastro da agência desejada e dê duplo clique para abrí-lo
+6. Acesse a opção "Dados Adicionais"
+7. Insira o percentual de comissão no campo "Comissão para a Venda"
+8. Confirme a alteração e feche o cadastro
+9. Posteriormente, o nome do representante deve ser vinculado a venda
+10. Para apontar manualmente qual representante receberá comissão da venda, siga os passos abaixo
+11. No cadastro da venda selecione a aba "Financeiro"
+12. Localize o campo "Código do Representante" e clique no botão "..." para abrir a consulta de representantes
+13. Selecione o representante e confira o percentual de comissão
+14. Salve as alterações realizadas através do "Confirmar"
+15. Vale lembrar que a venda precisa ser faturada antes da geração do relatório
+16. Para a geração do relatório de comissão siga para o módulo "Financeiro" e acesse a tela "Comissão -> Comissão Financeiro"
+17. Clique em "Novo" para abrir a tela de cadastro de comissão
+18. Selecione no campo "Nome" o representante de que será gerada a comissão
+19. No campo "Referência" verifique se a data informada corresponde ao período a ser pago
+20. Posteriormente, clique em "Adicionar Parcelas"  
+21. Nos filtros "A Receber", "Recebida", "A Pagar", "Paga" marque o tipo da parcela que será gerada a comissão
+22. Informe o período de emissão das vendas
+23. Ao lado esquerdo da tela serão exibidos os representantes que foram vinculados as vendas
+24. Clique no representante desejado para exibir as vendas 
+25. Dê duplo clique na parcela a ser incluída no relatório
+26. Ou segure a tecla Ctrl, selecione todas as parcelas desejadas e tecle "Enter" para inserí-las no relatório
+27. Caso necessária a alteração do percentual, basta clicar sobre o campo "%Comissão" e inserir a nova informação
+28. Cheque as informações e finalize o processo enviando a parcela ao financeiro através do botão "Finalizar"
+Tag:
+***
+Pergunta: Como vincular um representante a clientes para geração de comissão?
+Resposta: 
+1. No módulo "Contatos" acesse a opção "Consulta de Pessoas"
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Na aba "Representantes" será exibido o campo "Representante Principal"
+4. Clique no botão "..." para abrir a consulta de pessoas
+5. Selecione o representante desejado para realizar o vínculo
+6. Caso exista um percentual já definido para comissão, informe no campo "Comissão"
+6. Clique em "Confirmar" para finalizar o processo
+Tag:
+***
+Pergunta: Como vincular um funcionário a clientes para geração de comissão?
+Resposta: 
+1. No módulo "Contatos" acesse a opção "Consulta de Pessoas"
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Na aba "Representantes" será exibido o campo "Funcionário"
+4. Clique no botão "..." para abrir a consulta de pessoas
+5. Selecione o funcionário desejado para realizar o vínculo
+6. Caso exista um percentual já definido para comissão, informe no campo "Comissão"
+6. Clique em "Confirmar" para finalizar o processo
+Tag:
+***
+Pergunta: Como vincular uma agência a clientes para geração de comissão?
+Resposta: 
+1. No módulo "Contatos" acesse a opção "Consulta de Pessoas"
+2. Localize o cadastro desejado e dê duplo clique para abrí-lo
+3. Na aba "Representantes" será exibido o campo "Agência"
+4. Clique no botão "..." para abrir a consulta de pessoas
+5. Selecione a agência desejada para realizar o vínculo
+6. Caso exista um percentual já definido para comissão, informe no campo "Comissão"
+6. Clique em "Confirmar" para finalizar o processo
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

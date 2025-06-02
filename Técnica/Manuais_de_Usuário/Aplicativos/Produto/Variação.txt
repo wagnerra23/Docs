@@ -1,0 +1,73 @@
+***
+Pergunta: Como criar uma variação para o produto? 
+Resposta: 
+1. É possível criar um modelo de variação para que o mesmo produto tenha preços diferenciados
+2. Para isso acessando o módulo "Produto" selecione a opção "Modelo de Variação"
+3. Aberta a tela clique em "+Novo" para abrir a tela de cadastro
+4. Insira a descrição da variação 
+5. No campo "Tipo da Grade" informe se a variação será de tamanho ou medidas
+6. Conforme o tipo selecionado insira nos campos abaixo as medidas ou tamanhos incluídos na grade
+7. Utilize a seta para baixo para inserir os registros no grid
+7. Finalizado o preenchimento clique em “Confirmar” para salvar o cadastro
+8. Posteriormente é necessário criar o produto para aplicar a variação
+9. No módulo "Produto" clique em "Variação por (Tamanho/Cor/Preço)"
+10. Aberta a tela utilize a opção "Novo" para abrir a tela de cadastro
+11. Preencha ao menos os campos iniciais como "Descrição", "Unidade" e "Valor"
+12. Localize o bloco "Montagem de Produto" e selecione "Variação"
+13. No campo “Tipo de Variação” informe se a variação será por: “Preço por Quantidade” ou “Cor e Tamanho”
+14. Ativando a opção “Filhos Tem Preço Individual” permite que no cadastro das variações do produto qualquer usuário que tenha acesso possa alterar seu preço sem a necessidade de acessar o cadastro de variação inicial
+15. Ativando a opção “Filhos Tem Descrição Individual” permite que no cadastro da variação do produto qualquer usuário que tenha acesso ao cadastro possa alterar a descrição sem a necessidade de acessar o cadastro da variação inicial
+16. Caso o “Tipo de Variação” tenha sido definido como “Preço por Quantidade” siga os passos abaixo
+17. Clique em “Adicionar’’ para abrir a tela de configurações
+18. No campo "Qual Tipo de Cálculo" informe se será Acima de X ou Até X quantidades
+19. Selecionando a opção “Até” será exibido o campo “Quantidade Inicial” 
+20. Nele informe a quantidade inicial (Exemplo: De 10 Até 30 unidades)
+20. No campo "Quantidade" informe qual será a quantidade final  
+21. No campo "Valor Inicial" será exibido o valor inicial do produto
+22. No campo "% Desconto" será exibido o percentual de desconto que será aplicado sobre o produto
+23. No campo "Valor Final" será exibido o valor final do produto conforme o preenchimento do campo desconto
+24. Ou pode ser utilizado para inserir o valor final do produto manualmente
+25. Preenchidos os campos, clique em  “Confirmar” para salvar as informações
+26. Caso o tipo de variação selecionado seja "Cor e Tamanho” siga os passos abaixo
+27. Selecione a opção "Modelo de Grade" para criar as variações do produto
+28. Selecione o modelo de grade criado anteriormente e clique em "Aplicar" 
+29. Confirme a criação das variações com "Yes"
+30. Dê duplo na variação desejada
+31. Insira o valor correto no campo "Valor Final"
+32. Faça as demais alterações necessárias 
+33. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

@@ -1,0 +1,63 @@
+***
+Pergunta: O que é necessário para começar a emitir nota fiscal de consumidor?
+Resposta:
+1. Contate sua contabilidade para verificar se a empresa está habilitada a emitir NFC-e
+2. Posteriormente, solicite a geração do arquivo CSC e certificado digital 
+3. E também os dados de tributação a serem utilizados na emissão da nota fiscal de consumidor
+4. Após, entre em contato com o suporte do sistema para obter as informações necessárias para a contabilidade 
+5. Finalizados estes processos, basta entrar em contato com a equipe de suporte para que as configurações sejam realizadas no sistema
+Tag:
+***
+Pergunta: Sou obrigada a identificar o cliente na emissão de nota fiscal de consumidor?
+Resposta: 
+1. Até o momento a SEFAZ estabeleceu a obrigatoriedade de informações completas do destinatário apenas em vendas com valor superior a R$10.000,00
+Tag:
+***
+Pergunta: Na emissão de nota fiscal de consumidor é retornada a mensagem: Rejeição código de hash no QR-Code difere do calculado
+Resposta: 
+1. O arquivo CSC inserido no sistema difere do registrado na SEFAZ
+2. Entre em contato com sua contabilidade e verifique se o código inserido está correto
+3. Caso necessária alteração do código, siga as instruções abaixo
+4. No módulo "Empresa" acesse a opção "Sua Empresa"
+5. Selecione a aba "NFC-e"
+6. Preencha os campos "Identificador" e "CSC - Produção"
+7. Clique em "Confirmar" para salvar a alteração
+8. Retorne ao cadastro da venda e realize a emissão da nota
+Tag: NFC-e - CSC
+***
+Pergunta: É possível emitir uma nota fiscal de consumidor para fora do estado?
+Resposta: 
+1. Segundo as normas da SEFAZ, a emissão de NFC-e é permitida apenas em operações internas
+2. Ou seja, utilizar um CFOP que indique operação interestadual resultará na rejeição da nota
+3. É possível utilizar um CFOP de operação interna mesmo que o destinatário seja de outro estado somente no caso da transação ser presencial, sem ocorrência de frete
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

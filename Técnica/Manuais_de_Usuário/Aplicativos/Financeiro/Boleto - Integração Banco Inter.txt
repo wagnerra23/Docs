@@ -1,0 +1,49 @@
+Pergunta: O token gerado pelo banco venceu
+Resposta: 
+1. Acesse o diretório C:\WR Sistema
+2. Apague os arquivos "chave.key" e "certificado.crt"
+3. Acesse o site do banco para baixar o novo arquivo de validação
+4. Baixado o arquivo, acesse o módulo "Financeiro"
+5. Na opção "Caixas e Contas Bancárias" acesse o cadastro do conta desejada
+6. Clique em "Configurar Emissão de Boletos"
+7. Uma vez aberta a tela, selecione a opção "Carregar arquivo"
+8. Selecione o arquivado que foi baixado do site do banco
+9. Posteriormente, preencha os campos "ClientID" e "ClienteSecret"
+10. Ambos os códigos são gerados pelos banco e são comumente encontrados na mesma página de geração do arquivo de validação
+11. Clique em "Fechar" e confirme a alteração 
+12. Reinicie o sistema
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

@@ -1,0 +1,181 @@
+***
+Pergunta: Como criar uma proposta? 
+Resposta: 
+1. No módulo "CRM" acesse a opção "Adicionar Proposta"
+2. Aberta a tela, no campo "Código ou Nome" clique no botão "..." para abrir a consulta de pessoas  
+3. Localize o cadastro do cliente e dê duplo clique para adicioná-lo na proposta
+4. Posteriormente no campo "Código do produto ou Serviço" clique no botão "..." para abrir a consulta de produto
+5. Selecione o produto desejado 
+6. Informe a quantidade a ser vendida no campo "Peças"
+7. Caso o produto tenha medidas, insira o comprimento no campo "Comp", a largura no campo "larg" e a espessura no campo "Esp"
+8. No campo "R$ Valor" será exibido o valor unitário do produto que foi inserido em seu cadastro
+9. No campo "R$ Total" será exibido o valor total do produto
+10. Clique na seta para baixo para inserir o produto 
+11. Repita o processo para os demais produtos
+12. Sendo necessário remover algum produto, basta selecioná-lo e clicar na seta para cima
+13. Na parte inferior da tela estão localizados os campos "Desconto" e "Acréscimo"
+14. Posteriormente, clique na aba "Financeiro"
+15. No campo "Código da Condição de Pagamento" clique no botão "..." para abrir a consulta de condição de pagamento
+16. Selecione a opção desejada 
+17. No campo "Parcelas" informe o número de parcelas a serem geradas
+18. No campo "Intervalo" informe qual será o intervalo de dias entre as parcelas
+19. No caso do vencimento das parcelas serem no mesmo dia de cada mês basta marcar a opção "Mês" 
+20. No campo "Caixa" insira o número do caixa onde serão registradas as parcelas
+21. Clique em "Gerar Parcelas" e confira as informações
+22. Caso precise remover as parcelas, clique com o botão direito do mouse e selecione a opção "Excluir Parcelas" 
+23. Clique em "Confirmar" para salvar o registro
+Tag:
+***
+Pergunta: É possível personalizar o modelo de impressão da proposta?
+Resposta: 
+1. Sim. Basta o responsável da empresa entrar em contato com a equipe de suporte solicitando a personalização da impressão
+Tag:
+***
+Pergunta: Como inserir o prazo de entrega na proposta?
+Resposta: 
+1. Com a tela de proposta aberta localize o campo "Prometido Para"
+2. Insira a data acordada com o cliente  
+3. Clique em "Confirmar" para salvar a alteração
+Tag:
+***
+Pergunta: Como acompanhar o status das propostas?
+Resposta: 
+1. No módulo "CRM" acesse a "Consulta de Proposta"
+2. Propostas fechadas terão no campo "Situação Financeira" a informação "Ganhou"
+3. As recusadas apresentarão a informação "Perdeu"
+4. Ainda é possível classificar os registros através do "Tipo de Venda", "Estágio" ou "Situação"
+5. Veja como criar estágios [AQUI]
+6. Veja como criar Tipos de Venda [AQUI]
+7. Veja como criar "Situações" [AQUI]
+8. Escolhido o campo, na consulta de proposta é possível aplicar o filtro
+9. Clique aqui para entender como funcionam os filtros [AQUI]
+Tag:
+***
+Pergunta: Como transformar uma proposta em pedido de venda? 
+Resposta: 
+1. Acesse a proposta desejada
+2. Clique em "Ganhou" para abrir a janela de confirmação
+3. Clique em "Sim" para prosseguir com o processo
+4. Aberta uma nova tela, selecione ao menos o tipo de Venda para continuar com o processo
+5. O preenchimento dos campos "Estágio" e "Situação" é opcional
+5. Confira as informações 
+6. No painel a direita da tela finalize a operação selecionando a opção "Confirmar"
+Tag:
+***
+Pergunta: Como vincular a proposta a um determinado vendedor?
+Resposta: 
+1. Ao abrir uma nova proposta o vendedor será vinculado automaticamente 
+2. Lembrando que para isso o login do vendedor deve estar ligado a seu cadastro de funcionário 
+3. Caso necessária a alteração do vendedor inserido na proposta, siga os passos abaixo
+4. Na proposta selecione a aba "Financeiro"
+5. Na parte inferior da tela será visualizado o campo "Código do Funcionário"
+6. Clicando no botão "..." será aberta a consulta de funcionários para realizar a seleção
+7. Selecionado o vendedor, clique em "Confirmar" para salvar a alteração
+8. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+9. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: Como vincular um representante a uma proposta?
+Resposta: 
+1. No cadastro da proposta selecione a aba "Financeiro"
+2. Na parte inferior da tela será visualizado o campo "Código do Representante"
+3. Clicando no botão "..." será aberta a consulta de representantes para realizar a seleção
+4. Selecionado o representante, clique em "Confirmar" para salvar a alteração
+5. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+6. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: Como vincular uma agência a uma proposta?
+Resposta: 
+1. No cadastro da proposta selecione a aba "Financeiro"
+2. Na parte inferior da tela será visualizado o campo "Código da Agência"
+3. Clicando no botão "..." será aberta a consulta de agência para realizar a seleção
+4. Selecionado o representante, clique em "Confirmar" para salvar a alteração
+5. Se o campo estiver inacessível (em cinza), o usuário não possui permissão de acesso
+6. Dessa forma o responsável da empresa pode realizar a alteração ou entrar em contato com a equipe de suporte para solicitar a liberação de permissão para o usuário
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta: 
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

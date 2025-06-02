@@ -1,0 +1,67 @@
+***
+Pergunta: Ao clicar sobre o botão Confirmar é exibida a mensagem: Chave já existente, não conseguiu confirmar
+Resposta:
+1. Reinicie o sistema
+2. Verifique se ação executada foi salva
+3. Caso não, tente novamente
+4. Sendo retornada a mesma mensagem entre em contato com o suporte técnico
+Tag: Produto – Variações – Código de Barras – Contatos – Produção – Agendamento – Fabricação – Projeto – Fluxo de Produto – Financeiro – Caixa – Boletos – Contratos – DRE – Recebimento – Centro de Custo – Metas de Venda – Balanço Patrimonial – Venda – Pedido de Venda – Tabela de Preço – Mecânica – Crédito de Cliente – Comissão – Markup – Compra – Solicitação de Compra – Estoque – Lote – Múltiplos Estoques – Sub-Unidade – Patrimônio – Proposta – Funcionários – Planejamento – SPED – SINTEGRA – Folha de Pagamento – Ficha-Ponto – Anexos – NFe – NFC-e – NFS-e – PAF – Associado – Ocorrências- Rateio – Boletos Eventuais – Equipamentos
+***
+Pergunta: Ao executar ação, o sistema exibe a mensagem: Access Violation.
+Resposta: 
+1. Reinicie o sistema
+2. Execute novamente a operação desejada
+3. Caso a mensagem persista, contate o suporte técnico
+Tag: Produto – Variações – Código de Barras – Contatos – Produção – Agendamento – Fabricação – Projeto – Fluxo de Produto – Financeiro – Caixa – Boletos – Contratos – DRE – Recebimento – Centro de Custo – Metas de Venda – Balanço Patrimonial – Venda – Pedido de Venda – Tabela de Preço – Mecânica – Crédito de Cliente – Comissão – Markup – Compra – Solicitação de Compra – Estoque – Lote – Múltiplos Estoques – Sub-Unidade – Patrimônio – Proposta – Funcionários – Planejamento – SPED – SINTEGRA – Folha de Pagamento – Ficha-Ponto – Anexos – NFe – NFC-e – NFS-e – PAF – Associado – Ocorrências- Rateio – Boletos Eventuais – Equipamentos
+***
+Pergunta: As alterações dos campos da tela não estão salvando
+Resposta: 
+1. A configuração do grid é salva ao fechar a tela
+2. Se duas telas estiverem abertas, a última a ser fechada terá sua configuração mantida
+3. Abra apenas uma tela de consulta
+4. Realize a modificação necessária
+5. Feche a tela para salvar a configuração realizada
+Tag: Produto – Contatos – Produção – Venda – Notas Fiscais – Estoque – Compra – Pedido de Venda – Orçamento 
+***
+Pergunta: No cadastro é exibida a mensagem: Cannot Perform this operation on a closed dataset
+Resposta: 
+1. Mensagem exibida quando houve perda da conexão com o banco de dados
+2. Geralmente ocasionada por quedas de energia no servidor ou instabilidade na rede
+3. Feche o sistema
+4. Cheque se o servidor está funcionando e a conexão com a rede se encontra estável
+5. Caso o sistema não esteja iniciando após o ocorrido, entrar em contato com o suporte técnico
+Tag:
+***
+Pergunta: Botões estão cinzas e não consigo clicar
+Resposta: 
+1. Ocorreu alguma instabilidade na conexão com o banco de dados
+2. Ou o usuário não tem permissão para realizar as ações
+3. Reinicie o sistema em caso de perda de conexão
+4. Em casos de permissão, o responsável da empresa poderá realizar a liberação da permissão ou a equipe de suporte, mediante a autorização do responsável 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

@@ -1,0 +1,215 @@
+Pergunta: O certificado digital foi selecionado no cadastro de empresa, porém ainda não está sendo possível emitir nota fiscal.
+Resposta: 
+1. Existem alguns pontos a serem verificados
+2. O primeiro é a validade do certificado digital
+3. Caso esteja vencido, é necessário contatar sua contabilidade para gerar um novo arquivo e realizar sua instalação na máquina
+4. O segundo ponto é uma configuração de protocolo 
+5. Acesse o módulo "Fiscal" e selecione a opção "Notas Fiscais"
+6. Aberta a tela, clique em "Arquivo" e "Configurações de NF-e"
+7. Verifique se no campo "SSL Type" está selecionada a opção correta "LT_TLSv1_2"
+8. Realize a alteração, caso necessário e clique em "Confirmar"
+9. O próximo ponto é se o certificado correto foi selecionado para utilização
+10. Isso pode ser feito através do módulo “Empresa”, acessando a tela “Sua Empresa”
+11. Dê duplo clique para abrir o cadastro da empresa
+12. Localize a aba “Contabilidade e Certificado Digital”
+13. Cheque se a opção “Usar Certificado pelo Explorer” está marcada
+14. Clique sobre a opção “Carregar Certificado Digital” para listar todos os certificados instalados na máquina 
+15. Selecione o desejado
+16. Clique em "Status Serviço" para receber a mensagem "Serviço em Operação"
+16. Clique em “Confirmar” para finalizar o processo
+17. Retorne ao cadastro da venda e tente uma nova emissão
+18. Caso ainda esteja retornando mensagem de falha de conexão com o certificado, siga o passo a seguir
+19. Consulte o site "Disponibilidade da SEFAZ", pois o servidor da sua região pode estar com alguma instabilidade (sinalizado em amarelo/vermelho)
+20. Caso utilize o certificado A3, remova o dispositivo aguarde alguns segundos e insira novamente
+21. Em alguns casos, é necessário reiniciar a máquina
+22. Caso o dispositivo não seja reconhecido pela máquina ou esteja desconectando, é necessário entrar em contato com o suporte do certificado
+Tag: NFC-e - NF-e - NFS-e
+***
+Pergunta:  O que fazer se o certificado digital expirar?
+Resposta: 
+1. Entre em contato com sua contabilidade para solicitar um novo certificado válido
+2. Realize a instalação do novo certificado na máquina
+3. Posteriormente, acesse o sistema
+4. Importante lembrar que na existência de duas ou mais empresas é necessário realizar o login na empresa correta para a instalação do certificado
+5. Para a troca de empresa acesse o módulo "Empresa" e utilize a opção "Selecionar Empresa Ativa"
+6. Ainda no módulo "Empresa" selecione “Sua Empresa”
+7. Dê duplo clique no nome da empresa desejada para abrir seu cadastro
+8. Localize a aba “Contabilidade e Certificado Digital”
+9. Cheque se a opção “Usar Certificado pelo Explorer” está marcada
+10. Clique sobre a opção “Carregar Certificado Digital” para listar todos os certificados instalados na máquina 
+11. Selecione o desejado
+12. Clique em "Status Serviço" para receber a mensagem "Serviço em Operação"
+13. Finalize o processo clicando em "Confirmar"
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***

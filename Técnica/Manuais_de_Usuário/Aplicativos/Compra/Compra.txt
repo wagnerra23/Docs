@@ -1,0 +1,405 @@
+***
+Pergunta: Preciso saber de todos os valores de compra do produto 
+Resposta: 
+1. No módulo "Produto" acesse a tela "Consulta de Produto"
+2. Localize o produto desejado e dê duplo clique para abrir seu cadastro
+3. Clique sobre o bloco “Estoque”
+4. Após, selecione a opção "Compras"
+5. No grid de informações serão exibidas todas as informações de compras do produto
+Tag: Produto – Compra
+***
+Pergunta: Após finalizar nota de compra os produtos não deram entrada no estoque
+Resposta: 
+1. Acesse o módulo "Compra"
+2. Selecione a opção "Consulta de Compra"
+3. Localize a nota e dê duplo clique para abrir seu cadastro
+4. Verifique se a opção de “Enviar Estoque” foi marcada
+5. Verifique se a nota foi finalizada
+6. Caso o botão "Finalizar" seja exibido, a nota ainda está em aberto
+7. Finalize a nota
+8. Caso a nota esteja finalizada e a opção "Enviar Estoque" esteja desmarcada siga os passos abaixo
+9. Clique em "Cancelar Finalização"
+10. Marque a opção "Enviar Estoque"
+11. Finalize a nota novamente
+Tag:
+***
+Pergunta: Na nota de compra o preço de venda do produto não está salvando
+Resposta: 
+1. O produto está com a opção “Manter Margem na Importação” habilitada
+2. Neste caso, a margem definida na última compra será aplicada sobre o valor de custo, impossibilitando elevar ou diminuir o seu valor de venda
+3. Para impedir a limitação do preço de venda siga os passos a seguir
+4. Acesse o módulo "Produto" e selecione a opção "Consulta de Produto"
+5. Localize o cadastro do produto desejado e dê duplo clique para abrir seu cadastro
+6. Acesse o bloco "Custos e Formação de Preço"
+7. Desmarque a opção “Manter Margem na Importação”
+8. Clique em "Confirmar" para salvar a alteração
+9. Retorne ao cadastro da nota de compra
+10. Realize a alteração do valor de venda do produto
+Tag: Compra – Produto
+***
+Pergunta: Na nota de compra o valor total da nota é inferior ao documento físico.
+Resposta: 
+1. No cadastro da compra clique sobre a aba “Dados Adicionais” 
+2. Verifique se não existe algum valor especificado que não foi rateado nos produtos
+3. Caso exista, marque a opção “Ratear” e insera o valor no campo “R$ Acréscimo”
+4. Ainda constando diferença de valores, exclua a nota através do botão "Excluir"
+5. Selecione a opção "Importar NFe", "Importar XML" e importe a nota novamente
+6. Se após o processo o valor ainda divergir, é provavél que a nota contenha o FCP - Fundo de Combate à Pobreza
+7. Dê duplo clique no xml da nota para abrí-lo 
+8. Selecione "Ctrl + f" para abrir a busca e procure pela tag <VFCP>
+9. Some os valores apontados e marque a opção "Ratear"
+10. Insira o valor somado no campo "Acréscimo" para que possa ser distribuído entre todos os produtos
+11. Cheque se o valor total da compra condiz com o do documento físico
+12. Prossiga com a finalização da nota
+Tag:
+***
+Pergunta: Na nota de compra não está sendo possível alterar a margem do produto.
+Resposta:
+1. O produto está configurado para manter a margem informada na compra anterior
+2. Para remover essa configuração é necessário alterar o cadastro do produto
+3. Acesse o módulo "Produto" e selecione "Consulta de Produto"
+4. Localize o produto desejado e dê duplo clique para abrir seu cadastro
+5. Selecione a aba “Custos e Formação de Preço” 
+6. Desmarque a opção “Mantém Margem na Importação”
+7. Retorne ao cadastro da compra e efetue a alteração da margem
+8. Caso a mesma mensagem seja retornada, feche a tela de cadastro de compra
+9. Abra o cadastro novamente e realize a modificação desejada
+Tag: Produto – Compra
+***
+Pergunta: Na nota de compra é possível dar entrada nos produtos mantendo o preço de custo como valor de venda?
+Resposta: 
+1. Sim. Basta preencher o campo “Margem” com o valor “0”
+Tag: Produto – Compra
+***
+Pergunta: Após finalizar a nota de compra o valor de venda do produto composto sofreu alteração
+Resposta: 
+1. Caso a opção "Atualizar Preço" estiver marcada, as máterias-primas que fazem parte do produto composto terão atualização de valores e consequente impactando no valor final de venda da composição.  
+Tag:
+***
+Pergunta: Na nota de entrada alguns produtos exibem o campo “Cód Produto” em amarelo
+Resposta: 
+1. A exibição deste campo em amarelo indica que é um produto novo
+Tag: 
+***
+Pergunta: Na nota de compra foi finalizada, mas o produto foi vinculado errado
+Resposta: 
+1. Caso o produto ainda não tenha sido vendido, é possível cancelar a finalização da nota
+2. Dessa forma, será dada saída na quantidade que foi enviada ao cadastro do produto, corrigindo o estoque
+3. No módulo "Compra" localize a nota desejada
+4. Dê duplo clique para abrir o cadastro
+5. Selecione "Cancelar Finalização"
+6. Posteriormente, no campo "Cód Produto" clique em "..." para abrir a consulta e vincular o produto correto
+7. Confira e confirme o novo vínculo do produto
+8. Para finalizar o processo e dar entrada no produto selecione a opção "Finalizar Compra"
+9. Caso o produto já tenha sido vendido, siga as instruções abaixo
+10. No módulo "Produto" selecione a opção "Consulta de Produto"
+11. Localize o cadastro do produto que foi realizada as vendas
+12. Abra o cadastro e seleciona o bloco "Estoque"
+13. Na aba "Histórico do Movimento" verifique quantas saídas o produto teve no período em que estava vinculado incorretamente
+14. Posteriormente, clique no ícone "+" localizado ao lado do campo "Quant. Estoque"
+15. Aberta a tela, insira a quantidade vendida no campo "Quantidade" 
+16. No campo "Ent/Saída" marque como "E" para dar entrada na quantidade novamente
+17. Preencha o campo "Observação" referente ao ajuste a ser realizado 
+18. Confirme a operação para finalizar o processo 
+PENDENTE DE MODIFICAÇÃO
+Tag:
+***
+Pergunta: Antes de importar as notas de compra para o sistema é necessário cadastrar o fornecedor?
+Resposta: 
+1. Não. Caso o fornecedor ainda não esteja cadastrado, no momento da importação da nota o seu cadastro será realizado automaticamente
+Tag: Compra - Cadastro de Pessoas
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
+Pergunta:
+Resposta: 
+Tag:
+***
